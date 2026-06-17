@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — MKcompras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/web/css/styles.css" />
+  <link rel="stylesheet" href="/web/css/admin.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">MKcompras <span class="badge">Admin</span></div>
+    <nav class="nav">
+      <a href="/" class="nav-link">Converter</a>
+      <a href="/loja" class="nav-link">Loja</a>
+      <button class="nav-link btn-logout" id="btn-logout" style="display:none">Sair</button>
+    </nav>
+  </header>
+
+  <!-- LOGIN -->
+  <div id="login-screen" class="login-screen">
+    <div class="login-card">
+      <h2>Acesso restrito</h2>
+      <p>Entre com a senha de administrador.</p>
+      <div class="field">
+        <label for="admin-pw">Senha</label>
+        <input type="password" id="admin-pw" placeholder="••••••••" autocomplete="current-password" />
+      </div>
+      <div id="login-error" class="form-error"></div>
+      <button class="btn-primary" id="btn-login">Entrar</button>
+    </div>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div id="dashboard" class="dashboard" style="display:none">
+
+    <!-- Formulário adicionar/editar -->
+    <div class="admin-section">
+      <h2 id="form-title">Adicionar produto</h2>
+
+      <div class="form-grid">
+        <div class="field field-wide">
+          <label for="f-original-url">URL original do produto *</label>
+          <div class="input-with-btn">
+            <input type="url" id="f-original-url" placeholder="https://shopee.com.br/produto..." />
+            <button class="btn-secondary" id="btn-auto-convert">Gerar link afiliado</button>
+          </div>
+          <div id="convert-status" class="convert-status"></div>
+        </div>
+
+        <div class="field field-wide">
+          <label for="f-affiliate-url">Link de afiliado gerado *</label>
+          <input type="url" id="f-affiliate-url" placeholder="Gerado automaticamente ou cole manualmente" />
+        </div>
+
+        <div class="field">
+          <label for="f-name">Nome do produto *</label>
+          <input type="text" id="f-name" placeholder="Ex: Fone Bluetooth XYZ" />
+        </div>
+
+        <div class="field">
+          <label for="f-price">Preço</label>
+          <input type="text" id="f-price" placeholder="Ex: R$ 99,90" />
+        </div>
+
+        <div class="field field-wide">
+          <label for="f-description">Descrição</label>
+          <textarea id="f-description" rows="3" placeholder="Breve descrição do produto..."></textarea>
+        </div>
+
+        <div class="field field-wide">
+          <label for="f-image">URL da imagem</label>
+          <input type="url" id="f-image" placeholder="https://..." />
+          <div id="img-preview-wrap" style="display:none" class="img-preview-wrap">
+            <img id="img-preview" src="" alt="Preview" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="f-category">Categoria</label>
+          <input type="text" id="f-category" placeholder="Ex: eletronicos, casa, moda" />
+        </div>
+
+        <div class="field">
+          <label for="f-platform">Plataforma</label>
+          <select id="f-platform">
+            <option value="">— detectar automaticamente —</option>
+            <option value="shopee">Shopee</option>
+            <option value="mercadolivre">Mercado Livre</option>
+            <option value="amazon">Amazon</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+
+        <div class="field field-check">
+          <label class="checkbox-label">
+            <input type="checkbox" id="f-featured" />
+            <span>Produto em destaque</span>
+          </label>
+        </div>
+      </div>
+
+      <div id="form-error" class="form-error"></div>
+      <div class="form-actions">
+        <button class="btn-primary" id="btn-save">Salvar produto</button>
+        <button class="btn-ghost" id="btn-cancel" style="display:none">Cancelar edição</button>
+      </div>
+    </div>
+
+    <!-- Lista de produtos -->
+    <div class="admin-section">
+      <div class="section-header">
+        <h2>Produtos cadastrados (<span id="product-count">0</span>)</h2>
+        <input type="text" id="admin-search" placeholder="Buscar..." class="admin-search" />
+      </div>
+      <div id="admin-product-list" class="admin-product-list"></div>
+      <div id="admin-empty" class="empty-admin" style="display:none">Nenhum produto cadastrado ainda.</div>
+    </div>
+
+  </div>
+
+  <footer>
+    MKcompras — painel administrativo.
+  </footer>
+
+  <script src="/web/js/admin.js" defer></script>
+</body>
+</html>
