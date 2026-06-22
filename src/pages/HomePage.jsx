@@ -32,11 +32,11 @@ export default function HomePage() {
         <h1 className="font-syne text-4xl font-black mb-4 leading-tight">
           Cole o link.<br />
           <span className="bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
-            Ganhe a comissão.
+            Me ajude de graça.
           </span>
         </h1>
         <p className="text-muted text-lg">
-          Converta qualquer link de produto em um link de afiliado rastreável — Shopee, Mercado Livre e Amazon.
+          Converta o link do produto antes de comprar. Você paga o mesmo preço — e me ajuda a ganhar uma comissão de afiliado.
         </p>
       </div>
 
@@ -65,7 +65,7 @@ export default function HomePage() {
           {[
             { num: 1, title: 'Achou um produto?', desc: 'Encontrou algo que quer comprar na Shopee, Mercado Livre ou Amazon? Ótimo!' },
             { num: 2, title: 'Cole o link aqui', desc: 'Copia a URL do produto e cola no campo acima. Em um segundo o link é gerado.' },
-            { num: 3, title: 'Compre pelo link gerado', desc: 'Use o novo link para finalizar sua compra. O produto é exatamente o mesmo, sem nenhum custo extra pra você.' },
+            { num: 3, title: 'Compre pelo link gerado', desc: 'Use o novo link para finalizar sua compra. O produto é exatamente o mesmo, sem nenhum custo extra pra você — e eu recebo uma comissão de afiliado.' },
           ].map((step, idx) => (
             <div key={step.num} className="flex gap-5 pb-7 last:pb-0 relative">
               <div className="flex flex-col items-center">
