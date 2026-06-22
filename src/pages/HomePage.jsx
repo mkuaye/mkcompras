@@ -32,7 +32,7 @@ export default function HomePage() {
         <h1 className="font-syne text-4xl font-black mb-4 leading-tight">
           Cole o link.<br />
           <span className="bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
-            Me ajude de graça.
+            Me ajude.
           </span>
         </h1>
         <p className="text-muted text-lg">
