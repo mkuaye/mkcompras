@@ -10,7 +10,7 @@ const BLOB_PATHNAME = 'mkcompras-products.json';
 const __dir = dirname(fileURLToPath(import.meta.url));
 
 async function readProducts() {
-  if (process.env.BLOB_READ_WRITE_TOKEN) {
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) {
     try {
       const { blobs } = await list({ prefix: BLOB_PATHNAME });
       const blob = blobs.find((b) => b.pathname === BLOB_PATHNAME);
@@ -32,8 +32,8 @@ async function readProducts() {
 }
 
 async function writeProducts(products) {
-  if (!process.env.BLOB_READ_WRITE_TOKEN) {
-    throw new Error('BLOB_READ_WRITE_TOKEN não configurado. Adicione nas variáveis de ambiente do Vercel.');
+  if (!process.env.BLOB_READ_WRITE_TOKEN && !process.env.BLOB_STORE_ID) {
+    throw new Error('Configure BLOB_READ_WRITE_TOKEN ou BLOB_STORE_ID nas variáveis de ambiente do Vercel.');
   }
   await put(BLOB_PATHNAME, JSON.stringify(products), {
     access: 'public',
