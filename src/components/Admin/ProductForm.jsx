@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useConvert } from '../../hooks/useConvert'
+import { previewProduct } from '../../api/client'
 
 function detectPlatform(url) {
   try {
@@ -27,36 +28,76 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
   const [form, setForm] = useState(EMPTY_FORM)
   const [error, setError] = useState('')
   const [saving, setSaving] = useState(false)
-  const [convertMsg, setConvertMsg] = useState('')
+  const [statusMsg, setStatusMsg] = useState('')
+  const [previewing, setPreviewing] = useState(false)
   const { convert, loading: converting } = useConvert()
 
   useEffect(() => {
     if (editing) {
       setForm(editing)
-      setConvertMsg('')
+      setStatusMsg('')
       setError('')
     } else {
       setForm(EMPTY_FORM)
       setError('')
-      setConvertMsg('')
+      setStatusMsg('')
     }
   }, [editing])
 
   const handleUrlBlur = async () => {
     const url = form.originalUrl.trim()
-    if (!url || form.affiliateUrl) return
-    await generateAffiliate(url)
+    if (!url) return
+    // Only auto-run when adding a new product (not editing an existing one)
+    if (!editing) {
+      await fetchProductInfo(url)
+    }
+  }
+
+  const fetchProductInfo = async (url) => {
+    setPreviewing(true)
+    setStatusMsg('Buscando informações do produto...')
+
+    // Run affiliate link generation and product preview in parallel
+    const affiliatePromise = !form.affiliateUrl ? convert(url).catch(() => null) : Promise.resolve(null)
+    const previewPromise = previewProduct(url).catch(() => null)
+
+    const [affiliateUrl, preview] = await Promise.all([affiliatePromise, previewPromise])
+
+    const platform = detectPlatform(url)
+    const updates = { platform }
+
+    if (affiliateUrl) updates.affiliateUrl = affiliateUrl
+    if (preview) {
+      if (preview.name && !form.name) updates.name = preview.name
+      if (preview.price && !form.price) updates.price = preview.price
+      if (preview.image && !form.image) updates.image = preview.image
+      if (preview.platform) updates.platform = preview.platform
+    }
+
+    setForm((prev) => ({ ...prev, ...updates }))
+
+    if (affiliateUrl && preview?.name) {
+      setStatusMsg('✓ Informações e link de afiliado carregados!')
+    } else if (affiliateUrl) {
+      setStatusMsg('✓ Link de afiliado gerado! Informações não encontradas — preencha manualmente.')
+    } else if (preview?.name) {
+      setStatusMsg('✓ Informações carregadas! Gere o link de afiliado manualmente.')
+    } else {
+      setStatusMsg('Não foi possível buscar automaticamente — preencha os campos manualmente.')
+    }
+
+    setPreviewing(false)
   }
 
   const generateAffiliate = async (url) => {
-    setConvertMsg('Gerando link de afiliado...')
+    setStatusMsg('Gerando link de afiliado...')
     try {
       const affiliateUrl = await convert(url)
       const platform = detectPlatform(url)
       setForm((prev) => ({ ...prev, affiliateUrl, platform }))
-      setConvertMsg('✓ Link de afiliado gerado!')
+      setStatusMsg('✓ Link de afiliado gerado!')
     } catch {
-      setConvertMsg('Não foi possível gerar o link — cole manualmente abaixo.')
+      setStatusMsg('Não foi possível gerar o link — cole manualmente abaixo.')
     }
   }
 
@@ -82,7 +123,7 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
       } else {
         await onAdd(form)
         setForm(EMPTY_FORM)
-        setConvertMsg('')
+        setStatusMsg('')
       }
     } catch (err) {
       setError(err.message || 'Erro ao salvar produto.')
@@ -90,6 +131,8 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
       setSaving(false)
     }
   }
+
+  const isLoading = previewing || converting
 
   return (
     <form onSubmit={handleSave} className="bg-surface border border-border rounded-2xl p-8">
@@ -115,16 +158,16 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
             />
             <button
               type="button"
-              onClick={() => generateAffiliate(form.originalUrl.trim())}
-              disabled={converting || !form.originalUrl.trim()}
+              onClick={() => fetchProductInfo(form.originalUrl.trim())}
+              disabled={isLoading || !form.originalUrl.trim()}
               className="px-4 py-2.5 bg-bg border border-border rounded-lg text-sm font-semibold text-text hover:border-accent hover:text-accent transition disabled:opacity-40 whitespace-nowrap"
             >
-              {converting ? 'Gerando...' : 'Gerar link'}
+              {isLoading ? 'Buscando...' : 'Buscar info'}
             </button>
           </div>
-          {convertMsg && (
-            <p className={`mt-1.5 text-xs ${convertMsg.startsWith('✓') ? 'text-success' : 'text-muted'}`}>
-              {convertMsg}
+          {statusMsg && (
+            <p className={`mt-1.5 text-xs ${statusMsg.startsWith('✓') ? 'text-success' : 'text-muted'}`}>
+              {statusMsg}
             </p>
           )}
         </div>
@@ -134,41 +177,105 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
           <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
             Link de afiliado
           </label>
-          <input
-            type="url"
-            value={form.affiliateUrl}
-            onChange={(e) => setForm({ ...form, affiliateUrl: e.target.value })}
-            placeholder="Gerado automaticamente ou cole aqui"
-            className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-          />
+          <div className="flex gap-2">
+            <input
+              type="url"
+              value={form.affiliateUrl}
+              onChange={(e) => setForm({ ...form, affiliateUrl: e.target.value })}
+              placeholder="Gerado automaticamente ou cole aqui"
+              className="flex-1 bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+            />
+            <button
+              type="button"
+              onClick={() => generateAffiliate(form.originalUrl.trim())}
+              disabled={converting || !form.originalUrl.trim()}
+              className="px-4 py-2.5 bg-bg border border-border rounded-lg text-sm font-semibold text-text hover:border-accent hover:text-accent transition disabled:opacity-40 whitespace-nowrap"
+            >
+              {converting ? 'Gerando...' : 'Gerar link'}
+            </button>
+          </div>
         </div>
 
-        {/* Nome e Preço lado a lado */}
-        <div className="grid grid-cols-2 gap-4">
-          <div>
+        {/* Imagem + Nome + Preço */}
+        <div className="flex gap-4 items-start">
+          {/* Preview da imagem */}
+          <div className="shrink-0">
             <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-              Nome do produto *
+              Foto
             </label>
-            <input
-              type="text"
-              value={form.name}
-              onChange={(e) => setForm({ ...form, name: e.target.value })}
-              placeholder="Ex: Fone Bluetooth XYZ"
-              className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-            />
+            <div className="w-20 h-20 rounded-lg border border-border bg-bg overflow-hidden flex items-center justify-center">
+              {form.image ? (
+                <img
+                  src={form.image}
+                  alt="preview"
+                  className="w-full h-full object-cover"
+                  onError={(e) => { e.target.style.display = 'none' }}
+                />
+              ) : (
+                <svg className="w-8 h-8 opacity-20" viewBox="0 0 48 48" fill="none">
+                  <path d="M16 32l8-10 6 7 4-5 6 8H8l8-10z" fill="currentColor" opacity=".5" />
+                </svg>
+              )}
+            </div>
           </div>
-          <div>
-            <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-              Preço
-            </label>
-            <input
-              type="text"
-              value={form.price}
-              onChange={(e) => setForm({ ...form, price: e.target.value })}
-              placeholder="R$ 99,90"
-              className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-            />
+
+          {/* Nome e Preço */}
+          <div className="flex-1 grid grid-cols-2 gap-4">
+            <div className="col-span-2">
+              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
+                Nome do produto *
+              </label>
+              <input
+                type="text"
+                value={form.name}
+                onChange={(e) => setForm({ ...form, name: e.target.value })}
+                placeholder="Preenchido automaticamente"
+                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
+                Preço
+              </label>
+              <input
+                type="text"
+                value={form.price}
+                onChange={(e) => setForm({ ...form, price: e.target.value })}
+                placeholder="Preenchido automaticamente"
+                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
+                Plataforma
+              </label>
+              <select
+                value={form.platform}
+                onChange={(e) => setForm({ ...form, platform: e.target.value })}
+                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition"
+              >
+                <option value="">Detectada auto</option>
+                <option value="shopee">Shopee</option>
+                <option value="mercadolivre">Mercado Livre</option>
+                <option value="amazon">Amazon</option>
+                <option value="outros">Outros</option>
+              </select>
+            </div>
           </div>
+        </div>
+
+        {/* URL da imagem (editável) */}
+        <div>
+          <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
+            URL da imagem principal
+          </label>
+          <input
+            type="url"
+            value={form.image}
+            onChange={(e) => setForm({ ...form, image: e.target.value })}
+            placeholder="Preenchida automaticamente"
+            className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+          />
         </div>
       </div>
 

@@ -8,6 +8,9 @@ const api = axios.create({
 export const convertURL = (url) =>
   api.post('/convert', { url }).then((res) => res.data)
 
+export const previewProduct = (url) =>
+  api.post('/preview', { url }).then((res) => res.data)
+
 export const getProducts = (query = {}) =>
   api.get('/products', { params: query }).then((res) => res.data)
 
