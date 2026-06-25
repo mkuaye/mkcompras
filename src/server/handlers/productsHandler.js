@@ -122,7 +122,12 @@ export default async function productsHandler(req, res) {
     };
 
     products.push(product);
-    await writeProducts(products);
+    try {
+      await writeProducts(products);
+    } catch (e) {
+      console.error('writeProducts failed:', e.message);
+      return res.status(500).json({ error: e.message });
+    }
 
     // Fire-and-forget: registra métricas do produto adicionado
     recordEvent({
@@ -145,7 +150,12 @@ export default async function productsHandler(req, res) {
     if (idx === -1) return res.status(404).json({ error: 'Produto não encontrado.' });
 
     products[idx] = { ...products[idx], ...updates, id };
-    await writeProducts(products);
+    try {
+      await writeProducts(products);
+    } catch (e) {
+      console.error('writeProducts failed:', e.message);
+      return res.status(500).json({ error: e.message });
+    }
     return res.status(200).json(products[idx]);
   }
 
@@ -155,7 +165,12 @@ export default async function productsHandler(req, res) {
 
     const products = await readProducts();
     const filtered = products.filter((p) => p.id !== id);
-    await writeProducts(filtered);
+    try {
+      await writeProducts(filtered);
+    } catch (e) {
+      console.error('writeProducts failed:', e.message);
+      return res.status(500).json({ error: e.message });
+    }
     return res.status(200).json({ success: true });
   }
 

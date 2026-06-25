@@ -38,17 +38,19 @@ async function convertShopee(originalUrl) {
   }
 
   const timestamp = Math.floor(Date.now() / 1000);
-  const path = '/open/v1/affiliate/link/generate';
-  const payload = JSON.stringify({ originUrl: originalUrl });
+
+  const mutation = `mutation { generateShortLink( input: { originUrl: "${originalUrl}" } ) { shortLink } }`;
+  const payload = JSON.stringify({ query: mutation });
 
   const crypto = await import('crypto');
-  const baseString = `${appId}${timestamp}${payload}`;
+  // Assinatura correta: SHA256(AppId + Timestamp + Payload + Secret)
+  const baseString = `${appId}${timestamp}${payload}${secret}`;
   const signature = crypto
-    .createHmac('sha256', secret)
+    .createHash('sha256')
     .update(baseString)
     .digest('hex');
 
-  const response = await fetch(`https://open-api.affiliate.shopee.com.br${path}`, {
+  const response = await fetch('https://open-api.affiliate.shopee.com.br/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -63,7 +65,12 @@ async function convertShopee(originalUrl) {
   }
 
   const data = await response.json();
-  const link = data?.data?.shortLink || data?.data?.affiliateLink;
+
+  if (data?.errors?.length) {
+    throw new Error(`Shopee API error: ${data.errors[0]?.message || 'Erro desconhecido'}`);
+  }
+
+  const link = data?.data?.generateShortLink?.shortLink;
 
   if (!link) {
     throw new Error('Shopee nao retornou um link valido.');
