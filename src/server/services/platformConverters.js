@@ -89,15 +89,12 @@ function convertMercadoLivre(originalUrl) {
 
   const productUrl = new URL(originalUrl);
   ['matt_word', 'matt_tool', 'ref', 'deal', 'tracking_id'].forEach((p) => productUrl.searchParams.delete(p));
+  productUrl.hash = '';
 
-  const cleanProductUrl = productUrl.toString();
-  const affiliateUrl = new URL(`https://www.mercadolivre.com.br/social/${username}`);
+  productUrl.searchParams.set('matt_word', username);
+  productUrl.searchParams.set('matt_tool', toolId);
 
-  affiliateUrl.searchParams.set('matt_word', cleanProductUrl);
-  affiliateUrl.searchParams.set('matt_tool', toolId);
-  affiliateUrl.searchParams.set('forceInApp', 'true');
-
-  return affiliateUrl.toString();
+  return productUrl.toString();
 }
 
 function convertAmazon(originalUrl, parsedUrl) {
