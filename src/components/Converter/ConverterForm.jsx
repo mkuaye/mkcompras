@@ -30,7 +30,7 @@ export default function ConverterForm({ onSuccess, onError, onReset }) {
       <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2.5">
         Link do produto
       </label>
-      <div className="flex gap-2.5">
+      <div className="flex flex-col sm:flex-row gap-2.5">
         <input
           type="url"
           value={url}
@@ -42,7 +42,7 @@ export default function ConverterForm({ onSuccess, onError, onReset }) {
         <button
           onClick={handleConvert}
           disabled={loading}
-          className="px-6 py-3.5 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-xl hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed transition whitespace-nowrap"
+          className="w-full sm:w-auto px-6 py-3.5 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-xl hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed transition whitespace-nowrap"
         >
           {loading ? (
             <>
