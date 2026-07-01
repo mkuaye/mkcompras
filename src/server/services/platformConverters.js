@@ -1,8 +1,24 @@
+async function resolveRedirect(url) {
+  try {
+    const response = await fetch(url, { method: 'HEAD', redirect: 'follow' });
+    return response.url || url;
+  } catch {
+    return url;
+  }
+}
+
 export async function convertByPlatform(originalUrl, parsedUrl) {
-  const hostname = parsedUrl.hostname.toLowerCase();
+  let hostname = parsedUrl.hostname.toLowerCase();
+  let effectiveUrl = originalUrl;
+
+  // Resolve Shopee short links (e.g. br.shp.ee)
+  if (hostname.includes('shp.ee')) {
+    effectiveUrl = await resolveRedirect(originalUrl);
+    hostname = new URL(effectiveUrl).hostname.toLowerCase();
+  }
 
   if (hostname.includes('shopee.com.br')) {
-    const affiliateUrl = await convertShopee(originalUrl);
+    const affiliateUrl = await convertShopee(effectiveUrl);
     return { affiliateUrl };
   }
 

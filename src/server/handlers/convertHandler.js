@@ -2,7 +2,7 @@ import { convertByPlatform } from '../services/platformConverters.js';
 import { recordEvent } from '../services/analyticsService.js';
 
 function detectPlatform(hostname) {
-  if (hostname.includes('shopee')) return 'shopee';
+  if (hostname.includes('shopee') || hostname.includes('shp.ee')) return 'shopee';
   if (hostname.includes('mercadolivre') || hostname.includes('mercadolibre')) return 'mercadolivre';
   if (hostname.includes('amazon') || hostname.includes('amzn')) return 'amazon';
   return 'outros';
