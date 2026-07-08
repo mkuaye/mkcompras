@@ -1,4 +1,4 @@
-import { put, list, getDownloadUrl } from '@vercel/blob';
+import { put, list } from '@vercel/blob';
 import { readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -15,7 +15,7 @@ async function readProducts() {
       const { blobs } = await list({ prefix: BLOB_PATHNAME });
       const blob = blobs.find((b) => b.pathname === BLOB_PATHNAME);
       if (blob) {
-        const res = await fetch(getDownloadUrl(blob.url));
+        const res = await fetch(blob.url);
         return await res.json();
       }
     } catch (e) {
@@ -34,7 +34,7 @@ async function readProducts() {
 async function writeProducts(products) {
   if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) {
     await put(BLOB_PATHNAME, JSON.stringify(products), {
-      access: 'private',
+      access: 'public',
       addRandomSuffix: false,
     });
     return;
