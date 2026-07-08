@@ -5,7 +5,10 @@ import { useProductCache } from '../store/productCache'
 export function useProducts(initialCategory = '', initialPlatform = '', initialSearch = '') {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
-  const cache = useProductCache()
+  const products = useProductCache((s) => s.products)
+  const categories = useProductCache((s) => s.categories)
+  const setProducts = useProductCache((s) => s.setProducts)
+  const setCategories = useProductCache((s) => s.setCategories)
 
   const fetch = useCallback(async (category = '', platform = '', search = '') => {
     setLoading(true)
@@ -16,19 +19,19 @@ export function useProducts(initialCategory = '', initialPlatform = '', initialS
         platform: platform || undefined,
         search: search || undefined,
       })
-      cache.setProducts(data.products || [])
-      cache.setCategories(data.categories || [])
+      setProducts(data.products || [])
+      setCategories(data.categories || [])
     } catch (err) {
       const msg = err.response?.data?.error || err.message || 'Erro ao carregar produtos'
       setError(msg)
     } finally {
       setLoading(false)
     }
-  }, [cache])
+  }, [setProducts, setCategories])
 
   return {
-    products: cache.products,
-    categories: cache.categories,
+    products,
+    categories,
     loading,
     error,
     fetch,

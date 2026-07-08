@@ -26,7 +26,7 @@ export default function ProductTable({ products, onEdit, onDelete }) {
             <img
               src={p.image}
               alt={p.name}
-              className="w-13 h-13 rounded-lg object-cover border border-border flex-shrink-0"
+              className="w-12 h-12 rounded-lg object-cover border border-border flex-shrink-0"
               onError={(e) => {
                 e.target.style.display = 'none'
               }}

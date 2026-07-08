@@ -18,7 +18,9 @@ export default function CatalogPage() {
       filtered = filtered.filter((p) => p.platform === filters.platform)
     }
     if (filters.category) {
-      filtered = filtered.filter((p) => p.category === filters.category)
+      filtered = filtered.filter((p) =>
+        (p.category || '').split(',').map((c) => c.trim().toLowerCase()).includes(filters.category.toLowerCase())
+      )
     }
     if (filters.search) {
       const q = filters.search.toLowerCase()

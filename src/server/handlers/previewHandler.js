@@ -11,7 +11,7 @@ function sanitizeUrl(raw) {
 }
 
 function detectPlatform(hostname) {
-  if (hostname.includes('shopee')) return 'shopee';
+  if (hostname.includes('shopee') || hostname.includes('shp.ee')) return 'shopee';
   if (hostname.includes('mercadolivre') || hostname.includes('mercadolibre')) return 'mercadolivre';
   if (hostname.includes('amazon') || hostname.includes('amzn')) return 'amazon';
   return 'outros';
@@ -88,18 +88,84 @@ async function fetchMLProduct(url) {
 }
 
 // ── Shopee ────────────────────────────────────────────────────────────────────
-// Shopee blocks all unauthenticated API and bot requests (returns 403).
-// We extract the product name from the URL slug, which Shopee encodes
-// descriptively (e.g. "Fone-Bluetooth-XYZ-i.123.456" → "Fone Bluetooth Xyz").
-// Price and image must be filled in manually by the admin.
+// Uses the Shopee Affiliate Open API (productOfferV2) to fetch price and image.
+// Requires SHOPEE_APP_ID and SHOPEE_SECRET env vars.
+// Falls back to name-from-slug if credentials are missing or the API fails.
 async function fetchShopeeProduct(url) {
-  const decoded = decodeURIComponent(url);
+  // Resolve short links (br.shp.ee) to the full shopee.com.br URL
+  let effectiveUrl = url;
+  if (url.includes('shp.ee')) {
+    try {
+      const res = await fetch(url, { method: 'HEAD', redirect: 'follow' });
+      effectiveUrl = res.url || url;
+    } catch {
+      effectiveUrl = url;
+    }
+  }
 
-  // URL pattern: /Product-Name-i.shopId.itemId
+  const decoded = decodeURIComponent(effectiveUrl);
+
+  // Pattern 1: /Product-Name-i.{shopId}.{itemId}
+  // Pattern 2: /product/{shopId}/{itemId}  (used by short-link redirects)
+  const idMatch =
+    decoded.match(/-i\.(\d+)\.(\d+)/) ||
+    decoded.match(/\/product\/(\d+)\/(\d+)/);
   const slugMatch = decoded.match(/shopee\.com\.br\/(.+?)(?=-i\.\d+\.\d+)/);
-  const name = slugMatch ? slugToName(slugMatch[1]) : '';
+  const nameFromSlug = slugMatch ? slugToName(slugMatch[1]) : '';
 
-  return { name, price: '', image: '', platform: 'shopee' };
+  if (idMatch) {
+    const shopId = idMatch[1];
+    const itemId = idMatch[2];
+    try {
+      const result = await fetchShopeeProductByIds(shopId, itemId, nameFromSlug);
+      if (result) return result;
+    } catch (err) {
+      console.error('Shopee Affiliate API error:', err.message);
+    }
+  }
+
+  return { name: nameFromSlug, price: '', image: '', platform: 'shopee' };
+}
+
+async function fetchShopeeProductByIds(shopId, itemId, nameFallback) {
+  const appId = process.env.SHOPEE_APP_ID;
+  const secret = process.env.SHOPEE_SECRET;
+  if (!appId || !secret) return null;
+
+  const timestamp = Math.floor(Date.now() / 1000);
+
+  const query = `{ productOfferV2(shopId: ${shopId}, itemId: ${itemId}) { nodes { imageUrl priceMin productName } } }`;
+  const payload = JSON.stringify({ query });
+
+  const crypto = await import('crypto');
+  const baseString = `${appId}${timestamp}${payload}${secret}`;
+  const signature = crypto.createHash('sha256').update(baseString).digest('hex');
+
+  const response = await fetch('https://open-api.affiliate.shopee.com.br/graphql', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `SHA256 Credential=${appId}, Timestamp=${timestamp}, Signature=${signature}`,
+    },
+    body: payload,
+  });
+
+  if (!response.ok) return null;
+
+  const data = await response.json();
+  const nodes = data?.data?.productOfferV2?.nodes;
+  if (!nodes?.length) return null;
+
+  const product = nodes[0];
+  // priceMin is a string in local currency (e.g. "55.99")
+  const price = product.priceMin ? formatPrice(product.priceMin) : '';
+
+  return {
+    name: product.productName || nameFallback,
+    price,
+    image: product.imageUrl || '',
+    platform: 'shopee',
+  };
 }
 
 // ── Amazon ────────────────────────────────────────────────────────────────────

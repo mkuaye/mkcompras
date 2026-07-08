@@ -1,1 +1,289 @@
-{"events":[]}
+{
+  "events": [
+    {
+      "id": "368646c8-3dc5-4aa3-b3b5-73950f7241ea",
+      "type": "link_converted",
+      "platform": "amazon",
+      "timestamp": "2026-07-08T19:13:51.033Z"
+    },
+    {
+      "id": "596d676b-e3b4-42b8-b69e-7ba56aa8fa4c",
+      "type": "link_converted",
+      "platform": "amazon",
+      "timestamp": "2026-07-08T19:14:15.884Z"
+    },
+    {
+      "id": "a57bf820-7209-422e-8458-25af0734c7d9",
+      "type": "product_added",
+      "platform": "amazon",
+      "category": "geral",
+      "tags": [
+        "arte",
+        "guerra"
+      ],
+      "productName": "A Arte da Guerra",
+      "timestamp": "2026-07-08T19:14:17.850Z"
+    },
+    {
+      "id": "58997b43-cd54-4e95-b070-4bbf5cdfa925",
+      "type": "link_converted",
+      "platform": "mercadolivre",
+      "timestamp": "2026-07-08T19:23:22.478Z"
+    },
+    {
+      "id": "bd9c4bc4-9f13-4ccc-844b-ddff9f871901",
+      "type": "product_added",
+      "platform": "mercadolivre",
+      "category": "geral",
+      "tags": [
+        "cadeira",
+        "dobrável",
+        "camping",
+        "pesca",
+        "porta",
+        "copo",
+        "portatil",
+        "120kg"
+      ],
+      "productName": "Cadeira Dobrável Camping Pesca Porta Copo Portatil 120kg",
+      "timestamp": "2026-07-08T19:23:28.124Z"
+    },
+    {
+      "id": "1f3a3f25-d2c5-496d-9500-98f59fd112bf",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:24:39.912Z"
+    },
+    {
+      "id": "4345abc7-824d-4641-ae8f-081407c99993",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:34:52.137Z"
+    },
+    {
+      "id": "1a6c9ac6-72fe-4a57-83b7-9998755ecf51",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:35:11.234Z"
+    },
+    {
+      "id": "b73bc522-0669-4db6-bc9d-68a9a47d8f7a",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:43:04.024Z"
+    },
+    {
+      "id": "62959f5a-a62d-436c-bd6c-75c03bb2a9cc",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:51:26.219Z"
+    },
+    {
+      "id": "24afdbfd-db3e-46a3-a504-adbef122e8b4",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:51:48.930Z"
+    },
+    {
+      "id": "dd08dd3b-930a-4d23-bcd0-15cb79291384",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:53:40.052Z"
+    },
+    {
+      "id": "067b3600-b006-4e0c-9ae1-72092e20add1",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:53:55.488Z"
+    },
+    {
+      "id": "1b49b124-1135-4278-b66e-59941bd667df",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:54:12.907Z"
+    },
+    {
+      "id": "14df065b-4d96-4630-86a8-8773597a5854",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:57:01.082Z"
+    },
+    {
+      "id": "8c9c1941-1165-4e74-af38-fceaace7b069",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T19:57:13.712Z"
+    },
+    {
+      "id": "cdd43807-6e92-4c9c-a491-1fecbc654675",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:00:18.177Z"
+    },
+    {
+      "id": "2ae9d569-c928-4e4a-ae42-bc913d50fa4c",
+      "type": "product_added",
+      "platform": "shopee",
+      "category": "geral",
+      "tags": [
+        "bolsa",
+        "feminina",
+        "transversal",
+        "ombro",
+        "alça",
+        "ajustável",
+        "estilo",
+        "moderno",
+        "casual"
+      ],
+      "productName": "Bolsa Feminina Transversal e Ombro com Alça Ajustável Estilo Moderno Casual",
+      "timestamp": "2026-07-08T20:00:22.667Z"
+    },
+    {
+      "id": "1ed508ad-79ec-483f-9d0a-f3a2dd7a0760",
+      "type": "product_added",
+      "platform": "shopee",
+      "category": "eletrônicos, fone de ouvido",
+      "tags": [
+        "fone",
+        "ouvido",
+        "fio",
+        "bluetooth",
+        "esportivo",
+        "15h",
+        "bateria",
+        "gancho",
+        "orelha",
+        "display"
+      ],
+      "productName": "Fone de Ouvido Sem Fio Bluetooth Esportivo 15h Bateria Gancho Orelha Display  Original Cancelamento Ruído",
+      "timestamp": "2026-07-08T20:13:55.967Z"
+    },
+    {
+      "id": "811d32f8-6b80-4152-abc3-cecae7757fa6",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:14:41.230Z"
+    },
+    {
+      "id": "300f0a2e-ce21-4ab6-8cd0-d3c136e7a439",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:15:11.362Z"
+    },
+    {
+      "id": "09178df9-f096-40ba-9aa4-09e2d6ae1bdd",
+      "type": "product_added",
+      "platform": "shopee",
+      "category": "garrafa",
+      "tags": [
+        "wrels",
+        "running",
+        "soft",
+        "water",
+        "bottle",
+        "tpu",
+        "material",
+        "odor",
+        "dobrável",
+        "esportes"
+      ],
+      "productName": "WRELS Running Soft Water Bottle TPU material Sem odor Dobrável Esportes Ao Ar Livre # SH15",
+      "timestamp": "2026-07-08T20:15:23.823Z"
+    },
+    {
+      "id": "ed75c992-dff2-4be7-9298-560275d2696a",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:17:28.244Z"
+    },
+    {
+      "id": "405ead60-c8e4-45f8-a6ba-d6776cc57ce1",
+      "type": "product_added",
+      "platform": "shopee",
+      "category": "garrafa, esportes",
+      "tags": [
+        "wrels",
+        "running",
+        "soft",
+        "water",
+        "bottle",
+        "tpu",
+        "material",
+        "odor",
+        "dobrável",
+        "esportes"
+      ],
+      "productName": "WRELS Running Soft Water Bottle TPU material Sem odor Dobrável Esportes Ao Ar Livre # SH15",
+      "timestamp": "2026-07-08T20:17:36.875Z"
+    },
+    {
+      "id": "bf1b49b1-8cc2-465c-99b5-a4032f462e84",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:17:58.823Z"
+    },
+    {
+      "id": "bb60b7cc-cb0a-4771-a335-a6b3c0c16f1b",
+      "type": "product_added",
+      "platform": "shopee",
+      "category": "gel, esportes",
+      "tags": [
+        "isotonic",
+        "drink",
+        "refil",
+        "900g",
+        "atlhetica",
+        "nutrition"
+      ],
+      "productName": "Go! Isotonic Drink Refil 900g Atlhetica Nutrition",
+      "timestamp": "2026-07-08T20:18:05.924Z"
+    },
+    {
+      "id": "e7f55f83-ab2b-4211-9260-1a646bd4d7d2",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:21:33.645Z"
+    },
+    {
+      "id": "b8d80ddb-4514-4ef2-8bf8-debb3f2dbb8a",
+      "type": "product_added",
+      "platform": "shopee",
+      "category": "gel, esportes",
+      "tags": [
+        "isotonic",
+        "drink",
+        "refil",
+        "900g",
+        "atlhetica",
+        "nutrition"
+      ],
+      "productName": "Go! Isotonic Drink Refil 900g Atlhetica Nutrition",
+      "timestamp": "2026-07-08T20:21:39.464Z"
+    },
+    {
+      "id": "93df4257-8fb8-4628-b2b0-54a98b8e144b",
+      "type": "link_converted",
+      "platform": "shopee",
+      "timestamp": "2026-07-08T20:27:22.272Z"
+    },
+    {
+      "id": "e01ae44f-6c31-465b-86af-1b997d7a8ae1",
+      "type": "link_converted",
+      "platform": "amazon",
+      "timestamp": "2026-07-08T20:27:30.906Z"
+    },
+    {
+      "id": "a205fe10-7787-4fbb-915f-bcb51101a4a1",
+      "type": "link_converted",
+      "platform": "mercadolivre",
+      "timestamp": "2026-07-08T20:27:47.645Z"
+    },
+    {
+      "id": "f7651237-4d87-4807-b2f8-b9f4cbbbf500",
+      "type": "link_converted",
+      "platform": "mercadolivre",
+      "timestamp": "2026-07-08T20:28:21.207Z"
+    }
+  ]
+}

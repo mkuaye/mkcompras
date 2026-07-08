@@ -24,6 +24,20 @@ const EMPTY_FORM = {
   featured: false,
 }
 
+const CATEGORY_SUGGESTIONS = [
+  'eletrônicos',
+  'informática',
+  'casa e jardim',
+  'moda',
+  'esportes',
+  'livros',
+  'beleza',
+  'brinquedos',
+  'ferramentas',
+  'alimentos',
+  'pets',
+]
+
 export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
   const [form, setForm] = useState(EMPTY_FORM)
   const [error, setError] = useState('')
@@ -126,7 +140,7 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
         setStatusMsg('')
       }
     } catch (err) {
-      setError(err.message || 'Erro ao salvar produto.')
+      setError(err.response?.data?.error || err.message || 'Erro ao salvar produto.')
     } finally {
       setSaving(false)
     }
@@ -260,6 +274,23 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
                 <option value="amazon">Amazon</option>
                 <option value="outros">Outros</option>
               </select>
+            </div>
+            <div className="col-span-2">
+              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
+                Categorias
+              </label>
+              <input
+                list="category-suggestions"
+                type="text"
+                value={form.category}
+                onChange={(e) => setForm({ ...form, category: e.target.value })}
+                placeholder="ex: eletrônicos, moda, casa..."
+                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+              />
+              <datalist id="category-suggestions">
+                {CATEGORY_SUGGESTIONS.map((c) => <option key={c} value={c} />)}
+              </datalist>
+              <p className="mt-1.5 text-xs text-muted">Separe múltiplas categorias por vírgula. Ex: <span className="text-text/60">eletrônicos, moda</span></p>
             </div>
           </div>
         </div>

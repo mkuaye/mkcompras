@@ -52,7 +52,7 @@ function renderProducts() {
 
   let filtered = allProducts.filter((p) => {
     const matchPlatform = !activePlatform || p.platform === activePlatform;
-    const matchCategory = !activeCategory || p.category === activeCategory;
+    const matchCategory = !activeCategory || (p.category || '').split(',').map((c) => c.trim().toLowerCase()).includes(activeCategory.toLowerCase());
     const matchSearch =
       !searchQuery ||
       p.name.toLowerCase().includes(searchQuery) ||

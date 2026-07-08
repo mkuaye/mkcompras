@@ -1,5 +1,5 @@
 import { put, list } from '@vercel/blob';
-import { readFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { randomUUID } from 'crypto';
@@ -32,13 +32,16 @@ async function readProducts() {
 }
 
 async function writeProducts(products) {
-  if (!process.env.BLOB_READ_WRITE_TOKEN && !process.env.BLOB_STORE_ID) {
-    throw new Error('Configure BLOB_READ_WRITE_TOKEN ou BLOB_STORE_ID nas variáveis de ambiente do Vercel.');
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) {
+    await put(BLOB_PATHNAME, JSON.stringify(products), {
+      access: 'public',
+      addRandomSuffix: false,
+    });
+    return;
   }
-  await put(BLOB_PATHNAME, JSON.stringify(products), {
-    access: 'public',
-    addRandomSuffix: false,
-  });
+  // Fallback local de desenvolvimento: grava em data/products.json
+  const filePath = join(__dir, '../../../data/products.json');
+  writeFileSync(filePath, JSON.stringify(products, null, 2), 'utf-8');
 }
 
 function detectPlatform(hostname) {
@@ -67,7 +70,9 @@ export default async function productsHandler(req, res) {
     const { category, platform, search, featured } = req.query || {};
 
     let filtered = [...products];
-    if (category) filtered = filtered.filter((p) => p.category === category);
+    if (category) filtered = filtered.filter((p) =>
+      (p.category || '').split(',').map((c) => c.trim().toLowerCase()).includes(category.toLowerCase())
+    );
     if (platform) filtered = filtered.filter((p) => p.platform === platform);
     if (featured === 'true') filtered = filtered.filter((p) => p.featured);
     if (search) {
@@ -77,7 +82,9 @@ export default async function productsHandler(req, res) {
       );
     }
 
-    const categories = [...new Set(products.map((p) => p.category).filter(Boolean))];
+    const categories = [...new Set(
+      products.flatMap((p) => (p.category || '').split(',').map((c) => c.trim()).filter(Boolean))
+    )].sort();
     return res.status(200).json({ products: filtered, categories });
   }
 
