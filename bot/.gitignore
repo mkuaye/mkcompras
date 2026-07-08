@@ -1,0 +1,11 @@
+# Sessão do WhatsApp — NÃO versionar (contém credenciais de sessão)
+auth_info/
+
+# Variáveis de ambiente
+.env
+
+# Dependências
+node_modules/
+
+# Logs
+*.log
