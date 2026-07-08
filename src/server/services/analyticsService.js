@@ -1,4 +1,4 @@
-import { put, list } from '@vercel/blob';
+import { put, list, getDownloadUrl } from '@vercel/blob';
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -21,7 +21,7 @@ async function readAnalytics() {
       const { blobs } = await list({ prefix: BLOB_PATHNAME });
       const blob = blobs.find((b) => b.pathname === BLOB_PATHNAME);
       if (blob) {
-        const res = await fetch(blob.url);
+        const res = await fetch(getDownloadUrl(blob.url));
         return await res.json();
       }
     } catch (e) {
@@ -40,7 +40,7 @@ async function readAnalytics() {
 async function writeAnalytics(data) {
   if (process.env.BLOB_READ_WRITE_TOKEN) {
     await put(BLOB_PATHNAME, JSON.stringify(data), {
-      access: 'public',
+      access: 'private',
       addRandomSuffix: false,
     });
     return;
