@@ -12,6 +12,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/convert':   { target: 'http://localhost:3000', changeOrigin: true },
+      '/api/preview':   { target: 'http://localhost:3000', changeOrigin: true },
       '/api/products':  { target: 'http://localhost:3000', changeOrigin: true },
       '/api/analytics': { target: 'http://localhost:3000', changeOrigin: true },
     },

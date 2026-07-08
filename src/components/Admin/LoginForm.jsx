@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { useAdminStore } from '../../store/adminStore'
+import { getAnalytics } from '../../api/client'
 
 export default function LoginForm() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
   const { setToken } = useAdminStore()
 
   const handleSubmit = async (e) => {
@@ -11,9 +13,20 @@ export default function LoginForm() {
     if (!password.trim()) return
 
     setError('')
-    setToken(password)
-    // Token will be stored in sessionStorage and Zustand
-    // If incorrect, admin operations will fail with 401
+    setLoading(true)
+    try {
+      await getAnalytics(password)
+      setToken(password)
+    } catch (err) {
+      if (err.response?.status === 401) {
+        setError('Senha incorreta.')
+      } else {
+        // Sem servidor (dev sem API) — armazena e deixa operações falharem individualmente
+        setToken(password)
+      }
+    } finally {
+      setLoading(false)
+    }
   }
 
   const handleKeyDown = (e) => {
@@ -51,9 +64,10 @@ export default function LoginForm() {
 
         <button
           onClick={handleSubmit}
-          className="w-full py-3 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-xl hover:opacity-90 active:scale-95 transition"
+          disabled={loading}
+          className="w-full py-3 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-xl hover:opacity-90 active:scale-95 transition disabled:opacity-60"
         >
-          Entrar
+          {loading ? 'Verificando...' : 'Entrar'}
         </button>
       </div>
     </div>

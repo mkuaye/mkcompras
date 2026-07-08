@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "id": "832f79d8-b0f6-4ea7-a5aa-37e279946688",
+    "name": "A Arte da Guerra",
+    "description": "",
+    "image": "https://m.media-amazon.com/images/I/81bukJP2aiL._SL1500_.jpg",
+    "price": "R$19,90",
+    "platform": "amazon",
+    "originalUrl": " https://www.amazon.com.br/dp/8525428604/?coliid=IN27EEVI8JT6Z&colid=33CNS61DP5WPI&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it",
+    "affiliateUrl": "https://www.amazon.com.br/dp/8525428604/?coliid=IN27EEVI8JT6Z&colid=33CNS61DP5WPI&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it&tag=mkcompras-20",
+    "category": "",
+    "featured": false,
+    "createdAt": "2026-07-08T19:14:17.847Z"
+  },
+  {
+    "id": "f9291c3f-1096-4172-a10d-880c248d23c0",
+    "name": "Cadeira Dobrável Camping Pesca Porta Copo Portatil 120kg",
+    "description": "",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_965949-MLB108820690571_032026-O.webp",
+    "price": "R$ 46,56",
+    "platform": "mercadolivre",
+    "originalUrl": "https://www.mercadolivre.com.br/cadeira-dobravel-camping-pesca-porta-copo-portatil-120kg/up/MLBU3841079699#reco_item_pos=2&reco_backend=item_decorator&reco_backend_type=function&reco_client=home_items-decorator-legacy&reco_id=3971f75e-9150-4cf6-85b6-50dd039c36b2&reco_model=&c_id=/home/second-best-navigation-trend-recommendations/element&c_uid=521eeadf-815d-47f1-a710-ca764e512f46&da_id=second_best_navigation_trend&da_position=2&id_origin=/home/dynamic_access&da_sort_algorithm=ranker",
+    "affiliateUrl": "https://www.mercadolivre.com.br/cadeira-dobravel-camping-pesca-porta-copo-portatil-120kg/up/MLBU3841079699?matt_word=mkuaye&matt_tool=41938087",
+    "category": "",
+    "featured": false,
+    "createdAt": "2026-07-08T19:23:28.123Z"
+  },
+  {
+    "id": "d405b15e-e2b0-40c8-a366-23246e1203f9",
+    "name": "Bolsa Feminina Transversal e Ombro com Alça Ajustável Estilo Moderno Casual",
+    "description": "",
+    "image": "https://cf.shopee.com.br/file/sg-11134201-82628-mksk2v9mtfye86",
+    "price": "R$ 32,83",
+    "platform": "shopee",
+    "originalUrl": "https://br.shp.ee/FHy5Co55",
+    "affiliateUrl": "https://s.shopee.com.br/7AboAQNr8E",
+    "category": "",
+    "featured": false,
+    "createdAt": "2026-07-08T20:00:22.664Z"
+  },
+  {
+    "id": "36474c9f-48c2-4311-bf9e-3aad62383b3d",
+    "name": "Fone de Ouvido Sem Fio Bluetooth Esportivo 15h Bateria Gancho Orelha Display  Original Cancelamento Ruído",
+    "description": "",
+    "image": "https://cf.shopee.com.br/file/br-11134207-7r98o-malyad9oxi8f07",
+    "price": "R$ 88,99",
+    "platform": "shopee",
+    "originalUrl": "http://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Bluetooth-Esportivo-15h-Bateria-Gancho-Orelha-Display-Original-Cancelamento-Ru%C3%ADdo-i.1183719086.22994073470?xptdk=7c47cf80-4ad4-4d7d-aa17-d5a3168174d9",
+    "affiliateUrl": "http://shopee.com.br/Fone-de-Ouvido-Sem-Fio-Bluetooth-Esportivo-15h-Bateria-Gancho-Orelha-Display-Original-Cancelamento-Ru%C3%ADdo-i.1183719086.22994073470?xptdk=7c47cf80-4ad4-4d7d-aa17-d5a3168174d9",
+    "category": "eletrônicos, fone de ouvido, esportes",
+    "featured": false,
+    "createdAt": "2026-07-08T20:13:55.965Z"
+  },
+  {
+    "id": "4fc86d82-a86e-4b3f-8192-a505c8f95ba6",
+    "name": "Go! Isotonic Drink Refil 900g Atlhetica Nutrition",
+    "description": "",
+    "image": "https://cf.shopee.com.br/file/sg-11134201-7rdwx-lyp35b61rimee7",
+    "price": "R$ 29,90",
+    "platform": "shopee",
+    "originalUrl": "https://shopee.com.br/Go!-Isotonic-Drink-Refil-900g-Atlhetica-Nutrition-i.662618933.18999311252?extraParams=%7B%22display_model_id%22%3A159540680374%2C%22model_selection_logic%22%3A3%7D&sp_atk=7aac7a2e-6fee-4704-b8c4-0a5cb082d465&xptdk=7aac7a2e-6fee-4704-b8c4-0a5cb082d465",
+    "affiliateUrl": "https://s.shopee.com.br/111AqJ3Qrg",
+    "category": "gel, esportes, teste",
+    "featured": false,
+    "createdAt": "2026-07-08T20:21:39.463Z"
+  }
+]

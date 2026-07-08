@@ -46,7 +46,8 @@ export default function FilterBar({ categories, onFilterChange }) {
 
       <select
         onChange={(e) => onFilterChange((prev) => ({ ...prev, category: e.target.value }))}
-        className="w-40 bg-surface border border-border rounded-lg px-3 py-2 text-sm text-muted outline-none focus:border-accent transition cursor-pointer"
+        className="appearance-none w-fit bg-surface border border-border rounded-full px-3 py-1.5 pr-7 text-xs font-semibold text-text outline-none focus:border-accent hover:border-accent transition cursor-pointer"
+        style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20' fill='%236b7280'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 0.5rem center' }}
       >
         <option value="">Todas as categorias</option>
         {categories.map((cat) => (

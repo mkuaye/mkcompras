@@ -2,8 +2,10 @@
   "name": "mkcompras",
   "version": "1.0.0",
   "type": "module",
+  "packageManager": "npm@11.13.0",
   "scripts": {
     "dev": "vite",
+    "api": "node --env-file=.env.local dev-server.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
