@@ -4,18 +4,27 @@ import { useAnalytics } from '../../hooks/useAnalytics'
 import ProductForm from './ProductForm'
 import ProductTable from './ProductTable'
 import AnalyticsDashboard from './AnalyticsDashboard'
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+import Tabs from '@mui/material/Tabs'
+import Tab from '@mui/material/Tab'
+import Button from '@mui/material/Button'
+import TextField from '@mui/material/TextField'
+import Paper from '@mui/material/Paper'
+import InputAdornment from '@mui/material/InputAdornment'
+import SearchIcon from '@mui/icons-material/Search'
 
 export default function Dashboard({ products, onAdd, onUpdate, onDelete, onLogout }) {
   const { editingId, setEditingId, clearEditingId } = useAdminStore()
   const editingProduct = editingId ? products.find((p) => p.id === editingId) : null
   const [searchTerm, setSearchTerm] = useState('')
-  const [activeTab, setActiveTab] = useState('produtos')
+  const [activeTab, setActiveTab] = useState(0)
 
   const token = useAdminStore((s) => s.token)
   const { data: analyticsData, loading: analyticsLoading, error: analyticsError, fetchAnalytics } = useAnalytics(token)
 
   useEffect(() => {
-    if (activeTab === 'analytics' && !analyticsData) {
+    if (activeTab === 1 && !analyticsData) {
       fetchAnalytics()
     }
   }, [activeTab, analyticsData, fetchAnalytics])
@@ -29,42 +38,38 @@ export default function Dashboard({ products, onAdd, onUpdate, onDelete, onLogou
     : products
 
   return (
-    <div className="w-full max-w-4xl px-5 py-12">
-      <div className="flex items-center justify-between mb-8">
-        <h1 className="font-syne text-3xl font-black">
-          Admin <span className="bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">Painel</span>
-        </h1>
-        <button
-          onClick={onLogout}
-          className="px-4 py-2 text-sm font-semibold text-error border border-error rounded-lg hover:bg-error/5 transition"
-        >
-          Sair
-        </button>
-      </div>
-
-      {/* Tabs */}
-      <div className="flex gap-1 mb-8 border-b border-border">
-        {[
-          { id: 'produtos', label: 'Produtos' },
-          { id: 'analytics', label: 'Analytics' },
-        ].map((tab) => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`px-5 py-2.5 text-sm font-semibold rounded-t-lg transition ${
-              activeTab === tab.id
-                ? 'bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent border-b-2 border-accent'
-                : 'text-muted hover:text-text'
-            }`}
+    <Box sx={{ width: '100%', maxWidth: '56rem', px: 2.5, py: 6 }}>
+      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 4 }}>
+        <Typography variant="h4" fontFamily="Syne, sans-serif" fontWeight={900}>
+          Admin{' '}
+          <Box
+            component="span"
+            sx={{
+              background: 'linear-gradient(to right, var(--accent), var(--accent2))',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}
           >
-            {tab.label}
-          </button>
-        ))}
-      </div>
+            Painel
+          </Box>
+        </Typography>
+        <Button onClick={onLogout} variant="outlined" color="error" size="small">
+          Sair
+        </Button>
+      </Box>
 
-      {activeTab === 'produtos' && (
+      <Tabs
+        value={activeTab}
+        onChange={(_, v) => setActiveTab(v)}
+        sx={{ mb: 4, borderBottom: '1px solid', borderColor: 'divider' }}
+      >
+        <Tab label="Produtos" />
+        <Tab label="Analytics" />
+      </Tabs>
+
+      {activeTab === 0 && (
         <>
-          {/* Product Form */}
           <ProductForm
             editing={editingProduct}
             onAdd={onAdd}
@@ -72,20 +77,26 @@ export default function Dashboard({ products, onAdd, onUpdate, onDelete, onLogou
             onCancel={() => clearEditingId()}
           />
 
-          {/* Product List */}
-          <div className="mt-12 bg-surface border border-border rounded-2xl p-8">
-            <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
-              <h2 className="font-syne text-lg font-bold">
+          <Paper sx={{ mt: 6, borderRadius: 3, p: 4 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 3, flexWrap: 'wrap', gap: 1.5 }}>
+              <Typography variant="subtitle1" fontFamily="Syne, sans-serif" fontWeight={700}>
                 Produtos cadastrados ({products.length})
-              </h2>
-              <input
-                type="text"
+              </Typography>
+              <TextField
+                size="small"
                 placeholder="Buscar..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-48 bg-bg border border-border rounded-lg px-3 py-2 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+                sx={{ width: 192 }}
+                InputProps={{
+                  startAdornment: (
+                    <InputAdornment position="start">
+                      <SearchIcon fontSize="small" sx={{ color: 'text.secondary' }} />
+                    </InputAdornment>
+                  ),
+                }}
               />
-            </div>
+            </Box>
 
             {filteredProducts.length > 0 ? (
               <ProductTable
@@ -94,15 +105,15 @@ export default function Dashboard({ products, onAdd, onUpdate, onDelete, onLogou
                 onDelete={onDelete}
               />
             ) : (
-              <div className="text-center py-10 text-muted text-sm">
+              <Typography variant="body2" color="text.secondary" textAlign="center" py={5}>
                 {products.length === 0 ? 'Nenhum produto cadastrado ainda.' : 'Nenhum produto encontrado.'}
-              </div>
+              </Typography>
             )}
-          </div>
+          </Paper>
         </>
       )}
 
-      {activeTab === 'analytics' && (
+      {activeTab === 1 && (
         <AnalyticsDashboard
           data={analyticsData}
           loading={analyticsLoading}
@@ -110,6 +121,6 @@ export default function Dashboard({ products, onAdd, onUpdate, onDelete, onLogou
           onRefresh={fetchAnalytics}
         />
       )}
-    </div>
+    </Box>
   )
 }

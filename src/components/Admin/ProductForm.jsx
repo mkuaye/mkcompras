@@ -1,6 +1,17 @@
 import { useState, useEffect } from 'react'
 import { useConvert } from '../../hooks/useConvert'
 import { previewProduct } from '../../api/client'
+import Box from '@mui/material/Box'
+import Paper from '@mui/material/Paper'
+import Typography from '@mui/material/Typography'
+import TextField from '@mui/material/TextField'
+import Button from '@mui/material/Button'
+import Select from '@mui/material/Select'
+import MenuItem from '@mui/material/MenuItem'
+import FormControl from '@mui/material/FormControl'
+import InputLabel from '@mui/material/InputLabel'
+import Autocomplete from '@mui/material/Autocomplete'
+import Alert from '@mui/material/Alert'
 
 function detectPlatform(url) {
   try {
@@ -61,7 +72,6 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
   const handleUrlBlur = async () => {
     const url = form.originalUrl.trim()
     if (!url) return
-    // Only auto-run when adding a new product (not editing an existing one)
     if (!editing) {
       await fetchProductInfo(url)
     }
@@ -71,7 +81,6 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
     setPreviewing(true)
     setStatusMsg('Buscando informações do produto...')
 
-    // Run affiliate link generation and product preview in parallel
     const affiliatePromise = !form.affiliateUrl ? convert(url).catch(() => null) : Promise.resolve(null)
     const previewPromise = previewProduct(url).catch(() => null)
 
@@ -149,191 +158,191 @@ export default function ProductForm({ editing, onAdd, onUpdate, onCancel }) {
   const isLoading = previewing || converting
 
   return (
-    <form onSubmit={handleSave} className="bg-surface border border-border rounded-2xl p-8">
-      <h2 className="font-syne text-lg font-bold mb-6">
+    <Paper component="form" onSubmit={handleSave} sx={{ p: 4, borderRadius: 3 }}>
+      <Typography variant="subtitle1" fontFamily="Syne, sans-serif" fontWeight={700} mb={3}>
         {editing ? 'Editar produto' : 'Adicionar produto'}
-      </h2>
+      </Typography>
 
-      <div className="flex flex-col gap-4 mb-6">
-        {/* URL do produto */}
-        <div>
-          <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-            Link do produto *
-          </label>
-          <div className="flex gap-2">
-            <input
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5, mb: 3 }}>
+        {/* Link do produto */}
+        <Box>
+          <Box sx={{ display: 'flex', gap: 1.5 }}>
+            <TextField
               type="url"
+              label="Link do produto *"
               value={form.originalUrl}
               onChange={(e) => setForm({ ...form, originalUrl: e.target.value })}
               onBlur={handleUrlBlur}
               placeholder="https://shopee.com.br/produto..."
-              className="flex-1 bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+              fullWidth
+              size="small"
               autoFocus
             />
-            <button
+            <Button
               type="button"
+              variant="outlined"
               onClick={() => fetchProductInfo(form.originalUrl.trim())}
               disabled={isLoading || !form.originalUrl.trim()}
-              className="px-4 py-2.5 bg-bg border border-border rounded-lg text-sm font-semibold text-text hover:border-accent hover:text-accent transition disabled:opacity-40 whitespace-nowrap"
+              sx={{ whiteSpace: 'nowrap', minWidth: 120 }}
             >
               {isLoading ? 'Buscando...' : 'Buscar info'}
-            </button>
-          </div>
+            </Button>
+          </Box>
           {statusMsg && (
-            <p className={`mt-1.5 text-xs ${statusMsg.startsWith('✓') ? 'text-success' : 'text-muted'}`}>
+            <Typography
+              variant="caption"
+              sx={{ mt: 0.75, display: 'block', color: statusMsg.startsWith('✓') ? 'success.main' : 'text.secondary' }}
+            >
               {statusMsg}
-            </p>
+            </Typography>
           )}
-        </div>
+        </Box>
 
         {/* Link de afiliado */}
-        <div>
-          <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-            Link de afiliado
-          </label>
-          <div className="flex gap-2">
-            <input
-              type="url"
-              value={form.affiliateUrl}
-              onChange={(e) => setForm({ ...form, affiliateUrl: e.target.value })}
-              placeholder="Gerado automaticamente ou cole aqui"
-              className="flex-1 bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-            />
-            <button
-              type="button"
-              onClick={() => generateAffiliate(form.originalUrl.trim())}
-              disabled={converting || !form.originalUrl.trim()}
-              className="px-4 py-2.5 bg-bg border border-border rounded-lg text-sm font-semibold text-text hover:border-accent hover:text-accent transition disabled:opacity-40 whitespace-nowrap"
-            >
-              {converting ? 'Gerando...' : 'Gerar link'}
-            </button>
-          </div>
-        </div>
+        <Box sx={{ display: 'flex', gap: 1.5 }}>
+          <TextField
+            type="url"
+            label="Link de afiliado"
+            value={form.affiliateUrl}
+            onChange={(e) => setForm({ ...form, affiliateUrl: e.target.value })}
+            placeholder="Gerado automaticamente ou cole aqui"
+            fullWidth
+            size="small"
+          />
+          <Button
+            type="button"
+            variant="outlined"
+            onClick={() => generateAffiliate(form.originalUrl.trim())}
+            disabled={converting || !form.originalUrl.trim()}
+            sx={{ whiteSpace: 'nowrap', minWidth: 120 }}
+          >
+            {converting ? 'Gerando...' : 'Gerar link'}
+          </Button>
+        </Box>
 
-        {/* Imagem + Nome + Preço */}
-        <div className="flex gap-4 items-start">
-          {/* Preview da imagem */}
-          <div className="shrink-0">
-            <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
+        {/* Foto + Nome + Preço + Plataforma + Categoria */}
+        <Box sx={{ display: 'flex', gap: 2, alignItems: 'flex-start' }}>
+          {/* Image preview */}
+          <Box sx={{ flexShrink: 0 }}>
+            <Typography variant="caption" color="text.secondary" fontWeight={600} sx={{ textTransform: 'uppercase', letterSpacing: 2, display: 'block', mb: 1 }}>
               Foto
-            </label>
-            <div className="w-20 h-20 rounded-lg border border-border bg-bg overflow-hidden flex items-center justify-center">
+            </Typography>
+            <Box
+              sx={{
+                width: 80,
+                height: 80,
+                borderRadius: 2,
+                border: '1px solid',
+                borderColor: 'divider',
+                bgcolor: 'background.default',
+                overflow: 'hidden',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
               {form.image ? (
                 <img
                   src={form.image}
                   alt="preview"
-                  className="w-full h-full object-cover"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   onError={(e) => { e.target.style.display = 'none' }}
                 />
               ) : (
-                <svg className="w-8 h-8 opacity-20" viewBox="0 0 48 48" fill="none">
+                <svg width="32" height="32" viewBox="0 0 48 48" fill="none" style={{ opacity: 0.2 }}>
                   <path d="M16 32l8-10 6 7 4-5 6 8H8l8-10z" fill="currentColor" opacity=".5" />
                 </svg>
               )}
-            </div>
-          </div>
+            </Box>
+          </Box>
 
-          {/* Nome e Preço */}
-          <div className="flex-1 grid grid-cols-2 gap-4">
-            <div className="col-span-2">
-              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-                Nome do produto *
-              </label>
-              <input
-                type="text"
-                value={form.name}
-                onChange={(e) => setForm({ ...form, name: e.target.value })}
-                placeholder="Preenchido automaticamente"
-                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-              />
-            </div>
-            <div>
-              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-                Preço
-              </label>
-              <input
-                type="text"
-                value={form.price}
-                onChange={(e) => setForm({ ...form, price: e.target.value })}
-                placeholder="Preenchido automaticamente"
-                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-              />
-            </div>
-            <div>
-              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-                Plataforma
-              </label>
-              <select
+          {/* Fields grid */}
+          <Box sx={{ flex: 1, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }}>
+            <TextField
+              label="Nome do produto *"
+              value={form.name}
+              onChange={(e) => setForm({ ...form, name: e.target.value })}
+              placeholder="Preenchido automaticamente"
+              size="small"
+              sx={{ gridColumn: '1 / -1' }}
+            />
+            <TextField
+              label="Preço"
+              value={form.price}
+              onChange={(e) => setForm({ ...form, price: e.target.value })}
+              placeholder="Preenchido automaticamente"
+              size="small"
+            />
+            <FormControl size="small">
+              <InputLabel>Plataforma</InputLabel>
+              <Select
                 value={form.platform}
                 onChange={(e) => setForm({ ...form, platform: e.target.value })}
-                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition"
+                label="Plataforma"
               >
-                <option value="">Detectada auto</option>
-                <option value="shopee">Shopee</option>
-                <option value="mercadolivre">Mercado Livre</option>
-                <option value="amazon">Amazon</option>
-                <option value="outros">Outros</option>
-              </select>
-            </div>
-            <div className="col-span-2">
-              <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-                Categorias
-              </label>
-              <input
-                list="category-suggestions"
-                type="text"
-                value={form.category}
-                onChange={(e) => setForm({ ...form, category: e.target.value })}
-                placeholder="ex: eletrônicos, moda, casa..."
-                className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-              />
-              <datalist id="category-suggestions">
-                {CATEGORY_SUGGESTIONS.map((c) => <option key={c} value={c} />)}
-              </datalist>
-              <p className="mt-1.5 text-xs text-muted">Separe múltiplas categorias por vírgula. Ex: <span className="text-text/60">eletrônicos, moda</span></p>
-            </div>
-          </div>
-        </div>
+                <MenuItem value="">Detectada auto</MenuItem>
+                <MenuItem value="shopee">Shopee</MenuItem>
+                <MenuItem value="mercadolivre">Mercado Livre</MenuItem>
+                <MenuItem value="amazon">Amazon</MenuItem>
+                <MenuItem value="outros">Outros</MenuItem>
+              </Select>
+            </FormControl>
+            <Autocomplete
+              freeSolo
+              options={CATEGORY_SUGGESTIONS}
+              value={form.category}
+              onInputChange={(_, value) => setForm({ ...form, category: value })}
+              renderInput={(params) => (
+                <TextField
+                  {...params}
+                  label="Categoria"
+                  size="small"
+                  placeholder="ex: eletrônicos"
+                  helperText="Separe múltiplas categorias por vírgula"
+                />
+              )}
+              sx={{ gridColumn: '1 / -1' }}
+            />
+          </Box>
+        </Box>
 
-        {/* URL da imagem (editável) */}
-        <div>
-          <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-            URL da imagem principal
-          </label>
-          <input
-            type="url"
-            value={form.image}
-            onChange={(e) => setForm({ ...form, image: e.target.value })}
-            placeholder="Preenchida automaticamente"
-            className="w-full bg-bg border border-border rounded-lg px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-          />
-        </div>
-      </div>
+        {/* URL da imagem */}
+        <TextField
+          type="url"
+          label="URL da imagem principal"
+          value={form.image}
+          onChange={(e) => setForm({ ...form, image: e.target.value })}
+          placeholder="Preenchida automaticamente"
+          fullWidth
+          size="small"
+        />
+      </Box>
 
       {error && (
-        <div className="mb-4 p-3 bg-error/10 border border-error/25 rounded-lg text-sm text-error">
+        <Alert severity="error" sx={{ mb: 2 }}>
           {error}
-        </div>
+        </Alert>
       )}
 
-      <div className="flex gap-2">
-        <button
+      <Box sx={{ display: 'flex', gap: 1.5 }}>
+        <Button
           type="submit"
+          variant="contained"
           disabled={saving}
-          className="px-6 py-2.5 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-lg hover:opacity-90 disabled:opacity-50 transition"
+          sx={{
+            background: 'linear-gradient(to right, var(--accent), var(--accent2))',
+            '&:hover': { opacity: 0.9, background: 'linear-gradient(to right, var(--accent), var(--accent2))' },
+            '&.Mui-disabled': { opacity: 0.5, background: 'linear-gradient(to right, var(--accent), var(--accent2))' },
+          }}
         >
           {saving ? 'Salvando...' : 'Salvar produto'}
-        </button>
+        </Button>
         {editing && (
-          <button
-            type="button"
-            onClick={onCancel}
-            className="px-6 py-2.5 bg-bg border border-border text-text text-sm font-semibold rounded-lg hover:border-text transition"
-          >
+          <Button type="button" variant="outlined" onClick={onCancel}>
             Cancelar
-          </button>
+          </Button>
         )}
-      </div>
-    </form>
+      </Box>
+    </Paper>
   )
 }

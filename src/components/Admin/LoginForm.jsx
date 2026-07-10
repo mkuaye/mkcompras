@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import { useAdminStore } from '../../store/adminStore'
 import { getAnalytics } from '../../api/client'
+import Box from '@mui/material/Box'
+import Paper from '@mui/material/Paper'
+import Typography from '@mui/material/Typography'
+import TextField from '@mui/material/TextField'
+import Button from '@mui/material/Button'
+import Alert from '@mui/material/Alert'
 
 export default function LoginForm() {
   const [password, setPassword] = useState('')
@@ -29,47 +35,50 @@ export default function LoginForm() {
     }
   }
 
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter') handleSubmit(e)
-  }
-
   return (
-    <div className="w-full max-w-md px-5">
-      <div className="bg-surface border border-border rounded-2xl p-9">
-        <h2 className="font-syne text-xl font-black mb-1">Acesso restrito</h2>
-        <p className="text-muted text-sm mb-6">
+    <Box sx={{ width: '100%', maxWidth: 440, px: 2.5 }}>
+      <Paper sx={{ p: 4.5, borderRadius: 3 }}>
+        <Typography variant="h6" fontFamily="Syne, sans-serif" fontWeight={900} mb={0.5}>
+          Acesso restrito
+        </Typography>
+        <Typography variant="body2" color="text.secondary" mb={3}>
           Entre com a senha de administrador.
-        </p>
+        </Typography>
 
-        <div className="mb-4">
-          <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2">
-            Senha
-          </label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            onKeyDown={handleKeyDown}
-            placeholder="••••••••"
-            autoComplete="current-password"
-            className="w-full bg-bg border border-border rounded-xl px-4 py-3 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-          />
-        </div>
+        <TextField
+          type="password"
+          label="Senha"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && handleSubmit(e)}
+          placeholder="••••••••"
+          autoComplete="current-password"
+          fullWidth
+          sx={{ mb: 2 }}
+        />
 
         {error && (
-          <div className="mb-4 p-3 bg-error/10 border border-error/25 rounded-lg text-xs text-error">
+          <Alert severity="error" sx={{ mb: 2 }}>
             {error}
-          </div>
+          </Alert>
         )}
 
-        <button
+        <Button
           onClick={handleSubmit}
           disabled={loading}
-          className="w-full py-3 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-xl hover:opacity-90 active:scale-95 transition disabled:opacity-60"
+          variant="contained"
+          fullWidth
+          sx={{
+            py: 1.5,
+            background: 'linear-gradient(to right, var(--accent), var(--accent2))',
+            '&:hover': { opacity: 0.9, background: 'linear-gradient(to right, var(--accent), var(--accent2))' },
+            '&.Mui-disabled': { opacity: 0.6, background: 'linear-gradient(to right, var(--accent), var(--accent2))' },
+            borderRadius: 2.5,
+          }}
         >
           {loading ? 'Verificando...' : 'Entrar'}
-        </button>
-      </div>
-    </div>
+        </Button>
+      </Paper>
+    </Box>
   )
 }

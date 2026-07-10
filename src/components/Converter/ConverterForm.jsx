@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import { useConvert } from '../../hooks/useConvert'
+import Box from '@mui/material/Box'
+import TextField from '@mui/material/TextField'
+import Button from '@mui/material/Button'
+import CircularProgress from '@mui/material/CircularProgress'
 
 export default function ConverterForm({ onSuccess, onError, onReset }) {
   const [url, setUrl] = useState('')
@@ -21,38 +25,37 @@ export default function ConverterForm({ onSuccess, onError, onReset }) {
     }
   }
 
-  const handleKeyDown = (e) => {
-    if (e.key === 'Enter') handleConvert()
-  }
-
   return (
     <>
-      <label className="block text-xs font-semibold uppercase tracking-widest text-muted mb-2.5">
-        Link do produto
-      </label>
-      <div className="flex flex-col sm:flex-row gap-2.5">
-        <input
+      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, gap: 1.5 }}>
+        <TextField
           type="url"
+          label="Link do produto"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          onKeyDown={handleKeyDown}
+          onKeyDown={(e) => e.key === 'Enter' && handleConvert()}
           placeholder="https://shopee.com.br/produto..."
-          className="flex-1 bg-bg border border-border rounded-xl px-4 py-3.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
+          fullWidth
+          size="medium"
         />
-        <button
+        <Button
           onClick={handleConvert}
           disabled={loading}
-          className="w-full sm:w-auto px-6 py-3.5 bg-gradient-to-r from-accent to-accent2 text-white text-sm font-semibold rounded-xl hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed transition whitespace-nowrap"
+          variant="contained"
+          sx={{
+            whiteSpace: 'nowrap',
+            px: 4,
+            py: 1.75,
+            background: 'linear-gradient(to right, var(--accent), var(--accent2))',
+            '&:hover': { opacity: 0.9, background: 'linear-gradient(to right, var(--accent), var(--accent2))' },
+            '&.Mui-disabled': { opacity: 0.5, background: 'linear-gradient(to right, var(--accent), var(--accent2))' },
+            minWidth: { xs: '100%', sm: 140 },
+          }}
+          startIcon={loading ? <CircularProgress size={16} color="inherit" /> : null}
         >
-          {loading ? (
-            <>
-              <span className="spinner"></span> Convertendo...
-            </>
-          ) : (
-            'Converter'
-          )}
-        </button>
-      </div>
+          {loading ? 'Convertendo...' : 'Converter'}
+        </Button>
+      </Box>
     </>
   )
 }

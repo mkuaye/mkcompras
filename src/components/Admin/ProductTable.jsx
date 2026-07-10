@@ -1,3 +1,11 @@
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemAvatar from '@mui/material/ListItemAvatar'
+import ListItemText from '@mui/material/ListItemText'
+import Avatar from '@mui/material/Avatar'
+import Button from '@mui/material/Button'
+import Box from '@mui/material/Box'
+
 const PLATFORM_LABELS = {
   shopee: 'Shopee',
   mercadolivre: 'Mercado Livre',
@@ -16,45 +24,49 @@ export default function ProductTable({ products, onEdit, onDelete }) {
   }
 
   return (
-    <div className="flex flex-col gap-2">
+    <List sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
       {products.map((p) => (
-        <div
+        <ListItem
           key={p.id}
-          className="flex items-center gap-3 bg-bg border border-border rounded-lg p-3 hover:border-accent transition"
+          disablePadding
+          sx={{
+            bgcolor: 'background.default',
+            border: '1px solid',
+            borderColor: 'divider',
+            borderRadius: 2,
+            px: 1.5,
+            py: 1,
+            '&:hover': { borderColor: 'primary.main' },
+            transition: 'border-color 0.2s',
+          }}
         >
           {p.image && (
-            <img
-              src={p.image}
-              alt={p.name}
-              className="w-12 h-12 rounded-lg object-cover border border-border flex-shrink-0"
-              onError={(e) => {
-                e.target.style.display = 'none'
-              }}
-            />
+            <ListItemAvatar>
+              <Avatar
+                src={p.image}
+                alt={p.name}
+                variant="rounded"
+                sx={{ width: 48, height: 48, border: '1px solid', borderColor: 'divider' }}
+                imgProps={{ onError: (e) => { e.target.style.display = 'none' } }}
+              />
+            </ListItemAvatar>
           )}
-          <div className="flex-1 min-w-0">
-            <div className="text-sm font-semibold text-text truncate">{p.name}</div>
-            <div className="text-xs text-muted mt-0.5">
-              {PLATFORM_LABELS[p.platform] || p.platform} • {p.category || '—'} • {p.price || 'sem preço'}
-              {p.featured && ' • ⭐'}
-            </div>
-          </div>
-          <div className="flex gap-1.5 flex-shrink-0">
-            <button
-              onClick={() => onEdit(p.id)}
-              className="px-2.5 py-1.5 text-xs font-semibold text-accent border border-accent rounded-lg hover:bg-accent/5 transition"
-            >
+          <ListItemText
+            primary={p.name}
+            secondary={`${PLATFORM_LABELS[p.platform] || p.platform} • ${p.category || '—'} • ${p.price || 'sem preço'}${p.featured ? ' • ⭐' : ''}`}
+            primaryTypographyProps={{ variant: 'body2', fontWeight: 600, noWrap: true }}
+            secondaryTypographyProps={{ variant: 'caption' }}
+          />
+          <Box sx={{ display: 'flex', gap: 1, ml: 1, flexShrink: 0 }}>
+            <Button size="small" variant="outlined" color="primary" onClick={() => onEdit(p.id)}>
               Editar
-            </button>
-            <button
-              onClick={() => handleDelete(p.id)}
-              className="px-2.5 py-1.5 text-xs font-semibold text-error border border-error rounded-lg hover:bg-error/5 transition"
-            >
+            </Button>
+            <Button size="small" variant="outlined" color="error" onClick={() => handleDelete(p.id)}>
               Excluir
-            </button>
-          </div>
-        </div>
+            </Button>
+          </Box>
+        </ListItem>
       ))}
-    </div>
+    </List>
   )
 }

@@ -1,7 +1,18 @@
 import { useState, useEffect } from 'react'
+import Box from '@mui/material/Box'
+import Alert from '@mui/material/Alert'
+import Paper from '@mui/material/Paper'
+import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
+import Collapse from '@mui/material/Collapse'
 
 export default function Result({ result, lastLink }) {
   const [copied, setCopied] = useState(false)
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    setVisible(true)
+  }, [])
 
   const handleCopy = async () => {
     try {
@@ -15,35 +26,43 @@ export default function Result({ result, lastLink }) {
 
   if (result.type === 'success') {
     return (
-      <div className="mt-5 p-4 rounded-xl bg-success/10 border border-success/25 animate-fadeIn">
-        <div className="text-xs font-semibold uppercase tracking-widest text-success mb-2">
-          Link de afiliado gerado
-        </div>
-        <div className="flex gap-2.5">
-          <div className="flex-1 bg-bg border border-border rounded-lg p-3 text-sm text-accent break-all font-inter">
-            {lastLink}
-          </div>
-          <button
-            onClick={handleCopy}
-            className={`px-4 py-3 rounded-lg border text-sm font-semibold whitespace-nowrap transition ${
-              copied
-                ? 'border-success text-success bg-success/5'
-                : 'border-border text-text hover:border-accent hover:text-accent'
-            }`}
-          >
-            {copied ? 'Copiado!' : 'Copiar'}
-          </button>
-        </div>
-      </div>
+      <Collapse in={visible}>
+        <Box sx={{ mt: 2.5 }}>
+          <Typography variant="caption" color="success.main" fontWeight={600} sx={{ textTransform: 'uppercase', letterSpacing: 2, display: 'block', mb: 1 }}>
+            Link de afiliado gerado
+          </Typography>
+          <Box sx={{ display: 'flex', gap: 1.5 }}>
+            <Paper
+              variant="outlined"
+              sx={{ flex: 1, p: 1.5, borderRadius: 2, borderColor: 'divider', overflow: 'hidden' }}
+            >
+              <Typography
+                variant="body2"
+                color="primary"
+                sx={{ wordBreak: 'break-all', fontFamily: 'Inter, monospace' }}
+              >
+                {lastLink}
+              </Typography>
+            </Paper>
+            <Button
+              variant="outlined"
+              onClick={handleCopy}
+              color={copied ? 'success' : 'inherit'}
+              sx={{ whiteSpace: 'nowrap', flexShrink: 0 }}
+            >
+              {copied ? 'Copiado!' : 'Copiar'}
+            </Button>
+          </Box>
+        </Box>
+      </Collapse>
     )
   }
 
   return (
-    <div className="mt-5 p-4 rounded-xl bg-error/10 border border-error/25 animate-fadeIn">
-      <div className="text-xs font-semibold uppercase tracking-widest text-error mb-2">
-        Não foi possível converter
-      </div>
-      <div className="text-sm text-error">{result.data}</div>
-    </div>
+    <Collapse in={visible}>
+      <Alert severity="error" sx={{ mt: 2.5 }}>
+        {result.data}
+      </Alert>
+    </Collapse>
   )
 }

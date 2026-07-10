@@ -1,61 +1,86 @@
+import Box from '@mui/material/Box'
+import TextField from '@mui/material/TextField'
+import InputAdornment from '@mui/material/InputAdornment'
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup'
+import ToggleButton from '@mui/material/ToggleButton'
+import FormControl from '@mui/material/FormControl'
+import InputLabel from '@mui/material/InputLabel'
+import Select from '@mui/material/Select'
+import MenuItem from '@mui/material/MenuItem'
+import SearchIcon from '@mui/icons-material/Search'
+
+const platforms = [
+  { value: '', label: 'Todas' },
+  { value: 'shopee', label: 'Shopee' },
+  { value: 'mercadolivre', label: 'Mercado Livre' },
+  { value: 'amazon', label: 'Amazon' },
+]
+
 export default function FilterBar({ categories, onFilterChange }) {
-  const platforms = [
-    { value: '', label: 'Todas' },
-    { value: 'shopee', label: 'Shopee', dot: 'dot-shopee' },
-    { value: 'mercadolivre', label: 'Mercado Livre', dot: 'dot-ml' },
-    { value: 'amazon', label: 'Amazon', dot: 'dot-amazon' },
-  ]
-
   return (
-    <div className="mb-8 flex flex-col gap-4">
-      <div className="flex gap-3 max-w-md">
-        <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted pointer-events-none" viewBox="0 0 20 20" fill="none">
-          <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" strokeWidth="1.5" />
-          <path d="M13 13l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        </svg>
-        <input
-          type="text"
-          placeholder="Buscar produto..."
-          className="flex-1 relative pl-9 bg-surface border border-border rounded-xl px-3 py-2.5 text-sm text-text outline-none focus:border-accent transition placeholder:text-muted"
-          onChange={(e) => window.setTimeout(() => {
-            const event = new CustomEvent('search', { detail: e.target.value })
-            document.dispatchEvent(event)
-          }, 0)}
-          onInput={(e) => {
-            // Dispatch custom event for parent to handle
-            const parent = e.target.parentElement?.parentElement
-            if (parent) {
-              parent.dispatchEvent(new CustomEvent('search', { detail: e.target.value }))
-            }
-          }}
-        />
-      </div>
+    <Box sx={{ mb: 4, display: 'flex', flexDirection: 'column', gap: 2 }}>
+      <TextField
+        placeholder="Buscar produto..."
+        size="small"
+        sx={{ maxWidth: 400 }}
+        onChange={(e) => onFilterChange((prev) => ({ ...prev, search: e.target.value }))}
+        InputProps={{
+          startAdornment: (
+            <InputAdornment position="start">
+              <SearchIcon fontSize="small" sx={{ color: 'text.secondary' }} />
+            </InputAdornment>
+          ),
+        }}
+      />
 
-      <div className="flex flex-wrap gap-2">
-        {platforms.map((p) => (
-          <button
-            key={p.value}
-            onClick={() => onFilterChange((prev) => ({ ...prev, platform: p.value }))}
-            className="flex items-center gap-2 px-3 py-1.5 text-xs font-semibold rounded-full border border-border hover:border-accent hover:text-text transition"
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, alignItems: 'center' }}>
+        <ToggleButtonGroup
+          exclusive
+          size="small"
+          onChange={(_, value) => onFilterChange((prev) => ({ ...prev, platform: value ?? '' }))}
+          sx={{ flexWrap: 'wrap', gap: 0.5 }}
+        >
+          {platforms.map((p) => (
+            <ToggleButton
+              key={p.value}
+              value={p.value}
+              sx={{
+                borderRadius: '999px !important',
+                border: '1px solid !important',
+                borderColor: 'divider !important',
+                px: 1.5,
+                py: 0.5,
+                fontSize: '0.75rem',
+                fontWeight: 600,
+                '&.Mui-selected': {
+                  bgcolor: 'primary.main',
+                  color: '#fff',
+                  borderColor: 'primary.main !important',
+                  '&:hover': { bgcolor: 'primary.dark' },
+                },
+              }}
+            >
+              {p.label}
+            </ToggleButton>
+          ))}
+        </ToggleButtonGroup>
+
+        <FormControl size="small" sx={{ minWidth: 180 }}>
+          <InputLabel>Categoria</InputLabel>
+          <Select
+            label="Categoria"
+            defaultValue=""
+            onChange={(e) => onFilterChange((prev) => ({ ...prev, category: e.target.value }))}
           >
-            {p.dot && <span className={`dot ${p.dot}`}></span>}
-            {p.label}
-          </button>
-        ))}
-      </div>
-
-      <select
-        onChange={(e) => onFilterChange((prev) => ({ ...prev, category: e.target.value }))}
-        className="appearance-none w-fit bg-surface border border-border rounded-full px-3 py-1.5 pr-7 text-xs font-semibold text-text outline-none focus:border-accent hover:border-accent transition cursor-pointer"
-        style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20' fill='%236b7280'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 0.5rem center' }}
-      >
-        <option value="">Todas as categorias</option>
-        {categories.map((cat) => (
-          <option key={cat} value={cat}>
-            {cat.charAt(0).toUpperCase() + cat.slice(1)}
-          </option>
-        ))}
-      </select>
-    </div>
+            <MenuItem value="">Todas as categorias</MenuItem>
+            {categories.map((cat) => (
+              <MenuItem key={cat} value={cat}>
+                {cat.charAt(0).toUpperCase() + cat.slice(1)}
+              </MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+      </Box>
+    </Box>
   )
 }
