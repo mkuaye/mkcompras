@@ -36,13 +36,28 @@ export async function convertByPlatform(originalUrl, parsedUrl) {
     hostname.includes('amzn.to') ||
     hostname.includes('amzn.com')
   ) {
-    const affiliateUrl = convertAmazon(originalUrl, parsedUrl);
+    const affiliateUrl = convertAmazon(originalUrl);
     return { affiliateUrl };
   }
 
   return {
     error: 'Plataforma nao suportada. Aceitamos links da Shopee, Mercado Livre e Amazon.'
   };
+}
+
+// Shopee affiliate/tracking params to strip from product URLs before sending to API
+const SHOPEE_AFFILIATE_PARAMS = [
+  'af_siteid', 'af_sub_siteid', 'af_click_lookback', 'af_sub5',
+  'pid', 'c', 'shopeeParam',
+];
+
+function cleanShopeeUrl(url) {
+  const cleaned = new URL(url);
+  for (const param of SHOPEE_AFFILIATE_PARAMS) {
+    cleaned.searchParams.delete(param);
+  }
+  cleaned.hash = '';
+  return cleaned.toString();
 }
 
 async function convertShopee(originalUrl) {
@@ -53,10 +68,14 @@ async function convertShopee(originalUrl) {
     throw new Error('Credenciais da Shopee nao configuradas.');
   }
 
+  // Strip other affiliates' tracking params before sending to Shopee API
+  const cleanUrl = cleanShopeeUrl(originalUrl);
+
   const timestamp = Math.floor(Date.now() / 1000);
 
-  const mutation = `mutation { generateShortLink( input: { originUrl: "${originalUrl}" } ) { shortLink } }`;
-  const payload = JSON.stringify({ query: mutation });
+  // Use variables to avoid GraphQL injection from URL contents
+  const mutation = `mutation GenerateLink($url: String!) { generateShortLink( input: { originUrl: $url } ) { shortLink } }`;
+  const payload = JSON.stringify({ query: mutation, variables: { url: cleanUrl } });
 
   const crypto = await import('crypto');
   // Assinatura correta: SHA256(AppId + Timestamp + Payload + Secret)
@@ -95,6 +114,9 @@ async function convertShopee(originalUrl) {
   return link;
 }
 
+// Amazon affiliate/tracking params to remove (covers own tag + other affiliates)
+const AMAZON_AFFILIATE_PARAMS = ['tag', 'linkCode', 'linkId', 'ref', 'btn_ref', 'smid'];
+
 function convertMercadoLivre(originalUrl) {
   const username = process.env.ML_USERNAME;
   const toolId = process.env.ML_TOOL_ID;
@@ -104,32 +126,38 @@ function convertMercadoLivre(originalUrl) {
   }
 
   const productUrl = new URL(originalUrl);
-  ['matt_word', 'matt_tool', 'ref', 'deal', 'tracking_id'].forEach((p) => productUrl.searchParams.delete(p));
+
+  // Remove ALL query params from the original link (may belong to other affiliates)
+  for (const key of [...productUrl.searchParams.keys()]) {
+    productUrl.searchParams.delete(key);
+  }
+
+  // Remove hash fragment (also carries affiliate/reco tracking from other affiliates)
   productUrl.hash = '';
 
+  // Add our affiliate parameters
   productUrl.searchParams.set('matt_word', username);
   productUrl.searchParams.set('matt_tool', toolId);
 
   return productUrl.toString();
 }
 
-function convertAmazon(originalUrl, parsedUrl) {
+function convertAmazon(originalUrl) {
   const tag = process.env.AMAZON_TAG;
 
   if (!tag) {
     throw new Error('Tag da Amazon nao configurada.');
   }
 
-  if (parsedUrl.hostname.includes('amzn.to') || parsedUrl.hostname.includes('amzn.com')) {
-    const url = new URL(originalUrl);
-    url.searchParams.set('tag', tag);
-    return url.toString();
-  }
-
   const url = new URL(originalUrl);
-  url.searchParams.delete('tag');
-  url.searchParams.delete('linkCode');
-  url.searchParams.delete('linkId');
+
+  // Remove all known affiliate/tracking params (our old tag + other affiliates' params)
+  for (const param of AMAZON_AFFILIATE_PARAMS) {
+    url.searchParams.delete(param);
+  }
+  url.hash = '';
+
+  // Add our affiliate tag
   url.searchParams.set('tag', tag);
 
   return url.toString();

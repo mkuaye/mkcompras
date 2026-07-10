@@ -53,17 +53,17 @@ export default function ProductCard({ product }) {
           {label}
         </span>
 
-        <div className="text-sm font-semibold text-text line-clamp-2">
+        <div className="text-sm font-semibold text-text line-clamp-2 flex-1">
           {product.name}
         </div>
 
         {product.description && (
-          <p className="text-xs text-muted line-clamp-2 flex-1">
+          <p className="text-xs text-muted line-clamp-2">
             {product.description}
           </p>
         )}
 
-        <div className="flex items-center justify-between mt-1">
+        <div className="flex items-center justify-between mt-auto pt-2">
           {product.price ? (
             <span className="text-base font-bold text-success">{product.price}</span>
           ) : (
