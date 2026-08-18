@@ -1,24 +1,58 @@
+import AppBar from '@mui/material/AppBar'
+import Toolbar from '@mui/material/Toolbar'
+import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
+import Box from '@mui/material/Box'
 import { Link, useLocation } from 'react-router-dom'
 
 export default function Header() {
   const location = useLocation()
-  const isActive = (path) => location.pathname === path ? 'text-text' : 'text-muted hover:text-text hover:bg-surface'
 
   return (
-    <header className="w-full border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
-        <Link to="/" className="font-syne font-black text-2xl bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
+    <AppBar position="static" elevation={0}>
+      <Toolbar sx={{ maxWidth: '80rem', width: '100%', mx: 'auto', px: 3, justifyContent: 'space-between', flexDirection: { xs: 'column', sm: 'row' }, py: { xs: 1.5, sm: 0 }, gap: { xs: 1, sm: 0 } }}>
+        <Typography
+          component={Link}
+          to="/"
+          variant="h6"
+          sx={{
+            fontFamily: 'Syne, sans-serif',
+            fontWeight: 900,
+            fontSize: '1.5rem',
+            background: 'linear-gradient(to right, var(--accent), var(--accent2))',
+            backgroundClip: 'text',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            textDecoration: 'none',
+          }}
+        >
           MKcompras
-        </Link>
-        <nav className="flex gap-1">
-          <Link to="/" className={`text-sm font-medium px-3 py-1.5 rounded-lg transition ${isActive('/')}`}>
+        </Typography>
+        <Box component="nav" sx={{ display: 'flex', gap: 0.5 }}>
+          <Button
+            component={Link}
+            to="/"
+            size="small"
+            sx={{
+              color: location.pathname === '/' ? 'text.primary' : 'text.secondary',
+              '&:hover': { bgcolor: 'background.paper', color: 'text.primary' },
+            }}
+          >
             Converter link
-          </Link>
-          <Link to="/loja" className={`text-sm font-medium px-3 py-1.5 rounded-lg transition ${isActive('/loja')}`}>
+          </Button>
+          <Button
+            component={Link}
+            to="/loja"
+            size="small"
+            sx={{
+              color: location.pathname === '/loja' ? 'text.primary' : 'text.secondary',
+              '&:hover': { bgcolor: 'background.paper', color: 'text.primary' },
+            }}
+          >
             Loja
-          </Link>
-        </nav>
-      </div>
-    </header>
+          </Button>
+        </Box>
+      </Toolbar>
+    </AppBar>
   )
 }

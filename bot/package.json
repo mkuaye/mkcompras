@@ -1,0 +1,22 @@
+{
+  "name": "mkcompras-bot",
+  "version": "1.0.0",
+  "description": "Bot de ofertas gamer para WhatsApp via Baileys",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node worker.js",
+    "listar-grupos": "node scripts/listar-grupos.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@upstash/redis": "^1.38.0",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

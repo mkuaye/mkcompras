@@ -1,3 +1,12 @@
+import Card from '@mui/material/Card'
+import CardActionArea from '@mui/material/CardActionArea'
+import CardContent from '@mui/material/CardContent'
+import CardActions from '@mui/material/CardActions'
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+import Chip from '@mui/material/Chip'
+import Button from '@mui/material/Button'
+
 const PLATFORM_LABELS = {
   shopee: 'Shopee',
   mercadolivre: 'Mercado Livre',
@@ -5,75 +14,113 @@ const PLATFORM_LABELS = {
   outros: 'Outros',
 }
 
-const PLATFORM_BADGE_CLASSES = {
-  shopee: 'bg-shopee/15 text-shopee',
-  mercadolivre: 'bg-ml/15 text-ml',
-  amazon: 'bg-amazon/15 text-amazon',
-  outros: 'bg-surface text-muted border border-border',
+const PLATFORM_COLORS = {
+  shopee: { bg: 'rgba(240,83,34,0.15)', color: '#f05322' },
+  mercadolivre: { bg: 'rgba(255,230,0,0.15)', color: '#ffe600' },
+  amazon: { bg: 'rgba(255,153,0,0.15)', color: '#ff9900' },
+  outros: { bg: 'transparent', color: '#6b7280' },
 }
 
 export default function ProductCard({ product }) {
   const platform = product.platform || 'outros'
   const label = PLATFORM_LABELS[platform] || platform
-  const badgeClass = PLATFORM_BADGE_CLASSES[platform] || ''
+  const colors = PLATFORM_COLORS[platform] || PLATFORM_COLORS.outros
 
   return (
-    <a
+    <Card
+      component="a"
       href={product.affiliateUrl}
       target="_blank"
       rel="noopener noreferrer sponsored"
-      className="bg-surface border border-border rounded-2xl overflow-hidden flex flex-col hover:border-accent hover:-translate-y-0.5 transition"
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        textDecoration: 'none',
+        borderRadius: 3,
+        transition: 'border-color 0.2s, transform 0.2s',
+        '&:hover': { borderColor: 'primary.main', transform: 'translateY(-2px)' },
+      }}
     >
-      <div className="w-full aspect-square bg-bg flex items-center justify-center overflow-hidden">
+      <Box
+        sx={{
+          width: '100%',
+          aspectRatio: '1 / 1',
+          bgcolor: 'background.default',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          overflow: 'hidden',
+        }}
+      >
         {product.image ? (
           <img
             src={product.image}
             alt={product.name}
             loading="lazy"
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              e.target.style.display = 'none'
-            }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            onError={(e) => { e.target.style.display = 'none' }}
           />
         ) : (
-          <svg className="w-12 h-12 opacity-20" viewBox="0 0 48 48" fill="none">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" style={{ opacity: 0.2 }}>
             <rect width="48" height="48" rx="8" fill="currentColor" opacity=".1" />
-            <path
-              d="M16 32l8-10 6 7 4-5 6 8H8l8-10z"
-              fill="currentColor"
-              opacity=".3"
-            />
+            <path d="M16 32l8-10 6 7 4-5 6 8H8l8-10z" fill="currentColor" opacity=".3" />
           </svg>
         )}
-      </div>
+      </Box>
 
-      <div className="p-4 flex flex-col flex-1 gap-2">
-        <span className={`inline-flex items-center gap-1.5 text-xs font-semibold w-fit px-2 py-1 rounded-full ${badgeClass}`}>
-          <span className={`dot dot-${platform === 'mercadolivre' ? 'ml' : platform}`}></span>
-          {label}
-        </span>
+      <CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 1, p: 2, '&:last-child': { pb: 2 } }}>
+        <Chip
+          label={label}
+          size="small"
+          sx={{ alignSelf: 'flex-start', bgcolor: colors.bg, color: colors.color, fontWeight: 600, border: 'none' }}
+        />
 
-        <div className="text-sm font-semibold text-text line-clamp-2 flex-1">
+        <Typography
+          variant="body2"
+          fontWeight={600}
+          sx={{
+            flex: 1,
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden',
+          }}
+        >
           {product.name}
-        </div>
+        </Typography>
 
         {product.description && (
-          <p className="text-xs text-muted line-clamp-2">
+          <Typography
+            variant="caption"
+            color="text.secondary"
+            sx={{
+              display: '-webkit-box',
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+            }}
+          >
             {product.description}
-          </p>
+          </Typography>
         )}
 
-        <div className="flex items-center justify-between mt-auto pt-2">
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mt: 'auto', pt: 1 }}>
           {product.price ? (
-            <span className="text-base font-bold text-success">{product.price}</span>
+            <Typography variant="body1" fontWeight={700} color="success.main">
+              {product.price}
+            </Typography>
           ) : (
-            <span></span>
+            <Box />
           )}
-          <button className="text-xs font-semibold px-3 py-1.5 border border-border bg-bg rounded-lg hover:border-accent hover:bg-accent/5 hover:text-accent transition">
+          <Button
+            size="small"
+            variant="outlined"
+            sx={{ fontSize: '0.75rem', fontWeight: 600 }}
+          >
             Ver produto →
-          </button>
-        </div>
-      </div>
-    </a>
+          </Button>
+        </Box>
+      </CardContent>
+    </Card>
   )
 }
