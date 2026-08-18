@@ -16,13 +16,28 @@ export default function ConverterForm({ onSuccess, onError, onReset }) {
       return
     }
 
+    let affiliateUrl
     try {
-      const affiliateUrl = await convert(trimmed)
-      onSuccess(affiliateUrl)
-      setUrl('')
+      affiliateUrl = await convert(trimmed)
     } catch {
       onError('Não foi possível converter este link.')
+      return
     }
+
+    try {
+      window.open(affiliateUrl, '_blank', 'noopener,noreferrer')
+    } catch {
+      // popup blocked by browser/extension; the link is still shown to the user
+    }
+
+    try {
+      await navigator.clipboard.writeText(affiliateUrl)
+    } catch {
+      // clipboard access is best-effort; the link is still shown/opened
+    }
+
+    onSuccess(affiliateUrl)
+    setUrl('')
   }
 
   return (
