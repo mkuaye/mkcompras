@@ -6,6 +6,8 @@
   "rewrites": [
     { "source": "/loja", "destination": "/index.html" },
     { "source": "/admin", "destination": "/index.html" },
+    { "source": "/termos", "destination": "/termos.html" },
+    { "source": "/privacidade", "destination": "/privacidade.html" },
     { "source": "/api/(.*)", "destination": "/api/$1" }
   ],
   "headers": [
