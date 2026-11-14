@@ -45,6 +45,16 @@ export default function Revisoes() {
           <Botao tamanho="sm" variante="fantasma" onClick={() => update('revisoes', r.id, { feita: false, feitaEm: null })}>Desfazer</Botao>
         ) : (
           <div className="flex gap-1">
+            {r.topicoId && t && (
+              <Botao
+                tamanho="sm"
+                variante="secundario"
+                onClick={() => navigate(`/estudos/conteudo/${r.topicoId}`)}
+                title="Revisar na sala de estudo (aula, flashcards e questões do tópico)"
+              >
+                📖
+              </Botao>
+            )}
             <Botao tamanho="sm" variante="secundario" onClick={() => estudar(r)} title="Abrir no cronômetro">◷</Botao>
             <Botao tamanho="sm" variante="secundario" onClick={() => update('revisoes', r.id, { dataPrevista: somaDias(r.dataPrevista < hoje ? hoje : r.dataPrevista, 1) })} title="Adiar 1 dia">+1d</Botao>
             <Botao tamanho="sm" variante="sucesso" onClick={() => update('revisoes', r.id, { feita: true, feitaEm: new Date().toISOString() })}>✓ Feita</Botao>

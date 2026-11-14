@@ -21,7 +21,7 @@ function bip() {
   }
 }
 
-function ModalFinalizar({ minutos, onFechar }) {
+export function ModalFinalizar({ minutos, onFechar }) {
   const { timer, timerZerar, add, setStatusTopico } = useEstudosStore()
   const { topicoPorId } = useConcurso()
   const [f, setF] = useState({ minutos, obs: '', total: '', acertos: '', concluir: false })
@@ -213,6 +213,11 @@ export default function Cronometro() {
               <div className="text-muted text-xs mt-3">
                 {atingiuMeta ? 'Meta atingida! Registre a sessão e faça uma pausa.' : restante !== null ? `Faltam ${formatRelogio(restante)}` : 'Modo livre'}
               </div>
+              {topicoPorId[timer.topicoId] && (
+                <Link to={`/estudos/conteudo/${timer.topicoId}`} className="inline-block mt-3 text-xs text-accent">
+                  📖 Abrir aula e materiais deste tópico →
+                </Link>
+              )}
             </div>
 
             <div className="flex gap-2 flex-wrap">

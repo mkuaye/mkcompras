@@ -15,6 +15,9 @@ import Flashcards from '../components/Estudos/paginas/Flashcards'
 import Caderno from '../components/Estudos/paginas/Caderno'
 import Estatisticas from '../components/Estudos/paginas/Estatisticas'
 import Dados from '../components/Estudos/paginas/Dados'
+import Conteudo from '../components/Estudos/paginas/Conteudo'
+import BancoQuestoes from '../components/Estudos/paginas/BancoQuestoes'
+import { ModalConfigIA } from '../components/Estudos/sala/comum'
 
 const SECOES = [
   {
@@ -34,6 +37,7 @@ const SECOES = [
   {
     grupo: 'Estudo',
     itens: [
+      { to: 'conteudo', label: 'Conteúdo', icone: '✦', Componente: Conteudo },
       { to: 'cronometro', label: 'Cronômetro', icone: '◷', Componente: Cronometro },
       { to: 'revisoes', label: 'Revisões', icone: '⟲', Componente: Revisoes, badge: 'revisoes' },
       { to: 'flashcards', label: 'Flashcards', icone: '▣', Componente: Flashcards, badge: 'flashcards' },
@@ -45,6 +49,7 @@ const SECOES = [
     itens: [
       { to: 'questoes', label: 'Questões', icone: '✓', Componente: Questoes },
       { to: 'simulados', label: 'Simulados', icone: '◎', Componente: Simulados },
+      { to: 'banco', label: 'Banco de questões', icone: '▥', Componente: BancoQuestoes },
     ],
   },
   {
@@ -103,9 +108,11 @@ function TimerFlutuante() {
 
   if (!segundos || location.pathname.startsWith('/estudos/cronometro')) return null
   const d = disciplinaPorId[timer.disciplinaId]
+  // Na sala de estudo o cronômetro já aparece no painel lateral (no desktop)
+  const naSala = /^\/estudos\/conteudo\/[^/]+/.test(location.pathname)
 
   return (
-    <div className="fixed bottom-4 right-4 z-40 bg-surface border border-border rounded-2xl shadow-2xl px-4 py-3 flex items-center gap-3">
+    <div className={cx('fixed bottom-4 right-4 z-40 bg-surface border border-border rounded-2xl shadow-2xl px-4 py-3 flex items-center gap-3', naSala && 'lg:hidden')}>
       <button onClick={() => navigate('/estudos/cronometro')} className="text-left">
         <div className="text-[10px] text-muted uppercase tracking-widest truncate max-w-[140px]">{d?.nome || 'Estudo'}</div>
         <div className={cx('font-syne text-xl font-black tabular-nums', atingiuMeta && 'text-success')}>{formatRelogio(segundos)}</div>
@@ -196,6 +203,7 @@ export default function EstudosPage() {
       </section>
 
       <TimerFlutuante />
+      <ModalConfigIA />
     </div>
   )
 }

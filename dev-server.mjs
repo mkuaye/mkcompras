@@ -10,12 +10,16 @@ import productsHandler  from './src/server/handlers/productsHandler.js'
 import convertHandler   from './src/server/handlers/convertHandler.js'
 import previewHandler   from './src/server/handlers/previewHandler.js'
 import analyticsHandler from './src/server/handlers/analyticsHandler.js'
+import estudosIaHandler from './src/server/handlers/estudosIaHandler.js'
+import estudosBancoHandler from './src/server/handlers/estudosBancoHandler.js'
 
 const ROUTES = {
-  '/api/products':  productsHandler,
-  '/api/convert':   convertHandler,
-  '/api/preview':   previewHandler,
-  '/api/analytics': analyticsHandler,
+  '/api/products':   productsHandler,
+  '/api/convert':    convertHandler,
+  '/api/preview':    previewHandler,
+  '/api/analytics':  analyticsHandler,
+  '/api/estudos-ia': estudosIaHandler,
+  '/api/estudos-banco': estudosBancoHandler,
 }
 
 function parseQuery(search) {
@@ -26,10 +30,10 @@ function parseQuery(search) {
 
 function readBody(req) {
   return new Promise((resolve) => {
-    let data = ''
-    req.on('data', (chunk) => { data += chunk })
+    const partes = []
+    req.on('data', (chunk) => { partes.push(chunk) })
     req.on('end', () => {
-      try { resolve(JSON.parse(data)) } catch { resolve({}) }
+      try { resolve(JSON.parse(Buffer.concat(partes).toString('utf8'))) } catch { resolve({}) }
     })
   })
 }
@@ -44,8 +48,13 @@ function buildRes(res) {
       res.writeHead(this.statusCode, { 'Content-Type': 'application/json', ...headers })
       res.end(JSON.stringify(data))
     },
+    // Streaming (usado pela IA de estudos)
+    write(chunk) {
+      if (!res.headersSent) res.writeHead(this.statusCode, headers)
+      return res.write(chunk)
+    },
     end() {
-      res.writeHead(this.statusCode, headers)
+      if (!res.headersSent) res.writeHead(this.statusCode, headers)
       res.end()
     },
   }

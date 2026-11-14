@@ -45,3 +45,6 @@ Thumbs.db
 *.tsbuildinfo
 .vercel
 .env*
+
+# Banco de questões local (PGlite, só em desenvolvimento)
+data/banco-questoes/

@@ -15,6 +15,8 @@ export default defineConfig({
       '/api/preview':   { target: 'http://localhost:3000', changeOrigin: true },
       '/api/products':  { target: 'http://localhost:3000', changeOrigin: true },
       '/api/analytics': { target: 'http://localhost:3000', changeOrigin: true },
+      '/api/estudos-ia': { target: 'http://localhost:3000', changeOrigin: true },
+      '/api/estudos-banco': { target: 'http://localhost:3000', changeOrigin: true },
     },
   },
 })

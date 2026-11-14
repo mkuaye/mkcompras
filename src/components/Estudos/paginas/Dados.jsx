@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import { useEstudosStore, diaKey } from '../../../store/estudosStore'
+import { lerVarios, salvarVarios } from '../../../store/estudosArquivos'
 import { Botao, Card, CardTitulo, PageHeader, confirmar } from '../ui'
 
 export default function Dados() {
@@ -8,8 +9,16 @@ export default function Dados() {
   const arquivo = useRef(null)
   const [msg, setMsg] = useState(null)
 
-  const baixar = () => {
-    const blob = new Blob([JSON.stringify(exportar(), null, 2)], { type: 'application/json' })
+  const baixar = async () => {
+    const dados = exportar()
+    // Texto das aulas e materiais fica no IndexedDB; PDFs ficam de fora para o arquivo não ficar enorme
+    let conteudos = {}
+    try {
+      conteudos = await lerVarios(dados.materiais.filter((m) => m.tipo === 'aula' || m.tipo === 'texto').map((m) => m.id))
+    } catch {
+      setMsg({ ok: false, texto: 'Não foi possível ler as aulas salvas; o backup sairá sem o texto delas.' })
+    }
+    const blob = new Blob([JSON.stringify({ ...dados, conteudos }, null, 2)], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
@@ -26,6 +35,7 @@ export default function Dados() {
     try {
       const dados = JSON.parse(await f.text())
       if (!confirmar('Importar este backup vai SUBSTITUIR todos os dados atuais. Continuar?')) return
+      if (dados.conteudos) await salvarVarios(dados.conteudos)
       importar(dados)
       setMsg({ ok: true, texto: `Backup importado: ${dados.concursos.length} concurso(s).` })
     } catch (err) {
@@ -43,13 +53,16 @@ export default function Dados() {
     ['Simulados', store.simulados.length],
     ['Flashcards', store.flashcards.length],
     ['Anotações', store.notas.length],
+    ['Aulas e materiais', store.materiais.length],
+    ['Questões da sala de estudo', store.exercicios.length],
+    ['Dúvidas com o tutor', store.duvidas.length],
   ]
 
   return (
     <div>
       <PageHeader
         titulo="Backup e dados"
-        descricao="Seus dados ficam salvos somente neste navegador. Faça backups periódicos e use a importação para levar tudo para outro computador ou celular."
+        descricao="Seus dados ficam salvos somente neste navegador. Faça backups periódicos e use a importação para levar tudo para outro computador ou celular. O backup inclui as aulas e os textos; PDFs anexados ficam só neste navegador."
       />
       {msg && <div className={`mb-4 text-sm px-4 py-3 rounded-xl border ${msg.ok ? 'border-success text-success' : 'border-error text-error'}`}>{msg.texto}</div>}
       <div className="grid md:grid-cols-2 gap-5">

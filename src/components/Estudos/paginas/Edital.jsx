@@ -188,7 +188,7 @@ function ModalTopico({ topico, onFechar }) {
           <Botao variante="fantasma" className="hover:!text-error" onClick={() => confirmar('Excluir este tópico e seus subtópicos?') && (removeTopico(topico.id), onFechar())}>
             Excluir
           </Botao>
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <Botao
               variante="secundario"
               onClick={() => {
@@ -196,9 +196,9 @@ function ModalTopico({ topico, onFechar }) {
                 navigate('/estudos/cronometro')
               }}
             >
-              ◷ Estudar agora
+              ◷ Cronômetro
             </Botao>
-            <Botao onClick={onFechar}>Fechar</Botao>
+            <Botao onClick={() => navigate(`/estudos/conteudo/${topico.id}`)}>📖 Abrir sala de estudo</Botao>
           </div>
         </div>
       </div>
@@ -207,8 +207,10 @@ function ModalTopico({ topico, onFechar }) {
 }
 
 function ArvoreTopicos({ disciplina, filtro, busca, onAbrir, onImportar }) {
-  const { topicos, questoes } = useConcurso()
+  const { topicos, questoes, materiais } = useConcurso()
   const { addTopico, setStatusTopico, removeTopico } = useEstudosStore()
+  const navigate = useNavigate()
+  const aulaPorTopico = useMemo(() => Object.fromEntries(materiais.filter((m) => m.tipo === 'aula').map((m) => [m.topicoId, m])), [materiais])
   const [recolhidos, setRecolhidos] = useState({})
   const [adicionandoEm, setAdicionandoEm] = useState(null) // id do pai ou 'raiz'
   const [novo, setNovo] = useState('')
@@ -307,6 +309,11 @@ function ArvoreTopicos({ disciplina, filtro, busca, onAbrir, onImportar }) {
                 {topico.nome}
                 {topico.notas && <span className="ml-1.5 text-[10px] text-accent">✎</span>}
               </button>
+              {aulaPorTopico[topico.id] && (
+                <span className={cx('text-[10px] hidden sm:inline', aulaPorTopico[topico.id].lido ? 'text-success' : 'text-accent')} title={aulaPorTopico[topico.id].lido ? 'Aula lida' : 'Aula disponível'}>
+                  📖{aulaPorTopico[topico.id].lido ? '✓' : ''}
+                </span>
+              )}
               {prog && <span className="text-[10px] text-muted hidden sm:inline">{prog.feitas}/{prog.total}</span>}
               {ac && (
                 <span className="text-[10px] font-semibold hidden sm:inline" style={{ color: corDesempenho(pct(ac.a, ac.t)) }}>
@@ -314,6 +321,9 @@ function ArvoreTopicos({ disciplina, filtro, busca, onAbrir, onImportar }) {
                 </span>
               )}
               <div className="flex gap-1 sm:opacity-0 group-hover:opacity-100 transition">
+                <button onClick={() => navigate(`/estudos/conteudo/${topico.id}`)} className="text-[11px] text-muted hover:text-accent px-1" title="Abrir sala de estudo">
+                  estudar
+                </button>
                 <button onClick={() => { setAdicionandoEm(topico.id); setRecolhidos({ ...recolhidos, [topico.id]: false }) }} className="text-[11px] text-muted hover:text-accent px-1" title="Adicionar subtópico">
                   +sub
                 </button>
@@ -360,7 +370,7 @@ export default function Edital() {
     <div>
       <PageHeader
         titulo="Edital verticalizado"
-        descricao="Disciplinas → tópicos → subtópicos, em quantos níveis precisar. Clique no círculo para mudar o status; ao concluir, as revisões espaçadas são agendadas."
+        descricao="Disciplinas → tópicos → subtópicos, em quantos níveis precisar. Clique no círculo para mudar o status; ao concluir, as revisões espaçadas são agendadas. Use “estudar” em qualquer tópico para abrir a aula, os materiais e as questões dele."
         acoes={
           <>
             <Botao variante="secundario" onClick={() => setImportar('geral')}>⇣ Importar edital</Botao>

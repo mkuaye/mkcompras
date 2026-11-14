@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useConcurso, useEstudosStore, diaKey, formatDia, pct, corDesempenho } from '../../../store/estudosStore'
 import { Badge, Barra, Botao, Campo, Card, CardTitulo, GraficoLinha, Input, Modal, PageHeader, Ponto, Select, Textarea, Vazio, confirmar } from '../ui'
+import FazerSimulado, { CorrecaoSimulado } from '../simulado/FazerSimulado'
 
 /** Nota do simulado. Cebraspe: cada erro anula um acerto (certo/errado). */
 export function notaSimulado(sim) {
@@ -101,6 +102,14 @@ export default function Simulados() {
   const { add, update, remove } = useEstudosStore()
   const [editando, setEditando] = useState(null)
   const [aberto, setAberto] = useState(null)
+  const [fazendo, setFazendo] = useState(() => {
+    try {
+      return !!localStorage.getItem('mk_simulado_andamento')
+    } catch {
+      return false
+    }
+  })
+  const [correcao, setCorrecao] = useState(null)
 
   const ordenados = [...simulados].sort((a, b) => a.data.localeCompare(b.data))
   const notas = ordenados.map((s) => ({ s, n: notaSimulado(s) }))
@@ -120,16 +129,42 @@ export default function Simulados() {
 
   if (!disciplinas.length) return <Vazio titulo="Nenhuma disciplina" texto="Cadastre as disciplinas no edital para registrar simulados." />
 
+  if (fazendo) return <FazerSimulado onSair={() => setFazendo(false)} />
+
+  const simCorrecao = simulados.find((s) => s.id === correcao)
+  if (simCorrecao) {
+    return (
+      <div>
+        <PageHeader titulo={`Correção · ${simCorrecao.nome}`} descricao={formatDia(simCorrecao.data)} acoes={<Botao variante="secundario" onClick={() => setCorrecao(null)}>← Voltar</Botao>} />
+        <CorrecaoSimulado simulado={simCorrecao} />
+      </div>
+    )
+  }
+
   return (
     <div>
       <PageHeader
         titulo="Simulados"
-        descricao="Registre o resultado de cada simulado por disciplina e acompanhe sua evolução até a prova."
-        acoes={<Botao onClick={() => setEditando('novo')}>+ Registrar simulado</Botao>}
+        descricao="Faça simulados com questões do banco (correção comentada no final) ou registre o resultado de simulados feitos fora daqui."
+        acoes={
+          <>
+            <Botao variante="secundario" onClick={() => setEditando('novo')}>+ Registrar externo</Botao>
+            <Botao onClick={() => setFazendo(true)}>✦ Fazer simulado</Botao>
+          </>
+        }
       />
 
       {simulados.length === 0 ? (
-        <Vazio titulo="Nenhum simulado ainda" texto="Fazer simulados com tempo de prova é a melhor forma de treinar gestão de tempo e medir sua evolução." acao={<Botao onClick={() => setEditando('novo')}>Registrar o primeiro</Botao>} />
+        <Vazio
+          titulo="Nenhum simulado ainda"
+          texto="Fazer simulados com tempo de prova é a melhor forma de treinar gestão de tempo e medir sua evolução."
+          acao={
+            <div className="flex gap-2">
+              <Botao variante="secundario" onClick={() => setEditando('novo')}>Registrar externo</Botao>
+              <Botao onClick={() => setFazendo(true)}>Fazer o primeiro</Botao>
+            </div>
+          }
+        />
       ) : (
         <>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-5">
@@ -184,7 +219,11 @@ export default function Simulados() {
                     })}
                     {s.obs && <p className="text-xs text-muted mt-2 whitespace-pre-wrap">{s.obs}</p>}
                     <div className="flex gap-2 mt-2">
-                      <Botao tamanho="sm" variante="secundario" onClick={() => setEditando(s)}>Editar</Botao>
+                      {s.origem === 'banco' ? (
+                        <Botao tamanho="sm" onClick={() => setCorrecao(s.id)}>Ver correção comentada</Botao>
+                      ) : (
+                        <Botao tamanho="sm" variante="secundario" onClick={() => setEditando(s)}>Editar</Botao>
+                      )}
                       <Botao tamanho="sm" variante="fantasma" className="hover:!text-error" onClick={() => confirmar('Excluir este simulado?') && remove('simulados', s.id)}>Excluir</Botao>
                     </div>
                   </div>

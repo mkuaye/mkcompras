@@ -67,6 +67,7 @@ export default function Painel() {
   const qTotal = questoes.reduce((a, q) => a + q.total, 0)
   const qAcertos = questoes.reduce((a, q) => a + q.acertos, 0)
   const recentes = [...sessoes].sort((a, b) => b.data.localeCompare(a.data)).slice(0, 5)
+  const ultimoTopico = topicos.filter((t) => t.ultimoAcesso).sort((a, b) => b.ultimoAcesso.localeCompare(a.ultimoAcesso))[0]
 
   const estudar = (disciplinaId, topicoId = '', tipo) => {
     timerConfig({ disciplinaId, topicoId, ...(tipo ? { tipo } : {}) })
@@ -80,6 +81,28 @@ export default function Painel() {
         descricao={[concurso.orgao, concurso.banca, concurso.cargo].filter(Boolean).join(' · ') || undefined}
         acoes={<Botao onClick={() => estudar(ciclo.atual?.disciplinaId || disciplinas[0].id)}>◷ Começar a estudar</Botao>}
       />
+
+      {/* Atalho para o conteúdo */}
+      <Link
+        to={ultimoTopico ? `/estudos/conteudo/${ultimoTopico.id}` : '/estudos/conteudo'}
+        className="bg-surface border border-border rounded-2xl px-5 py-4 flex items-center gap-3 hover:border-accent transition"
+      >
+        <span className="text-xl">📖</span>
+        <div className="flex-1 min-w-0">
+          <div className="text-[11px] uppercase tracking-widest text-muted font-semibold">{ultimoTopico ? 'Continuar estudando' : 'Estude pelo conteúdo'}</div>
+          <div className="text-sm font-semibold truncate flex items-center gap-2">
+            {ultimoTopico ? (
+              <>
+                <Ponto cor={disciplinaPorId[ultimoTopico.disciplinaId]?.cor} />
+                {ultimoTopico.nome}
+              </>
+            ) : (
+              'Aulas, materiais, questões e tutor de IA para cada tópico do edital'
+            )}
+          </div>
+        </div>
+        <span className="text-xs text-accent whitespace-nowrap">{ultimoTopico ? 'Abrir sala →' : 'Ver conteúdo →'}</span>
+      </Link>
 
       {/* Indicadores principais */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">

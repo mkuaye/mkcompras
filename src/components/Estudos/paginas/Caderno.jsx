@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useConcurso, useEstudosStore, TIPOS_NOTA, formatDataHora } from '../../../store/estudosStore'
 import { Abas, Badge, Botao, Campo, Card, Input, Modal, PageHeader, Ponto, Select, SelectDisciplina, SelectTopico, Textarea, Vazio, confirmar } from '../ui'
 
@@ -123,7 +124,12 @@ export default function Caderno() {
             <div className="text-sm whitespace-pre-wrap leading-relaxed">{aberta.conteudo || <span className="text-muted">Sem conteúdo.</span>}</div>
             <div className="flex gap-2 justify-between pt-3 border-t border-border">
               <Botao variante="fantasma" className="hover:!text-error" onClick={() => confirmar('Excluir anotação?') && (remove('notas', aberta.id), setAberta(null))}>Excluir</Botao>
-              <Botao onClick={() => { setEditando(aberta); setAberta(null) }}>Editar</Botao>
+              <div className="flex gap-2">
+                {topicoPorId[aberta.topicoId] && (
+                  <Link to={`/estudos/conteudo/${aberta.topicoId}`}><Botao variante="secundario">📖 Sala do tópico</Botao></Link>
+                )}
+                <Botao onClick={() => { setEditando(aberta); setAberta(null) }}>Editar</Botao>
+              </div>
             </div>
           </div>
         )}

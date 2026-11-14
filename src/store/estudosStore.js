@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { apagarArquivos, apagarTodosArquivos } from './estudosArquivos'
 
 /* ───────────────────────── Helpers ───────────────────────── */
 
@@ -167,7 +168,26 @@ export const parseEdital = (texto, permitirDisciplinas = false) => {
 
 /* ───────────────────────── Estado inicial ───────────────────────── */
 
-const COLECOES = ['disciplinas', 'topicos', 'sessoes', 'questoes', 'revisoes', 'simulados', 'flashcards', 'notas']
+/**
+ * materiais:  aulas (IA ou próprias), textos, PDFs, vídeos e links de cada tópico — o conteúdo pesado fica no IndexedDB
+ * exercicios: questões resolvidas dentro da sala de estudo (geradas pela IA)
+ * duvidas:    perguntas feitas ao tutor de IA em cada tópico
+ */
+const COLECOES = ['disciplinas', 'topicos', 'sessoes', 'questoes', 'revisoes', 'simulados', 'flashcards', 'notas', 'materiais', 'exercicios', 'duvidas']
+
+export const TIPOS_MATERIAL = {
+  aula: { label: 'Aula', icone: '📖' },
+  texto: { label: 'Texto', icone: '📝' },
+  pdf: { label: 'PDF', icone: '📄' },
+  video: { label: 'Vídeo', icone: '▶' },
+  link: { label: 'Link', icone: '🔗' },
+}
+
+/** Apaga do IndexedDB o conteúdo dos materiais removidos (sem bloquear a interface) */
+const limparConteudos = (materiais) => {
+  const ids = materiais.map((m) => m.id)
+  if (ids.length) apagarArquivos(ids).catch(() => {})
+}
 
 const TIMER_INICIAL = { inicio: null, acumulado: 0, disciplinaId: '', topicoId: '', tipo: 'teoria', metaMin: 50 }
 
@@ -227,6 +247,7 @@ export const useEstudosStore = create(
         set((s) => ({ concursos: s.concursos.map((c) => (c.id === id ? { ...c, ...patch } : c)) })),
       removeConcurso: (id) =>
         set((s) => {
+          limparConteudos(s.materiais.filter((m) => m.concursoId === id))
           const concursos = s.concursos.filter((c) => c.id !== id)
           const limpo = Object.fromEntries(COLECOES.map((col) => [col, s[col].filter((x) => x.concursoId !== id)]))
           return {
@@ -244,7 +265,7 @@ export const useEstudosStore = create(
         return get().add('disciplinas', { nome: '', peso: 1, dificuldade: 2, qtdQuestoes: 0, cor: CORES[qtd % CORES.length], ...dados })
       },
       removeDisciplina: (id) =>
-        set((s) => ({
+        set((s) => (limparConteudos(s.materiais.filter((m) => m.disciplinaId === id)), {
           disciplinas: s.disciplinas.filter((d) => d.id !== id),
           ...Object.fromEntries(
             COLECOES.filter((c) => c !== 'disciplinas' && c !== 'simulados').map((c) => [c, s[c].filter((x) => x.disciplinaId !== id)])
@@ -281,11 +302,44 @@ export const useEstudosStore = create(
       removeTopico: (id) =>
         set((s) => {
           const ids = new Set([id, ...descendentesDe(s.topicos, id)])
+          limparConteudos(s.materiais.filter((m) => ids.has(m.topicoId)))
           return {
             topicos: s.topicos.filter((t) => !ids.has(t.id)),
             revisoes: s.revisoes.filter((r) => !ids.has(r.topicoId)),
+            materiais: s.materiais.filter((m) => !ids.has(m.topicoId)),
+            exercicios: s.exercicios.filter((e) => !ids.has(e.topicoId)),
+            duvidas: s.duvidas.filter((d) => !ids.has(d.topicoId)),
           }
         }),
+
+      removeMaterial: (id) => {
+        apagarArquivos([id]).catch(() => {})
+        get().remove('materiais', id)
+      },
+
+      /** Ao estudar um tópico ainda não iniciado, ele passa para "estudando" */
+      iniciarTopico: (id) => {
+        const t = get().topicos.find((x) => x.id === id)
+        if (t?.status === 'pendente') get().setStatusTopico(id, 'estudando')
+      },
+
+      /** Responde uma questão da sala de estudo e soma no lançamento de questões do dia (um por tópico/dia) */
+      responderExercicio: (id, resposta) => {
+        const ex = get().exercicios.find((e) => e.id === id)
+        if (!ex || ex.resposta != null) return
+        const acertou = resposta === ex.correta
+        const agora = new Date().toISOString()
+        get().update('exercicios', id, { resposta, acertou, respondidaEm: agora, tentativas: (ex.tentativas || 0) + 1 })
+        const hoje = diaKey()
+        const log = get().questoes.find((q) => q.origem === 'sala' && q.topicoId === ex.topicoId && diaKey(q.data) === hoje)
+        if (log) get().update('questoes', log.id, { total: log.total + 1, acertos: log.acertos + (acertou ? 1 : 0), data: agora })
+        else
+          get().add('questoes', {
+            concursoId: ex.concursoId, disciplinaId: ex.disciplinaId, topicoId: ex.topicoId,
+            total: 1, acertos: acertou ? 1 : 0, fonte: 'Sala de estudo', origem: 'sala', data: agora,
+          })
+        get().iniciarTopico(ex.topicoId)
+      },
 
       setStatusTopico: (id, status) => {
         get().update('topicos', id, { status, concluidoEm: status === 'concluido' ? new Date().toISOString() : null })
@@ -354,7 +408,10 @@ export const useEstudosStore = create(
           ...Object.fromEntries(COLECOES.map((c) => [c, Array.isArray(dados[c]) ? dados[c] : []])),
         })
       },
-      resetar: () => set(estadoInicial()),
+      resetar: () => {
+        apagarTodosArquivos().catch(() => {})
+        set(estadoInicial())
+      },
     }),
     {
       name: 'mk_estudos',
@@ -407,6 +464,9 @@ export function useConcurso() {
       simulados: f(s.simulados),
       flashcards: f(s.flashcards),
       notas: f(s.notas),
+      materiais: f(s.materiais),
+      exercicios: f(s.exercicios),
+      duvidas: f(s.duvidas),
     }
   }, [s])
 }

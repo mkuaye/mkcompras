@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useConcurso, useEstudosStore, diaKey, formatDia, INTERVALOS_LEITNER } from '../../../store/estudosStore'
 import { Abas, Badge, Botao, Campo, Card, CardTitulo, Input, Modal, PageHeader, Ponto, SelectDisciplina, SelectTopico, Textarea, Vazio, confirmar } from '../ui'
 
@@ -78,7 +79,14 @@ function Estudar() {
         <div className="flex-1 flex flex-col justify-center text-center gap-5">
           <p className="text-lg font-semibold whitespace-pre-wrap">{card.frente}</p>
           {virado ? (
-            <p className="text-base text-accent whitespace-pre-wrap border-t border-border pt-5">{card.verso}</p>
+            <>
+              <p className="text-base text-accent whitespace-pre-wrap border-t border-border pt-5">{card.verso}</p>
+              {topicoPorId[card.topicoId] && (
+                <Link to={`/estudos/conteudo/${card.topicoId}`} onClick={(e) => e.stopPropagation()} className="text-xs text-muted hover:text-accent">
+                  📖 rever a aula do tópico
+                </Link>
+              )}
+            </>
           ) : (
             <p className="text-xs text-muted">Clique para ver a resposta</p>
           )}

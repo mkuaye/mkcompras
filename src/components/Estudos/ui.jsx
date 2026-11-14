@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { forwardRef, useEffect } from 'react'
 import { achatarArvore } from '../../store/estudosStore'
 
 export const cx = (...c) => c.filter(Boolean).join(' ')
@@ -67,8 +67,10 @@ export function Campo({ label, children, className }) {
   )
 }
 
-export const Input = ({ className, ...p }) => <input className={cx(campoCls, className)} {...p} />
-export const Textarea = ({ className, ...p }) => <textarea className={cx(campoCls, 'resize-y', className)} {...p} />
+export const Input = forwardRef(({ className, ...p }, ref) => <input ref={ref} className={cx(campoCls, className)} {...p} />)
+Input.displayName = 'Input'
+export const Textarea = forwardRef(({ className, ...p }, ref) => <textarea ref={ref} className={cx(campoCls, 'resize-y', className)} {...p} />)
+Textarea.displayName = 'Textarea'
 export const Select = ({ className, children, ...p }) => (
   <select className={cx(campoCls, className)} {...p}>
     {children}
