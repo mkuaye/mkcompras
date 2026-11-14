@@ -1,0 +1,78 @@
+{
+  "disciplina": "Direito Civil",
+  "assuntos": {
+    "LINDB": [
+      ["A lei nova que estabeleça disposições gerais ou especiais a par das já existentes revoga a lei anterior.", null, "E", "Art. 2º, §2º, da LINDB: não revoga nem modifica a lei anterior.", "m"],
+      ["A lei em vigor terá efeito imediato e geral, respeitados:", ["apenas o direito adquirido", "as expectativas de direito", "somente a coisa julgada", "o ato jurídico perfeito, o direito adquirido e a coisa julgada", "os costumes locais"], "D", "Art. 6º da LINDB e art. 5º, XXXVI, da CF.", "f"],
+      ["Nos Estados estrangeiros, a obrigatoriedade da lei brasileira, quando admitida, se inicia quarenta e cinco dias depois de oficialmente publicada.", null, "E", "Art. 1º, §1º, da LINDB: três meses; no território nacional, 45 dias.", "m"],
+      ["Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum.", null, "C", "Art. 5º da LINDB.", "f"]
+    ],
+    "Pessoas naturais": [
+      ["A ausência é declarada pelo juiz quando uma pessoa desaparece do seu domicílio sem dela haver notícia e sem deixar representante ou procurador.", null, "C", "Art. 22 do CC. Seguem-se curadoria dos bens, sucessão provisória e sucessão definitiva.", "f"],
+      ["O domicílio da pessoa natural é:", ["o lugar onde ela nasceu", "sempre o local de trabalho", "o lugar onde ela estabelece a sua residência com ânimo definitivo", "o local onde estiver no momento", "o domicílio dos pais, em qualquer caso"], "C", "Art. 70 do CC. Se tiver várias residências, qualquer delas é domicílio (art. 71).", "f"],
+      ["Têm domicílio necessário apenas o incapaz e o preso.", null, "E", "Art. 76 do CC: incapaz, servidor público, militar, marítimo e preso.", "m"],
+      ["A emancipação dos menores de 16 anos pode ser concedida pelos pais mediante instrumento público.", null, "E", "Art. 5º, parágrafo único, I, do CC: a emancipação voluntária exige que o menor tenha 16 anos completos.", "f"],
+      ["Toda pessoa tem direito ao nome, nele compreendidos o prenome e o sobrenome.", null, "C", "Art. 16 do CC.", "f"]
+    ],
+    "Pessoas jurídicas": [
+      ["Para criar uma fundação, o seu instituidor fará, por escritura pública ou testamento, dotação especial de bens livres, especificando o fim a que se destina.", null, "C", "Art. 62 do CC. As finalidades admitidas estão no parágrafo único.", "m"],
+      ["Começa a existência legal das pessoas jurídicas de direito privado com:", ["a assinatura do contrato social", "a obtenção do CNPJ", "a primeira assembleia", "o início das atividades", "a inscrição do ato constitutivo no respectivo registro"], "E", "Art. 45 do CC.", "f"],
+      ["A desconsideração da personalidade jurídica pode ser decretada pelo juiz, de ofício, independentemente de requerimento.", null, "E", "Art. 50 do CC: depende de requerimento da parte ou do MP, quando lhe couber intervir.", "m"]
+    ],
+    "Bens": [
+      ["Os bens públicos de uso comum do povo e os dominicais são inalienáveis enquanto conservarem a sua qualificação.", null, "E", "Art. 100 do CC: os de uso comum e os de uso especial são inalienáveis; os dominicais podem ser alienados (art. 101).", "f"],
+      ["Os bens públicos estão sujeitos a usucapião.", null, "E", "Art. 102 do CC e arts. 183, §3º, e 191, parágrafo único, da CF.", "f"],
+      ["São bens fungíveis:", ["os móveis que podem substituir-se por outros da mesma espécie, qualidade e quantidade", "os imóveis em geral", "os que se destroem com o primeiro uso", "os que não podem ser divididos", "os que pertencem ao Estado"], "A", "Art. 85 do CC. Consumíveis são os que se destroem com o uso (art. 86).", "f"],
+      ["Frutos, produtos e rendimentos são bens acessórios.", null, "C", "Art. 95 do CC: os frutos e produtos podem ser objeto de negócio jurídico, mesmo não separados do bem principal.", "m"]
+    ],
+    "Fatos e negócios jurídicos": [
+      ["Ocorre o estado de perigo quando alguém, premido da necessidade de salvar-se, ou a pessoa de sua família, de grave dano conhecido pela outra parte, assume obrigação excessivamente onerosa.", null, "C", "Art. 156 do CC; é causa de anulabilidade.", "m"],
+      ["O silêncio importa anuência, quando as circunstâncias ou os usos o autorizarem e não for necessária a declaração de vontade expressa.", null, "C", "Art. 111 do CC.", "m"],
+      ["Nas declarações de vontade, deve-se atender mais:", ["ao sentido literal da linguagem do que à intenção", "à intenção nelas consubstanciada do que ao sentido literal da linguagem", "à forma do documento", "ao interesse do mais forte", "aos costumes estrangeiros"], "B", "Art. 112 do CC.", "f"],
+      ["A condição suspensiva subordina a eficácia do negócio jurídico a evento futuro e certo; enquanto ela não se verificar, não se adquire o direito.", null, "E", "Condição é evento futuro e incerto; o evento futuro e certo é o termo.", "m"],
+      ["A fraude contra credores é causa de:", ["anulabilidade do negócio", "inexistência do negócio", "nulidade absoluta", "rescisão automática", "mera ineficácia por prescrição"], "A", "Art. 171, II, do CC; a ação cabível é a pauliana, no prazo decadencial de 4 anos.", "m"]
+    ],
+    "Prescrição e decadência": [
+      ["A prescrição pode ser alegada em qualquer grau de jurisdição, pela parte a quem aproveita.", null, "C", "Art. 193 do CC. O juiz também pode reconhecê-la de ofício (art. 487, II, do CPC).", "f"],
+      ["Os prazos de prescrição podem ser alterados por acordo das partes.", null, "E", "Art. 192 do CC.", "f"],
+      ["Prescreve em dez anos a pretensão de cobrança de dívidas líquidas constantes de instrumento público ou particular.", null, "E", "Art. 206, §5º, I, do CC: cinco anos.", "m"],
+      ["Não corre a prescrição:", ["entre credor e devedor quaisquer", "durante as férias forenses", "contra os relativamente incapazes", "contra os maiores de 60 anos", "entre os cônjuges, na constância da sociedade conjugal"], "E", "Art. 197, I, do CC.", "m"]
+    ],
+    "Obrigações": [
+      ["A obrigação de dar coisa certa abrange os acessórios dela, embora não mencionados, salvo se o contrário resultar do título ou das circunstâncias do caso.", null, "C", "Art. 233 do CC.", "m"],
+      ["Na cessão de crédito, o cedente, salvo estipulação em contrário, responde pela solvência do devedor.", null, "E", "Art. 296 do CC: em regra, não responde pela solvência; responde, porém, pela existência do crédito (art. 295).", "d"],
+      ["A compensação extingue as obrigações quando duas pessoas forem ao mesmo tempo credora e devedora uma da outra, até onde se compensarem.", null, "C", "Art. 368 do CC.", "f"],
+      ["Na obrigação alternativa, salvo estipulação em contrário, a escolha cabe:", ["ao credor", "ao devedor", "ao juiz", "a um terceiro sorteado", "ao fiador"], "B", "Art. 252 do CC.", "m"],
+      ["Os juros de mora são devidos independentemente da alegação de prejuízo.", null, "C", "Art. 407 do CC.", "m"]
+    ],
+    "Contratos": [
+      ["A proposta de contrato obriga o proponente, se o contrário não resultar dos termos dela, da natureza do negócio ou das circunstâncias do caso.", null, "C", "Art. 427 do CC.", "f"],
+      ["O contrato pelo qual uma pessoa garante satisfazer ao credor uma obrigação assumida pelo devedor, caso este não a cumpra, é a:", ["locação", "mútuo", "comodato", "fiança", "corretagem"], "D", "Art. 818 do CC. A fiança se dá por escrito e não admite interpretação extensiva (art. 819).", "f"],
+      ["O comodato é o empréstimo gratuito de coisas fungíveis, e o mútuo é o empréstimo de coisas não fungíveis.", null, "E", "Comodato: coisas infungíveis; mútuo: coisas fungíveis (arts. 579 e 586 do CC).", "f"],
+      ["A doação pode ser revogada por ingratidão do donatário ou por inexecução do encargo.", null, "C", "Art. 555 do CC.", "m"],
+      ["É nula a venda de ascendente a descendente.", null, "E", "Art. 496 do CC: é anulável, salvo se os outros descendentes e o cônjuge expressamente consentirem.", "m"],
+      ["A cláusula pela qual o vendedor de coisa imóvel reserva-se o direito de recobrá-la no prazo máximo de decadência de três anos, restituindo o preço e as despesas do comprador, denomina-se:", ["preempção", "venda a contento", "retrovenda", "venda com reserva de domínio", "venda sobre documentos"], "C", "Art. 505 do CC. A preempção (preferência) obriga o comprador a oferecer a coisa ao vendedor se for vendê-la (art. 513).", "m"]
+    ],
+    "Responsabilidade civil": [
+      ["A indenização mede-se pela gravidade da culpa do ofensor.", null, "E", "Art. 944 do CC: mede-se pela extensão do dano; a culpa só autoriza redução equitativa se houver excessiva desproporção.", "f"],
+      ["O dono ou detentor do animal ressarcirá o dano por este causado, se não provar culpa da vítima ou força maior.", null, "C", "Art. 936 do CC: responsabilidade objetiva.", "m"],
+      ["O incapaz responde pelos prejuízos que causar, se as pessoas por ele responsáveis não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes.", null, "C", "Art. 928 do CC: responsabilidade subsidiária e mitigada do incapaz.", "d"],
+      ["Os atos praticados em legítima defesa ou no exercício regular de um direito reconhecido:", ["não constituem atos ilícitos", "são atos ilícitos", "geram sempre indenização", "são nulos", "dependem de autorização judicial"], "A", "Art. 188, I, do CC.", "f"]
+    ],
+    "Direitos reais": [
+      ["Considera-se possuidor todo aquele que tem de fato o exercício, pleno ou não, de algum dos poderes inerentes à propriedade.", null, "C", "Art. 1.196 do CC (teoria objetiva de Ihering).", "f"],
+      ["A usucapião extraordinária de imóvel exige posse por vinte anos, prazo reduzido para quinze anos se o possuidor houver estabelecido no imóvel a sua moradia habitual ou realizado obras de caráter produtivo.", null, "E", "Art. 1.238 do CC: 15 anos, reduzidos para 10 com moradia habitual ou obras produtivas.", "m"],
+      ["A propriedade das coisas móveis, por ato entre vivos, transmite-se com:", ["o registro em cartório", "o pagamento do preço", "o contrato verbal apenas", "a escritura pública", "a tradição"], "E", "Art. 1.267 do CC.", "f"],
+      ["O usufruto pode ser transferido por alienação a terceiro.", null, "E", "Art. 1.393 do CC: não se pode transferir o usufruto por alienação, mas o seu exercício pode ceder-se a título gratuito ou oneroso.", "m"],
+      ["A servidão, o usufruto, o uso e a habitação são direitos reais sobre coisa alheia de gozo ou fruição.", null, "C", "Art. 1.225 do CC.", "m"]
+    ],
+    "Família e sucessões": [
+      ["No regime da comunhão parcial, comunicam-se os bens que sobrevierem ao casal na constância do casamento, com as exceções legais.", null, "C", "Art. 1.658 do CC. Excluem-se, por exemplo, os bens recebidos por doação ou sucessão (art. 1.659).", "f"],
+      ["A obrigação de prestar alimentos é recíproca entre pais e filhos e extensiva a todos os ascendentes.", null, "C", "Art. 1.696 do CC.", "m"],
+      ["Os alimentos devem ser fixados na proporção:", ["apenas das necessidades do reclamante", "de 30% da renda do alimentante, sempre", "do salário mínimo vigente", "das necessidades do reclamante e dos recursos da pessoa obrigada", "do patrimônio do alimentando"], "D", "Art. 1.694, §1º, do CC (binômio necessidade-possibilidade).", "f"],
+      ["Podem testar os maiores de dezoito anos, sendo vedado o testamento do maior de dezesseis.", null, "E", "Art. 1.860, parágrafo único, do CC: os maiores de 16 anos podem testar.", "m"],
+      ["São herdeiros necessários:", ["os colaterais até o 4º grau", "apenas os filhos", "os descendentes, os ascendentes e o cônjuge", "o Município e a União", "os irmãos e sobrinhos"], "C", "Art. 1.845 do CC.", "f"],
+      ["A guarda compartilhada é a regra quando ambos os genitores estão aptos a exercer o poder familiar.", null, "C", "Art. 1.584, §2º, do CC.", "f"]
+    ]
+  }
+}

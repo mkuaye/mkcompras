@@ -1,0 +1,32 @@
+{
+  "disciplina": "Direito Previdenciário",
+  "assuntos": {
+    "Seguridade social": [
+      ["A seguridade social compreende ações nas áreas de saúde, previdência social e assistência social, sendo que apenas a previdência tem caráter contributivo.", null, "C", "Arts. 194, 196, 201 e 203 da CF. A saúde é direito de todos; a assistência é prestada a quem dela necessitar.", "f"],
+      ["São objetivos da seguridade social, entre outros:", ["custeio exclusivo pelos trabalhadores", "lucratividade e eficiência econômica", "exclusividade de atendimento aos contribuintes", "universalidade da cobertura e do atendimento, uniformidade e equivalência dos benefícios às populações urbanas e rurais, seletividade e distributividade, irredutibilidade do valor dos benefícios, equidade na forma de participação no custeio e diversidade da base de financiamento", "privatização dos serviços"], "D", "Art. 194, parágrafo único, da CF.", "f"],
+      ["Nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total.", null, "C", "Art. 195, §5º, da CF — regra da contrapartida.", "m"],
+      ["As contribuições sociais destinadas à seguridade social só poderão ser exigidas após decorridos noventa dias da data da publicação da lei que as houver instituído ou modificado.", null, "C", "Art. 195, §6º, da CF (anterioridade nonagesimal, sem exigência da anual).", "m"]
+    ],
+    "Regime Geral de Previdência Social: segurados": [
+      ["São segurados obrigatórios do RGPS:", ["o servidor público efetivo vinculado a regime próprio", "apenas o empregado", "empregado, empregado doméstico, contribuinte individual, trabalhador avulso e segurado especial", "o estudante e a dona de casa", "o síndico não remunerado"], "C", "Art. 11 da Lei 8.213/1991. Estudante e dona de casa podem ser facultativos.", "f"],
+      ["A idade mínima para filiação como segurado facultativo no RGPS é de 16 anos.", null, "C", "Art. 14 da Lei 8.212/1991 e art. 11 do Decreto 3.048/1999.", "f"],
+      ["O segurado especial é o produtor rural, pescador artesanal ou assemelhado que exerce suas atividades individualmente ou em regime de economia familiar.", null, "C", "Art. 11, VII, da Lei 8.213/1991.", "f"],
+      ["Mantém a qualidade de segurado, independentemente de contribuições, até doze meses após a cessação das contribuições, o segurado que deixar de exercer atividade remunerada abrangida pela Previdência Social.", null, "C", "Art. 15, II, da Lei 8.213/1991 (período de graça), prorrogável para 24 meses se tiver mais de 120 contribuições sem perda da qualidade e acrescido de 12 meses se desempregado comprovadamente.", "m"],
+      ["O servidor público ocupante exclusivamente de cargo em comissão é segurado obrigatório do RGPS.", null, "C", "Art. 40, §13, da CF.", "m"]
+    ],
+    "Benefícios do RGPS": [
+      ["Após a EC 103/2019, a aposentadoria programada (por idade) no RGPS exige do trabalhador urbano:", ["60 anos (homem) e 55 anos (mulher), sem tempo de contribuição", "70 anos para ambos", "55 anos para ambos", "35 anos de contribuição sem idade mínima", "65 anos (homem) e 62 anos (mulher), com tempo mínimo de contribuição"], "E", "Art. 201, §7º, I, da CF e art. 19 da EC 103/2019: 20 anos de contribuição para homens (filiados após a EC) e 15 anos para mulheres.", "m"],
+      ["O salário-maternidade é devido à segurada da Previdência Social durante 120 dias.", null, "C", "Art. 71 da Lei 8.213/1991.", "f"],
+      ["O auxílio-acidente é concedido, como indenização, ao segurado quando, após consolidação das lesões decorrentes de acidente de qualquer natureza, resultarem sequelas que impliquem redução da capacidade para o trabalho que habitualmente exercia.", null, "C", "Art. 86 da Lei 8.213/1991. Não substitui a renda, logo pode ser inferior ao salário mínimo.", "m"],
+      ["A pensão por morte é devida ao conjunto dos dependentes do segurado que falecer, aposentado ou não.", null, "C", "Art. 74 da Lei 8.213/1991.", "f"],
+      ["São dependentes de primeira classe do segurado:", ["os pais", "o cônjuge, a companheira, o companheiro e o filho não emancipado menor de 21 anos ou inválido ou com deficiência intelectual, mental ou grave", "os irmãos", "os tios", "os avós"], "B", "Art. 16, I, da Lei 8.213/1991. A dependência econômica da 1ª classe é presumida.", "f"],
+      ["O auxílio por incapacidade temporária (antigo auxílio-doença), em regra, exige carência de 12 contribuições mensais.", null, "C", "Art. 25, I, da Lei 8.213/1991, com dispensas em casos de acidente e doenças graves listadas.", "m"],
+      ["O benefício de prestação continuada (BPC/LOAS) é benefício previdenciário que exige contribuição prévia.", null, "E", "É benefício assistencial (Lei 8.742/1993), sem exigência de contribuição.", "f"],
+      ["O salário-família é devido ao segurado de baixa renda, na proporção do número de filhos ou equiparados de até 14 anos ou inválidos de qualquer idade.", null, "C", "Art. 65 da Lei 8.213/1991.", "m"]
+    ],
+    "Custeio": [
+      ["A contribuição do empregador doméstico sobre o salário de contribuição do empregado doméstico a seu serviço, para a Previdência, é de:", ["8% + 0,8% de seguro contra acidentes", "12%", "8%", "20%", "11%"], "A", "LC 150/2015, art. 34: 8% de contribuição patronal + 0,8% de SAT, além de 8% de FGTS e 3,2% de indenização compensatória.", "d"],
+      ["Após a EC 103/2019, a contribuição do segurado empregado ao RGPS passou a ter alíquotas progressivas de 7,5%, 9%, 12% e 14%, aplicadas por faixas do salário de contribuição.", null, "C", "Art. 28 da EC 103/2019.", "m"]
+    ]
+  }
+}

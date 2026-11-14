@@ -1,4 +1,5 @@
 import { createHash } from 'crypto';
+import { readdir, readFile } from 'fs/promises';
 import { join } from 'path';
 
 /**
@@ -8,6 +9,7 @@ import { join } from 'path';
  * - Desenvolvimento sem DATABASE_URL: Postgres embutido (PGlite) gravado em data/banco-questoes/.
  *
  * Toda questão gerada pela IA é salva aqui; depois ela é reaproveitada sem gastar créditos.
+ * Na primeira conexão o banco é carregado com as questões prontas de data/questoes/ (ver semear()).
  */
 
 const SCHEMA = [
@@ -43,6 +45,7 @@ const SCHEMA = [
     importado boolean not null default false,
     resumo jsonb
   )`,
+  `create table if not exists banco_meta (chave text primary key, valor text not null)`,
 ];
 
 let conexao = null;
@@ -66,6 +69,12 @@ export function getDb() {
       query = async (texto, params = []) => (await db.query(texto, params)).rows;
     }
     for (const stmt of SCHEMA) await query(stmt);
+    try {
+      await semear(query);
+    } catch (e) {
+      // Sem as questões prontas o banco continua funcionando (IA e importação)
+      console.error('banco de questões: falha ao carregar data/questoes:', e.message);
+    }
     return query;
   })().catch((e) => {
     conexao = null;
@@ -176,22 +185,14 @@ export function validarQuestao(q) {
   };
 }
 
-/**
- * Salva questões no banco (ignora as repetidas) e devolve os ids na mesma ordem.
- * Cada questão precisa de disciplina e assunto (ou usa os padrões informados).
- */
-export async function salvarQuestoes(questoes, padrao = {}) {
-  const query = await getDb();
-  const linhas = [];
-  for (const bruta of questoes) {
+/** Valida e prepara as linhas para inserir (null para as inválidas) */
+function prepararLinhas(questoes, padrao = {}) {
+  return questoes.map((bruta) => {
     const q = validarQuestao(bruta);
     const disciplina = String(bruta.disciplina || padrao.disciplina || '').trim();
     const assunto = String(bruta.assunto || padrao.assunto || '').trim();
-    if (!q || !disciplina || !assunto) {
-      linhas.push(null);
-      continue;
-    }
-    linhas.push({
+    if (!q || !disciplina || !assunto) return null;
+    return {
       ...q,
       hash: hashQuestao(q),
       disciplina,
@@ -200,11 +201,28 @@ export async function salvarQuestoes(questoes, padrao = {}) {
       assunto_norm: normalizar(assunto),
       banca: String(bruta.banca || padrao.banca || '').trim(),
       origem: padrao.origem || bruta.origem || 'ia',
-    });
-  }
+    };
+  });
+}
+
+/**
+ * Salva questões no banco (ignora as repetidas) e devolve os ids na mesma ordem.
+ * Cada questão precisa de disciplina e assunto (ou usa os padrões informados).
+ */
+export async function salvarQuestoes(questoes, padrao = {}) {
+  const query = await getDb();
+  const linhas = prepararLinhas(questoes, padrao);
   const validas = linhas.filter(Boolean);
   if (!validas.length) return { ids: linhas.map(() => null), novas: 0 };
 
+  const novas = await inserirLinhas(query, validas);
+  const existentes = await query(`select id, hash from banco_questoes where hash = any($1::text[])`, [validas.map((v) => v.hash)]);
+  const idPorHash = Object.fromEntries(existentes.map((r) => [r.hash, r.id]));
+  return { ids: linhas.map((l) => (l ? idPorHash[l.hash] ?? null : null)), novas };
+}
+
+/** Insere linhas já preparadas (ignora as repetidas pelo hash); devolve quantas eram novas */
+async function inserirLinhas(query, validas) {
   const inseridas = await query(
     `insert into banco_questoes (hash, disciplina, assunto, disciplina_norm, assunto_norm, banca, estilo, dificuldade, enunciado, alternativas, correta, explicacao, origem)
      select hash, disciplina, assunto, disciplina_norm, assunto_norm, banca, estilo, dificuldade, enunciado, alternativas, correta, explicacao, origem
@@ -214,9 +232,79 @@ export async function salvarQuestoes(questoes, padrao = {}) {
      returning id`,
     [JSON.stringify(validas)]
   );
-  const existentes = await query(`select id, hash from banco_questoes where hash = any($1::text[])`, [validas.map((v) => v.hash)]);
-  const idPorHash = Object.fromEntries(existentes.map((r) => [r.hash, r.id]));
-  return { ids: linhas.map((l) => (l ? idPorHash[l.hash] ?? null : null)), novas: inseridas.length };
+  return inseridas.length;
+}
+
+/* ───────────── Questões prontas (data/questoes) ───────────── */
+
+const dirSemente = () => process.env.BANCO_SEMENTE_DIR || join(process.cwd(), 'data', 'questoes');
+const DIFICULDADE = { f: 'facil', m: 'media', d: 'dificil' };
+const LETRAS = 'ABCDEF';
+
+/**
+ * Converte um arquivo de data/questoes na lista de questões.
+ * Formato: { disciplina, banca?, assuntos: { "<assunto>": [item, ...] } }
+ *  múltipla escolha: ["enunciado", ["alt A", "alt B", ...], "C", "explicação", "f|m|d"]
+ *  certo/errado:     ["afirmação", null, "C" | "E", "explicação", "f|m|d"]
+ */
+export function expandirArquivoSemente(arquivo) {
+  const questoes = [];
+  for (const [assunto, itens] of Object.entries(arquivo.assuntos || {})) {
+    for (const [enunciado, alternativas, gabarito, explicacao, dif] of itens) {
+      const certoErrado = !Array.isArray(alternativas);
+      questoes.push({
+        disciplina: arquivo.disciplina,
+        assunto,
+        banca: arquivo.banca || '',
+        enunciado,
+        alternativas: certoErrado ? ['Certo', 'Errado'] : alternativas,
+        correta: certoErrado ? ['C', 'E'].indexOf(gabarito) : LETRAS.indexOf(String(gabarito).toUpperCase()),
+        explicacao,
+        dificuldade: DIFICULDADE[dif] || null,
+        estilo: certoErrado ? 'certo_errado' : 'multipla',
+      });
+    }
+  }
+  return questoes;
+}
+
+/** Lê todos os .json de data/questoes; devolve { versao, questoes } (versao = hash do conteúdo) */
+export async function lerSemente(dir = dirSemente()) {
+  let nomes;
+  try {
+    nomes = (await readdir(dir)).filter((n) => n.endsWith('.json')).sort();
+  } catch {
+    return { versao: '', questoes: [] };
+  }
+  const versao = createHash('sha1');
+  const questoes = [];
+  for (const nome of nomes) {
+    const texto = await readFile(join(dir, nome), 'utf8');
+    versao.update(nome).update(texto);
+    questoes.push(...expandirArquivoSemente(JSON.parse(texto)));
+  }
+  return { versao: nomes.length ? versao.digest('hex') : '', questoes };
+}
+
+/**
+ * Carrega as questões prontas no banco sempre que os arquivos mudam.
+ * As que já existem (mesmo hash) são ignoradas, então questões reportadas continuam desativadas.
+ */
+async function semear(query) {
+  const { versao, questoes } = await lerSemente();
+  if (!versao) return;
+  const [atual] = await query(`select valor from banco_meta where chave = 'semente'`);
+  if (atual?.valor === versao) return;
+  const validas = prepararLinhas(questoes, { origem: 'semente' }).filter(Boolean);
+  let novas = 0;
+  for (let i = 0; i < validas.length; i += 500) novas += await inserirLinhas(query, validas.slice(i, i + 500));
+  // Questões prontas que saíram dos arquivos (editadas ou removidas) deixam de ser sorteadas
+  const antigas = atual
+    ? await query(`update banco_questoes set ativa = false where origem = 'semente' and ativa and not (hash = any($1::text[])) returning id`, [validas.map((v) => v.hash)])
+    : [];
+  if (antigas.length) console.log(`banco de questões: ${antigas.length} questões prontas antigas desativadas`);
+  await query(`insert into banco_meta (chave, valor) values ('semente', $1) on conflict (chave) do update set valor = excluded.valor`, [versao]);
+  if (novas) console.log(`banco de questões: ${novas} questões prontas carregadas de data/questoes`);
 }
 
 /**

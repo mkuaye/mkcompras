@@ -1,0 +1,106 @@
+{
+  "disciplina": "Direitos Humanos",
+  "assuntos": {
+    "Teoria geral dos direitos humanos": [
+      ["A classificação dos direitos humanos em gerações (dimensões), associada aos ideais de liberdade, igualdade e fraternidade, foi proposta por:", ["Norberto Bobbio", "John Rawls", "Hans Kelsen", "Karel Vasak", "Immanuel Kant"], "D", "Em conferência de 1979, inspirada no lema da Revolução Francesa.", "m"],
+      ["Os direitos sociais, econômicos e culturais são considerados direitos de primeira dimensão, ligados ao valor igualdade.", null, "E", "São de segunda dimensão (igualdade); os de primeira são os civis e políticos (liberdade).", "f"],
+      ["Os direitos de primeira dimensão exigem, essencialmente, prestações positivas do Estado, como saúde e educação.", null, "E", "Os de primeira dimensão (civis e políticos) exigem sobretudo abstenção estatal; as prestações positivas caracterizam a segunda dimensão.", "f"],
+      ["Segundo a Declaração e Programa de Ação de Viena (1993), todos os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados.", null, "C", "Conferência Mundial sobre Direitos Humanos de 1993.", "m"],
+      ["A corrente que sustenta que os direitos humanos devem ser compreendidos a partir das tradições de cada sociedade, opondo-se ao universalismo, é o:", ["jusnaturalismo", "utilitarismo", "positivismo jurídico", "contratualismo", "relativismo cultural"], "E", "O debate universalismo × relativismo é central na teoria dos direitos humanos.", "m"],
+      ["A eficácia horizontal dos direitos fundamentais significa que eles se aplicam também às relações entre particulares.", null, "C", "Teoria da Drittwirkung, acolhida pelo STF (RE 201.819).", "m"],
+      ["A historicidade dos direitos humanos indica que eles são fruto de construção histórica e se ampliam ao longo do tempo.", null, "C", "Bobbio: os direitos nascem em circunstâncias históricas determinadas.", "f"],
+      ["Os direitos humanos são absolutos, não admitindo nenhuma forma de restrição.", null, "E", "Em regra, são relativos e podem ser ponderados quando colidem; exceções frequentemente citadas são a proibição da tortura e da escravidão.", "m"],
+      ["A Magna Carta de 1215, na Inglaterra, é considerada um dos antecedentes históricos dos direitos humanos por limitar o poder do monarca.", null, "C", "Outros marcos: Bill of Rights (1689), Declaração de Virgínia (1776) e Declaração dos Direitos do Homem e do Cidadão (1789).", "f"],
+      ["O direito à paz e o direito ao desenvolvimento são exemplos de direitos de terceira dimensão.", null, "C", "Direitos de solidariedade ou fraternidade, de titularidade difusa.", "m"]
+    ],
+    "Declaração Universal dos Direitos Humanos": [
+      ["A Declaração Universal dos Direitos Humanos foi adotada em 10 de dezembro de 1966.", null, "E", "Adotada em 10/12/1948; em 1966 foram adotados os Pactos Internacionais.", "f"],
+      ["A DUDH é composta por:", ["10 artigos", "20 artigos", "30 artigos", "50 artigos", "100 artigos"], "C", "Preâmbulo e 30 artigos.", "f"],
+      ["A DUDH prevê que toda pessoa tem direito à instrução, que será gratuita ao menos nos graus elementares e fundamentais.", null, "C", "Art. 26 da DUDH.", "m"],
+      ["Segundo a DUDH, toda pessoa tem direito de deixar qualquer país, inclusive o próprio, e a ele regressar.", null, "C", "Art. 13 da DUDH.", "m"],
+      ["A DUDH não prevê direitos sociais, limitando-se aos direitos civis e políticos.", null, "E", "A DUDH contempla direitos sociais, como trabalho, previdência, educação e repouso (arts. 22 a 27).", "m"],
+      ["A Carta das Nações Unidas, que criou a ONU, foi assinada em 1945 na cidade de:", ["Genebra", "Nova York", "São Francisco", "Paris", "Haia"], "C", "Conferência de São Francisco, ao final da Segunda Guerra Mundial.", "m"],
+      ["A DUDH, embora adotada como resolução, é amplamente reconhecida como expressão do direito costumeiro internacional e de princípios gerais de direito.", null, "C", "Por isso, parte da doutrina lhe atribui força vinculante indireta.", "d"],
+      ["Segundo a DUDH, ninguém será arbitrariamente preso, detido ou exilado.", null, "C", "Art. 9º da DUDH.", "f"]
+    ],
+    "Pactos e convenções da ONU": [
+      ["O Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais prevê a realização progressiva dos direitos nele reconhecidos, até o máximo dos recursos disponíveis.", null, "C", "Art. 2º, §1º, do PIDESC.", "m"],
+      ["O órgão de monitoramento do Pacto Internacional sobre Direitos Civis e Políticos é o:", ["Comitê de Direitos Humanos", "Conselho de Segurança", "Tribunal Penal Internacional", "Comitê DESC", "Corte Internacional de Justiça"], "A", "Composto por 18 peritos independentes.", "m"],
+      ["O Segundo Protocolo Facultativo ao Pacto Internacional sobre Direitos Civis e Políticos visa à abolição da pena de morte.", null, "C", "O Brasil ratificou-o com reserva quanto à guerra declarada (art. 5º, XLVII, 'a', da CF).", "m"],
+      ["A Convenção da ONU contra a Tortura define tortura como ato que pode ser praticado por qualquer pessoa, sem relação com agentes públicos.", null, "E", "Pela Convenção, exige-se a participação, instigação, consentimento ou aquiescência de funcionário público; a Lei 9.455/1997 brasileira é mais ampla (crime comum).", "d"],
+      ["O Protocolo Facultativo à Convenção contra a Tortura instituiu um sistema de visitas regulares a locais de privação de liberdade, levando o Brasil a criar o Mecanismo Nacional de Prevenção e Combate à Tortura.", null, "C", "Lei 12.847/2013.", "d"],
+      ["A Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW) foi adotada pela ONU em:", ["1948", "1965", "1979", "1989", "2006"], "C", "O Brasil a ratificou em 1984, com reservas posteriormente retiradas.", "m"],
+      ["A Convenção sobre os Direitos da Criança, de 1989, considera criança todo ser humano com menos de 18 anos de idade, salvo se a maioridade for alcançada antes pela lei aplicável.", null, "C", "Art. 1º da Convenção; é o tratado de direitos humanos mais ratificado do mundo.", "m"],
+      ["A Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial (1965) admite ações afirmativas, que não são consideradas discriminação.", null, "C", "Art. 1º, §4º, da Convenção: medidas especiais temporárias.", "m"],
+      ["O Conselho de Direitos Humanos da ONU, criado em 2006, substituiu a Comissão de Direitos Humanos e realiza a Revisão Periódica Universal.", null, "C", "Na RPU, todos os Estados-membros têm sua situação de direitos humanos avaliada periodicamente.", "m"],
+      ["As Regras de Mandela são as Regras Mínimas das Nações Unidas para o:", ["uso da força pela polícia", "tratamento de presos", "trabalho infantil", "direito dos refugiados", "tratamento de mulheres grávidas"], "B", "Revisadas em 2015; as Regras de Bangkok tratam das mulheres presas.", "m"],
+      ["A Convenção relativa ao Estatuto dos Refugiados (1951) consagra o princípio do non-refoulement, que proíbe a devolução do refugiado a território onde sua vida ou liberdade esteja ameaçada.", null, "C", "Art. 33 da Convenção; no Brasil, Lei 9.474/1997.", "m"]
+    ],
+    "Sistema interamericano e Pacto de São José": [
+      ["A Corte Interamericana de Direitos Humanos é composta por onze juízes nacionais dos Estados-membros da OEA.", null, "E", "Art. 52 da Convenção Americana: sete juízes.", "m"],
+      ["Para que uma petição individual seja admitida pela Comissão Interamericana, exige-se, em regra:", ["o esgotamento dos recursos internos e a apresentação no prazo de 6 meses da notificação da decisão definitiva", "apenas a assinatura de um advogado", "autorização do Estado denunciado", "que a vítima seja nacional do Estado", "a prévia condenação do Estado pela Corte"], "A", "Art. 46 da Convenção Americana; também se exige ausência de litispendência internacional.", "m"],
+      ["Segundo a Convenção Americana, ninguém deve ser detido por dívidas, salvo o inadimplemento de obrigação alimentar.", null, "C", "Art. 7.7 do Pacto de São José; fundamenta a SV 25 do STF.", "f"],
+      ["A Convenção Americana protege o direito à vida, em geral, a partir do nascimento com vida.", null, "E", "Art. 4.1 do Pacto de São José: em geral, desde a concepção.", "m"],
+      ["A Convenção Americana permite que os Estados que aboliram a pena de morte a restabeleçam em caso de grave comoção interna.", null, "E", "Art. 4.3: não se pode restabelecer a pena de morte nos Estados que a hajam abolido.", "m"],
+      ["O primeiro caso em que o Brasil foi condenado pela Corte Interamericana de Direitos Humanos foi o caso:", ["Maria da Penha", "Ximenes Lopes", "Gomes Lund (Guerrilha do Araguaia)", "Herzog", "Favela Nova Brasília"], "B", "Sentença de 2006, sobre a morte de paciente com deficiência mental em clínica psiquiátrica.", "m"],
+      ["O caso Maria da Penha foi julgado pela Corte Interamericana, que condenou o Brasil.", null, "E", "O caso foi apreciado pela Comissão Interamericana (Relatório 54/2001), não chegando à Corte.", "m"],
+      ["No caso Gomes Lund (Guerrilha do Araguaia), a Corte Interamericana entendeu que a Lei de Anistia brasileira não pode impedir a investigação e a punição de graves violações de direitos humanos.", null, "C", "Sentença de 2010; o STF havia validado a lei na ADPF 153.", "d"],
+      ["No caso Trabalhadores da Fazenda Brasil Verde (2016), o Brasil foi condenado pela Corte Interamericana por:", ["tortura em presídio", "desaparecimento forçado na ditadura", "violência policial em favela", "morte de jornalista", "trabalho escravo e tráfico de pessoas"], "E", "Primeiro caso da Corte sobre escravidão contemporânea.", "m"],
+      ["A Corte Interamericana exerce apenas função contenciosa, sem função consultiva.", null, "E", "A Corte exerce funções contenciosa e consultiva (opiniões consultivas).", "f"],
+      ["O Protocolo de San Salvador é o protocolo adicional à Convenção Americana em matéria de:", ["abolição da pena de morte", "tortura", "direitos das crianças", "direitos econômicos, sociais e culturais", "refugiados"], "D", "Adotado em 1988.", "m"],
+      ["A Convenção de Belém do Pará (1994) trata da prevenção, punição e erradicação da violência contra a mulher no âmbito interamericano.", null, "C", "Inspirou a Lei Maria da Penha.", "f"],
+      ["As sentenças da Corte Interamericana estão sujeitas a homologação pelo STJ para produzir efeitos no Brasil.", null, "E", "São sentenças internacionais, não estrangeiras; dispensam homologação (art. 68 da Convenção).", "d"],
+      ["O Brasil aderiu à Convenção Americana sobre Direitos Humanos em:", ["1969", "1978", "1992", "1998", "2004"], "C", "Promulgada pelo Decreto 678/1992.", "m"],
+      ["O direito à audiência de custódia decorre, entre outros fundamentos, do art. 7.5 da Convenção Americana, que exige que toda pessoa presa seja conduzida, sem demora, à presença de um juiz.", null, "C", "Regulamentado pela Resolução 213/2015 do CNJ e incorporado ao CPP (art. 310).", "m"]
+    ],
+    "Tratados de direitos humanos no direito brasileiro": [
+      ["Segundo o STF, os tratados de direitos humanos não aprovados pelo rito do art. 5º, §3º, da CF têm status:", ["de emenda constitucional", "de lei ordinária", "supralegal", "de decreto", "infralegal"], "C", "RE 466.343 (2008): estão acima das leis e abaixo da Constituição.", "m"],
+      ["Os tratados de direitos humanos aprovados pelo rito do art. 5º, §3º, da CF integram o bloco de constitucionalidade e podem servir de parâmetro para o controle de constitucionalidade.", null, "C", "Por terem equivalência de emenda constitucional (EC 45/2004).", "m"],
+      ["É lícita a prisão civil do depositário infiel, qualquer que seja a modalidade do depósito.", null, "E", "Súmula Vinculante 25: é ilícita.", "f"],
+      ["São exemplos de tratados aprovados com equivalência de emenda constitucional:", ["a Convenção sobre os Direitos das Pessoas com Deficiência, o Tratado de Marraqueche e a Convenção Interamericana contra o Racismo", "o Pacto de São José e o PIDCP", "a CEDAW e a Convenção sobre os Direitos da Criança", "o Estatuto de Roma e a Carta da ONU", "a DUDH e o PIDESC"], "A", "Aprovados pelo rito do art. 5º, §3º, da CF.", "d"],
+      ["O controle de convencionalidade consiste na verificação da compatibilidade das normas internas com os tratados de direitos humanos ratificados pelo Estado.", null, "C", "Pode ser exercido por juízes nacionais e pela Corte Interamericana.", "m"],
+      ["Os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que o Brasil seja parte.", null, "C", "Art. 5º, §2º, da CF (cláusula de abertura).", "f"],
+      ["A República Federativa do Brasil rege-se nas suas relações internacionais, entre outros, pelo princípio da prevalência dos direitos humanos.", null, "C", "Art. 4º, II, da CF.", "f"],
+      ["O incidente de deslocamento de competência para a Justiça Federal, nas hipóteses de grave violação de direitos humanos, é suscitado perante o:", ["STF", "TRF", "STJ", "CNJ", "Senado Federal"], "C", "Art. 109, §5º, da CF; legitimado é o Procurador-Geral da República.", "m"],
+      ["O ADCT prevê que o Brasil propugnará pela formação de um tribunal internacional dos direitos humanos.", null, "C", "Art. 7º do ADCT.", "m"]
+    ],
+    "Tribunal Penal Internacional": [
+      ["O Tribunal Penal Internacional foi criado pelo Estatuto de Roma (1998) e tem sede em:", ["Genebra", "Nova York", "Estrasburgo", "Roma", "Haia"], "E", "Começou a funcionar em 2002.", "f"],
+      ["São crimes de competência do TPI o genocídio, os crimes contra a humanidade, os crimes de guerra e o crime de agressão.", null, "C", "Art. 5º do Estatuto de Roma.", "f"],
+      ["A jurisdição do TPI é prevalente sobre as jurisdições penais nacionais.", null, "E", "Pelo princípio da complementaridade, o TPI atua quando o Estado não quer ou não pode julgar.", "m"],
+      ["A entrega (surrender) de um nacional brasileiro ao TPI equivale à extradição, sendo por isso vedada pela Constituição.", null, "E", "A entrega ao TPI não se confunde com extradição, que é entre Estados; o Brasil se submete ao TPI (art. 5º, §4º, da CF).", "d"],
+      ["O Estatuto de Roma admite a imunidade de chefes de Estado perante o TPI.", null, "E", "Art. 27: a qualidade oficial não exime da responsabilidade penal (irrelevância da função oficial).", "m"]
+    ],
+    "Direitos humanos na Constituição e na legislação": [
+      ["A prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão.", null, "C", "Art. 5º, XLII, da CF.", "f"],
+      ["Após a Lei 14.532/2023, a injúria racial passou a ser tipificada na Lei 7.716/1989, equiparada ao crime de racismo.", null, "C", "Art. 2º-A da Lei 7.716/1989.", "m"],
+      ["Segundo o STF, a homofobia e a transfobia:", ["não podem ser punidas penalmente", "são crimes de menor potencial ofensivo", "são contravenções penais", "enquadram-se nos crimes da Lei de Racismo, até que sobrevenha lei específica", "só podem ser punidas na esfera civil"], "D", "ADO 26 e MI 4.733 (2019).", "m"],
+      ["Segundo o Estatuto da Pessoa com Deficiência (Lei 13.146/2015), a deficiência afasta a plena capacidade civil da pessoa.", null, "E", "Art. 6º da Lei 13.146/2015: a deficiência não afeta a plena capacidade civil.", "f"],
+      ["O Estatuto da Pessoa Idosa considera idosa a pessoa com idade igual ou superior a:", ["55 anos", "60 anos", "65 anos", "70 anos", "80 anos"], "B", "Art. 1º da Lei 10.741/2003; maiores de 80 anos têm prioridade especial.", "f"],
+      ["O Estatuto da Igualdade Racial (Lei 12.288/2010) define população negra como o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça do IBGE.", null, "C", "Art. 1º, parágrafo único, IV, da Lei 12.288/2010.", "m"],
+      ["No Brasil, o órgão responsável por analisar os pedidos e declarar o reconhecimento da condição de refugiado é o:", ["Itamaraty", "CONARE", "ACNUR", "Polícia Federal", "Ministério Público Federal"], "B", "Comitê Nacional para os Refugiados (Lei 9.474/1997).", "m"],
+      ["A Lei de Migração (Lei 13.445/2017) adota como princípios, entre outros, a não criminalização da migração e o repúdio à xenofobia.", null, "C", "Art. 3º da Lei 13.445/2017.", "m"],
+      ["A Lei de Migração permite a deportação coletiva de imigrantes em situação irregular.", null, "E", "Art. 61: não se procederá à repatriação, deportação ou expulsão coletivas.", "m"],
+      ["A Comissão Nacional da Verdade, criada pela Lei 12.528/2011, teve a finalidade de examinar e esclarecer graves violações de direitos humanos ocorridas no período de 1946 a 1988.", null, "C", "Entregou seu relatório final em 2014.", "m"],
+      ["Os tratados e convenções sobre direitos humanos ratificados pelo Brasil só podem ser invocados após regulamentação por lei ordinária.", null, "E", "As normas definidoras de direitos e garantias fundamentais têm aplicação imediata (art. 5º, §1º, da CF).", "m"],
+      ["É assegurado aos presos o respeito à integridade física e moral.", null, "C", "Art. 5º, XLIX, da CF.", "f"],
+      ["Às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação.", null, "C", "Art. 5º, L, da CF.", "f"],
+      ["O STF reconheceu o 'estado de coisas inconstitucional' do sistema prisional brasileiro na:", ["ADPF 153", "ADPF 347", "ADI 4.277", "ADO 26", "RE 466.343"], "B", "A ADPF 347 determinou, entre outras medidas, a realização de audiências de custódia.", "d"],
+      ["O STF reconheceu a união estável entre pessoas do mesmo sexo como entidade familiar.", null, "C", "ADI 4.277 e ADPF 132 (2011).", "f"],
+      ["A Lei 9.455/1997 tipifica a tortura como crime próprio, que só pode ser praticado por agente público.", null, "E", "No Brasil, a tortura é, em regra, crime comum; ser agente público é causa de aumento de pena (art. 1º, §4º, I).", "m"]
+    ],
+    "Grupos vulneráveis e políticas públicas": [
+      ["As ações afirmativas são medidas temporárias destinadas a corrigir desigualdades históricas e promover a igualdade material.", null, "C", "O STF validou as cotas raciais em universidades (ADPF 186) e em concursos (ADC 41).", "f"],
+      ["A Lei 12.990/2014 reservou aos negros 20% das vagas oferecidas nos concursos públicos federais; em 2025, nova lei ampliou a reserva para 30% e incluiu indígenas e quilombolas.", null, "C", "O STF declarou constitucional a reserva de vagas em concursos (ADC 41).", "d"],
+      ["O trabalho escravo contemporâneo, no Brasil, caracteriza-se apenas quando há restrição da liberdade de locomoção da vítima.", null, "E", "O art. 149 do CP também abrange trabalhos forçados, jornada exaustiva, condições degradantes e servidão por dívida.", "m"],
+      ["A Emenda Constitucional 81/2014 previu a expropriação, sem indenização, de propriedades rurais e urbanas onde houver exploração de trabalho escravo.", null, "C", "Art. 243 da CF; as terras são destinadas à reforma agrária e a programas de habitação popular.", "m"],
+      ["O Disque 100 é o canal federal para denúncias de violações de direitos humanos.", null, "C", "Mantido pelo Ministério dos Direitos Humanos e da Cidadania.", "f"],
+      ["O Programa Nacional de Direitos Humanos em vigor é o PNDH-3, instituído pelo Decreto 7.037/2009.", null, "C", "Organizado em eixos orientadores.", "m"],
+      ["O Conselho Nacional dos Direitos Humanos foi criado pela Lei 12.986/2014, em substituição ao Conselho de Defesa dos Direitos da Pessoa Humana.", null, "C", "Órgão colegiado com participação da sociedade civil.", "d"],
+      ["A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, incumbida da promoção dos direitos humanos e da defesa dos necessitados.", null, "C", "Art. 134 da CF.", "f"],
+      ["Os Princípios de Yogyakarta tratam da aplicação da legislação internacional de direitos humanos em relação à:", ["orientação sexual e identidade de gênero", "proteção de refugiados ambientais", "tortura em conflitos armados", "liberdade de imprensa", "direitos dos povos indígenas"], "A", "Documento de 2006, atualizado em 2017.", "m"],
+      ["A Convenção 169 da OIT assegura aos povos indígenas e tribais o direito à consulta prévia, livre e informada sobre medidas que os afetem diretamente.", null, "C", "Ratificada pelo Brasil em 2002.", "m"],
+      ["O STF fixou que a data da promulgação da Constituição (marco temporal) é requisito indispensável para o reconhecimento de terras indígenas.", null, "E", "No RE 1.017.365 (Tema 1.031, 2023), o STF rejeitou a tese do marco temporal.", "d"]
+    ]
+  }
+}

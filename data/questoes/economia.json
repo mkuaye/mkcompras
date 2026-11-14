@@ -1,0 +1,23 @@
+{
+  "disciplina": "Economia",
+  "assuntos": {
+    "Microeconomia": [
+      ["Segundo a lei da demanda, coeteris paribus, quando o preço de um bem aumenta, a quantidade demandada:", ["aumenta", "dobra", "diminui", "permanece constante", "é indeterminada"], "C", "Relação inversa entre preço e quantidade demandada (curva negativamente inclinada).", "f"],
+      ["Bens substitutos são aqueles em que o aumento do preço de um provoca aumento da demanda pelo outro, como manteiga e margarina.", null, "C", "Elasticidade-preço cruzada positiva. Para complementares, é negativa.", "f"],
+      ["Bem inferior é aquele cuja demanda diminui quando a renda do consumidor aumenta.", null, "C", "Elasticidade-renda negativa.", "m"],
+      ["Se a elasticidade-preço da demanda é maior que 1 (em módulo), a demanda é:", ["elástica", "inelástica", "unitária", "perfeitamente inelástica", "nula"], "A", "Demanda elástica: a variação percentual da quantidade é maior que a do preço.", "f"],
+      ["Em concorrência perfeita, as empresas são tomadoras de preço (price takers).", null, "C", "Muitos compradores e vendedores, produto homogêneo, livre entrada e saída e informação perfeita.", "f"],
+      ["O mercado com poucos vendedores, em que as decisões de uma empresa afetam as demais, é o:", ["monopólio", "oligopólio", "concorrência perfeita", "monopsônio", "concorrência monopolística"], "B", "Há interdependência estratégica entre as firmas.", "f"],
+      ["A fixação de um preço máximo abaixo do preço de equilíbrio tende a gerar excesso de oferta.", null, "E", "Gera excesso de demanda (escassez). Preço mínimo acima do equilíbrio gera excesso de oferta.", "m"]
+    ],
+    "Macroeconomia": [
+      ["O PIB mede o valor de mercado de todos os bens e serviços finais produzidos em um país, em determinado período.", null, "C", "Bens intermediários não entram, para evitar dupla contagem.", "f"],
+      ["Pela ótica da despesa, o PIB é dado por:", ["X − M", "C + S + T", "Salários + lucros", "C + I + G + (X − M)", "C + G − I"], "D", "Consumo + Investimento + Gastos do governo + Exportações líquidas.", "f"],
+      ["Inflação de demanda ocorre quando há excesso de demanda agregada em relação à capacidade de oferta da economia.", null, "C", "A inflação de custos decorre de aumentos nos custos de produção.", "f"],
+      ["São instrumentos de política monetária:", ["alíquotas de impostos e gastos públicos", "tarifas de importação", "subsídios agrícolas", "salário mínimo", "taxa básica de juros, depósito compulsório, operações de mercado aberto e redesconto"], "E", "No Brasil, a meta da Selic é definida pelo Copom. Impostos e gastos são política fiscal.", "m"],
+      ["O aumento da taxa Selic tende a reduzir a inflação, pois encarece o crédito e desestimula o consumo e o investimento.", null, "C", "Política monetária contracionista.", "f"],
+      ["O índice oficial utilizado pelo sistema de metas de inflação no Brasil é o:", ["IGP-M", "IPCA", "INPC", "IPA", "INCC"], "B", "IPCA, calculado pelo IBGE.", "f"],
+      ["Estagflação é a combinação de estagnação econômica (ou recessão) com inflação elevada.", null, "C", "Fenômeno marcante nos choques do petróleo da década de 1970.", "m"]
+    ]
+  }
+}

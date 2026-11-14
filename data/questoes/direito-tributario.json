@@ -1,0 +1,51 @@
+{
+  "disciplina": "Direito Tributário",
+  "assuntos": {
+    "Conceito e espécies de tributos": [
+      ["Segundo o CTN, tributo é toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada.", null, "C", "Art. 3º do CTN.", "f"],
+      ["A multa por infração à legislação tributária é espécie de tributo.", null, "E", "Tributo não constitui sanção de ato ilícito. A multa é penalidade pecuniária, embora integre o crédito tributário (art. 113, §3º).", "f"],
+      ["As taxas têm como fato gerador:", ["a renda do contribuinte", "a valorização imobiliária decorrente de obra pública", "qualquer atividade estatal geral", "o exercício regular do poder de polícia ou a utilização, efetiva ou potencial, de serviço público específico e divisível", "a importação de produtos"], "D", "Art. 77 do CTN e art. 145, II, da CF.", "f"],
+      ["A contribuição de melhoria pode ser cobrada para fazer face ao custo de obras públicas de que decorra valorização imobiliária, tendo como limite total a despesa realizada e como limite individual o acréscimo de valor resultante da obra para cada imóvel beneficiado.", null, "C", "Art. 81 do CTN.", "m"],
+      ["O imposto é tributo cuja obrigação tem por fato gerador uma situação independente de qualquer atividade estatal específica relativa ao contribuinte.", null, "C", "Art. 16 do CTN — tributo não vinculado.", "f"],
+      ["Os empréstimos compulsórios somente podem ser instituídos pela União, mediante:", ["lei ordinária", "resolução do Senado", "medida provisória", "decreto", "lei complementar"], "E", "Art. 148 da CF: para despesas extraordinárias (calamidade pública, guerra externa) ou investimento público urgente e de relevante interesse nacional.", "m"],
+      ["Segundo o STF, a natureza jurídica específica do tributo é determinada pelo fato gerador, sendo irrelevantes a denominação e a destinação legal do produto da arrecadação.", null, "C", "Art. 4º do CTN. A destinação, porém, é relevante para empréstimos compulsórios e contribuições, segundo a teoria pentapartida adotada pelo STF.", "m"],
+      ["A taxa pode ter base de cálculo própria de imposto.", null, "E", "Art. 145, §2º, da CF e art. 77, parágrafo único, do CTN: vedado. Súmula Vinculante 29 admite elementos da base de cálculo de imposto, desde que não haja identidade integral.", "m"]
+    ],
+    "Limitações constitucionais ao poder de tributar": [
+      ["O princípio da anterioridade anual veda a cobrança de tributos no mesmo exercício financeiro em que haja sido publicada a lei que os instituiu ou aumentou; a anterioridade nonagesimal exige que se aguardem:", ["30 dias", "60 dias", "90 dias", "120 dias", "180 dias"], "C", "Art. 150, III, 'b' e 'c', da CF.", "f"],
+      ["O Imposto de Importação, o Imposto de Exportação, o IOF e os impostos extraordinários de guerra são exceções tanto à anterioridade anual quanto à nonagesimal.", null, "C", "Art. 150, §1º, da CF. Também o empréstimo compulsório para calamidade ou guerra.", "m"],
+      ["O IPI é exceção à anterioridade anual, mas deve respeitar a anterioridade nonagesimal.", null, "C", "Art. 150, §1º, da CF.", "m"],
+      ["O imposto de renda deve respeitar a anterioridade anual, mas é exceção à nonagesimal.", null, "C", "Art. 150, §1º, da CF. O mesmo vale para a fixação da base de cálculo do IPTU e do IPVA.", "m"],
+      ["A imunidade recíproca impede que União, Estados, DF e Municípios instituam:", ["impostos sobre patrimônio, renda ou serviços uns dos outros", "qualquer tributo", "contribuições de melhoria", "taxas uns dos outros", "empréstimos compulsórios"], "A", "Art. 150, VI, 'a', da CF. A imunidade é restrita a impostos.", "f"],
+      ["Os templos de qualquer culto são imunes a impostos, imunidade que alcança o patrimônio, a renda e os serviços relacionados com as finalidades essenciais das entidades.", null, "C", "Art. 150, VI, 'b', e §4º, da CF.", "f"],
+      ["Livros, jornais, periódicos e o papel destinado à sua impressão são imunes a impostos; segundo o STF, a imunidade alcança o livro eletrônico e os suportes exclusivamente utilizados para fixá-lo.", null, "C", "Súmula Vinculante 57.", "m"],
+      ["É vedado utilizar tributo com efeito de confisco.", null, "C", "Art. 150, IV, da CF. O STF aplica a vedação também às multas.", "f"]
+    ],
+    "Competência tributária": [
+      ["Compete aos Municípios instituir impostos sobre:", ["circulação de mercadorias", "propriedade de veículos automotores", "propriedade predial e territorial urbana, transmissão inter vivos de bens imóveis e serviços de qualquer natureza", "transmissão causa mortis", "grandes fortunas"], "C", "Art. 156 da CF: IPTU, ITBI e ISS. Com a EC 132/2023, ISS e ICMS serão substituídos gradualmente pelo IBS.", "f"],
+      ["A competência tributária é indelegável, mas a capacidade tributária ativa (arrecadar e fiscalizar) pode ser delegada.", null, "C", "Art. 7º do CTN.", "m"],
+      ["Compete à União instituir imposto sobre grandes fortunas, nos termos de lei complementar.", null, "C", "Art. 153, VII, da CF. Ainda não foi instituído.", "f"],
+      ["São impostos de competência dos Estados e do DF:", ["IPTU, ITBI e ISS", "ITCMD, ICMS e IPVA", "IR, IPI e IOF", "ITR e IGF", "II e IE"], "B", "Art. 155 da CF.", "f"],
+      ["A competência residual para instituir novos impostos é da União, mediante lei complementar, desde que sejam não cumulativos e não tenham fato gerador ou base de cálculo próprios dos discriminados na Constituição.", null, "C", "Art. 154, I, da CF.", "m"],
+      ["A Reforma Tributária (EC 132/2023) criou o Imposto sobre Bens e Serviços (IBS), de competência compartilhada entre Estados, DF e Municípios, e a Contribuição sobre Bens e Serviços (CBS), de competência da União.", null, "C", "Arts. 156-A e 195, V, da CF. Também criou o Imposto Seletivo (art. 153, VIII).", "m"]
+    ],
+    "Obrigação e crédito tributário": [
+      ["A obrigação tributária principal surge com a ocorrência do fato gerador, tem por objeto o pagamento de tributo ou penalidade pecuniária e extingue-se juntamente com o crédito dela decorrente.", null, "C", "Art. 113, §1º, do CTN.", "f"],
+      ["A obrigação acessória, pelo simples fato da sua inobservância, converte-se em obrigação principal relativamente à penalidade pecuniária.", null, "C", "Art. 113, §3º, do CTN.", "m"],
+      ["Contribuinte é o sujeito passivo que:", ["apenas recolhe o tributo de terceiros", "é obrigado por disposição expressa de lei, sem ser o realizador do fato gerador", "é o ente que institui o tributo", "é sempre pessoa jurídica", "tem relação pessoal e direta com a situação que constitua o fato gerador"], "E", "Art. 121, parágrafo único, I. O responsável é definido no inciso II.", "f"],
+      ["São modalidades de lançamento tributário:", ["manual, eletrônico e presencial", "direto (de ofício), por declaração (misto) e por homologação", "provisório e definitivo", "judicial e administrativo", "simples e composto"], "B", "Arts. 147 a 150 do CTN.", "f"],
+      ["Suspendem a exigibilidade do crédito tributário: moratória, depósito do montante integral, reclamações e recursos administrativos, liminar em mandado de segurança, tutela antecipada e parcelamento.", null, "C", "Art. 151 do CTN (mnemônico MODERECOLIPA).", "m"],
+      ["Exclui o crédito tributário:", ["o pagamento", "a compensação", "a prescrição", "a isenção e a anistia", "a remissão"], "D", "Art. 175 do CTN. As demais são causas de extinção (art. 156).", "f"],
+      ["A ação para a cobrança do crédito tributário prescreve em cinco anos, contados da data da sua constituição definitiva.", null, "C", "Art. 174 do CTN.", "f"],
+      ["O direito de a Fazenda Pública constituir o crédito tributário extingue-se após cinco anos, sendo esse prazo de natureza decadencial.", null, "C", "Art. 173 do CTN.", "m"],
+      ["A denúncia espontânea, acompanhada do pagamento do tributo devido e dos juros de mora, afasta a responsabilidade por infrações, inclusive quanto aos tributos sujeitos a lançamento por homologação regularmente declarados, mas pagos a destempo.", null, "E", "Súmula 360 do STJ: o benefício não se aplica a tributos declarados e pagos a destempo.", "d"],
+      ["A responsabilidade dos sócios-gerentes por débitos tributários da empresa decorre do simples inadimplemento.", null, "E", "Súmula 430 do STJ: o inadimplemento não gera, por si só, a responsabilidade solidária do sócio-gerente. Exige-se excesso de poderes ou infração de lei (art. 135 do CTN).", "d"]
+    ],
+    "Impostos em espécie": [
+      ["O fato gerador do IPVA é a propriedade de veículo automotor, e sua alíquota mínima é fixada pelo Senado Federal.", null, "C", "Art. 155, §6º, I, da CF. A EC 132/2023 estendeu o IPVA a veículos aquáticos e aéreos e permitiu alíquotas diferenciadas por impacto ambiental.", "m"],
+      ["O ITR é de competência:", ["dos Municípios", "compartilhada", "da União", "do Distrito Federal", "dos Estados"], "C", "Art. 153, VI, da CF. O Município que optar por fiscalizar e cobrar fica com 100% da arrecadação (art. 158, II).", "f"],
+      ["O ICMS incide sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação, ainda que as operações e prestações se iniciem no exterior.", null, "C", "Art. 155, II, da CF.", "f"],
+      ["O IPTU pode ser progressivo em razão do valor do imóvel e ter alíquotas diferentes de acordo com a localização e o uso do imóvel.", null, "C", "Art. 156, §1º, da CF (EC 29/2000).", "m"]
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "disciplina": "Informática",
+  "assuntos": {
+    "Hardware e conceitos básicos": [
+      ["A memória volátil, que perde seu conteúdo quando o computador é desligado, é a:", ["ROM", "RAM", "SSD", "HD", "memória flash"], "B", "A RAM é volátil e armazena temporariamente dados e programas em uso. ROM, SSD, HD e flash são não voláteis.", "f"],
+      ["A memória cache é uma memória de alta velocidade situada entre o processador e a memória RAM, usada para acelerar o acesso a dados frequentes.", null, "C", "A cache (L1, L2, L3) reduz o tempo de acesso do processador à memória principal.", "f"],
+      ["Um terabyte (TB) corresponde aproximadamente a:", ["1.024 gigabytes", "1.024 megabytes", "1.024 kilobytes", "1.024 petabytes", "1.000 bytes"], "A", "Na base binária: 1 KB = 1.024 bytes; 1 MB = 1.024 KB; 1 GB = 1.024 MB; 1 TB = 1.024 GB.", "f"],
+      ["O SSD armazena dados em memória flash, sem partes mecânicas móveis, o que o torna mais rápido que o HD tradicional.", null, "C", "O HD usa discos magnéticos giratórios e cabeça de leitura; o SSD usa chips de memória flash.", "f"],
+      ["O BIOS/UEFI é software gravado na placa-mãe responsável pela inicialização do hardware e pela carga do sistema operacional.", null, "C", "Realiza o POST (teste de hardware) e inicia o carregador do sistema operacional.", "m"],
+      ["São exemplos de dispositivos de entrada e saída (híbridos):", ["teclado e mouse", "impressora e caixa de som", "monitor touchscreen e multifuncional", "scanner e microfone", "webcam e teclado"], "C", "A tela sensível ao toque exibe (saída) e recebe toques (entrada); a multifuncional imprime e digitaliza.", "f"],
+      ["O processador (CPU) é composto basicamente pela unidade de controle, pela unidade lógica e aritmética (ULA) e pelos registradores.", null, "C", "A UC coordena as operações; a ULA realiza cálculos e comparações; os registradores são memórias internas ultrarrápidas.", "m"],
+      ["A unidade básica de informação em computação, que pode assumir valor 0 ou 1, é o byte.", null, "E", "É o bit. Um byte é formado por 8 bits.", "f"]
+    ],
+    "Windows": [
+      ["No Windows 10/11, o atalho de teclado que bloqueia a tela do computador é:", ["Ctrl + L", "Alt + F4", "Windows + D", "Windows + L", "Ctrl + Alt + Del + L"], "D", "Windows + L bloqueia. Windows + D mostra a área de trabalho; Alt + F4 fecha a janela ativa.", "f"],
+      ["No Windows, o atalho Windows + R abre o Explorador de Arquivos.", null, "E", "Windows + E abre o Explorador de Arquivos; Windows + R abre a caixa Executar.", "f"],
+      ["Ao pressionar Shift + Delete sobre um arquivo no Windows, ele é:", ["movido para a Lixeira", "renomeado", "copiado", "compactado", "excluído permanentemente, sem passar pela Lixeira (após confirmação)"], "E", "Shift + Delete exclui definitivamente, sem enviar à Lixeira.", "f"],
+      ["Arrastar um arquivo com o mouse entre pastas da mesma unidade, sem teclas auxiliares, faz com que ele seja movido; entre unidades diferentes, copiado.", null, "C", "Comportamento padrão do Explorador. Com Ctrl força-se a cópia; com Shift, a movimentação.", "m"],
+      ["O atalho Ctrl + Shift + Esc no Windows abre:", ["o Painel de Controle", "o Gerenciador de Tarefas", "as Configurações", "o Prompt de Comando", "a Lixeira"], "B", "Abre diretamente o Gerenciador de Tarefas.", "f"],
+      ["No Windows, Alt + F4 alterna entre as janelas abertas.", null, "E", "Alt + Tab alterna entre as janelas; Alt + F4 fecha a janela ativa.", "f"],
+      ["Em nomes de arquivos no Windows, não são permitidos os caracteres:", ["\\ / : * ? \" < > |", "- _ .", "@ # $", "( ) [ ]", "! & %"], "A", "Esses nove caracteres são reservados pelo sistema.", "m"],
+      ["O BitLocker é o recurso do Windows para criptografia de unidades de disco.", null, "C", "Disponível nas edições Pro, Enterprise e Education.", "m"],
+      ["O atalho Windows + V no Windows 10/11 abre o histórico da área de transferência.", null, "C", "Permite colar itens copiados anteriormente, se o recurso estiver ativado.", "m"],
+      ["Arquivos excluídos de um pen drive pelo Explorador do Windows são enviados à Lixeira.", null, "E", "Em mídias removíveis e unidades de rede, a exclusão costuma ser permanente.", "m"]
+    ],
+    "Linux": [
+      ["No Linux, o comando utilizado para listar o conteúdo de um diretório é:", ["cd", "mkdir", "pwd", "ls", "rm"], "D", "ls lista; cd muda de diretório; pwd mostra o diretório atual; mkdir cria diretório; rm remove.", "f"],
+      ["No Linux, o comando chown altera as permissões de acesso de arquivos e diretórios.", null, "E", "chmod altera permissões; chown altera o dono do arquivo.", "f"],
+      ["No Linux, o superusuário, com poderes administrativos totais, é chamado de:", ["admin", "system", "root", "master", "sudo"], "C", "O root é o administrador; 'sudo' é o comando que executa algo com privilégios de outro usuário (normalmente o root).", "f"],
+      ["Na permissão numérica 640 de um arquivo Linux, o dono pode ler e escrever, o grupo pode apenas ler e os demais não têm acesso.", null, "C", "6 = rw- (4+2), 4 = r--, 0 = ---.", "m"],
+      ["O Linux é um sistema operacional de código fechado e proprietário.", null, "E", "O kernel Linux é software livre, distribuído sob a licença GPL.", "f"],
+      ["O comando Linux que exibe o diretório de trabalho atual é:", ["ls", "cat", "man", "cp", "pwd"], "E", "pwd = print working directory.", "f"]
+    ],
+    "Editores de texto (Word e Writer)": [
+      ["No Microsoft Word, o atalho Ctrl + N aplica:", ["negrito", "novo documento", "nova página", "numeração", "alinhamento"], "A", "No Word em português, Ctrl + N = negrito, Ctrl + I = itálico, Ctrl + S = sublinhado. Novo documento é Ctrl + O.", "m"],
+      ["No Microsoft Word (em português), Ctrl + B salva o documento.", null, "C", "No Word em português, Ctrl + B = salvar (no inglês, Ctrl + S). No LibreOffice Writer, Ctrl + S salva e Ctrl + B aplica negrito.", "m"],
+      ["No LibreOffice Writer, o atalho para aplicar negrito é:", ["Ctrl + N", "Ctrl + T", "Ctrl + G", "Ctrl + E", "Ctrl + B"], "E", "No Writer o padrão segue o inglês: Ctrl + B (bold). Ctrl + I itálico, Ctrl + U sublinhado.", "m"],
+      ["No Word, a quebra de página manual pode ser inserida com Ctrl + Enter.", null, "C", "Ctrl + Enter insere quebra de página no Word e no Writer.", "f"],
+      ["O recurso do Word que permite criar automaticamente um índice a partir dos estilos de título é o:", ["Marca d'água", "Sumário", "Controle de alterações", "Hiperlink", "Mala direta"], "B", "Guia Referências > Sumário, baseado nos estilos Título 1, Título 2 etc.", "f"],
+      ["A mala direta permite gerar vários documentos personalizados a partir de um documento principal e de uma fonte de dados.", null, "C", "Útil para cartas e etiquetas com nomes e endereços diferentes.", "f"],
+      ["O formato padrão de arquivo do LibreOffice Writer é o .ods.", null, "E", "O Writer usa .odt; o Calc usa .ods.", "f"]
+    ],
+    "Planilhas (Excel e Calc)": [
+      ["No Excel, a fórmula =SOMA(A1:A4) soma:", ["A1 e A4 apenas", "a coluna A inteira", "as células de A1 até A4", "A1 multiplicado por A4", "a linha 1 inteira"], "C", "Os dois-pontos indicam intervalo (A1, A2, A3 e A4). O ponto e vírgula indica células individuais: =SOMA(A1;A4).", "f"],
+      ["No Excel, se A1 = 10 e A2 = 5, a fórmula =A1^2/A2 retorna 20.", null, "C", "Exponenciação tem precedência: 10^2 = 100; 100/5 = 20.", "f"],
+      ["Ao copiar a fórmula =$A1+B$1 da célula C1 para a célula D2, obtém-se:", ["=$A1+B$1", "=$A2+C$1", "=$A2+B$1", "=$B2+C$1", "=A2+C1"], "B", "O $ fixa o que vem depois. Andando 1 coluna e 1 linha: $A1 → $A2 (coluna fixa, linha muda); B$1 → C$1 (linha fixa, coluna muda).", "m"],
+      ["A função PROCV busca um valor na primeira coluna de um intervalo e retorna um valor na mesma linha, de uma coluna especificada.", null, "C", "Sintaxe: =PROCV(valor; intervalo; nº coluna; [procurar_intervalo]). FALSO = correspondência exata.", "m"],
+      ["No Excel, a fórmula =SE(A1>=7;\"Aprovado\";\"Reprovado\") com A1 = 7 retorna:", ["Reprovado", "#VALOR!", "VERDADEIRO", "Aprovado", "7"], "D", "7 >= 7 é verdadeiro, então retorna o segundo argumento.", "f"],
+      ["A função CONT.SE conta as células de um intervalo que atendem a determinado critério.", null, "C", "Ex.: =CONT.SE(A1:A10;\">5\").", "f"],
+      ["O erro #DIV/0! no Excel indica:", ["referência inválida", "divisão por zero", "nome de função desconhecido", "valor não disponível", "texto muito longo"], "B", "#REF! = referência inválida; #NOME? = nome não reconhecido; #N/D = valor não disponível.", "f"],
+      ["No Excel, a função MÉDIA ignora células vazias no cálculo, mas considera células com o valor zero.", null, "C", "Células em branco e com texto são ignoradas; zero entra no cálculo.", "m"],
+      ["Se A1=2, A2=4 e A3=6, a fórmula =MÁXIMO(A1:A3)-MÍNIMO(A1:A3) retorna:", ["2", "4", "6", "8", "12"], "B", "6 - 2 = 4.", "f"],
+      ["No LibreOffice Calc, as fórmulas podem ser iniciadas pelo sinal de igual (=).", null, "C", "Assim como no Excel; também é possível iniciar com + ou - em ambos.", "f"],
+      ["No Excel, para referenciar a célula A1 da planilha chamada Vendas, usa-se:", ["Vendas.A1", "Vendas:A1", "Vendas!A1", "Vendas$A1", "Vendas#A1"], "C", "No Excel usa-se '!'; no LibreOffice Calc, o ponto: Vendas.A1 (ou $Vendas.A1).", "m"]
+    ],
+    "Apresentações (PowerPoint e Impress)": [
+      ["No PowerPoint, a tecla F5 inicia a apresentação a partir do primeiro slide.", null, "C", "F5 começa do início; Shift + F5 começa do slide atual.", "f"],
+      ["O modo de exibição do PowerPoint que mostra miniaturas de todos os slides para reorganizá-los facilmente é o:", ["Classificação de Slides", "Leitura", "Anotações", "Normal", "Mestre"], "A", "Classificação de Slides facilita reordenar, copiar e excluir slides.", "f"],
+      ["O slide mestre permite definir o layout e a formatação padrão aplicados a todos os slides da apresentação.", null, "C", "Alterações no mestre se refletem em todos os slides baseados nele.", "f"]
+    ],
+    "Internet e navegadores": [
+      ["O protocolo que garante comunicação criptografada entre navegador e servidor web, indicado pelo cadeado na barra de endereço, é o:", ["HTTP", "FTP", "POP3", "SMTP", "HTTPS"], "E", "HTTPS é HTTP sobre TLS/SSL, usando por padrão a porta 443.", "f"],
+      ["A navegação anônima (privativa) impede que o provedor de internet e os sites visitados identifiquem o usuário.", null, "E", "Ela só evita que o navegador guarde histórico, cookies e dados de formulário localmente. O provedor e os sites ainda veem a conexão.", "m"],
+      ["O DNS é o serviço responsável por:", ["transferir arquivos", "enviar e-mails", "criptografar dados", "traduzir nomes de domínio em endereços IP", "bloquear vírus"], "D", "Domain Name System: converte, por exemplo, www.gov.br em um endereço IP.", "f"],
+      ["Cookies são pequenos arquivos que os sites armazenam no computador do usuário para guardar informações como preferências e sessões.", null, "C", "Podem ser de sessão ou persistentes, próprios ou de terceiros.", "f"],
+      ["Na URL https://www.exemplo.com.br/pagina, o trecho 'exemplo.com.br' corresponde ao:", ["protocolo", "caminho do recurso", "porta", "domínio", "parâmetro"], "D", "https = protocolo; www = subdomínio/host; exemplo.com.br = domínio; /pagina = caminho.", "f"],
+      ["Intranet é uma rede privada que utiliza as mesmas tecnologias e protocolos da internet, restrita a uma organização.", null, "C", "A extranet é a extensão da intranet para parceiros externos autorizados.", "f"],
+      ["No Google, o operador que busca a expressão exata é:", ["arroba", "asteriscos", "hífen", "cifrão", "aspas"], "E", "\"termo exato\". O hífen exclui termos; site: restringe o domínio; filetype: busca tipo de arquivo.", "f"],
+      ["No Google Chrome, o atalho Ctrl + Shift + T abre uma nova janela anônima.", null, "E", "Ctrl + Shift + N abre janela anônima; Ctrl + Shift + T reabre a última aba fechada.", "f"],
+      ["A Deep Web corresponde ao conteúdo da internet não indexado pelos mecanismos de busca convencionais.", null, "C", "Inclui páginas protegidas por senha, bancos de dados etc. A Dark Web é uma pequena parte, acessível por softwares como o Tor.", "m"]
+    ],
+    "Correio eletrônico": [
+      ["O protocolo usado para envio de e-mails é o:", ["POP3", "SMTP", "IMAP", "HTTP", "FTP"], "B", "SMTP envia; POP3 e IMAP recebem.", "f"],
+      ["O IMAP mantém as mensagens no servidor, permitindo sincronização entre vários dispositivos, enquanto o POP3 tradicionalmente baixa as mensagens para o computador local.", null, "C", "Por isso o IMAP é mais adequado para acesso em múltiplos dispositivos.", "m"],
+      ["Os destinatários incluídos no campo Cco (cópia oculta) de um e-mail:", ["são vistos por todos os destinatários", "são obrigatórios", "recebem a mensagem sem que os demais destinatários saibam que eles a receberam", "recebem apenas o assunto", "não recebem a mensagem"], "C", "Quem está em Cco vê os destinatários de Para e Cc, mas não é visto por eles.", "f"],
+      ["Ao responder a todos ('Responder a todos') uma mensagem, os anexos originais são reenviados automaticamente.", null, "E", "Responder (ou responder a todos) não inclui anexos originais; o Encaminhar inclui.", "m"]
+    ],
+    "Segurança da informação": [
+      ["São princípios básicos da segurança da informação:", ["confidencialidade, integridade e disponibilidade", "velocidade, custo e beleza", "backup, firewall e antivírus", "criptografia, hash e senha", "legalidade e publicidade"], "A", "Tríade CID. Acrescentam-se autenticidade e não repúdio (irretratabilidade).", "f"],
+      ["Phishing é a técnica de fraude que tenta obter dados pessoais e financeiros do usuário por meio de mensagens e sites falsos que imitam instituições confiáveis.", null, "C", "Golpe de engenharia social; variações incluem spear phishing e smishing (SMS).", "f"],
+      ["O malware que criptografa os dados da vítima e exige pagamento de resgate é o:", ["ransomware", "worm", "spyware", "adware", "keylogger"], "A", "Ransomware 'sequestra' os dados. Backup atualizado e offline é a principal defesa.", "f"],
+      ["O worm é um programa capaz de se propagar automaticamente pelas redes, enviando cópias de si mesmo, sem precisar de um arquivo hospedeiro.", null, "C", "Diferente do vírus, que se anexa a arquivos e depende de execução.", "m"],
+      ["O cavalo de troia (trojan) é um programa que, além de executar as funções para as quais foi aparentemente projetado, executa outras funções maliciosas sem o conhecimento do usuário.", null, "C", "Disfarça-se de programa legítimo.", "f"],
+      ["O firewall é capaz de remover vírus de arquivos já infectados no computador.", null, "E", "O firewall filtra o tráfego de rede conforme regras; remover vírus é tarefa do antivírus.", "f"],
+      ["Na criptografia assimétrica, para garantir a confidencialidade de uma mensagem enviada a Maria, o remetente deve cifrá-la com:", ["a própria chave privada", "uma chave simétrica conhecida por todos", "a chave privada de Maria", "a chave pública de Maria", "a própria chave pública"], "D", "Só Maria, com sua chave privada, poderá decifrar. Na assinatura digital, o remetente usa a própria chave privada.", "m"],
+      ["A assinatura digital garante autenticidade, integridade e não repúdio, mas não garante, por si só, a confidencialidade.", null, "C", "Para confidencialidade é preciso cifrar o conteúdo.", "m"],
+      ["O backup incremental copia apenas os arquivos criados ou alterados desde o último backup (completo ou incremental).", null, "C", "O diferencial copia o que mudou desde o último backup completo.", "m"],
+      ["O spyware que registra as teclas digitadas pelo usuário é o:", ["screenlogger", "adware", "botnet", "rootkit", "keylogger"], "E", "Keylogger captura teclas; screenlogger captura a tela e a posição do mouse.", "f"],
+      ["Autenticação em dois fatores combina dois elementos de categorias diferentes, como algo que você sabe (senha) e algo que você tem (token ou celular).", null, "C", "Categorias: sabe (senha), tem (token), é (biometria).", "f"],
+      ["Um ataque de negação de serviço (DoS/DDoS) busca:", ["roubar senhas", "alterar dados de um banco", "tornar um serviço indisponível sobrecarregando-o com requisições", "instalar keyloggers", "criptografar arquivos"], "C", "Ataca a disponibilidade. No DDoS, vários computadores (botnet) participam.", "f"],
+      ["Engenharia social explora a confiança e o comportamento humano para obter informações ou acessos.", null, "C", "Ex.: ligações fingindo ser do suporte técnico pedindo senha.", "f"]
+    ],
+    "Redes de computadores": [
+      ["A rede que cobre uma pequena área geográfica, como um escritório ou residência, é a:", ["WAN", "LAN", "PAN", "MAN", "SAN"], "B", "LAN = rede local. MAN = metropolitana; WAN = longa distância; PAN = pessoal (ex.: Bluetooth).", "f"],
+      ["O endereço IPv4 é formado por 32 bits, normalmente representados em quatro octetos decimais separados por pontos.", null, "C", "Ex.: 192.168.0.1. O IPv6 usa 128 bits, em notação hexadecimal.", "f"],
+      ["O protocolo DHCP tem a função de:", ["resolver nomes de domínio", "enviar e-mails", "transferir arquivos", "criptografar páginas", "atribuir automaticamente endereços IP e configurações de rede aos dispositivos"], "E", "Dynamic Host Configuration Protocol.", "f"],
+      ["O switch encaminha quadros apenas para a porta de destino, com base no endereço MAC, enquanto o hub repete o sinal para todas as portas.", null, "C", "O roteador interliga redes diferentes com base no endereço IP.", "m"],
+      ["O protocolo TCP é orientado à conexão e garante a entrega ordenada dos dados, enquanto o UDP não garante entrega.", null, "C", "UDP é mais leve; usado em streaming e DNS.", "m"],
+      ["No modelo TCP/IP, os protocolos HTTP, SMTP e DNS pertencem à camada de:", ["rede", "aplicação", "transporte", "enlace", "física"], "B", "TCP e UDP ficam na camada de transporte; IP, na de rede (internet).", "m"]
+    ],
+    "Computação em nuvem": [
+      ["O modelo de serviço em nuvem em que o usuário utiliza um software pronto pela internet, como o Gmail, é o:", ["IaaS", "DaaS", "PaaS", "SaaS", "On-premise"], "D", "SaaS = software como serviço. PaaS = plataforma para desenvolver; IaaS = infraestrutura (máquinas virtuais, armazenamento).", "f"],
+      ["Na nuvem híbrida, combinam-se recursos de nuvem pública e de nuvem privada.", null, "C", "Modelos de implantação: pública, privada, comunitária e híbrida.", "f"],
+      ["Google Drive, OneDrive e Dropbox são exemplos de serviços de armazenamento em nuvem.", null, "C", "Permitem salvar e sincronizar arquivos em servidores remotos.", "f"]
+    ],
+    "Proteção de dados (LGPD)": [
+      ["Segundo a LGPD (Lei 13.709/2018), dado pessoal sensível inclui:", ["origem racial ou étnica, convicção religiosa, opinião política, dado referente à saúde, vida sexual, dado genético ou biométrico", "endereço de e-mail", "nome e CPF", "telefone residencial", "placa de veículo"], "A", "Art. 5º, II. Os demais são dados pessoais comuns.", "f"],
+      ["A Autoridade Nacional de Proteção de Dados (ANPD) é o órgão responsável por zelar, implementar e fiscalizar o cumprimento da LGPD.", null, "C", "Arts. 55-A e seguintes. Hoje é autarquia de natureza especial.", "m"],
+      ["Na LGPD, o encarregado é a pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares e a ANPD.", null, "C", "Art. 5º, VIII. Também chamado de DPO (Data Protection Officer).", "m"],
+      ["Segundo a LGPD, o consentimento é a única base legal que autoriza o tratamento de dados pessoais.", null, "E", "O art. 7º prevê dez bases legais, como cumprimento de obrigação legal, execução de políticas públicas, execução de contrato e legítimo interesse.", "m"]
+    ]
+  }
+}

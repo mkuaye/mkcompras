@@ -1,0 +1,25 @@
+{
+  "disciplina": "Arquivologia",
+  "assuntos": {
+    "Conceitos e princípios arquivísticos": [
+      ["O princípio da proveniência (respeito aos fundos) determina que:", ["documentos de diferentes origens devem ser misturados por assunto", "os arquivos de uma mesma entidade produtora não devem ser misturados aos de outras", "os documentos devem ser ordenados alfabeticamente", "só documentos permanentes são arquivados", "a ordem original deve ser alterada"], "B", "Princípio basilar da Arquivologia: preserva o vínculo entre documentos e seu produtor.", "f"],
+      ["Segundo a Lei 8.159/1991, consideram-se arquivos os conjuntos de documentos produzidos e recebidos por órgãos públicos, instituições de caráter público e entidades privadas, em decorrência do exercício de atividades específicas, qualquer que seja o suporte da informação ou a natureza dos documentos.", null, "C", "Art. 2º da Lei 8.159/1991.", "f"],
+      ["A teoria das três idades classifica os arquivos em:", ["públicos, privados e mistos", "ativos, passivos e mortos", "correntes, intermediários e permanentes", "textuais, iconográficos e digitais", "primários, secundários e terciários"], "C", "Corrente: uso frequente; intermediário: uso eventual, aguardando destinação; permanente: valor histórico, probatório e informativo.", "f"],
+      ["Os documentos de valor permanente são inalienáveis e imprescritíveis.", null, "C", "Art. 10 da Lei 8.159/1991.", "m"],
+      ["A tabela de temporalidade é o instrumento que define os prazos de guarda e a destinação final dos documentos (eliminação ou guarda permanente).", null, "C", "Resulta da avaliação documental.", "f"],
+      ["O valor primário de um documento relaciona-se a:", ["seu interesse histórico e de pesquisa", "seu suporte físico", "seu valor de mercado", "sua utilidade administrativa, jurídica ou fiscal imediata para a entidade produtora", "sua antiguidade"], "D", "O valor secundário é o histórico/informativo para terceiros.", "f"]
+    ],
+    "Gestão de documentos e métodos de arquivamento": [
+      ["A gestão de documentos compreende o conjunto de procedimentos e operações técnicas referentes à produção, tramitação, uso, avaliação e arquivamento em fase corrente e intermediária, visando à eliminação ou ao recolhimento para guarda permanente.", null, "C", "Art. 3º da Lei 8.159/1991.", "f"],
+      ["O método de arquivamento que organiza os documentos pelo nome de pessoas ou instituições é o:", ["alfabético", "numérico simples", "geográfico", "ideográfico", "cronológico"], "A", "O alfabético é método direto; o numérico é indireto (exige índice).", "f"],
+      ["Na ordenação alfabética, segundo as regras usuais, nomes de pessoas físicas são arquivados pelo último sobrenome, seguido do prenome: 'Silva, João Carlos'.", null, "C", "Exceções: sobrenomes compostos e com Filho, Júnior, Neto (ex.: Castelo Branco, Paulo; Almeida Filho, José).", "m"],
+      ["O recolhimento é a transferência de documentos do arquivo corrente para o intermediário.", null, "E", "Isso é transferência. Recolhimento é a passagem para o arquivo permanente.", "m"],
+      ["O método de arquivamento ideográfico organiza os documentos por:", ["datas", "locais", "nomes", "números", "assuntos"], "E", "Pode ser alfabético (enciclopédico ou dicionário) ou numérico (decimal, duplex, unitermo).", "m"]
+    ],
+    "Preservação e documentos digitais": [
+      ["A microfilmagem e a digitalização são técnicas de reprodução que podem auxiliar na preservação de documentos originais, reduzindo seu manuseio.", null, "C", "A Lei 12.682/2012 trata da digitalização de documentos.", "f"],
+      ["Os principais agentes de deterioração do acervo documental incluem temperatura e umidade inadequadas, luz, poluição, agentes biológicos (fungos, insetos, roedores) e manuseio incorreto.", null, "C", "A conservação preventiva controla esses fatores.", "f"],
+      ["Clipes e grampos metálicos são recomendados para documentos de guarda permanente.", null, "E", "Oxidam e danificam o papel; devem ser removidos ou substituídos por material inoxidável.", "f"]
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "disciplina": "Direito Tributário",
+  "assuntos": {
+    "Conceito e espécies de tributos": [
+      ["Segundo o CTN, são tributos os impostos, as taxas e as contribuições de melhoria; o STF, contudo, adota a teoria pentapartida, incluindo empréstimos compulsórios e contribuições especiais.", null, "C", "Art. 5º do CTN e jurisprudência do STF.", "f"],
+      ["A taxa de iluminação pública é constitucional, por se tratar de serviço público específico e divisível.", null, "E", "Súmula Vinculante 41: o serviço de iluminação pública não pode ser remunerado mediante taxa. Os Municípios podem instituir a contribuição do art. 149-A da CF (COSIP).", "m"],
+      ["A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo provenientes de imóveis é constitucional.", null, "C", "Súmula Vinculante 19.", "m"],
+      ["Os empréstimos compulsórios podem ser instituídos para:", ["custear despesas ordinárias da União", "financiar a seguridade social exclusivamente", "atender a despesas extraordinárias decorrentes de calamidade pública, guerra externa ou sua iminência, ou investimento público urgente e de relevante interesse nacional", "remunerar serviços públicos divisíveis", "custear obras públicas que valorizem imóveis"], "C", "Art. 148 da CF. No caso de investimento urgente, observa-se a anterioridade.", "m"],
+      ["A destinação legal do produto da arrecadação é irrelevante para qualificar a natureza jurídica específica dos impostos e taxas, segundo o CTN.", null, "C", "Art. 4º, II, do CTN. Para empréstimos compulsórios e contribuições, a destinação é relevante.", "m"],
+      ["A contribuição de melhoria tem como limite total a despesa realizada e, como limite individual, o acréscimo de valor que da obra resultar para cada imóvel beneficiado.", null, "C", "Art. 81 do CTN.", "m"],
+      ["As contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais ou econômicas são de competência:", ["exclusiva da União", "dos Municípios", "dos Estados", "comum de todos os entes", "do Distrito Federal"], "A", "Art. 149 da CF. Estados, DF e Municípios instituem contribuição previdenciária de seus servidores (art. 149, §1º).", "m"]
+    ],
+    "Limitações constitucionais ao poder de tributar": [
+      ["Pelo princípio da legalidade tributária, é vedado exigir ou aumentar tributo sem lei que o estabeleça.", null, "C", "Art. 150, I, da CF.", "f"],
+      ["A atualização do valor monetário da base de cálculo do tributo, dentro dos índices oficiais, não constitui majoração e pode ser feita por decreto.", null, "C", "Art. 97, §2º, do CTN e Súmula 160 do STJ.", "m"],
+      ["Pelo princípio da anterioridade nonagesimal, é vedado cobrar tributos antes de decorridos sessenta dias da data em que haja sido publicada a lei que os instituiu ou aumentou.", null, "E", "Art. 150, III, 'c', da CF: noventa dias.", "f"],
+      ["É exceção à anterioridade anual e à nonagesimal, simultaneamente:", ["o IPI", "o IOF", "o imposto de renda", "a fixação da base de cálculo do IPTU", "as contribuições sociais"], "B", "II, IE, IOF, impostos extraordinários de guerra e empréstimo compulsório por calamidade ou guerra são exceção às duas.", "m"],
+      ["A alteração do prazo de recolhimento de tributo sujeita-se ao princípio da anterioridade.", null, "E", "Súmula Vinculante 50: não se sujeita ao princípio da anterioridade.", "d"],
+      ["São imunes a impostos o patrimônio, a renda ou os serviços dos partidos políticos, inclusive suas fundações, das entidades sindicais dos trabalhadores e das instituições de educação e de assistência social sem fins lucrativos, atendidos os requisitos da lei.", null, "C", "Art. 150, VI, 'c', da CF.", "f"],
+      ["A imunidade dos livros não alcança os livros eletrônicos e os suportes exclusivamente utilizados para fixá-los.", null, "E", "Súmula Vinculante 57: alcança os livros eletrônicos e os suportes exclusivamente utilizados para fixá-los.", "m"],
+      ["O princípio da isonomia tributária veda tratamento desigual entre contribuintes que se encontrem em situação equivalente.", null, "C", "Art. 150, II, da CF.", "f"],
+      ["As imunidades tributárias aplicam-se a todas as espécies tributárias, inclusive taxas.", null, "E", "As imunidades do art. 150, VI, da CF alcançam apenas impostos.", "m"],
+      ["O princípio da uniformidade geográfica veda à União:", ["conceder isenções heterônomas em qualquer hipótese", "tributar a renda dos servidores estaduais", "cobrar tributos sem lei", "instituir impostos extraordinários", "instituir tributo que não seja uniforme em todo o território nacional, admitidos incentivos para o equilíbrio do desenvolvimento socioeconômico entre regiões"], "E", "Art. 151, I, da CF.", "m"]
+    ],
+    "Competência tributária": [
+      ["É vedado à União instituir isenções de tributos da competência dos Estados, do DF ou dos Municípios.", null, "C", "Art. 151, III, da CF (vedação às isenções heterônomas), com exceções como tratados internacionais.", "m"],
+      ["O ITCMD, relativo a bens imóveis, compete ao Estado:", ["do domicílio do doador", "onde se processar o inventário", "do domicílio do donatário", "da situação do bem", "escolhido pelo contribuinte"], "D", "Art. 155, §1º, I, da CF. Para bens móveis, compete ao Estado do domicílio do de cujus ou do doador.", "m"],
+      ["O ITBI é de competência estadual e incide sobre a transmissão inter vivos, a qualquer título, por ato oneroso, de bens imóveis.", null, "E", "Art. 156, II, da CF: o ITBI é municipal; o ITCMD é estadual.", "f"],
+      ["A competência tributária, quando não exercida, transfere-se ao ente de outra esfera.", null, "E", "Art. 8º do CTN: o não exercício da competência não a defere a outra pessoa jurídica de direito público.", "m"],
+      ["Os impostos extraordinários de guerra externa podem ser instituídos:", ["apenas pelos Estados", "pelos Municípios afetados", "pela União, compreendidos ou não em sua competência tributária", "somente por emenda constitucional", "pela União, desde que respeitada a anterioridade anual"], "C", "Art. 154, II, da CF; são suprimidos gradativamente, cessadas as causas de sua criação.", "m"],
+      ["Cabe à lei complementar estabelecer normas gerais em matéria de legislação tributária, especialmente sobre definição de tributos, obrigação, lançamento, crédito, prescrição e decadência.", null, "C", "Art. 146, III, da CF.", "m"]
+    ],
+    "Legislação tributária": [
+      ["Somente a lei pode estabelecer a instituição de tributos, a definição do fato gerador, a fixação de alíquotas e a cominação de penalidades.", null, "C", "Art. 97 do CTN.", "f"],
+      ["Interpreta-se literalmente a legislação tributária que disponha sobre:", ["fixação de alíquotas", "suspensão ou exclusão do crédito tributário, outorga de isenção e dispensa do cumprimento de obrigações acessórias", "fato gerador dos impostos", "base de cálculo das taxas", "prazos de recolhimento"], "B", "Art. 111 do CTN.", "m"],
+      ["A lei tributária que define infrações interpreta-se da maneira mais favorável ao acusado em caso de dúvida.", null, "C", "Art. 112 do CTN (in dubio pro contribuinte).", "f"],
+      ["A lei tributária aplica-se a ato ou fato pretérito quando deixe de defini-lo como infração, tratando-se de ato não definitivamente julgado.", null, "C", "Art. 106, II, 'a', do CTN (retroatividade benigna).", "m"],
+      ["O emprego da analogia pode resultar na exigência de tributo não previsto em lei.", null, "E", "Art. 108, §1º, do CTN.", "f"],
+      ["Os tratados e as convenções internacionais revogam ou modificam a legislação tributária interna e serão observados pela que lhes sobrevenha.", null, "C", "Art. 98 do CTN.", "d"]
+    ],
+    "Obrigação e crédito tributário": [
+      ["A capacidade tributária passiva depende da capacidade civil das pessoas naturais.", null, "E", "Art. 126, I, do CTN: independe da capacidade civil.", "m"],
+      ["Responsável tributário é o sujeito passivo que:", ["sem revestir a condição de contribuinte, tem sua obrigação decorrente de disposição expressa de lei", "tem relação pessoal e direta com o fato gerador", "sempre é o empregador", "escolhe voluntariamente pagar o tributo", "é designado pelo Fisco por ato administrativo"], "A", "Art. 121, parágrafo único, II, do CTN.", "f"],
+      ["As convenções particulares relativas à responsabilidade pelo pagamento de tributos podem ser opostas à Fazenda Pública para modificar o sujeito passivo.", null, "E", "Art. 123 do CTN: salvo disposição de lei em contrário, não são oponíveis à Fazenda.", "m"],
+      ["O lançamento por homologação ocorre quando:", ["a autoridade administrativa calcula o tributo sem participação do contribuinte", "o contribuinte presta declaração e o fisco calcula", "a lei dispensa o pagamento", "o juiz fixa o valor do tributo", "o sujeito passivo antecipa o pagamento sem prévio exame da autoridade, que depois o homologa"], "E", "Art. 150 do CTN; ex.: ICMS, IPI, IR.", "m"],
+      ["Extinguem o crédito tributário, entre outras hipóteses, o pagamento, a compensação, a transação, a remissão, a prescrição e a decadência.", null, "C", "Art. 156 do CTN.", "f"],
+      ["A isenção e a anistia são hipóteses de:", ["suspensão do crédito tributário", "extinção do crédito tributário", "imunidade tributária", "exclusão do crédito tributário", "não incidência"], "D", "Art. 175 do CTN.", "f"],
+      ["O parcelamento extingue o crédito tributário.", null, "E", "Art. 151, VI, do CTN: o parcelamento suspende a exigibilidade do crédito.", "f"],
+      ["A remissão consiste no perdão:", ["da multa apenas", "do fato gerador futuro", "da obrigação acessória", "da infração penal tributária", "do crédito tributário (dívida)"], "E", "Art. 172 do CTN. A anistia perdoa infrações (art. 180).", "m"],
+      ["Presume-se fraudulenta a alienação ou oneração de bens ou rendas por sujeito passivo em débito com a Fazenda Pública, por crédito tributário regularmente inscrito como dívida ativa.", null, "C", "Art. 185 do CTN; ressalva-se a reserva de bens suficientes ao pagamento da dívida.", "m"],
+      ["O crédito tributário prefere a qualquer outro, seja qual for sua natureza ou o tempo de sua constituição, ressalvados os créditos decorrentes da legislação do trabalho ou do acidente de trabalho.", null, "C", "Art. 186 do CTN; na falência, há regras específicas.", "m"],
+      ["A certidão negativa de débitos será expedida no prazo de 30 dias da data da entrada do requerimento.", null, "E", "Art. 205, parágrafo único, do CTN: 10 dias.", "m"],
+      ["A pessoa jurídica que adquirir fundo de comércio e continuar a respectiva exploração responde pelos tributos devidos até a data do ato:", ["integralmente, se o alienante cessar a exploração do comércio", "nunca", "apenas pelas multas", "somente se houver cláusula contratual", "apenas pelos tributos federais"], "A", "Art. 133, I, do CTN; se o alienante prosseguir na exploração em seis meses, a responsabilidade é subsidiária (II).", "d"],
+      ["A responsabilidade por infrações da legislação tributária, salvo disposição de lei em contrário, independe da intenção do agente.", null, "C", "Art. 136 do CTN.", "m"],
+      ["O sucessor a qualquer título e o cônjuge meeiro são pessoalmente responsáveis pelos tributos devidos pelo de cujus até a data da partilha, limitada a responsabilidade ao montante do quinhão, legado ou meação.", null, "C", "Art. 131, II, do CTN.", "m"],
+      ["Considera-se ocorrido o fato gerador, tratando-se de situação jurídica, desde o momento em que esteja definitivamente constituída, nos termos do direito aplicável.", null, "C", "Art. 116, II, do CTN.", "d"]
+    ],
+    "Impostos em espécie": [
+      ["O Imposto de Renda será informado pelos critérios da seletividade, da essencialidade e da regressividade.", null, "E", "Art. 153, §2º, I, da CF: generalidade, universalidade e progressividade.", "m"],
+      ["O IPI será seletivo, em função da essencialidade do produto, e cumulativo.", null, "E", "Art. 153, §3º, da CF: o IPI é seletivo e não cumulativo.", "f"],
+      ["O ITR será progressivo e terá suas alíquotas fixadas de forma a desestimular a manutenção de propriedades improdutivas.", null, "C", "Art. 153, §4º, I, da CF.", "m"],
+      ["O ISS é de competência:", ["da União", "dos Estados", "comum entre Estados e Municípios", "dos Municípios e do DF", "exclusiva do DF"], "D", "Art. 156, III, da CF, com transição para o IBS prevista na EC 132/2023.", "f"],
+      ["A alíquota mínima do ISS, fixada pela LC 116/2003, é de 1%, e a máxima, de 10%.", null, "E", "LC 116/2003: alíquota mínima de 2% e máxima de 5%.", "m"],
+      ["O IOF pode ter suas alíquotas alteradas pelo Poder Executivo, atendidas as condições e os limites estabelecidos em lei.", null, "C", "Art. 153, §1º, da CF; vale também para II, IE e IPI.", "f"],
+      ["Incide ICMS sobre o simples deslocamento de mercadoria entre estabelecimentos do mesmo contribuinte.", null, "E", "Súmula 166 do STJ e ADC 49 do STF: não incide.", "m"],
+      ["Sobre as operações que destinem mercadorias para o exterior, o ICMS:", ["incide integralmente", "não incide, assegurada a manutenção e o aproveitamento do crédito", "incide com alíquota reduzida", "incide apenas sobre produtos industrializados", "é substituído pelo IPI"], "B", "Art. 155, §2º, X, 'a', da CF.", "m"],
+      ["O IPVA não incide sobre aeronaves e embarcações, segundo o entendimento tradicional do STF; a EC 132/2023, porém, passou a prever a incidência sobre veículos aquáticos e aéreos, com exceções.", null, "C", "Art. 155, §6º, III, da CF, incluído pela EC 132/2023.", "d"],
+      ["O ITCMD terá alíquotas máximas fixadas pelo Senado Federal e, após a EC 132/2023, será progressivo em razão do valor do quinhão, legado ou doação.", null, "C", "Art. 155, §1º, IV e VI, da CF.", "d"],
+      ["A Reforma Tributária (EC 132/2023) previu a substituição, ao longo da transição, dos seguintes tributos pelo IBS e pela CBS:", ["IR, IPTU e ITR", "IOF e IE apenas", "PIS, Cofins, IPI (em grande parte), ICMS e ISS", "ITBI e ITCMD", "todas as contribuições previdenciárias"], "C", "A CBS (federal) substitui PIS e Cofins; o IBS (estadual e municipal) substitui ICMS e ISS. O IPI terá alíquota zerada, exceto para produtos da Zona Franca de Manaus.", "m"],
+      ["O Imposto Seletivo, criado pela EC 132/2023, incide sobre a produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente.", null, "C", "Art. 153, VIII, da CF.", "m"]
+    ],
+    "Administração tributária e dívida ativa": [
+      ["Constitui dívida ativa tributária a proveniente de crédito tributário regularmente inscrito na repartição administrativa competente, depois de esgotado o prazo fixado para pagamento.", null, "C", "Art. 201 do CTN.", "f"],
+      ["A dívida regularmente inscrita goza de presunção absoluta de certeza e liquidez.", null, "E", "Art. 204 do CTN: a presunção é relativa e pode ser ilidida por prova inequívoca.", "m"],
+      ["Para os efeitos da legislação tributária, não têm aplicação quaisquer disposições legais excludentes ou limitativas do direito de examinar mercadorias, livros, arquivos e documentos dos comerciantes.", null, "C", "Art. 195 do CTN e Súmula 439 do STF.", "d"],
+      ["A ação de execução fiscal para cobrança da dívida ativa é regida pela:", ["Lei 8.666/1993", "Lei 9.099/1995", "Lei 6.830/1980", "Lei 5.172/1966 apenas", "Lei 4.320/1964"], "C", "Lei de Execuções Fiscais (LEF).", "f"],
+      ["O direito de pleitear a restituição de tributo pago indevidamente extingue-se com o decurso do prazo de 10 anos.", null, "E", "Art. 168 do CTN: 5 anos.", "m"],
+      ["A autoridade administrativa que tiver conhecimento de crime contra a ordem tributária deve representar ao Ministério Público; segundo o STF, não se tipifica crime material contra a ordem tributária antes do lançamento definitivo do tributo.", null, "C", "Súmula Vinculante 24.", "d"],
+      ["É vedada a divulgação, por parte da Fazenda Pública, de informações obtidas em razão do ofício sobre a situação econômica ou financeira do sujeito passivo, não sendo vedada, porém, a divulgação de informações relativas a inscrições na dívida ativa.", null, "C", "Art. 198, caput e §3º, II, do CTN.", "d"],
+      ["A execução fiscal deve ser proposta no prazo prescricional contado da:", ["ocorrência do fato gerador", "data do último pagamento", "inscrição em dívida ativa, sempre", "notificação do auto de infração, mesmo pendente de recurso", "constituição definitiva do crédito tributário"], "E", "Art. 174 do CTN: 5 anos da constituição definitiva.", "m"]
+    ]
+  }
+}

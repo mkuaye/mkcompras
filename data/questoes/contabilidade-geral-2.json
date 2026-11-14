@@ -1,0 +1,96 @@
+{
+  "disciplina": "Contabilidade Geral",
+  "assuntos": {
+    "Conceitos, patrimônio e equação patrimonial": [
+      ["A finalidade principal da Contabilidade é fornecer informações úteis sobre o patrimônio e suas variações para a tomada de decisão dos usuários.", null, "C", "Estrutura Conceitual (CPC 00).", "f"],
+      ["São usuários externos da informação contábil, entre outros:", ["diretores e gerentes", "somente os empregados do setor financeiro", "apenas o contador", "investidores, credores e o governo", "os auditores internos"], "D", "Usuários internos incluem administradores e gestores.", "f"],
+      ["O patrimônio líquido corresponde à soma do ativo com o passivo exigível.", null, "E", "PL = Ativo − Passivo exigível.", "f"],
+      ["Uma empresa tem ativo de R$ 150.000 e patrimônio líquido de R$ 90.000. O passivo exigível é de:", ["R$ 60.000", "R$ 90.000", "R$ 240.000", "R$ 150.000", "R$ 30.000"], "A", "P = A − PL = 150.000 − 90.000 = 60.000.", "f"],
+      ["Na situação patrimonial em que o ativo é igual ao passivo exigível, o patrimônio líquido é positivo e igual ao ativo.", null, "E", "Se Ativo = Passivo exigível, então PL = 0.", "f"],
+      ["As origens de recursos da entidade são representadas pelo:", ["ativo", "ativo imobilizado", "ativo circulante", "resultado do exercício", "passivo e patrimônio líquido"], "E", "O lado direito do balanço (passivo + PL) mostra as origens; o ativo mostra as aplicações.", "f"],
+      ["Pelo regime de competência, as receitas e despesas são reconhecidas quando recebidas ou pagas.", null, "E", "Isso é o regime de caixa. Na competência, reconhecem-se no período em que ocorrem os fatos geradores, independentemente de recebimento ou pagamento.", "f"],
+      ["São características qualitativas fundamentais da informação contábil-financeira útil:", ["comparabilidade e tempestividade", "relevância e representação fidedigna", "verificabilidade e compreensibilidade", "prudência e conservadorismo", "custo histórico e competência"], "B", "CPC 00. As de melhoria são comparabilidade, verificabilidade, tempestividade e compreensibilidade.", "m"],
+      ["O pressuposto básico das demonstrações contábeis, segundo a Estrutura Conceitual, é a continuidade operacional.", null, "C", "CPC 00 (R2): presume-se que a entidade continuará em operação no futuro previsível.", "m"]
+    ],
+    "Débito, crédito e escrituração": [
+      ["As contas de passivo, de patrimônio líquido e de receita aumentam por débito.", null, "E", "Têm natureza credora: aumentam por crédito e diminuem por débito.", "f"],
+      ["O recebimento de uma duplicata de cliente, sem juros, é registrado:", ["D – Caixa / C – Receita de Vendas", "D – Duplicatas a Receber / C – Caixa", "D – Caixa / C – Duplicatas a Receber", "D – Fornecedores / C – Caixa", "D – Capital / C – Caixa"], "C", "Fato permutativo: troca de um direito por dinheiro, sem alterar o PL.", "f"],
+      ["Os fatos contábeis que alteram o patrimônio líquido, aumentando-o ou diminuindo-o, são chamados de modificativos.", null, "C", "Os permutativos não alteram o PL; os mistos combinam permuta e modificação.", "f"],
+      ["O recebimento de uma duplicata com juros é exemplo de fato:", ["permutativo", "modificativo diminutivo", "misto diminutivo", "misto aumentativo", "nulo"], "D", "Há permuta (duplicata por caixa) e receita de juros, que aumenta o PL.", "m"],
+      ["A integralização do capital social em dinheiro é registrada com débito em Capital Social e crédito em Caixa.", null, "E", "Debita-se Caixa (o ativo aumenta) e credita-se Capital Social (o PL aumenta).", "f"],
+      ["O livro Razão registra as operações agrupadas por conta, permitindo conhecer o saldo de cada uma.", null, "C", "O Razão é obrigatório pela legislação do IR para empresas tributadas pelo lucro real.", "f"],
+      ["O balancete de verificação demonstra a igualdade entre a soma dos saldos devedores e a dos saldos credores, mas não garante a inexistência de erros de escrituração.", null, "C", "Erros como lançamento em conta errada ou omissão de lançamento não alteram a igualdade.", "m"],
+      ["A apropriação de despesa de aluguel do mês, a pagar no mês seguinte, é registrada:", ["D – Aluguel a Pagar / C – Despesa de Aluguel", "D – Caixa / C – Despesa de Aluguel", "D – Despesa de Aluguel / C – Aluguel a Pagar", "D – Despesa de Aluguel / C – Caixa", "D – Aluguel Antecipado / C – Caixa"], "C", "Pela competência, reconhece-se a despesa no mês, contra uma obrigação (passivo).", "m"],
+      ["O pagamento antecipado de um seguro anual é registrado como despesa integralmente no mês do pagamento.", null, "E", "Registra-se como despesa antecipada (ativo) e apropria-se mensalmente ao resultado.", "m"]
+    ],
+    "Balanço Patrimonial e demonstrações": [
+      ["No Balanço Patrimonial, as contas do ativo são dispostas em ordem crescente de grau de liquidez.", null, "E", "Art. 178, §1º, da Lei 6.404/1976: ordem decrescente de grau de liquidez.", "f"],
+      ["O ativo não circulante é composto por:", ["caixa, bancos e estoques", "ativo realizável a longo prazo, investimentos, imobilizado e intangível", "fornecedores e empréstimos", "capital social e reservas", "receitas e despesas"], "B", "Art. 178, §1º, II, da Lei 6.404/1976.", "f"],
+      ["As ações em tesouraria são apresentadas como conta redutora do patrimônio líquido.", null, "C", "Art. 182, §5º, da Lei 6.404/1976.", "m"],
+      ["Classificam-se no passivo circulante as obrigações da companhia que vencerem:", ["após o exercício seguinte", "somente com instituições financeiras", "em mais de 5 anos", "apenas no próprio mês", "até o término do exercício social seguinte"], "E", "Art. 180 da Lei 6.404/1976.", "f"],
+      ["A Demonstração das Mutações do Patrimônio Líquido evidencia a movimentação de todas as contas do PL durante o exercício.", null, "C", "A DMPL pode substituir a DLPA (art. 186, §2º, da Lei 6.404/1976).", "m"],
+      ["Na DFC, a captação de um empréstimo bancário de longo prazo é classificada como atividade de:", ["financiamento", "investimento", "operacional", "não caixa", "intangível"], "A", "CPC 03: obtenção e amortização de empréstimos são atividades de financiamento.", "m"],
+      ["A DFC pode ser elaborada pelo método direto ou pelo método indireto, que parte do lucro líquido e o ajusta pelos itens que não afetam o caixa.", null, "C", "CPC 03; a depreciação, por exemplo, é somada ao lucro no método indireto.", "m"],
+      ["A DFC é obrigatória para a companhia fechada com patrimônio líquido, na data do balanço, inferior a R$ 2 milhões.", null, "E", "Art. 176, §6º, da Lei 6.404/1976: essa companhia está dispensada da DFC.", "d"],
+      ["Na DFC, a aquisição de um imóvel para uso da empresa, paga à vista, é classificada nas atividades de investimento.", null, "C", "CPC 03: compra de ativo imobilizado é atividade de investimento.", "f"],
+      ["As notas explicativas fazem parte das demonstrações contábeis.", null, "C", "Art. 176, §4º, da Lei 6.404/1976.", "f"],
+      ["A reserva legal corresponde a 10% do lucro líquido do exercício, até atingir 50% do capital social.", null, "E", "Art. 193 da Lei 6.404/1976: 5% do lucro líquido, até 20% do capital social.", "m"],
+      ["O lucro líquido de R$ 200.000 de uma S.A. gera reserva legal, quando ainda não atingido o limite, de:", ["R$ 5.000", "R$ 2.000", "R$ 20.000", "R$ 40.000", "R$ 10.000"], "E", "5% × 200.000 = 10.000.", "f"],
+      ["O ajuste de avaliação patrimonial registra contrapartidas de aumentos ou diminuições de valor de elementos do ativo e passivo avaliados a valor justo, enquanto não computadas no resultado.", null, "C", "Art. 182, §3º, da Lei 6.404/1976.", "d"],
+      ["O dividendo mínimo obrigatório, quando o estatuto for omisso, corresponde a:", ["25% do lucro líquido", "metade do lucro líquido ajustado", "10% do capital social", "30% do lucro bruto", "todo o lucro remanescente"], "B", "Art. 202, I, da Lei 6.404/1976; se o estatuto for omisso e vier a ser alterado para fixá-lo, não pode ser inferior a 25%.", "d"]
+    ],
+    "DRE e resultado": [
+      ["Na DRE, a receita líquida é obtida deduzindo-se da receita bruta as devoluções, os abatimentos, os descontos incondicionais e os tributos sobre vendas.", null, "C", "Art. 187 da Lei 6.404/1976.", "f"],
+      ["Receita bruta de R$ 500.000, devoluções de R$ 20.000, ICMS sobre vendas de R$ 80.000 e CMV de R$ 250.000. O lucro bruto é:", ["R$ 400.000", "R$ 250.000", "R$ 170.000", "R$ 150.000", "R$ 230.000"], "D", "Receita líquida = 500 − 20 − 80 = 400 mil; lucro bruto = 400 − 250 = 150 mil.", "m"],
+      ["Os descontos financeiros concedidos a clientes por pagamento antecipado são deduções da receita bruta.", null, "E", "São despesas financeiras. Os descontos incondicionais (comerciais) é que deduzem a receita bruta.", "m"],
+      ["As despesas com vendas, administrativas e financeiras são classificadas na DRE como:", ["despesas operacionais", "custos dos produtos vendidos", "deduções da receita", "participações estatutárias", "outros resultados abrangentes"], "A", "Art. 187, III, da Lei 6.404/1976.", "f"],
+      ["Na DRE, as participações de debêntures, empregados e administradores são deduzidas após a provisão para IR e CSLL.", null, "C", "Art. 187, VI, da Lei 6.404/1976.", "d"]
+    ],
+    "Operações com mercadorias e CMV": [
+      ["Estoque inicial de R$ 20.000, compras de R$ 80.000 e CMV de R$ 70.000. O estoque final é:", ["R$ 10.000", "R$ 30.000", "R$ 50.000", "R$ 90.000", "R$ 170.000"], "B", "EF = EI + C − CMV = 20 + 80 − 70 = 30 mil.", "f"],
+      ["O ICMS recuperável pago na compra de mercadorias para revenda não integra o custo de aquisição, sendo registrado como ativo (ICMS a recuperar).", null, "C", "CPC 16: tributos recuperáveis não compõem o custo dos estoques.", "m"],
+      ["Na compra de mercadorias por R$ 10.000 com ICMS de 18% incluso (recuperável), o valor registrado em estoque é:", ["R$ 10.000", "R$ 11.800", "R$ 8.200", "R$ 1.800", "R$ 9.820"], "C", "10.000 − 1.800 = 8.200; os 1.800 vão para ICMS a recuperar.", "m"],
+      ["Em período de inflação, o método UEPS (último a entrar, primeiro a sair) resulta em CMV maior e lucro menor; esse método, porém, não é aceito pelo CPC 16 nem pela legislação do IR.", null, "C", "O CPC 16 admite PEPS e custo médio ponderado; o UEPS é vedado.", "m"],
+      ["As devoluções de compras reduzem:", ["a receita bruta", "o valor das compras e, portanto, o custo das mercadorias", "as despesas administrativas", "o capital social", "o ativo não circulante"], "B", "Compras líquidas = compras − devoluções − abatimentos (+ fretes e seguros).", "f"],
+      ["Os estoques devem ser mensurados pelo valor de custo ou pelo valor realizável líquido, dos dois o menor.", null, "C", "CPC 16, item 9.", "m"],
+      ["Uma empresa comprou 10 unidades a R$ 10 e depois 10 unidades a R$ 14. Vendeu 10 unidades. Pelo custo médio ponderado, o CMV é:", ["R$ 100", "R$ 140", "R$ 120", "R$ 240", "R$ 110"], "C", "Custo médio = (100 + 140) / 20 = 12; CMV = 10 × 12 = 120.", "m"],
+      ["No exemplo de compras de 10 unidades a R$ 10 e 10 a R$ 14, com venda de 10 unidades, o CMV pelo PEPS é de R$ 100.", null, "C", "Saem primeiro as unidades mais antigas (10 × R$ 10).", "m"]
+    ],
+    "Depreciação e ativo imobilizado": [
+      ["Uma máquina custou R$ 50.000, tem vida útil de 10 anos e valor residual de R$ 10.000. A depreciação anual pelo método linear é:", ["R$ 5.000", "R$ 10.000", "R$ 6.000", "R$ 4.000", "R$ 3.000"], "D", "(50.000 − 10.000) / 10 = 4.000.", "f"],
+      ["O valor contábil de um ativo imobilizado é o custo menos a depreciação acumulada e as perdas por redução ao valor recuperável.", null, "C", "CPC 27, item 6.", "f"],
+      ["O teste de recuperabilidade (impairment) verifica se o valor contábil do ativo excede seu valor recuperável, que é:", ["o menor entre valor justo e valor em uso", "o valor residual", "sempre o custo histórico", "o valor de mercado bruto", "o maior entre o valor justo líquido de despesas de venda e o valor em uso"], "E", "CPC 01.", "m"],
+      ["A depreciação acumulada é conta redutora do ativo imobilizado e tem saldo devedor.", null, "E", "Como retificadora do ativo, a depreciação acumulada tem saldo credor.", "f"],
+      ["Os gastos com manutenção e reparos rotineiros devem ser incorporados ao custo do ativo imobilizado.", null, "E", "São reconhecidos como despesa no resultado; capitalizam-se gastos que aumentem benefícios econômicos futuros.", "m"],
+      ["A exaustão é aplicável:", ["aos recursos minerais e florestais", "a marcas e patentes", "a terrenos urbanos", "a veículos", "ao capital social"], "A", "A exaustão reflete o esgotamento de recursos naturais.", "f"],
+      ["O ágio por expectativa de rentabilidade futura (goodwill) não é amortizado, mas submetido anualmente ao teste de impairment.", null, "C", "CPC 01 e CPC 15.", "d"],
+      ["A venda de um bem do imobilizado com valor contábil de R$ 30.000 por R$ 25.000 gera:", ["perda de R$ 5.000", "ganho de R$ 5.000", "receita bruta de R$ 25.000", "ganho de R$ 25.000", "nenhum efeito no resultado"], "A", "Resultado = 25.000 − 30.000 = −5.000 (outras despesas).", "f"]
+    ],
+    "Provisões, passivos e PCLD": [
+      ["Provisão é um passivo de prazo ou de valor incerto.", null, "C", "CPC 25.", "f"],
+      ["O passivo contingente deve ser reconhecido no balanço quando a saída de recursos for apenas possível.", null, "E", "CPC 25: passivo contingente com saída possível é apenas divulgado em notas; se remota, nem divulgado.", "m"],
+      ["Os ativos contingentes devem ser reconhecidos no balanço quando a entrada de benefícios for provável.", null, "E", "CPC 25: ativo contingente provável é apenas divulgado; reconhece-se o ativo só quando a realização for praticamente certa.", "d"],
+      ["A constituição de perdas estimadas com créditos de liquidação duvidosa é registrada:", ["D – Clientes / C – Receita", "D – Capital / C – Clientes", "D – Caixa / C – Clientes", "D – Perdas estimadas / C – Despesa", "D – Despesa com perdas estimadas / C – Perdas estimadas (redutora de clientes)"], "E", "A conta de perdas estimadas é redutora do ativo (Clientes).", "m"],
+      ["O 13º salário e as férias devem ser provisionados mensalmente, pelo regime de competência.", null, "C", "São obrigações que se formam mês a mês.", "f"]
+    ],
+    "Análise das demonstrações": [
+      ["O índice de liquidez imediata é calculado dividindo-se o ativo circulante total pelo passivo não circulante.", null, "E", "Liquidez imediata = Disponível / Passivo circulante.", "f"],
+      ["A liquidez geral é obtida por:", ["AC / PC", "(AC + RLP) / (PC + PNC)", "(AC − Estoques) / PC", "Disponível / PC", "PL / Ativo total"], "B", "Considera o curto e o longo prazos.", "m"],
+      ["Uma empresa tem lucro líquido de R$ 60.000 e patrimônio líquido de R$ 300.000. A rentabilidade do PL (ROE) é:", ["5%", "20%", "30%", "50%", "60%"], "B", "60.000 / 300.000 = 0,20 = 20%.", "f"],
+      ["A margem líquida é obtida pela divisão do lucro líquido pelo patrimônio líquido.", null, "E", "Margem líquida = LL / Receita líquida; LL / PL é a rentabilidade do PL (ROE).", "f"],
+      ["O índice de participação de capitais de terceiros é calculado por:", ["PL / Ativo", "AC / PC", "Capitais de terceiros / PL", "Lucro / Receita", "Ativo / PL"], "C", "Indica quanto a empresa tomou de terceiros para cada R$ 1 de capital próprio.", "m"],
+      ["Na análise horizontal, compara-se a evolução de cada conta ao longo de vários períodos, enquanto na análise vertical se verifica a participação de cada conta em relação a um total.", null, "C", "AH = tendência; AV = estrutura.", "f"],
+      ["O prazo médio de recebimento de vendas diminui quando a empresa concede mais prazo aos clientes.", null, "E", "Conceder mais prazo aos clientes eleva o prazo médio de recebimento.", "f"],
+      ["O capital circulante líquido é obtido por:", ["PL − Imobilizado", "AC + PC", "Ativo − Passivo", "AC − PC", "AC / PC"], "D", "Também chamado de capital de giro líquido.", "f"],
+      ["O ciclo operacional corresponde ao prazo médio de estocagem somado ao prazo médio de recebimento de vendas.", null, "C", "Ciclo financeiro = ciclo operacional − prazo médio de pagamento a fornecedores.", "m"]
+    ],
+    "Contabilidade pública (noções)": [
+      ["Na contabilidade aplicada ao setor público, a receita orçamentária pertence ao exercício em que for arrecadada, e a despesa, ao exercício em que for legalmente empenhada.", null, "C", "Art. 35 da Lei 4.320/1964 (regime misto, para fins orçamentários).", "m"],
+      ["Os restos a pagar são as despesas empenhadas, mas não pagas até 31 de dezembro, distinguindo-se as processadas das não processadas.", null, "C", "Art. 36 da Lei 4.320/1964.", "m"],
+      ["Segundo a Lei 4.320/1964, as receitas orçamentárias classificam-se, quanto à categoria econômica, em:", ["correntes e de capital", "tributárias e não tributárias", "originárias e derivadas", "ordinárias e extraordinárias", "próprias e transferidas"], "A", "Art. 11 da Lei 4.320/1964.", "f"],
+      ["As operações de crédito são receitas correntes.", null, "E", "Art. 11, §2º, da Lei 4.320/1964: operações de crédito são receitas de capital.", "m"],
+      ["Os estágios da despesa orçamentária, segundo a Lei 4.320/1964, são empenho, liquidação e pagamento, nessa ordem.", null, "C", "Arts. 58 a 65 da Lei 4.320/1964. É vedada a realização de despesa sem prévio empenho.", "f"],
+      ["A liquidação da despesa consiste:", ["na reserva da dotação orçamentária", "no cancelamento do empenho", "na entrega do numerário ao credor", "na aprovação da LOA", "na verificação do direito adquirido pelo credor, com base nos títulos e documentos comprobatórios"], "E", "Art. 63 da Lei 4.320/1964.", "m"]
+    ]
+  }
+}

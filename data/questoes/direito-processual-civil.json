@@ -1,0 +1,56 @@
+{
+  "disciplina": "Direito Processual Civil",
+  "assuntos": {
+    "Normas fundamentais do CPC": [
+      ["O processo começa por iniciativa da parte e se desenvolve por impulso oficial, salvo as exceções previstas em lei.", null, "C", "Art. 2º do CPC — princípio dispositivo/inércia e impulso oficial.", "f"],
+      ["O juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício.", null, "C", "Art. 10 do CPC — vedação à decisão surpresa.", "m"],
+      ["Os juízes e os tribunais atenderão, preferencialmente, à ordem cronológica de conclusão para proferir sentença ou acórdão.", null, "C", "Art. 12 do CPC, com redação da Lei 13.256/2016 ('preferencialmente').", "m"],
+      ["Segundo o CPC, o Estado promoverá, sempre que possível, a solução consensual dos conflitos, devendo a conciliação e a mediação ser estimuladas por juízes, advogados, defensores públicos e membros do Ministério Público.", null, "C", "Art. 3º, §§2º e 3º, do CPC.", "f"]
+    ],
+    "Prazos processuais": [
+      ["Na contagem de prazo em dias, estabelecido por lei ou pelo juiz, computar-se-ão somente:", ["os dias corridos", "os dias úteis", "os dias de expediente forense, incluindo sábados", "os dias corridos, excluídos feriados", "os dias úteis e domingos"], "B", "Art. 219 do CPC (prazos processuais).", "f"],
+      ["A Fazenda Pública, o Ministério Público e a Defensoria Pública gozam de prazo em dobro para todas as suas manifestações processuais.", null, "C", "Arts. 180, 183 e 186 do CPC. Não se aplica quando a lei fixar prazo próprio para o ente.", "f"],
+      ["O prazo geral para interposição de recursos no CPC, salvo os embargos de declaração, é de:", ["15 dias", "10 dias", "30 dias", "5 dias", "8 dias"], "A", "Art. 1.003, §5º. Embargos de declaração: 5 dias (art. 1.023).", "f"],
+      ["Suspende-se o curso do prazo processual nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive.", null, "C", "Art. 220 do CPC.", "m"],
+      ["Os litisconsortes com diferentes procuradores, de escritórios de advocacia distintos, terão prazos contados em dobro, inclusive em processos em autos eletrônicos.", null, "E", "Art. 229, §2º: não se aplica aos processos em autos eletrônicos.", "m"]
+    ],
+    "Competência": [
+      ["A competência determinada em razão da matéria, da pessoa ou da função é inderrogável por convenção das partes.", null, "C", "Art. 62 do CPC — competência absoluta.", "f"],
+      ["A incompetência relativa deve ser alegada:", ["em exceção de incompetência autônoma", "em embargos de declaração", "a qualquer tempo", "como questão preliminar de contestação, sob pena de prorrogação", "de ofício pelo juiz"], "D", "Arts. 64 e 65 do CPC. O juiz não pode declará-la de ofício (Súmula 33 do STJ), salvo cláusula de eleição de foro abusiva (art. 63, §3º).", "m"],
+      ["A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu.", null, "C", "Art. 46 do CPC.", "f"],
+      ["A incompetência absoluta pode ser alegada em qualquer tempo e grau de jurisdição e deve ser declarada de ofício.", null, "C", "Art. 64, §1º, do CPC.", "f"]
+    ],
+    "Partes, procuradores e intervenção de terceiros": [
+      ["São modalidades de intervenção de terceiros previstas no CPC/2015:", ["reconvenção e litisconsórcio", "oposição, nomeação à autoria e chamamento", "assistência, denunciação da lide, chamamento ao processo, incidente de desconsideração da personalidade jurídica e amicus curiae", "embargos de terceiro e oposição", "recurso de terceiro e assistência"], "C", "Arts. 119 a 138 do CPC. A oposição passou a ser procedimento especial e a nomeação à autoria foi extinta.", "m"],
+      ["O litisconsórcio será necessário por disposição de lei ou quando, pela natureza da relação jurídica controvertida, a eficácia da sentença depender da citação de todos que devam ser litisconsortes.", null, "C", "Art. 114 do CPC.", "m"],
+      ["Os honorários advocatícios sucumbenciais serão fixados, em regra, entre:", ["5% e 10% do valor da condenação", "1% e 5%", "valor fixo de um salário mínimo", "20% e 30%", "10% e 20% sobre o valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa"], "E", "Art. 85, §2º, do CPC. Contra a Fazenda Pública há faixas próprias (§3º).", "m"]
+    ],
+    "Tutela provisória": [
+      ["A tutela provisória pode fundamentar-se em urgência ou evidência.", null, "C", "Art. 294 do CPC. A de urgência pode ser cautelar ou antecipada, concedida em caráter antecedente ou incidental.", "f"],
+      ["A tutela de urgência será concedida quando houver elementos que evidenciem:", ["apenas a probabilidade do direito", "abuso do direito de defesa", "acordo entre as partes", "prova documental irrefutável", "a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo"], "E", "Art. 300 do CPC. A tutela de evidência dispensa o perigo de dano (art. 311).", "f"],
+      ["A tutela antecipada concedida em caráter antecedente torna-se estável se da decisão que a conceder não for interposto o respectivo recurso.", null, "C", "Art. 304 do CPC. A estabilização não faz coisa julgada; pode ser revista por ação em até 2 anos.", "d"]
+    ],
+    "Procedimento comum": [
+      ["O prazo para contestação no procedimento comum é de:", ["10 dias", "15 dias úteis", "20 dias", "30 dias", "5 dias"], "B", "Art. 335 do CPC, contado, em regra, da audiência de conciliação ou mediação ou da última sessão.", "f"],
+      ["Se o réu não contestar a ação, será considerado revel e presumir-se-ão verdadeiras as alegações de fato formuladas pelo autor.", null, "C", "Art. 344, com as exceções do art. 345 (pluralidade de réus com contestação, direitos indisponíveis, etc.).", "f"],
+      ["A audiência de conciliação ou de mediação não será realizada se ambas as partes manifestarem, expressamente, desinteresse na composição consensual.", null, "C", "Art. 334, §4º, I. O não comparecimento injustificado é ato atentatório à dignidade da justiça, sancionado com multa de até 2%.", "m"],
+      ["Na reconvenção, o réu propõe, no mesmo processo, ação contra o autor, devendo fazê-lo:", ["em peça autônoma após a sentença", "apenas em audiência", "por petição separada em 30 dias", "na própria contestação", "somente em grau de recurso"], "D", "Art. 343 do CPC.", "f"],
+      ["O juiz julgará antecipadamente o pedido, proferindo sentença com resolução de mérito, quando não houver necessidade de produção de outras provas.", null, "C", "Art. 355, I, do CPC.", "f"],
+      ["Haverá resolução de mérito quando o juiz homologar a transação, reconhecer a procedência do pedido ou acolher a alegação de prescrição.", null, "C", "Art. 487 do CPC.", "m"],
+      ["O indeferimento da petição inicial e a ausência de legitimidade ou de interesse processual levam à extinção do processo sem resolução de mérito.", null, "C", "Art. 485, I e VI, do CPC.", "f"]
+    ],
+    "Recursos": [
+      ["São cabíveis os seguintes recursos no CPC: apelação, agravo de instrumento, agravo interno, embargos de declaração, recurso ordinário, recurso especial, recurso extraordinário, agravo em recurso especial ou extraordinário e embargos de divergência.", null, "C", "Art. 994 do CPC. Os embargos infringentes foram extintos.", "f"],
+      ["O agravo de instrumento cabe contra as decisões interlocutórias que versarem sobre:", ["apenas sentença", "qualquer matéria", "as hipóteses listadas no art. 1.015 do CPC, como tutelas provisórias, mérito do processo e rejeição da alegação de convenção de arbitragem", "somente despachos", "matéria exclusivamente constitucional"], "C", "O STJ fixou a tese da taxatividade mitigada (Tema 988): cabe também quando verificada urgência decorrente da inutilidade do julgamento na apelação.", "m"],
+      ["A apelação terá, em regra, efeito suspensivo.", null, "C", "Art. 1.012 do CPC, com exceções no §1º (ex.: sentença que condena a pagar alimentos, que concede tutela provisória).", "m"],
+      ["Cabem embargos de declaração contra qualquer decisão judicial para:", ["esclarecer obscuridade ou eliminar contradição, suprir omissão e corrigir erro material", "substituir a apelação", "reformar o mérito livremente", "rediscutir provas", "anular a citação"], "A", "Art. 1.022 do CPC. Interrompem o prazo para outros recursos (art. 1.026).", "f"],
+      ["O recurso especial é dirigido ao STF e o recurso extraordinário ao STJ.", null, "E", "É o contrário: o REsp vai ao STJ (lei federal, art. 105, III, da CF) e o RE ao STF (matéria constitucional, art. 102, III).", "f"]
+    ],
+    "Execução e cumprimento de sentença": [
+      ["No cumprimento de sentença que reconhece obrigação de pagar quantia, não ocorrendo pagamento voluntário no prazo de 15 dias, o débito será acrescido de multa de dez por cento e de honorários de advogado de dez por cento.", null, "C", "Art. 523, §1º, do CPC.", "m"],
+      ["São títulos executivos extrajudiciais, entre outros, a letra de câmbio, a nota promissória, a duplicata, o cheque e a escritura pública assinada pelo devedor.", null, "C", "Art. 784 do CPC.", "f"],
+      ["São impenhoráveis, entre outros:", ["imóveis de luxo", "os vencimentos e salários (com exceções), os móveis e utilidades domésticas que guarnecem a residência (salvo os de elevado valor) e a quantia depositada em caderneta de poupança até 40 salários mínimos", "veículos de qualquer valor", "aplicações em ações", "joias"], "B", "Art. 833 do CPC.", "m"],
+      ["Os embargos à execução de título extrajudicial devem ser opostos no prazo de 15 dias, contado da juntada aos autos do mandado de citação, e independem de penhora.", null, "C", "Arts. 914 e 915 do CPC.", "m"]
+    ]
+  }
+}

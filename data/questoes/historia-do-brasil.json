@@ -1,0 +1,30 @@
+{
+  "disciplina": "História do Brasil",
+  "assuntos": {
+    "Brasil Colônia": [
+      ["O sistema de capitanias hereditárias foi implantado por D. João III em:", ["1500", "1534", "1549", "1580", "1640"], "B", "Em 1534 o território foi dividido em faixas doadas a donatários. Em 1549 criou-se o Governo-Geral, com Tomé de Sousa.", "f"],
+      ["O primeiro governador-geral do Brasil foi Tomé de Sousa, que fundou Salvador em 1549.", null, "C", "Salvador foi a primeira capital, até 1763, quando a capital passou ao Rio de Janeiro.", "f"],
+      ["A Inconfidência Mineira (1789) teve como um de seus estopins:", ["a abolição da escravidão", "a independência do Brasil", "a cobrança da derrama, imposto atrasado sobre o ouro", "a chegada da família real", "a Guerra do Paraguai"], "C", "Tiradentes foi o único executado, em 1792.", "f"],
+      ["A Conjuração Baiana (1798), também chamada Revolta dos Alfaiates, teve participação popular e defendia o fim da escravidão.", null, "C", "Movimento de caráter mais popular que a Inconfidência Mineira.", "m"],
+      ["Durante a União Ibérica (1580-1640), os holandeses ocuparam parte do Nordeste brasileiro, com destaque para o governo de Maurício de Nassau em Pernambuco.", null, "C", "Os holandeses foram expulsos em 1654, após a Insurreição Pernambucana.", "m"]
+    ],
+    "Período Joanino e Império": [
+      ["A família real portuguesa transferiu-se para o Brasil em 1808, fugindo da invasão napoleônica, e D. João decretou a abertura dos portos às nações amigas.", null, "C", "Fim do pacto colonial na prática.", "f"],
+      ["A independência do Brasil foi proclamada em:", ["21 de abril de 1792", "7 de setembro de 1822", "13 de maio de 1888", "22 de abril de 1500", "15 de novembro de 1889"], "B", "Por D. Pedro I, às margens do Ipiranga.", "f"],
+      ["A Constituição de 1824, outorgada por D. Pedro I, criou o Poder Moderador, exercido pelo imperador.", null, "C", "Havia quatro poderes: Executivo, Legislativo, Judiciário e Moderador.", "f"],
+      ["A lei que extinguiu a escravidão no Brasil em 1888 foi a:", ["Lei Eusébio de Queirós", "Lei do Ventre Livre", "Lei dos Sexagenários", "Lei Áurea", "Lei de Terras"], "D", "Lei Áurea, assinada pela Princesa Isabel em 13 de maio de 1888. Eusébio de Queirós (1850) proibiu o tráfico; Ventre Livre (1871) e Sexagenários (1885) foram graduais.", "f"],
+      ["O Período Regencial (1831-1840) foi marcado por diversas revoltas provinciais, como a Cabanagem, a Sabinada, a Balaiada e a Revolução Farroupilha.", null, "C", "Terminou com o Golpe da Maioridade, que antecipou a coroação de D. Pedro II.", "m"],
+      ["A Guerra do Paraguai (1864-1870) opôs o Paraguai à Tríplice Aliança, formada por Brasil, Argentina e Uruguai.", null, "C", "Maior conflito armado da América do Sul.", "f"]
+    ],
+    "República": [
+      ["A República foi proclamada em 15 de novembro de 1889 pelo marechal Deodoro da Fonseca.", null, "C", "Deodoro tornou-se o primeiro presidente.", "f"],
+      ["A 'política do café com leite' na Primeira República refere-se:", ["à aliança entre Rio Grande do Sul e Paraíba", "à exportação de café e leite", "ao Estado Novo", "ao tenentismo", "à alternância de poder entre São Paulo e Minas Gerais"], "E", "Oligarquias paulista (café) e mineira (leite) revezavam-se na Presidência.", "f"],
+      ["A Revolução de 1930 levou Getúlio Vargas ao poder, encerrando a Primeira República.", null, "C", "Vargas governou de 1930 a 1945 e depois de 1951 a 1954.", "f"],
+      ["A Consolidação das Leis do Trabalho (CLT) foi criada em 1943, durante o Estado Novo.", null, "C", "Decreto-Lei 5.452/1943.", "f"],
+      ["Brasília foi inaugurada em 1960, durante o governo de:", ["Juscelino Kubitschek", "Getúlio Vargas", "Jânio Quadros", "João Goulart", "Eurico Dutra"], "A", "Parte do Plano de Metas ('50 anos em 5') de JK.", "f"],
+      ["O Ato Institucional nº 5 (AI-5), de 1968, é considerado o mais duro do regime militar, permitindo o fechamento do Congresso e a suspensão do habeas corpus para crimes políticos.", null, "C", "Editado no governo Costa e Silva; revogado em 1978.", "m"],
+      ["O movimento 'Diretas Já' (1983-1984) reivindicava eleições diretas para Presidente da República e conseguiu aprovar a Emenda Dante de Oliveira.", null, "E", "A emenda foi rejeitada em 1984. Tancredo Neves foi eleito indiretamente em 1985.", "m"],
+      ["O Plano Real foi implantado em 1994, durante o governo de:", ["Fernando Collor", "Fernando Henrique Cardoso", "Itamar Franco", "José Sarney", "Luiz Inácio Lula da Silva"], "C", "FHC era ministro da Fazenda de Itamar Franco.", "m"]
+    ]
+  }
+}

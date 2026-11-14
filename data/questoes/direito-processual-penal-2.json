@@ -1,0 +1,84 @@
+{
+  "disciplina": "Direito Processual Penal",
+  "assuntos": {
+    "Princípios e aplicação da lei processual": [
+      ["A lei processual penal aplicar-se-á desde logo, invalidando-se os atos realizados sob a vigência da lei anterior.", null, "E", "Art. 2º do CPP: aplica-se desde logo, sem prejuízo da validade dos atos já realizados (tempus regit actum).", "f"],
+      ["A lei processual penal admite interpretação extensiva e aplicação analógica, bem como o suplemento dos princípios gerais de direito.", null, "C", "Art. 3º do CPP.", "f"],
+      ["O princípio segundo o qual ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória é o da:", ["publicidade", "identidade física do juiz", "verdade real", "oficialidade", "presunção de inocência (não culpabilidade)"], "E", "Art. 5º, LVII, da CF.", "f"],
+      ["Pelo princípio do nemo tenetur se detegere, o acusado não é obrigado a produzir prova contra si mesmo.", null, "C", "Decorre do direito ao silêncio (art. 5º, LXIII, da CF) e da ampla defesa.", "f"]
+    ],
+    "Inquérito policial": [
+      ["O inquérito policial é peça indispensável à propositura da ação penal, em qualquer hipótese.", null, "E", "O IP é dispensável quando o titular da ação já dispõe de elementos (arts. 12, 27 e 39, §5º, do CPP).", "f"],
+      ["A autoridade policial poderá, para verificar a possibilidade de o crime ter sido praticado de determinado modo, proceder à reprodução simulada dos fatos, desde que esta não contrarie a moralidade ou a ordem pública.", null, "C", "Art. 7º do CPP. O investigado não é obrigado a participar.", "m"],
+      ["Estando o indiciado solto, o prazo para conclusão do inquérito policial, em regra, é de:", ["10 dias", "15 dias", "30 dias", "60 dias", "90 dias"], "C", "Art. 10 do CPP, prorrogável pelo juiz quando o fato for de difícil elucidação.", "f"],
+      ["A incomunicabilidade do indiciado, prevista no art. 21 do CPP, não foi recepcionada pela Constituição de 1988.", null, "C", "O art. 136, §3º, IV, da CF veda a incomunicabilidade até no estado de defesa.", "m"],
+      ["O indiciamento, ato privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato.", null, "C", "Art. 2º, §6º, da Lei 12.830/2013.", "m"],
+      ["O valor probatório do inquérito policial é relativo, e o juiz não pode fundamentar a condenação exclusivamente nos elementos informativos colhidos na investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas.", null, "C", "Art. 155 do CPP.", "f"]
+    ],
+    "Ação penal": [
+      ["A denúncia ou queixa conterá a exposição do fato criminoso, com todas as suas circunstâncias, a qualificação do acusado, a classificação do crime e, quando necessário, o rol de testemunhas.", null, "C", "Art. 41 do CPP.", "f"],
+      ["O Ministério Público poderá desistir da ação penal já proposta.", null, "E", "Art. 42 do CPP (princípio da indisponibilidade).", "f"],
+      ["O perdão do ofendido, na ação penal privada:", ["só produz efeito se aceito pelo querelado", "produz efeito independentemente de aceitação", "pode ser oferecido depois do trânsito em julgado", "é cabível na ação penal pública condicionada", "é ato privativo do Ministério Público"], "A", "Arts. 51 e 58 do CPP e art. 106 do CP: é ato bilateral.", "m"],
+      ["A renúncia ao exercício do direito de queixa, em relação a um dos autores do crime, não se estenderá aos demais.", null, "E", "Art. 49 do CPP: a renúncia em relação a um a todos se estende (indivisibilidade).", "m"],
+      ["Ocorre a perempção da ação penal privada quando, iniciada esta, o querelante deixa de promover o andamento do processo durante:", ["10 dias seguidos", "30 dias seguidos", "15 dias seguidos", "60 dias seguidos", "6 meses"], "B", "Art. 60, I, do CPP.", "m"],
+      ["No caso de morte do ofendido, o direito de oferecer queixa ou prosseguir na ação passará ao cônjuge, ascendente, descendente ou irmão.", null, "C", "Art. 31 do CPP (CADI). Na ação privada personalíssima, não há sucessão.", "m"],
+      ["A ação penal nos crimes contra a dignidade sexual é, atualmente, privada, mediante queixa.", null, "E", "Art. 225 do CP, com redação da Lei 13.718/2018: ação pública incondicionada.", "m"]
+    ],
+    "Competência": [
+      ["Nos crimes de ação penal privada exclusiva, o querelante poderá preferir o foro de domicílio ou residência do réu, ainda quando conhecido o lugar da infração.", null, "C", "Art. 73 do CPP.", "m"],
+      ["A competência por prerrogativa de função para julgar os Prefeitos por crimes comuns é do:", ["juiz de primeiro grau", "Superior Tribunal de Justiça", "Tribunal de Justiça", "Supremo Tribunal Federal", "Tribunal do Júri"], "C", "Art. 29, X, da CF. Nos crimes federais, a competência é do TRF (Súmula 702 do STF).", "m"],
+      ["A conexão e a continência importarão unidade de processo e julgamento, salvo no concurso entre a jurisdição comum e a militar e entre a comum e a do juízo de menores.", null, "C", "Art. 79 do CPP.", "m"],
+      ["Compete à Justiça Estadual processar e julgar crime praticado contra funcionário público federal em razão do exercício da função.", null, "E", "Súmula 147 do STJ: a competência é da Justiça Federal.", "m"],
+      ["Quando incerto o limite territorial entre duas ou mais jurisdições, a competência firmar-se-á pela:", ["residência do réu", "distribuição", "natureza da infração", "prevenção", "residência da vítima"], "D", "Art. 70, §3º, do CPP.", "m"]
+    ],
+    "Provas": [
+      ["A confissão é indivisível e irretratável, sem prejuízo do livre convencimento do juiz.", null, "E", "Art. 200 do CPP: a confissão é divisível e retratável.", "f"],
+      ["O reconhecimento de pessoas, segundo o CPP, começa pela descrição da pessoa a ser reconhecida feita por quem tiver de fazer o reconhecimento.", null, "C", "Art. 226, I, do CPP. O STJ considera as formalidades obrigatórias (HC 598.886).", "m"],
+      ["Não poderão ser compromissados como testemunhas:", ["os policiais que efetuaram a prisão", "os funcionários públicos", "os maiores de 70 anos", "os doentes e deficientes mentais e os menores de 14 anos", "os parentes colaterais de 4º grau"], "D", "Art. 208 do CPP. Também não prestam compromisso os parentes do art. 206.", "m"],
+      ["A acareação será admitida entre acusados, entre acusado e testemunha, entre testemunhas, entre acusado ou testemunha e a pessoa ofendida, e entre as pessoas ofendidas.", null, "C", "Art. 229 do CPP.", "m"],
+      ["A busca domiciliar, sem consentimento do morador, somente pode ser realizada durante o dia e mediante mandado judicial, ressalvados os casos de flagrante delito, desastre ou para prestar socorro.", null, "C", "Art. 5º, XI, da CF.", "f"],
+      ["O exame de corpo de delito poderá ser suprido pela confissão do acusado.", null, "E", "Art. 158 do CPP: não pode ser suprido pela confissão. Desaparecidos os vestígios, a prova testemunhal pode supri-lo (art. 167).", "f"],
+      ["A interceptação telefônica, segundo a Lei 9.296/1996, poderá ser autorizada quando:", ["o fato investigado constituir infração punida, no máximo, com detenção", "o investigado for reincidente", "a autoridade policial assim decidir", "houver mera suspeita anônima", "houver indícios razoáveis de autoria ou participação em infração punida com reclusão e a prova não puder ser feita por outros meios"], "E", "Art. 2º da Lei 9.296/1996. O prazo é de 15 dias, renovável.", "m"]
+    ],
+    "Prisões e medidas cautelares": [
+      ["Qualquer do povo deverá e as autoridades policiais e seus agentes poderão prender quem quer que seja encontrado em flagrante delito.", null, "E", "Art. 301 do CPP: flagrante facultativo para qualquer do povo e obrigatório para as autoridades policiais.", "f"],
+      ["O flagrante preparado (provocado), em que o agente é induzido a praticar o crime e a polícia toma providências para que ele não se consume, configura:", ["crime impossível", "flagrante válido", "flagrante presumido", "flagrante diferido", "crime consumado"], "A", "Súmula 145 do STF.", "m"],
+      ["Não será admitida a prisão preventiva quando a pena máxima do crime doloso for igual ou inferior a 4 anos, salvo reincidência em crime doloso, violência doméstica ou dúvida sobre a identidade civil.", null, "C", "Art. 313 do CPP.", "m"],
+      ["São medidas cautelares diversas da prisão, entre outras:", ["pena de multa e prestação de serviços", "comparecimento periódico em juízo, proibição de ausentar-se da comarca e monitoração eletrônica", "advertência e interdição de direitos", "suspensão condicional do processo", "transação penal"], "B", "Art. 319 do CPP.", "f"],
+      ["A prisão temporária somente pode ser decretada durante o inquérito policial, nunca no curso da ação penal.", null, "C", "Lei 7.960/1989: a temporária é cautelar exclusiva da fase investigatória.", "m"],
+      ["Nos crimes hediondos, a prisão temporária terá prazo de:", ["5 dias, prorrogável por igual período", "10 dias", "30 dias, prorrogável por igual período em caso de extrema e comprovada necessidade", "60 dias", "indeterminado"], "C", "Art. 2º, §4º, da Lei 8.072/1990.", "m"],
+      ["A autoridade policial pode conceder fiança nos crimes cuja pena privativa de liberdade máxima não seja superior a 8 anos.", null, "E", "Art. 322 do CPP: pena máxima não superior a 4 anos.", "f"],
+      ["São inafiançáveis o racismo, a tortura, o tráfico de drogas, o terrorismo, os crimes hediondos e a ação de grupos armados contra a ordem constitucional.", null, "C", "Art. 5º, XLII a XLIV, da CF e art. 323 do CPP. Ainda assim, cabe liberdade provisória sem fiança.", "m"]
+    ],
+    "Procedimentos e recursos": [
+      ["No procedimento comum, após o recebimento da denúncia, o acusado será citado para responder à acusação, por escrito, no prazo de:", ["5 dias", "10 dias", "15 dias", "20 dias", "30 dias"], "B", "Art. 396 do CPP.", "f"],
+      ["A absolvição sumária ocorrerá, entre outras hipóteses, quando o juiz verificar a existência manifesta de causa excludente da ilicitude do fato.", null, "C", "Art. 397 do CPP.", "m"],
+      ["Se o réu, citado por edital, não comparecer nem constituir advogado, ficará suspenso o processo, mas não o curso do prazo prescricional.", null, "E", "Art. 366 do CPP: suspendem-se o processo e o curso da prescrição.", "m"],
+      ["No procedimento do Júri, o número de jurados que compõem o Conselho de Sentença é:", ["5", "7", "9", "12", "25"], "B", "Art. 447 do CPP: 25 jurados são sorteados para a reunião, e 7 compõem o Conselho de Sentença.", "f"],
+      ["Na primeira fase do procedimento do Júri, se o juiz se convencer da materialidade do fato e da existência de indícios suficientes de autoria, ele:", ["absolverá sumariamente o réu", "impronunciará o réu", "desclassificará a infração", "pronunciará o réu", "condenará o réu"], "D", "Art. 413 do CPP.", "f"],
+      ["A emendatio libelli permite ao juiz, sem modificar a descrição do fato contida na denúncia, atribuir-lhe definição jurídica diversa, ainda que tenha de aplicar pena mais grave.", null, "C", "Art. 383 do CPP. Na mutatio libelli (art. 384), surge prova de elemento não contido na acusação.", "m"],
+      ["O prazo para a oposição de embargos de declaração no processo penal é de:", ["2 dias", "5 dias", "10 dias", "15 dias", "48 horas, sempre"], "A", "Art. 382 e 619 do CPP. Nos Juizados Especiais Criminais, é de 5 dias.", "m"],
+      ["Nos recursos exclusivos da defesa, é admitida a reformatio in pejus.", null, "E", "Art. 617 do CPP: é vedada a reformatio in pejus nos recursos exclusivos da defesa.", "f"],
+      ["A revisão criminal pode ser requerida somente antes da extinção da pena.", null, "E", "Art. 622 do CPP: a qualquer tempo, antes ou depois de extinta a pena.", "m"],
+      ["Os embargos infringentes e de nulidade são cabíveis quando não for unânime a decisão de segunda instância desfavorável ao réu.", null, "C", "Art. 609, parágrafo único, do CPP; prazo de 10 dias.", "d"],
+      ["A transação penal é cabível nas infrações penais de menor potencial ofensivo e consiste na proposta, pelo MP, de aplicação imediata de pena restritiva de direitos ou multa.", null, "C", "Art. 76 da Lei 9.099/1995.", "f"],
+      ["A apelação contra decisões do Tribunal do Júri é de fundamentação vinculada.", null, "C", "Art. 593, III, do CPP: só cabe nas hipóteses das alíneas 'a' a 'd'.", "d"]
+    ],
+    "Nulidades e habeas corpus": [
+      ["Nenhum ato será declarado nulo se da nulidade não resultar prejuízo para a acusação ou para a defesa.", null, "C", "Art. 563 do CPP (pas de nullité sans grief).", "f"],
+      ["No processo penal, a falta de defesa constitui nulidade absoluta, mas a sua deficiência só o anulará se houver prova de prejuízo para o réu.", null, "C", "Súmula 523 do STF.", "m"],
+      ["O habeas corpus é cabível quando alguém sofrer ou se achar ameaçado de sofrer:", ["violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder", "lesão a direito líquido e certo de qualquer natureza", "negativa de acesso a informações pessoais", "lesão ao patrimônio público", "omissão legislativa"], "A", "Art. 5º, LXVIII, da CF.", "f"],
+      ["Não cabe habeas corpus contra a imposição da pena de exclusão de militar ou de perda de patente.", null, "C", "Súmula 694 do STF.", "d"],
+      ["A citação por hora certa não é admitida no processo penal quando o réu se oculta para não ser citado.", null, "E", "Art. 362 do CPP: é admitida; o STF a declarou constitucional (RE 635.145).", "m"]
+    ],
+    "Execução penal": [
+      ["A progressão de regime, para o apenado primário condenado por crime cometido sem violência à pessoa ou grave ameaça, exige o cumprimento de ao menos:", ["1/6 da pena", "16% da pena", "25% da pena", "40% da pena", "50% da pena"], "B", "Art. 112, I, da LEP, com redação do Pacote Anticrime.", "m"],
+      ["A remição pelo trabalho ocorre na proporção de um dia de pena a cada dois dias de trabalho.", null, "E", "Art. 126, §1º, II, da LEP: um dia de pena a cada três dias de trabalho.", "m"],
+      ["A prática de falta grave interrompe o prazo para obtenção de livramento condicional.", null, "E", "Súmula 441 do STJ: a falta grave não interrompe o prazo do livramento condicional, mas interrompe o da progressão (Súmula 534).", "d"],
+      ["São deveres do condenado, entre outros, o comportamento disciplinado, a obediência ao servidor e a execução do trabalho, das tarefas e das ordens recebidas.", null, "C", "Art. 39 da LEP.", "f"],
+      ["A competência para a execução penal é, em regra, do juízo:", ["que proferiu a sentença condenatória, em qualquer caso", "indicado na lei local de organização judiciária e, na sua ausência, do juiz da sentença", "do domicílio da vítima", "do tribunal que julgou a apelação", "federal, sempre"], "B", "Art. 65 da LEP.", "m"],
+      ["O regime disciplinar diferenciado (RDD) tem duração máxima de até dois anos, sem prejuízo de repetição da sanção por nova falta grave da mesma espécie.", null, "C", "Art. 52, I, da LEP, com redação do Pacote Anticrime.", "d"],
+      ["Os condenados por crime hediondo com resultado morte, se primários, poderão progredir de regime após cumprir 30% da pena.", null, "E", "Art. 112, VI, 'a', da LEP: 50%, vedado o livramento condicional.", "d"]
+    ]
+  }
+}

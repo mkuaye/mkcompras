@@ -1,0 +1,56 @@
+{
+  "disciplina": "Direito Penal",
+  "assuntos": {
+    "Princípios e aplicação da lei penal": [
+      ["Segundo o princípio da intervenção mínima, o Direito Penal deve ser o primeiro instrumento de controle social, antes dos demais ramos do direito.", null, "E", "Pela intervenção mínima, o Direito Penal é a ultima ratio.", "f"],
+      ["O princípio da intranscendência (pessoalidade) da pena significa que:", ["a pena deve ser proporcional ao crime", "a pena deve ser individualizada", "nenhuma pena passará da pessoa do condenado", "não há pena sem lei anterior", "ninguém será punido duas vezes pelo mesmo fato"], "C", "Art. 5º, XLV, da CF: a obrigação de reparar o dano e a perda de bens podem estender-se aos sucessores, até o limite do patrimônio transferido.", "f"],
+      ["Aplica-se a lei brasileira, sem prejuízo de convenções e tratados, ao crime cometido no território nacional, o que expressa o princípio da:", ["representação", "nacionalidade ativa", "defesa real", "justiça universal", "territorialidade temperada"], "E", "Art. 5º do CP: territorialidade, mitigada por convenções e tratados.", "m"],
+      ["Os dias de pena são contados excluindo-se o dia do começo, assim como no processo civil.", null, "E", "Art. 10 do CP: o dia do começo inclui-se no cômputo do prazo penal.", "m"]
+    ],
+    "Teoria do crime": [
+      ["No crime preterdoloso, há culpa no antecedente e dolo no consequente, como na lesão corporal seguida de morte.", null, "E", "No crime preterdoloso há dolo no antecedente e culpa no consequente, como na lesão corporal seguida de morte.", "m"],
+      ["Na aberratio ictus (erro na execução), por acidente ou erro no uso dos meios de execução, o agente atinge pessoa diversa da pretendida. Nesse caso:", ["o agente fica isento de pena", "o agente responde como se tivesse atingido a pessoa que pretendia ofender", "o crime é sempre culposo", "o dolo é excluído", "aplica-se o concurso material obrigatório"], "B", "Art. 73 do CP; se também atingida a pessoa visada, aplica-se o concurso formal.", "m"],
+      ["Crime impossível, também chamado de tentativa inidônea, é punido com a pena da tentativa segundo o Código Penal.", null, "E", "Art. 17 do CP: não se pune a tentativa quando o crime é impossível.", "f"],
+      ["O crime que se consuma independentemente da produção do resultado naturalístico descrito no tipo é chamado de:", ["material", "plurissubsistente", "culposo", "formal", "omissivo impróprio"], "D", "No crime formal (ex.: extorsão), o resultado é mero exaurimento. O crime de mera conduta nem descreve resultado.", "m"],
+      ["Na teoria da equivalência dos antecedentes causais (conditio sine qua non), adotada como regra pelo CP, considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido.", null, "C", "Art. 13 do CP; a causa superveniente relativamente independente que por si só produz o resultado exclui a imputação (art. 13, §1º).", "m"],
+      ["Na culpa consciente, o agente prevê o resultado e assume o risco de produzi-lo.", null, "E", "Na culpa consciente, o agente prevê o resultado, mas confia que não ocorrerá; quem assume o risco age com dolo eventual.", "f"]
+    ],
+    "Excludentes de ilicitude e culpabilidade": [
+      ["São elementos da culpabilidade, segundo a teoria normativa pura:", ["imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa", "dolo, culpa e imputabilidade", "conduta, resultado e nexo causal", "tipicidade e antijuridicidade", "dolo, potencial consciência e punibilidade"], "A", "Na teoria finalista, dolo e culpa estão no fato típico; a culpabilidade é juízo de reprovação.", "m"],
+      ["Na legítima defesa, a agressão deve ser justa, passada ou futura, a direito próprio ou alheio.", null, "E", "Art. 25 do CP: agressão injusta, atual ou iminente.", "f"],
+      ["A embriaguez completa, proveniente de caso fortuito ou força maior, que torna o agente inteiramente incapaz de entender o caráter ilícito do fato, apenas reduz a pena de um a dois terços.", null, "E", "Art. 28, §1º, do CP: isenta de pena; a redução de 1/3 a 2/3 aplica-se quando a capacidade é apenas reduzida (§2º).", "m"],
+      ["O agente que, em qualquer das hipóteses de excludente de ilicitude, age com excesso:", ["fica isento de pena", "responde pelo excesso doloso ou culposo", "responde sempre por crime doloso", "tem a pena reduzida obrigatoriamente pela metade", "não responde, pois agiu amparado pela lei"], "B", "Art. 23, parágrafo único, do CP.", "f"]
+    ],
+    "Concurso de pessoas e de crimes": [
+      ["No crime continuado, mediante mais de uma ação, o agente pratica crimes da mesma espécie, nas mesmas condições de tempo, lugar e maneira de execução, aplicando-se a pena de um só crime aumentada de:", ["metade", "1/3 até o dobro", "1/6 a 2/3", "1/6 a 1/2", "até o triplo, sempre"], "C", "Art. 71 do CP. Nos crimes dolosos contra vítimas diferentes com violência, a pena pode ser aumentada até o triplo (parágrafo único).", "m"],
+      ["Se a participação for de menor importância, a pena pode ser diminuída de metade a dois terços.", null, "E", "Art. 29, §1º, do CP: de 1/6 a 1/3.", "m"],
+      ["O ajuste, a determinação ou instigação e o auxílio são puníveis mesmo que o crime não chegue, pelo menos, a ser tentado.", null, "E", "Art. 31 do CP: salvo disposição expressa em contrário, não são puníveis se o crime não for ao menos tentado.", "m"]
+    ],
+    "Penas": [
+      ["O regime inicial de cumprimento de pena para o condenado não reincidente a pena igual ou inferior a quatro anos poderá ser, desde o início:", ["aberto", "semiaberto", "fechado", "integralmente domiciliar", "sempre fechado"], "A", "Art. 33, §2º, 'c', do CP.", "f"],
+      ["A pena de multa, após o trânsito em julgado, será executada perante o juiz da execução penal e considerada dívida de valor.", null, "C", "Art. 51 do CP, com redação do Pacote Anticrime.", "m"],
+      ["O sursis (suspensão condicional da pena) pode ser concedido quando a pena privativa de liberdade não for superior a:", ["1 ano", "2 anos", "4 anos", "6 meses", "8 anos"], "B", "Art. 77 do CP, por 2 a 4 anos. O sursis etário ou humanitário cabe para penas de até 4 anos.", "m"],
+      ["Na dosimetria da pena, o Código Penal adota o critério bifásico: pena-base, circunstâncias agravantes e atenuantes, e causas de aumento e diminuição.", null, "E", "Art. 68 do CP: critério trifásico (Nélson Hungria).", "f"]
+    ],
+    "Extinção da punibilidade e prescrição": [
+      ["A prescrição da pretensão punitiva, antes de transitar em julgado a sentença, regula-se pelo mínimo da pena privativa de liberdade cominada ao crime.", null, "E", "Art. 109 do CP: regula-se pelo máximo da pena privativa de liberdade cominada.", "f"],
+      ["Prescreve em quantos anos o crime cuja pena máxima é inferior a 1 ano?", ["2 anos", "1 ano", "4 anos", "3 anos", "8 anos"], "D", "Art. 109, VI, do CP, com redação da Lei 12.234/2010.", "m"]
+    ],
+    "Crimes contra a pessoa": [
+      ["Induzir ou instigar alguém a suicidar-se ou a praticar automutilação, ou prestar-lhe auxílio material para que o faça, é crime previsto no art. 122 do CP.", null, "C", "Redação dada pela Lei 13.968/2019.", "f"],
+      ["Deixar de prestar assistência, quando possível fazê-lo sem risco pessoal, à criança abandonada ou extraviada, ou à pessoa inválida ou ferida, ao desamparo ou em grave e iminente perigo, configura:", ["abandono de incapaz", "periclitação da vida", "maus-tratos", "exposição de recém-nascido", "omissão de socorro"], "E", "Art. 135 do CP.", "f"],
+      ["A difamação consiste em atribuir a alguém qualidade negativa, ofendendo sua dignidade ou decoro, ainda que não seja crime.", null, "E", "Atribuir qualidade negativa é injúria (art. 140); difamação é imputar fato ofensivo à reputação (art. 139).", "f"],
+      ["O sequestro e cárcere privado é crime contra:", ["o patrimônio", "a fé pública", "a administração pública", "a dignidade sexual", "a liberdade individual"], "E", "Art. 148 do CP, no capítulo dos crimes contra a liberdade pessoal.", "f"],
+      ["Perseguir alguém, reiteradamente e por qualquer meio, ameaçando-lhe a integridade física ou psicológica, configura apenas o crime de ameaça (art. 147).", null, "E", "Configura perseguição (art. 147-A do CP, incluído pela Lei 14.132/2021).", "f"]
+    ],
+    "Crimes contra o patrimônio": [
+      ["O latrocínio é o roubo do qual resulta:", ["morte", "lesão corporal leve", "dano ao patrimônio", "restrição de liberdade", "fuga do agente"], "A", "Art. 157, §3º, II, do CP. É crime hediondo; a competência é do juiz singular, não do júri (Súmula 603 do STF).", "f"],
+      ["Receber, em proveito próprio ou alheio, coisa que sabe ser produto de crime configura favorecimento real.", null, "E", "Art. 180 do CP: receptação. O favorecimento real (art. 349) é o auxílio ao criminoso para tornar seguro o proveito do crime.", "f"],
+      ["O furto praticado durante o repouso noturno tem a pena aumentada de metade.", null, "E", "Art. 155, §1º, do CP: aumento de um terço.", "m"]
+    ],
+    "Crimes contra a Administração Pública": [
+      ["Solicitar ou receber, para si ou para outrem, direta ou indiretamente, vantagem indevida, em razão da função, configura:", ["concussão", "peculato", "prevaricação", "corrupção passiva", "corrupção ativa"], "D", "Art. 317 do CP. Na concussão, o verbo é 'exigir'.", "f"],
+      ["Dar causa à instauração de inquérito policial ou processo contra alguém, imputando-lhe crime de que o sabe inocente, configura comunicação falsa de crime.", null, "E", "Art. 339 do CP: denunciação caluniosa; a comunicação falsa de crime (art. 340) não imputa o fato a pessoa determinada.", "m"]
+    ]
+  }
+}

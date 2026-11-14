@@ -1,0 +1,108 @@
+{
+  "disciplina": "Direito Previdenciário",
+  "assuntos": {
+    "Seguridade social": [
+      ["A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social.", null, "C", "Art. 194 da CF.", "f"],
+      ["A saúde é direito de todos e dever do Estado, independentemente de contribuição.", null, "C", "Art. 196 da CF.", "f"],
+      ["A assistência social será prestada:", ["apenas a quem contribuir para a seguridade social", "somente aos segurados do RGPS", "a quem dela necessitar, independentemente de contribuição", "apenas aos idosos", "mediante pagamento de taxa"], "C", "Art. 203 da CF.", "f"],
+      ["O caráter democrático e descentralizado da administração da seguridade social se dá mediante gestão tripartite, com participação apenas dos trabalhadores, dos empregadores e do Governo.", null, "E", "Art. 194, parágrafo único, VII, da CF: gestão quadripartite, incluindo os aposentados.", "m"],
+      ["O princípio da seletividade e distributividade na prestação dos benefícios e serviços significa que:", ["todos recebem os mesmos benefícios, de igual valor", "o legislador escolhe as contingências a cobrir e direciona as prestações a quem mais precisa", "os benefícios urbanos são superiores aos rurais", "só os contribuintes têm direito à saúde", "os benefícios nunca podem ser reajustados"], "B", "Art. 194, parágrafo único, III, da CF.", "m"],
+      ["A uniformidade e a equivalência dos benefícios e serviços às populações urbanas e rurais é objetivo da seguridade social.", null, "C", "Art. 194, parágrafo único, II, da CF.", "f"],
+      ["A seguridade social será financiada por toda a sociedade, de forma direta e indireta, com recursos provenientes dos orçamentos dos entes federativos e de contribuições sociais.", null, "C", "Art. 195, caput, da CF.", "f"],
+      ["As entidades beneficentes de assistência social que atendam às exigências estabelecidas em lei complementar são imunes às contribuições para a seguridade social.", null, "C", "Art. 195, §7º, da CF; o STF exige lei complementar para os requisitos (Tema 32).", "m"],
+      ["A irredutibilidade do valor dos benefícios é um dos objetivos da seguridade social.", null, "C", "Art. 194, parágrafo único, IV, da CF.", "f"]
+    ],
+    "Regime Geral de Previdência Social: segurados": [
+      ["A previdência social será organizada sob a forma do Regime Geral, de caráter contributivo e de filiação obrigatória, observados critérios que preservem o equilíbrio financeiro e atuarial.", null, "C", "Art. 201 da CF.", "f"],
+      ["É permitida a filiação ao RGPS, na qualidade de segurado facultativo, de pessoa participante de regime próprio de previdência.", null, "E", "Art. 201, §5º, da CF: é vedada a filiação como facultativo de participante de regime próprio.", "m"],
+      ["O diarista que presta serviços de natureza contínua a uma mesma pessoa ou família, por mais de dois dias por semana, é segurado:", ["contribuinte individual", "avulso", "facultativo", "empregado doméstico", "especial"], "D", "Art. 1º da LC 150/2015. Até dois dias por semana, enquadra-se como contribuinte individual.", "m"],
+      ["O trabalhador que presta serviço de natureza urbana ou rural, sem vínculo empregatício, a diversas empresas, com intermediação obrigatória do órgão gestor de mão de obra ou do sindicato da categoria, é o:", ["trabalhador avulso", "contribuinte individual", "empregado", "segurado especial", "empregado doméstico"], "A", "Art. 11, VI, da Lei 8.213/1991.", "m"],
+      ["O ministro de confissão religiosa é segurado obrigatório na categoria de empregado.", null, "E", "Art. 11, V, 'c', da Lei 8.213/1991: contribuinte individual.", "m"],
+      ["A dona de casa sem renda própria, o estudante e o síndico de condomínio não remunerado podem filiar-se ao RGPS como segurados:", ["especiais", "empregados", "obrigatórios", "avulsos", "facultativos"], "E", "Art. 11 do Decreto 3.048/1999.", "f"],
+      ["O empresário e o trabalhador autônomo são segurados obrigatórios do RGPS na categoria de contribuinte individual.", null, "C", "Art. 11, V, da Lei 8.213/1991.", "f"],
+      ["O segurado facultativo mantém a qualidade de segurado, sem contribuir, por até:", ["3 meses", "6 meses", "12 meses", "24 meses", "36 meses"], "B", "Art. 15, VI, da Lei 8.213/1991.", "m"],
+      ["O prazo de manutenção da qualidade de segurado após a cessação das contribuições é prorrogado para até 24 meses se o segurado já tiver pago mais de 60 contribuições mensais sem interrupção que acarrete a perda dessa qualidade.", null, "E", "Art. 15, §1º, da Lei 8.213/1991: mais de 120 contribuições mensais sem perda da qualidade de segurado.", "m"],
+      ["Mantém a qualidade de segurado, sem limite de prazo, quem está em gozo de benefício, exceto do auxílio-acidente.", null, "C", "Art. 15, I, da Lei 8.213/1991, com redação da Lei 13.846/2019.", "m"],
+      ["O segurado recluso mantém a qualidade de segurado até 3 meses após o livramento.", null, "E", "Art. 15, IV, da Lei 8.213/1991: até 12 meses após o livramento.", "m"],
+      ["O exercício de atividade remunerada sujeita ao RGPS gera filiação automática, sendo a inscrição o ato formal de cadastro.", null, "C", "Para os segurados obrigatórios, a filiação decorre do exercício da atividade; para o facultativo, da inscrição com o primeiro pagamento.", "m"]
+    ],
+    "Dependentes": [
+      ["A existência de dependente de qualquer das classes não exclui do direito às prestações os das classes seguintes.", null, "E", "Art. 16, §1º, da Lei 8.213/1991: exclui os das classes seguintes.", "f"],
+      ["A dependência econômica do cônjuge, do companheiro e do filho menor de 21 anos deve ser comprovada, e a dos pais é presumida.", null, "E", "Art. 16, §4º, da Lei 8.213/1991: presumida para a primeira classe; nas demais, deve ser comprovada.", "f"],
+      ["Os pais do segurado integram a:", ["primeira classe de dependentes", "terceira classe de dependentes", "segunda classe de dependentes", "classe dos segurados facultativos", "categoria de herdeiros necessários apenas"], "C", "Art. 16, II, da Lei 8.213/1991.", "f"],
+      ["O irmão não emancipado, menor de 21 anos ou inválido ou com deficiência intelectual, mental ou grave, é dependente de terceira classe.", null, "C", "Art. 16, III, da Lei 8.213/1991.", "m"],
+      ["O enteado e o menor tutelado equiparam-se a filho mediante declaração do segurado e desde que comprovada a dependência econômica.", null, "C", "Art. 16, §2º, da Lei 8.213/1991.", "m"]
+    ],
+    "Carência": [
+      ["Período de carência é o número mínimo de contribuições mensais indispensáveis para que o beneficiário faça jus ao benefício.", null, "C", "Art. 24 da Lei 8.213/1991.", "f"],
+      ["A carência do auxílio por incapacidade temporária e da aposentadoria por incapacidade permanente, em regra, é de:", ["10 contribuições", "180 contribuições", "24 contribuições", "12 contribuições", "não há carência"], "D", "Art. 25, I, da Lei 8.213/1991.", "f"],
+      ["A carência da aposentadoria programada (por idade) no RGPS é de:", ["60 contribuições", "180 contribuições", "120 contribuições", "240 contribuições", "12 contribuições"], "B", "Art. 25, II, da Lei 8.213/1991.", "f"],
+      ["Independe de carência a concessão de aposentadoria programada, salário-família e auxílio-acidente.", null, "E", "A aposentadoria programada exige 180 contribuições; pensão por morte, salário-família e auxílio-acidente independem de carência (art. 26, I).", "m"],
+      ["O auxílio-reclusão exige carência de:", ["12 contribuições", "não exige carência", "10 contribuições", "180 contribuições", "24 contribuições"], "E", "Art. 25, IV, da Lei 8.213/1991, incluído pela Lei 13.846/2019.", "m"],
+      ["O salário-maternidade da segurada empregada, da empregada doméstica e da trabalhadora avulsa independe de carência.", null, "C", "Art. 26, VI, da Lei 8.213/1991.", "m"],
+      ["O auxílio por incapacidade temporária decorrente de acidente de qualquer natureza independe de carência.", null, "C", "Art. 26, II, da Lei 8.213/1991.", "m"]
+    ],
+    "Benefícios do RGPS": [
+      ["Após a EC 103/2019, a aposentadoria do trabalhador rural e do segurado especial exige idade mínima de:", ["60 anos para homem e 55 para mulher", "65 anos para homem e 62 para mulher", "62 anos para ambos", "55 anos para ambos", "60 anos para ambos"], "A", "Art. 201, §7º, II, da CF, com 15 anos de atividade rural.", "m"],
+      ["Para o professor que comprove tempo de efetivo exercício nas funções de magistério na educação infantil e no ensino fundamental e médio, a EC 103/2019 fixou, no RGPS, idade mínima de 60 anos para homem e 57 para mulher, com 25 anos de contribuição.", null, "C", "Art. 201, §8º, da CF e regra transitória do art. 19, §1º, II, da EC 103/2019.", "d"],
+      ["Na aposentadoria especial, após a EC 103/2019, para atividades com 25 anos de efetiva exposição, a idade mínima é de:", ["55 anos", "58 anos", "60 anos", "62 anos", "65 anos"], "C", "Art. 19, §1º, I, da EC 103/2019: 55 (15 anos), 58 (20 anos) e 60 anos (25 anos de exposição).", "d"],
+      ["Para o segurado empregado, durante os primeiros 30 dias consecutivos de afastamento por incapacidade, incumbe à empresa pagar o salário integral.", null, "E", "Art. 60, §3º, da Lei 8.213/1991: a empresa paga os primeiros 15 dias.", "f"],
+      ["O valor do auxílio-acidente corresponde a:", ["100% do salário de benefício", "91% do salário de benefício", "70% do último salário", "um salário mínimo, sempre", "50% do salário de benefício"], "E", "Art. 86, §1º, da Lei 8.213/1991.", "m"],
+      ["O auxílio-acidente pode ser recebido cumulativamente com qualquer aposentadoria.", null, "E", "Art. 86, §§2º e 3º, da Lei 8.213/1991: é vedada a acumulação com aposentadoria.", "m"],
+      ["O auxílio-acidente não é devido ao contribuinte individual nem ao segurado facultativo.", null, "C", "Art. 18, §1º, da Lei 8.213/1991: é devido ao empregado, doméstico, avulso e segurado especial.", "d"],
+      ["Após a EC 103/2019, o valor da aposentadoria por incapacidade permanente, em regra, corresponde a:", ["100% da média dos salários de contribuição", "um salário mínimo", "50% da média", "60% da média, acrescidos de 2 pontos percentuais por ano de contribuição que exceder 20 anos (homem) ou 15 anos (mulher)", "70% da média mais 1% por dependente"], "D", "Art. 26, §2º, da EC 103/2019. Se decorrer de acidente do trabalho, doença profissional ou do trabalho, é de 100% (§3º, II).", "d"],
+      ["Após a EC 103/2019, a pensão por morte corresponde a uma cota familiar de 50% do valor da aposentadoria, acrescida de cotas de 10 pontos percentuais por dependente, até o máximo de 100%.", null, "C", "Art. 23 da EC 103/2019.", "m"],
+      ["Para o cônjuge ou companheiro, a pensão por morte terá duração de apenas 4 meses se o óbito ocorrer sem que o segurado tenha vertido 18 contribuições mensais ou se o casamento ou a união estável tiver sido iniciado em menos de 2 anos antes do óbito.", null, "C", "Art. 77, §2º, V, 'b', da Lei 8.213/1991, ressalvados acidente e doença profissional.", "d"],
+      ["O salário-maternidade é devido também ao segurado ou à segurada que adotar ou obtiver guarda judicial para fins de adoção de criança, pelo período de 60 dias.", null, "E", "Art. 71-A da Lei 8.213/1991: 120 dias.", "m"],
+      ["O salário-maternidade da segurada empregada é pago:", ["diretamente pelo INSS em qualquer caso", "pelo sindicato", "pela empresa, que se compensa quando do recolhimento das contribuições", "pelo SUS", "pela Receita Federal"], "C", "Art. 72, §1º, da Lei 8.213/1991.", "m"],
+      ["O salário-família é devido, mensalmente, ao segurado empregado, inclusive o doméstico, e ao trabalhador avulso de baixa renda, por filho ou equiparado de até 14 anos ou inválido de qualquer idade.", null, "C", "Art. 65 da Lei 8.213/1991; não se incorpora ao salário ou ao benefício.", "m"],
+      ["O auxílio-reclusão é devido aos dependentes do segurado de baixa renda recolhido à prisão em regime:", ["fechado", "semiaberto ou aberto", "aberto", "qualquer regime, inclusive prisão domiciliar", "apenas provisório"], "A", "Art. 80 da Lei 8.213/1991, com redação da Lei 13.846/2019.", "m"],
+      ["O auxílio-reclusão, após a EC 103/2019, tem valor limitado a um salário mínimo.", null, "C", "Art. 27, §1º, da EC 103/2019.", "d"],
+      ["Nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado terá valor mensal inferior ao salário mínimo.", null, "C", "Art. 201, §2º, da CF. O auxílio-acidente, por ser indenizatório, pode ser inferior.", "f"],
+      ["A gratificação natalina dos aposentados e pensionistas tem por base o valor dos proventos do mês de:", ["janeiro", "dezembro", "novembro", "junho", "do aniversário do segurado"], "B", "Art. 201, §6º, da CF.", "f"],
+      ["É permitido o recebimento conjunto de duas aposentadorias pelo RGPS.", null, "E", "Art. 124, II, da Lei 8.213/1991.", "f"],
+      ["É vedado o recebimento conjunto de salário-maternidade e auxílio por incapacidade temporária.", null, "C", "Art. 124, IV, da Lei 8.213/1991.", "m"],
+      ["Após a EC 103/2019, é admitida a acumulação de pensão por morte com aposentadoria, assegurada a percepção integral do benefício mais vantajoso e de parte do outro, segundo faixas de redução.", null, "C", "Art. 24, §§1º e 2º, da EC 103/2019.", "d"],
+      ["A reabilitação profissional é serviço prestado pelo INSS ao segurado incapacitado parcial ou totalmente para o trabalho, após carência de 12 contribuições.", null, "E", "Art. 26, V, da Lei 8.213/1991: a reabilitação profissional independe de carência.", "m"],
+      ["O auxílio por incapacidade temporária será devido ao segurado que ficar incapacitado para o seu trabalho ou atividade habitual por mais de:", ["7 dias consecutivos", "15 dias consecutivos", "30 dias consecutivos", "60 dias", "90 dias"], "B", "Art. 59 da Lei 8.213/1991.", "f"],
+      ["O BPC/LOAS é devido à pessoa com deficiência e ao idoso com 65 anos ou mais que comprovem não possuir meios de prover a própria manutenção, nem de tê-la provida por sua família.", null, "C", "Art. 203, V, da CF e art. 20 da Lei 8.742/1993; o valor é de um salário mínimo.", "f"],
+      ["O BPC/LOAS gera direito a pensão por morte aos dependentes do beneficiário.", null, "E", "Por ser benefício assistencial, não gera pensão nem paga abono anual.", "m"]
+    ],
+    "Custeio": [
+      ["A contribuição da empresa sobre a remuneração paga aos empregados e trabalhadores avulsos é, em regra, de:", ["8%", "11%", "15%", "20%", "27,5%"], "D", "Art. 22, I, da Lei 8.212/1991, além do RAT de 1%, 2% ou 3%.", "f"],
+      ["A contribuição para o financiamento dos benefícios decorrentes dos riscos ambientais do trabalho (RAT/SAT) varia de 1% a 3%, conforme o grau de risco da atividade preponderante.", null, "C", "Art. 22, II, da Lei 8.212/1991; pode ser ajustada pelo FAP.", "m"],
+      ["O contribuinte individual que presta serviços apenas por conta própria contribui, em regra, com alíquota de 8% sobre o salário de contribuição.", null, "E", "Art. 21 da Lei 8.212/1991: 20% sobre o salário de contribuição.", "m"],
+      ["No plano simplificado de previdência, o contribuinte individual e o facultativo contribuem com 11% sobre o salário mínimo, mas não têm direito a:", ["aposentadoria por idade", "salário-maternidade", "auxílio por incapacidade temporária", "pensão por morte", "aposentadoria por tempo de contribuição (conforme regras de transição)"], "E", "Art. 21, §2º, da Lei 8.212/1991.", "d"],
+      ["O MEI e o segurado facultativo sem renda própria que se dedique exclusivamente ao trabalho doméstico na própria residência, pertencente a família de baixa renda, contribuem com 5% sobre o salário mínimo.", null, "C", "Art. 21, §2º, II, da Lei 8.212/1991.", "m"],
+      ["O segurado especial contribui sobre:", ["o salário mínimo, sempre", "o lucro líquido anual", "o valor da propriedade rural", "a receita bruta proveniente da comercialização da sua produção", "o número de dependentes"], "D", "Art. 195, §8º, da CF e art. 25 da Lei 8.212/1991.", "m"],
+      ["Após a EC 103/2019, as alíquotas de contribuição do segurado empregado ao RGPS são de 7,5%, 9%, 12% e 14%, aplicadas de forma progressiva por faixas do salário de contribuição.", null, "C", "Art. 28 da EC 103/2019.", "m"],
+      ["O limite mínimo do salário de contribuição corresponde ao salário mínimo, e o máximo, ao teto dos benefícios do RGPS.", null, "C", "Art. 28, §§3º e 5º, da Lei 8.212/1991.", "f"],
+      ["As contribuições sociais incidentes sobre a receita de concursos de prognósticos integram o financiamento da seguridade social.", null, "C", "Art. 195, III, da CF.", "m"],
+      ["Incide contribuição previdenciária sobre as férias indenizadas e o respectivo adicional constitucional.", null, "E", "Art. 28, §9º, 'd', da Lei 8.212/1991: as férias indenizadas e o terço respectivo não integram o salário de contribuição.", "d"],
+      ["As contribuições sociais do empregador sobre a folha de salários podem ter alíquotas diferenciadas em razão da atividade econômica, da utilização intensiva de mão de obra, do porte da empresa ou da condição estrutural do mercado de trabalho.", null, "C", "Art. 195, §9º, da CF.", "d"]
+    ],
+    "Prescrição, decadência e disposições gerais": [
+      ["O prazo de decadência do direito do segurado de revisar o ato de concessão de benefício é de:", ["2 anos", "10 anos", "5 anos", "15 anos", "não há prazo"], "B", "Art. 103 da Lei 8.213/1991.", "m"],
+      ["Prescreve em dez anos, a contar da data em que deveriam ter sido pagas, a ação para haver prestações vencidas ou restituições devidas pela Previdência Social.", null, "E", "Art. 103, parágrafo único, da Lei 8.213/1991: cinco anos.", "m"],
+      ["O direito da Previdência Social de anular os atos administrativos de que decorram efeitos favoráveis aos beneficiários decai em 10 anos, salvo comprovada má-fé.", null, "C", "Art. 103-A da Lei 8.213/1991.", "m"],
+      ["É assegurada, para efeito de aposentadoria, a contagem recíproca do tempo de contribuição entre o RGPS e os regimes próprios, hipótese em que os regimes se compensarão financeiramente.", null, "C", "Art. 201, §9º, da CF.", "m"],
+      ["Os benefícios previdenciários devem ser reajustados para preservar-lhes, em caráter permanente, o valor real, conforme critérios definidos em lei.", null, "C", "Art. 201, §4º, da CF.", "f"],
+      ["O tempo de contribuição fictício pode ser contado para fins de concessão de aposentadoria, após a EC 103/2019.", null, "E", "Art. 201, §14, da CF: é vedada a contagem de tempo de contribuição fictício.", "m"]
+    ],
+    "Regimes próprios e previdência complementar": [
+      ["O regime de previdência privada complementar tem caráter:", ["facultativo e autônomo em relação ao RGPS, baseado na constituição de reservas que garantam o benefício contratado", "obrigatório e vinculado ao RGPS", "assistencial e gratuito", "exclusivamente público", "obrigatório para servidores e empregados"], "A", "Art. 202 da CF.", "m"],
+      ["Após a EC 103/2019, o servidor público federal se aposenta voluntariamente, em regra, aos 65 anos (homem) e 62 anos (mulher), com 25 anos de contribuição, 10 anos de efetivo exercício no serviço público e 5 anos no cargo.", null, "C", "Art. 40, §1º, III, da CF e art. 10 da EC 103/2019.", "d"],
+      ["A aposentadoria compulsória do servidor público ocorre aos:", ["65 anos", "70 anos", "75 anos, na forma de lei complementar", "80 anos", "60 anos"], "C", "Art. 40, §1º, II, da CF e LC 152/2015.", "f"],
+      ["O regime próprio de previdência dos servidores titulares de cargos efetivos terá caráter não contributivo e custeado exclusivamente pelo ente.", null, "E", "Art. 40, caput, da CF: caráter contributivo e solidário.", "f"],
+      ["O servidor ocupante exclusivamente de cargo em comissão vincula-se ao regime próprio de previdência do ente.", null, "E", "Art. 40, §13, da CF: aplica-se o RGPS.", "f"],
+      ["A Funpresp é a entidade de previdência complementar dos servidores públicos federais titulares de cargo efetivo.", null, "C", "Lei 12.618/2012.", "m"]
+    ],
+    "Acidente do trabalho": [
+      ["Acidente do trabalho é o que ocorre pelo exercício do trabalho a serviço da empresa, provocando lesão corporal ou perturbação funcional que cause a morte, a perda ou a redução, permanente ou temporária, da capacidade para o trabalho.", null, "C", "Art. 19 da Lei 8.213/1991.", "f"],
+      ["Equiparam-se ao acidente do trabalho a doença profissional e a doença do trabalho.", null, "C", "Art. 20 da Lei 8.213/1991.", "f"],
+      ["Não é considerada doença do trabalho:", ["a doença ocupacional causada por agentes químicos", "a silicose do trabalhador de pedreira", "a LER/DORT relacionada à atividade", "a perda auditiva por ruído ocupacional", "a doença degenerativa e a inerente a grupo etário"], "E", "Art. 20, §1º, da Lei 8.213/1991.", "m"],
+      ["A empresa deve comunicar o acidente do trabalho à Previdência Social até o décimo dia útil seguinte ao da ocorrência e, em caso de morte, de imediato.", null, "E", "Art. 22 da Lei 8.213/1991: até o primeiro dia útil seguinte ao da ocorrência e, em caso de morte, de imediato.", "m"],
+      ["O acidente sofrido pelo segurado no percurso da residência para o local de trabalho continua equiparado a acidente do trabalho, para fins previdenciários.", null, "C", "Art. 21, IV, 'd', da Lei 8.213/1991. A MP 905/2019, que o excluía, perdeu a vigência.", "d"]
+    ]
+  }
+}

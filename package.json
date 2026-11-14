@@ -7,7 +7,9 @@
     "dev": "vite",
     "api": "node --env-file=.env.local dev-server.mjs",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "questoes:validar": "node scripts/validar-questoes.mjs",
+    "questoes:gerar-calculo": "node scripts/gerar-questoes-calculo.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",

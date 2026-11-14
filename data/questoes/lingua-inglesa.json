@@ -1,0 +1,22 @@
+{
+  "disciplina": "Língua Inglesa",
+  "assuntos": {
+    "Gramática": [
+      ["Choose the correct option: 'She ___ to work every day.'", ["goes", "go", "going", "gone", "is go"], "A", "Simple present, 3rd person singular takes -s/-es: she goes.", "f"],
+      ["In the sentence 'If I had studied, I would have passed', we have an example of the third conditional.", null, "C", "Third conditional: if + past perfect, would have + past participle (hypothetical past).", "m"],
+      ["Choose the correct option: 'I have lived here ___ 2015.'", ["for", "during", "while", "ago", "since"], "E", "'Since' + starting point; 'for' + period of time (for ten years).", "f"],
+      ["Choose the correct passive voice of 'The manager signed the contract.'", ["The contract is signed by the manager.", "The contract has signed the manager.", "The contract was signed by the manager.", "The contract were signed by the manager.", "The manager was signed by the contract."], "C", "Simple past passive: was/were + past participle.", "f"],
+      ["The comparative form of 'good' is 'gooder'.", null, "E", "Irregular: good → better → the best.", "f"],
+      ["Choose the correct relative pronoun: 'The man ___ car was stolen called the police.'", ["who", "whose", "whom", "which", "what"], "B", "'Whose' indicates possession.", "m"],
+      ["'Must' is commonly used to express obligation or strong deduction.", null, "C", "Ex.: 'You must wear a seatbelt' (obligation); 'He must be tired' (deduction).", "f"]
+    ],
+    "Vocabulário e falsos cognatos": [
+      ["The word 'actually' means:", ["atualmente", "rapidamente", "ativamente", "na verdade", "anualmente"], "D", "False cognate. 'Atualmente' = currently/nowadays.", "f"],
+      ["'Pretend' means 'fingir', not 'pretender'.", null, "C", "'Pretender' = intend.", "f"],
+      ["The word 'eventually' means:", ["eventualmente", "raramente", "frequentemente", "imediatamente", "finalmente, por fim"], "E", "False cognate. 'Eventualmente' (ocasionalmente) = occasionally.", "m"],
+      ["'Library' means 'livraria'.", null, "E", "Library = biblioteca; bookstore = livraria.", "f"],
+      ["In the sentence 'However, the results were not satisfactory', the word 'however' expresses:", ["addition", "example", "contrast", "conclusion", "cause"], "C", "'However' = no entanto, contudo.", "f"],
+      ["The connector 'therefore' introduces a conclusion or consequence.", null, "C", "'Therefore' = portanto.", "f"]
+    ]
+  }
+}

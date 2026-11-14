@@ -4,8 +4,8 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "api/estudos-ia.js": { "maxDuration": 300 },
-    "api/estudos-banco.js": { "maxDuration": 300 }
+    "api/estudos-ia.js": { "maxDuration": 300, "includeFiles": "data/questoes/**" },
+    "api/estudos-banco.js": { "maxDuration": 300, "includeFiles": "data/questoes/**" }
   },
   "rewrites": [
     { "source": "/loja", "destination": "/index.html" },

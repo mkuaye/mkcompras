@@ -1,0 +1,30 @@
+{
+  "disciplina": "Direito do Trabalho",
+  "assuntos": {
+    "Relação de emprego": [
+      ["São requisitos da relação de emprego, segundo os arts. 2º e 3º da CLT:", ["pessoa física, pessoalidade, não eventualidade, onerosidade e subordinação", "pessoa jurídica, eventualidade e autonomia", "contrato escrito obrigatório e exclusividade", "exclusividade e carteira assinada", "subordinação e prazo determinado"], "A", "A exclusividade não é requisito do vínculo empregatício.", "f"],
+      ["A exclusividade é requisito essencial para a configuração da relação de emprego.", null, "E", "O empregado pode ter mais de um emprego, havendo compatibilidade de horários.", "f"],
+      ["Considera-se empregador a empresa, individual ou coletiva, que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviço.", null, "C", "Art. 2º da CLT — princípio da alteridade.", "f"],
+      ["O trabalho intermitente, introduzido pela Reforma Trabalhista, é aquele com subordinação, não contínuo, com alternância de períodos de prestação de serviços e de inatividade.", null, "C", "Art. 443, §3º, da CLT (Lei 13.467/2017).", "m"]
+    ],
+    "Jornada de trabalho e férias": [
+      ["Após cada período de doze meses de vigência do contrato, o empregado terá direito a férias de 30 dias corridos, quando não houver faltado ao serviço mais de:", ["3 vezes", "5 vezes", "10 vezes", "14 vezes", "20 vezes"], "B", "Art. 130, I, da CLT. De 6 a 14 faltas: 24 dias; 15 a 23: 18 dias; 24 a 32: 12 dias.", "m"],
+      ["As férias podem ser fracionadas em até três períodos, mediante concordância do empregado, sendo que um deles não poderá ser inferior a 14 dias corridos e os demais não poderão ser inferiores a 5 dias corridos cada um.", null, "C", "Art. 134, §1º, da CLT (Reforma Trabalhista).", "m"],
+      ["Entre duas jornadas de trabalho haverá um período mínimo de onze horas consecutivas para descanso.", null, "C", "Art. 66 da CLT — intervalo interjornada.", "f"],
+      ["Em jornada superior a seis horas, é obrigatório intervalo intrajornada de, no mínimo:", ["15 minutos", "1 hora", "45 minutos", "2 horas", "30 minutos"], "B", "Art. 71 da CLT: mínimo de 1 hora e máximo de 2 horas. Jornada entre 4 e 6 horas: 15 minutos. Pode ser reduzido a 30 minutos por negociação coletiva.", "f"],
+      ["O trabalho noturno urbano é o realizado entre 22h de um dia e 5h do dia seguinte, com adicional de, no mínimo, 20%, e hora noturna de 52 minutos e 30 segundos.", null, "C", "Art. 73 da CLT.", "m"]
+    ],
+    "Remuneração e estabilidade": [
+      ["Integram o salário a importância fixa estipulada, as gratificações legais e as comissões pagas pelo empregador.", null, "C", "Art. 457, §1º, da CLT (redação da Lei 13.467/2017). Ajuda de custo, auxílio-alimentação (não em dinheiro), diárias e prêmios não integram.", "m"],
+      ["A empregada gestante tem estabilidade provisória:", ["apenas durante a licença", "da contratação até o parto", "por 120 dias após o parto", "por um ano após o parto", "desde a confirmação da gravidez até cinco meses após o parto"], "E", "Art. 10, II, 'b', do ADCT. Aplica-se inclusive ao contrato por prazo determinado (Súmula 244 do TST).", "f"],
+      ["O empregado que sofreu acidente do trabalho tem garantida a manutenção do contrato pelo prazo mínimo de doze meses após a cessação do auxílio-doença acidentário.", null, "C", "Art. 118 da Lei 8.213/1991.", "m"],
+      ["O adicional de insalubridade é de 10%, 20% ou 40% conforme o grau mínimo, médio ou máximo; o de periculosidade é de 30% sobre o salário-base.", null, "C", "Arts. 192 e 193 da CLT. Não são cumuláveis, devendo o empregado optar.", "m"]
+    ],
+    "Extinção do contrato": [
+      ["Na dispensa sem justa causa, o empregado tem direito, entre outras verbas, à indenização de 40% sobre os depósitos do FGTS.", null, "C", "Art. 18, §1º, da Lei 8.036/1990.", "f"],
+      ["Na extinção do contrato por acordo entre empregado e empregador (art. 484-A da CLT), são devidos:", ["todas as verbas integrais e seguro-desemprego", "apenas o saldo de salário", "metade do aviso prévio indenizado, metade da multa do FGTS (20%), as demais verbas integralmente e movimentação de até 80% do FGTS, sem seguro-desemprego", "multa de 40% e seguro-desemprego", "nada"], "C", "Art. 484-A da CLT (Reforma Trabalhista).", "m"],
+      ["O aviso prévio será concedido na proporção de 30 dias aos empregados com até 1 ano de serviço na mesma empresa, acrescidos de 3 dias por ano de serviço, até o máximo de 60 dias, perfazendo um total de até 90 dias.", null, "C", "Lei 12.506/2011.", "m"],
+      ["A desídia no desempenho das respectivas funções e a embriaguez habitual ou em serviço constituem justa causa para rescisão do contrato pelo empregador.", null, "C", "Art. 482, 'e' e 'f', da CLT.", "f"]
+    ]
+  }
+}

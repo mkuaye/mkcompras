@@ -1,0 +1,82 @@
+{
+  "disciplina": "Direito Civil",
+  "assuntos": {
+    "LINDB": [
+      ["Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.", null, "C", "Art. 1º da LINDB. Nos Estados estrangeiros, a obrigatoriedade inicia três meses depois de publicada.", "f"],
+      ["Ninguém se escusa de cumprir a lei, alegando que não a conhece.", null, "C", "Art. 3º da LINDB.", "f"],
+      ["Quando a lei for omissa, o juiz decidirá o caso de acordo com:", ["sua convicção pessoal apenas", "a doutrina estrangeira", "a equidade, obrigatoriamente", "a vontade das partes", "a analogia, os costumes e os princípios gerais de direito"], "E", "Art. 4º da LINDB.", "f"],
+      ["Salvo disposição em contrário, a lei revogada se restaura por ter a lei revogadora perdido a vigência.", null, "E", "Art. 2º, §3º: não há repristinação automática no Brasil.", "m"]
+    ],
+    "Pessoas naturais": [
+      ["A personalidade civil da pessoa começa do nascimento com vida; mas a lei põe a salvo, desde a concepção, os direitos do nascituro.", null, "C", "Art. 2º do CC.", "f"],
+      ["São absolutamente incapazes de exercer pessoalmente os atos da vida civil, segundo o Código Civil atual:", ["os menores de 18 anos", "os ébrios habituais", "os pródigos", "os menores de 16 anos", "as pessoas com deficiência mental"], "D", "Art. 3º do CC, com redação da Lei 13.146/2015 (Estatuto da Pessoa com Deficiência).", "f"],
+      ["São relativamente incapazes os maiores de 16 e menores de 18 anos, os ébrios habituais e viciados em tóxico, aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade, e os pródigos.", null, "C", "Art. 4º do CC.", "f"],
+      ["A menoridade cessa aos dezoito anos completos. A emancipação voluntária, concedida pelos pais, exige que o menor tenha:", ["14 anos", "16 anos completos", "17 anos", "15 anos", "qualquer idade"], "B", "Art. 5º, parágrafo único, I, do CC: por instrumento público, independentemente de homologação judicial.", "f"],
+      ["O casamento, o exercício de emprego público efetivo e a colação de grau em curso de ensino superior são causas de cessação da incapacidade do menor.", null, "C", "Art. 5º, parágrafo único, II a IV.", "m"],
+      ["Os direitos da personalidade são, em regra, intransmissíveis e irrenunciáveis, não podendo o seu exercício sofrer limitação voluntária.", null, "C", "Art. 11 do CC.", "f"],
+      ["A existência da pessoa natural termina com a morte; presume-se esta, quanto aos ausentes, nos casos em que a lei autoriza a abertura de sucessão definitiva.", null, "C", "Art. 6º do CC.", "m"],
+      ["Se dois ou mais indivíduos falecerem na mesma ocasião, não se podendo averiguar se algum precedeu aos outros, presumir-se-ão simultaneamente mortos. Trata-se da:", ["comoriência", "premoriência", "ausência", "morte presumida", "sucessão provisória"], "A", "Art. 8º do CC.", "f"]
+    ],
+    "Pessoas jurídicas": [
+      ["São pessoas jurídicas de direito privado:", ["autarquias", "União e Estados", "associações, sociedades, fundações, organizações religiosas, partidos políticos e empresas individuais de responsabilidade limitada (atualmente sociedades limitadas unipessoais)", "fundações públicas de direito público", "Municípios"], "C", "Art. 44 do CC. A EIRELI foi extinta e transformada em sociedade limitada unipessoal (Lei 14.195/2021).", "m"],
+      ["Em caso de abuso da personalidade jurídica, caracterizado pelo desvio de finalidade ou pela confusão patrimonial, o juiz pode desconsiderá-la para que os efeitos de certas obrigações sejam estendidos aos bens dos administradores ou sócios.", null, "C", "Art. 50 do CC (teoria maior da desconsideração).", "m"],
+      ["As associações são constituídas pela união de pessoas que se organizem para fins econômicos.", null, "E", "Art. 53: associações são constituídas para fins não econômicos.", "f"]
+    ],
+    "Bens": [
+      ["São bens imóveis o solo e tudo quanto se lhe incorporar natural ou artificialmente.", null, "C", "Art. 79 do CC.", "f"],
+      ["Os bens que, sem constituírem partes integrantes, se destinam, de modo duradouro, ao uso, ao serviço ou ao aformoseamento de outro, são:", ["benfeitorias", "acessões", "frutos", "produtos", "pertenças"], "E", "Art. 93. As pertenças, em regra, não seguem o principal (art. 94).", "m"],
+      ["Benfeitorias necessárias são as que têm por fim conservar o bem ou evitar que se deteriore.", null, "C", "Art. 96, §3º. Úteis aumentam ou facilitam o uso; voluptuárias são de mero deleite.", "f"]
+    ],
+    "Fatos e negócios jurídicos": [
+      ["A validade do negócio jurídico requer:", ["registro em cartório sempre", "agente capaz, objeto lícito, possível, determinado ou determinável, e forma prescrita ou não defesa em lei", "escritura pública sempre", "testemunhas", "homologação judicial"], "B", "Art. 104 do CC.", "f"],
+      ["É nulo o negócio jurídico simulado, mas subsistirá o que se dissimulou, se válido for na substância e na forma.", null, "C", "Art. 167 do CC. A simulação gera nulidade (não anulabilidade).", "m"],
+      ["São defeitos do negócio jurídico que geram anulabilidade:", ["erro, dolo, coação, estado de perigo, lesão e fraude contra credores", "falta de assinatura", "objeto ilícito e forma inadequada", "simulação e incapacidade absoluta", "motivo ilícito comum a ambas as partes"], "A", "Art. 171, II, do CC. A simulação gera nulidade.", "m"],
+      ["Ocorre a lesão quando uma pessoa, sob premente necessidade ou por inexperiência, se obriga a prestação manifestamente desproporcional ao valor da prestação oposta.", null, "C", "Art. 157. No estado de perigo (art. 156), há necessidade de salvar-se ou a pessoa da família de grave dano conhecido pela outra parte.", "m"],
+      ["É de quatro anos o prazo de decadência para pleitear a anulação do negócio jurídico por coação, contado do dia em que ela cessar.", null, "C", "Art. 178, I. Para erro, dolo, fraude contra credores, estado de perigo e lesão, conta-se do dia em que se realizou o negócio.", "d"],
+      ["O negócio jurídico nulo é suscetível de confirmação e convalesce pelo decurso do tempo.", null, "E", "Art. 169: o nulo não é suscetível de confirmação nem convalesce. O anulável pode ser confirmado (art. 172).", "m"]
+    ],
+    "Prescrição e decadência": [
+      ["O prazo prescricional geral previsto no Código Civil, quando a lei não fixar prazo menor, é de:", ["3 anos", "5 anos", "10 anos", "15 anos", "20 anos"], "C", "Art. 205 do CC.", "f"],
+      ["Prescreve em três anos a pretensão de reparação civil.", null, "C", "Art. 206, §3º, V.", "f"],
+      ["Não corre a prescrição contra os absolutamente incapazes.", null, "C", "Art. 198, I, do CC.", "f"],
+      ["A prescrição pode ser renunciada antes de consumada.", null, "E", "Art. 191: a renúncia só vale depois que a prescrição se consumar, sem prejuízo de terceiro.", "m"],
+      ["A interrupção da prescrição:", ["pode ocorrer várias vezes", "não existe no Código Civil", "somente poderá ocorrer uma vez", "depende de lei especial", "ocorre automaticamente a cada ano"], "C", "Art. 202, caput.", "m"]
+    ],
+    "Obrigações": [
+      ["Na obrigação solidária passiva, o credor tem direito a exigir e receber de um ou de alguns dos devedores, parcial ou totalmente, a dívida comum.", null, "C", "Art. 275 do CC.", "f"],
+      ["A solidariedade não se presume; resulta da lei ou da vontade das partes.", null, "C", "Art. 265 do CC.", "f"],
+      ["A extinção da obrigação pela reunião, na mesma pessoa, das qualidades de credor e devedor chama-se:", ["remissão", "compensação", "novação", "confusão", "dação em pagamento"], "D", "Art. 381. Compensação: duas pessoas reciprocamente credoras e devedoras (art. 368).", "f"],
+      ["A dação em pagamento ocorre quando o credor consente em receber prestação diversa da que lhe é devida.", null, "C", "Art. 356 do CC.", "f"],
+      ["A cláusula penal não pode exceder o valor da obrigação principal.", null, "C", "Art. 412 do CC.", "m"],
+      ["A criação de uma obrigação nova para extinguir e substituir a anterior denomina-se:", ["imputação", "sub-rogação", "novação", "consignação", "transação"], "C", "Art. 360 do CC.", "f"]
+    ],
+    "Contratos": [
+      ["O contrato de compra e venda é, em regra, consensual, bilateral e oneroso.", null, "C", "Aperfeiçoa-se com o acordo sobre coisa e preço (art. 482).", "f"],
+      ["A doação é contrato em que uma pessoa, por liberalidade, transfere do seu patrimônio bens ou vantagens para o de outra. É nula a doação:", ["de bens móveis", "de todos os bens sem reserva de parte, ou renda suficiente para a subsistência do doador", "feita a parentes", "com encargo", "remuneratória"], "B", "Art. 548 (doação universal). Também é nula a doação inoficiosa na parte que exceder a legítima (art. 549).", "m"],
+      ["Nos contratos de execução continuada ou diferida, se a prestação de uma das partes se tornar excessivamente onerosa, com extrema vantagem para a outra, em virtude de acontecimentos extraordinários e imprevisíveis, poderá o devedor pedir a resolução do contrato.", null, "C", "Art. 478 do CC (teoria da imprevisão / onerosidade excessiva).", "m"],
+      ["Nos contratos bilaterais, nenhum dos contratantes, antes de cumprida a sua obrigação, pode exigir o implemento da do outro. Esse instituto é a:", ["cláusula resolutiva", "evicção", "vício redibitório", "exceção do contrato não cumprido", "arras"], "D", "Art. 476 do CC (exceptio non adimpleti contractus).", "m"],
+      ["Vícios redibitórios são defeitos ocultos que tornam a coisa imprópria ao uso a que é destinada ou lhe diminuem o valor.", null, "C", "Art. 441 do CC.", "f"],
+      ["A evicção é a perda da coisa adquirida onerosamente em virtude de decisão judicial ou ato administrativo que a atribui a terceiro.", null, "C", "Arts. 447 e seguintes do CC.", "m"]
+    ],
+    "Responsabilidade civil": [
+      ["Aquele que, por ação ou omissão voluntária, negligência ou imprudência, violar direito e causar dano a outrem, ainda que exclusivamente moral, comete ato ilícito.", null, "C", "Art. 186 do CC.", "f"],
+      ["Haverá obrigação de reparar o dano, independentemente de culpa, nos casos especificados em lei, ou quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem.", null, "C", "Art. 927, parágrafo único — responsabilidade objetiva pelo risco da atividade.", "m"],
+      ["São responsáveis pela reparação civil, independentemente de culpa:", ["apenas os autores diretos", "os amigos do autor", "somente o Estado", "os vizinhos", "os pais pelos filhos menores sob sua autoridade e companhia; o empregador por seus empregados no exercício do trabalho"], "E", "Arts. 932 e 933 do CC.", "m"],
+      ["A responsabilidade civil é independente da criminal, não se podendo questionar mais sobre a existência do fato, ou sobre quem seja o seu autor, quando estas questões se acharem decididas no juízo criminal.", null, "C", "Art. 935 do CC.", "m"]
+    ],
+    "Direitos reais": [
+      ["Adquire a propriedade do imóvel aquele que, por quinze anos, sem interrupção nem oposição, possuir como seu um imóvel, independentemente de título e boa-fé. Trata-se da usucapião:", ["extraordinária", "ordinária", "especial urbana", "especial rural", "familiar"], "A", "Art. 1.238. O prazo cai para 10 anos se o possuidor houver estabelecido moradia habitual ou realizado obras produtivas.", "m"],
+      ["A usucapião especial urbana exige posse de área urbana de até 250 m², por cinco anos ininterruptos e sem oposição, utilizada para moradia própria ou da família, desde que o possuidor não seja proprietário de outro imóvel.", null, "C", "Art. 183 da CF e art. 1.240 do CC.", "m"],
+      ["A hipoteca, o penhor e a anticrese são direitos reais de garantia.", null, "C", "Art. 1.225 do CC.", "f"],
+      ["A propriedade dos bens imóveis transfere-se, entre vivos, com:", ["a simples assinatura do contrato", "o pagamento do preço", "a tradição", "o registro do título translativo no Registro de Imóveis", "a escritura apenas"], "D", "Art. 1.245 do CC. Bens móveis transferem-se pela tradição (art. 1.267).", "f"]
+    ],
+    "Família e sucessões": [
+      ["É reconhecida como entidade familiar a união estável entre o homem e a mulher, configurada na convivência pública, contínua e duradoura e estabelecida com o objetivo de constituição de família.", null, "C", "Art. 1.723 do CC. O STF estendeu o reconhecimento às uniões homoafetivas (ADI 4.277 e ADPF 132).", "f"],
+      ["Na falta de convenção, ou sendo ela nula ou ineficaz, vigorará, quanto aos bens entre os cônjuges, o regime da:", ["comunhão universal", "comunhão parcial", "separação total", "participação final nos aquestos", "separação obrigatória"], "B", "Art. 1.640 do CC (regime legal supletivo).", "f"],
+      ["É obrigatório o regime da separação de bens no casamento da pessoa maior de setenta anos, sem possibilidade de afastamento por vontade das partes.", null, "E", "O STF (Tema 1.236, 2024) decidiu que o regime pode ser afastado por expressa manifestação de vontade das partes, mediante escritura pública.", "d"],
+      ["Pertence aos herdeiros necessários, de pleno direito, a metade dos bens da herança, constituindo a legítima.", null, "C", "Art. 1.846. São herdeiros necessários descendentes, ascendentes e cônjuge (art. 1.845).", "m"],
+      ["A sucessão legítima defere-se, em primeiro lugar:", ["aos descendentes, em concorrência com o cônjuge sobrevivente, conforme o regime de bens", "aos ascendentes", "aos colaterais", "ao Município", "ao cônjuge, exclusivamente"], "A", "Art. 1.829, I. Depois: ascendentes em concorrência com o cônjuge; cônjuge sobrevivente; colaterais até o 4º grau.", "m"],
+      ["Aberta a sucessão, a herança transmite-se, desde logo, aos herdeiros legítimos e testamentários.", null, "C", "Art. 1.784 — princípio da saisine.", "f"]
+    ]
+  }
+}

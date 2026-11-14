@@ -1,0 +1,104 @@
+{
+  "disciplina": "História do Brasil",
+  "assuntos": {
+    "Brasil Colônia": [
+      ["A esquadra de Pedro Álvares Cabral chegou ao território que viria a ser o Brasil em:", ["1492", "1494", "1500", "1530", "1549"], "C", "Em 22 de abril de 1500, no litoral do atual sul da Bahia.", "f"],
+      ["O Tratado de Tordesilhas (1494) dividiu as terras descobertas e a descobrir entre Portugal e Espanha por um meridiano a 100 léguas a oeste de Cabo Verde.", null, "E", "O meridiano ficava 370 léguas a oeste de Cabo Verde; a bula Inter Coetera (1493) previa 100 léguas.", "f"],
+      ["A primeira atividade econômica explorada pelos portugueses no Brasil, baseada no escambo com os indígenas, foi a extração de:", ["ouro", "borracha", "pau-brasil", "cana-de-açúcar", "algodão"], "C", "O pau-brasil era monopólio da Coroa (estanco).", "f"],
+      ["A expedição de Martim Afonso de Sousa (1530-1532) fundou a cidade de Salvador, primeira vila do Brasil.", null, "E", "Martim Afonso fundou São Vicente (1532); Salvador foi fundada por Tomé de Sousa em 1549.", "f"],
+      ["Os jesuítas chegaram ao Brasil em 1549, com o primeiro governador-geral, liderados por Padre Antônio Vieira.", null, "E", "Os jesuítas chegaram com Manuel da Nóbrega; Antônio Vieira atuou no século XVII.", "f"],
+      ["A economia açucareira do período colonial baseava-se no tripé:", ["minifúndio, policultura e trabalho livre", "extrativismo, cooperativas e imigração", "indústria, comércio e mão de obra assalariada", "pecuária, mineração e trabalho indígena livre", "latifúndio, monocultura e trabalho escravo"], "E", "O sistema de plantation voltava-se ao mercado externo.", "f"],
+      ["O pacto colonial impunha à colônia o livre comércio com todas as nações.", null, "E", "O pacto colonial impunha o exclusivo metropolitano.", "f"],
+      ["As bandeiras foram expedições que partiam principalmente de São Paulo para o interior, em busca de indígenas para escravizar e de metais preciosos.", null, "C", "Contribuíram para a expansão territorial além de Tordesilhas.", "f"],
+      ["O tratado que, em 1750, reconheceu a posse portuguesa das terras ocupadas além de Tordesilhas, com base no princípio do uti possidetis, foi o Tratado de:", ["Tordesilhas", "Madri", "Utrecht", "Methuen", "Petrópolis"], "B", "Negociado por Alexandre de Gusmão.", "m"],
+      ["A descoberta de ouro em Minas Gerais, no fim do século XVII, deslocou o eixo econômico da colônia para o Nordeste.", null, "E", "A mineração deslocou o eixo para o Centro-Sul; a capital foi transferida para o Rio de Janeiro em 1763.", "f"],
+      ["O imposto que correspondia à quinta parte do ouro extraído era o:", ["dízimo", "capitação", "derrama", "quinto", "alcavala"], "D", "A derrama era a cobrança forçada dos quintos atrasados.", "f"],
+      ["A Guerra dos Emboabas (1707-1709) opôs paulistas e forasteiros ('emboabas') pelo controle das minas de ouro.", null, "C", "Conflito nativista na região mineradora.", "m"],
+      ["A Revolta de Beckman (1684), no Maranhão, foi motivada pela insatisfação com a Companhia de Comércio do Estado do Maranhão.", null, "C", "Protestava contra o monopólio comercial e a proibição da escravização indígena.", "m"],
+      ["O Quilombo dos Palmares, localizado na Serra da Barriga, teve como um de seus principais líderes:", ["Zumbi", "Tiradentes", "Frei Caneca", "Bento Gonçalves", "Antônio Conselheiro"], "A", "Zumbi foi morto em 20 de novembro de 1695, data hoje do Dia Nacional de Zumbi e da Consciência Negra.", "f"],
+      ["O Marquês de Pombal expulsou os jesuítas de Portugal e de suas colônias em 1759.", null, "C", "Fazia parte das reformas pombalinas de fortalecimento do Estado.", "m"],
+      ["A Revolta de Vila Rica (1720), liderada por Filipe dos Santos, protestou contra a criação das Casas de Fundição.", null, "C", "Filipe dos Santos foi executado.", "m"]
+    ],
+    "Período Joanino e Império": [
+      ["Em 1808, D. João decretou a abertura dos portos às nações amigas, beneficiando sobretudo a França.", null, "E", "A abertura beneficiou sobretudo a Inglaterra; a Corte fugia justamente da França napoleônica.", "f"],
+      ["Os Tratados de 1810 concederam à Inglaterra tarifa alfandegária preferencial de:", ["5%", "15%", "16%", "24%", "30%"], "B", "Produtos portugueses pagavam 16% e os de outras nações, 24%.", "m"],
+      ["Em 1822, o Brasil foi elevado à condição de Reino Unido a Portugal e Algarves.", null, "E", "O Brasil foi elevado a Reino Unido em 1815; em 1822 ocorreu a independência.", "f"],
+      ["A Revolução Liberal do Porto (1820) exigia, entre outros pontos, o retorno de D. João VI a Portugal.", null, "C", "Também pretendia recolonizar o Brasil.", "f"],
+      ["O episódio em que D. Pedro decidiu permanecer no Brasil, desobedecendo às Cortes portuguesas, ficou conhecido como:", ["Grito do Ipiranga", "Golpe da Maioridade", "Noite das Garrafadas", "Abdicação", "Dia do Fico"], "E", "Ocorreu em 9 de janeiro de 1822.", "f"],
+      ["A Confederação do Equador (1824) foi um movimento republicano e separatista iniciado no Rio Grande do Sul, contra o autoritarismo de D. Pedro I.", null, "E", "A Confederação do Equador começou em Pernambuco; Frei Caneca foi um de seus líderes.", "m"],
+      ["A Guerra da Cisplatina (1825-1828) resultou na independência do Paraguai.", null, "E", "A Guerra da Cisplatina resultou na independência do Uruguai.", "m"],
+      ["D. Pedro I abdicou do trono brasileiro em:", ["1822", "1824", "1831", "1840", "1889"], "C", "Em 7 de abril de 1831, em favor do filho Pedro de Alcântara.", "f"],
+      ["A Revolução Farroupilha (1835-1845) ocorreu no Pará e foi a mais longa revolta do período imperial.", null, "E", "A Farroupilha ocorreu no Rio Grande do Sul; no Pará ocorreu a Cabanagem.", "f"],
+      ["A Cabanagem (1835-1840) ocorreu na província do:", ["Grão-Pará", "Maranhão", "Bahia", "Pernambuco", "Rio Grande do Sul"], "A", "Teve grande participação popular, de indígenas e mestiços.", "m"],
+      ["A Sabinada (1837-1838) ocorreu na Bahia, e a Balaiada (1838-1841), no Maranhão.", null, "C", "Revoltas do período regencial.", "m"],
+      ["O Golpe da Maioridade, em 1840, antecipou a maioridade de D. Pedro II, que assumiu o trono aos 18 anos.", null, "E", "D. Pedro II, nascido em dezembro de 1825, assumiu o trono aos 14 anos.", "f"],
+      ["A Lei Eusébio de Queirós (1850) proibiu:", ["a escravidão em todo o Brasil", "a escravidão dos maiores de 60 anos", "o tráfico negreiro para o Brasil", "a escravidão dos filhos de escravizadas", "a imigração europeia"], "C", "Aprovada sob pressão inglesa (Bill Aberdeen, 1845).", "f"],
+      ["A Lei de Terras de 1850 estabeleceu que as terras devolutas só poderiam ser adquiridas mediante compra.", null, "C", "Dificultou o acesso à terra por ex-escravizados e imigrantes pobres.", "m"],
+      ["A Lei do Ventre Livre (1850) declarou livres os filhos de mulher escravizada nascidos a partir de sua promulgação.", null, "E", "A Lei do Ventre Livre (Lei Rio Branco) é de 1871; em 1850 veio a Lei Eusébio de Queirós.", "f"],
+      ["A Lei dos Sexagenários (1885), também chamada Lei Saraiva-Cotegipe, libertava os escravizados com:", ["mais de 40 anos", "mais de 60 anos", "mais de 50 anos", "mais de 70 anos", "qualquer idade, mediante indenização"], "B", "Na prática, poucos chegavam a essa idade.", "f"],
+      ["O parlamentarismo no Segundo Reinado era conhecido como 'parlamentarismo às avessas', pois o Imperador nomeava o presidente do Conselho de Ministros.", null, "C", "O Poder Moderador se sobrepunha ao Parlamento.", "m"],
+      ["A Questão Religiosa, a Questão Militar e a abolição da escravatura contribuíram para a crise da monarquia no Brasil.", null, "C", "Perda de apoio da Igreja, do Exército e dos fazendeiros escravistas.", "f"],
+      ["O café tornou-se o principal produto de exportação brasileiro durante o Segundo Reinado, expandindo-se do Oeste Paulista para o Vale do Paraíba.", null, "E", "A expansão cafeeira foi do Vale do Paraíba para o Oeste Paulista.", "f"],
+      ["A Tarifa Alves Branco (1844) elevou as taxas alfandegárias sobre produtos importados, favorecendo o surto industrial associado a:", ["Getúlio Vargas", "Juscelino Kubitschek", "Rui Barbosa", "Barão de Mauá", "Marquês de Pombal"], "D", "Irineu Evangelista de Sousa, o Barão (depois Visconde) de Mauá.", "m"]
+    ],
+    "República Velha (1889-1930)": [
+      ["A primeira Constituição republicana, de 1891, instituiu o federalismo, o presidencialismo e o voto secreto para maiores de 21 anos, excluídos analfabetos, mendigos e mulheres.", null, "E", "A Constituição de 1891 manteve o voto aberto; o voto secreto veio com o Código Eleitoral de 1932.", "m"],
+      ["A 'política dos governadores', criada por Campos Sales, consistia em:", ["eleições diretas para governador", "nomeação de militares para os estados", "troca de apoio entre o governo federal e as oligarquias estaduais", "fim do coronelismo", "instituição do voto secreto"], "C", "A Comissão Verificadora de Poderes barrava opositores eleitos.", "m"],
+      ["O coronelismo caracterizava-se pelo controle político exercido por grandes proprietários rurais, com o 'voto de cabresto'.", null, "C", "Fenômeno típico da Primeira República.", "f"],
+      ["A Guerra de Canudos (1896-1897), no sertão da Bahia, foi liderada por:", ["Padre Cícero", "João Cândido", "José Maria", "Lampião", "Antônio Conselheiro"], "E", "O arraial de Belo Monte foi destruído pelo Exército.", "f"],
+      ["A Revolta da Vacina (1904), no Rio de Janeiro, foi motivada pela vacinação obrigatória contra a febre amarela, conduzida por Oswaldo Cruz.", null, "E", "A vacinação obrigatória que motivou a revolta era contra a varíola.", "f"],
+      ["A Revolta da Chibata (1910) foi um levante de marinheiros contra os castigos físicos na Marinha, liderado por Luís Carlos Prestes.", null, "E", "A Revolta da Chibata foi liderada por João Cândido, o 'Almirante Negro'.", "f"],
+      ["A Guerra do Contestado (1912-1916) ocorreu na região disputada entre:", ["Bahia e Pernambuco", "Paraná e Santa Catarina", "Rio Grande do Sul e Uruguai", "São Paulo e Minas Gerais", "Amazonas e Pará"], "B", "Envolveu camponeses expulsos por uma ferrovia e uma madeireira.", "m"],
+      ["O Convênio de Taubaté (1906) previa a compra dos excedentes de café pelo governo para valorizar o produto.", null, "C", "Política de valorização do café.", "m"],
+      ["A Semana de Arte Moderna de 1922 ocorreu no Rio de Janeiro e marcou o início do Modernismo no Brasil.", null, "E", "A Semana de 1922 ocorreu no Theatro Municipal de São Paulo.", "f"],
+      ["O Tenentismo foi um movimento de jovens oficiais do Exército que, nos anos 1920, defendia reformas políticas como o voto secreto e a moralização da política.", null, "C", "Episódios: Revolta dos 18 do Forte (1922) e Coluna Prestes.", "f"],
+      ["A Coluna Prestes percorreu o interior do Brasil entre 1925 e 1927, liderada por Luís Carlos Prestes e Miguel Costa.", null, "C", "Percorreu cerca de 25 mil km sem ser derrotada.", "m"],
+      ["O ciclo da borracha, no fim do século XIX e início do XX, impulsionou a economia da:", ["Amazônia", "região Sul", "região Sudeste", "região Centro-Oeste", "Zona da Mata nordestina"], "A", "Manaus e Belém viveram a belle époque.", "f"]
+    ],
+    "Era Vargas (1930-1945)": [
+      ["A Revolução Constitucionalista de 1932 foi um movimento de São Paulo que exigia uma nova Constituição e o fim do Governo Provisório de Vargas.", null, "C", "Os paulistas foram derrotados, mas uma Constituinte foi convocada.", "f"],
+      ["A Constituição de 1934 instituiu, entre outras medidas:", ["o voto aberto e censitário", "o parlamentarismo", "o fim da Justiça Eleitoral", "o voto secreto e o voto feminino", "a monarquia constitucional"], "D", "O Código Eleitoral de 1932 já havia previsto o voto feminino e a Justiça Eleitoral.", "m"],
+      ["A Intentona Comunista (1935) foi organizada pela Aliança Nacional Libertadora.", null, "C", "Foi duramente reprimida e serviu de pretexto para o endurecimento do regime.", "m"],
+      ["O Estado Novo foi instaurado por Vargas em 1934, com uma Constituição outorgada apelidada de 'Polaca'.", null, "E", "O Estado Novo é de 1937; a Constituição de 1934 foi promulgada por Assembleia Constituinte.", "f"],
+      ["O órgão do Estado Novo responsável pela censura e pela propaganda do governo era o:", ["DASP", "DIP", "DOPS", "SNI", "DOI-CODI"], "B", "Departamento de Imprensa e Propaganda.", "m"],
+      ["A Companhia Siderúrgica Nacional, em Volta Redonda, foi criada durante o governo Vargas, com financiamento norte-americano.", null, "C", "Contrapartida ao apoio brasileiro aos Aliados na Segunda Guerra.", "m"],
+      ["O Brasil participou da Segunda Guerra Mundial ao lado dos Aliados, enviando a Força Expedicionária Brasileira (FEB) para lutar na Itália.", null, "C", "Batalhas como Monte Castelo (1945).", "f"],
+      ["O salário mínimo foi instituído no Brasil em 1940, durante o governo Vargas.", null, "C", "Parte da política trabalhista do período.", "f"]
+    ],
+    "República de 1946 a 1964": [
+      ["A Petrobras foi criada em 1953, no governo Juscelino Kubitschek, após a campanha 'O petróleo é nosso'.", null, "E", "A Petrobras foi criada em 1953, no segundo governo Vargas.", "f"],
+      ["Getúlio Vargas morreu em 1954, durante seu segundo mandato, deixando uma carta-testamento.", null, "C", "Suicidou-se no Palácio do Catete.", "f"],
+      ["O lema do governo Juscelino Kubitschek, associado ao Plano de Metas, era:", ["'Ordem e Progresso'", "'Petróleo é nosso'", "'Brasil Grande'", "'50 anos em 5'", "'Ame-o ou deixe-o'"], "D", "Priorizou energia, transportes, indústria de base e a construção de Brasília.", "f"],
+      ["Jânio Quadros renunciou à Presidência em 1961, após cerca de sete meses de governo.", null, "C", "A posse do vice, João Goulart, foi contestada por ministros militares.", "f"],
+      ["Para garantir a posse de João Goulart em 1961, adotou-se:", ["o bipartidarismo", "a monarquia", "a intervenção federal", "eleições indiretas", "o regime parlamentarista"], "E", "O presidencialismo foi restabelecido por plebiscito em 1963.", "m"],
+      ["As 'reformas de base' propostas por João Goulart incluíam as reformas agrária, urbana, bancária e educacional.", null, "C", "O Comício da Central (13/3/1964) acirrou a crise.", "m"]
+    ],
+    "Ditadura militar (1964-1985)": [
+      ["O primeiro presidente do regime militar instaurado em 1964 foi:", ["Castello Branco", "Costa e Silva", "Médici", "Geisel", "Figueiredo"], "A", "Humberto de Alencar Castello Branco (1964-1967).", "f"],
+      ["O AI-5 (1968) extinguiu os partidos políticos e instituiu o bipartidarismo, com a ARENA e o MDB.", null, "E", "O bipartidarismo veio com o AI-2 (1965); o AI-5 (1968) fechou o Congresso e suspendeu garantias.", "m"],
+      ["O período de grande crescimento econômico entre 1968 e 1973, no governo Médici, ficou conhecido como:", ["Encilhamento", "Plano Cruzado", "Milagre Econômico", "Década Perdida", "Plano Trienal"], "C", "Com aumento da concentração de renda e da dívida externa.", "f"],
+      ["O governo Geisel iniciou a abertura política 'lenta, gradual e segura'.", null, "C", "Continuada pelo governo Figueiredo.", "f"],
+      ["A Lei da Anistia foi promulgada em 1979, no governo Médici.", null, "E", "A Lei 6.683/1979 foi promulgada no governo Figueiredo.", "f"],
+      ["O primeiro presidente civil após o regime militar, eleito indiretamente em 1985, foi Tancredo Neves, que morreu antes da posse.", null, "C", "José Sarney, o vice, assumiu a Presidência.", "f"],
+      ["A Guerrilha do Araguaia foi um movimento armado de oposição à ditadura organizado pelo PCdoB na região do rio Araguaia.", null, "C", "Foi reprimida pelo Exército no início dos anos 1970.", "m"]
+    ],
+    "Nova República": [
+      ["A Constituição de 1988, chamada de 'Constituição Cidadã', foi promulgada em 5 de outubro de 1988.", null, "C", "Ulysses Guimarães presidiu a Assembleia Nacional Constituinte.", "f"],
+      ["O Plano Cruzado (1986), do governo Sarney, teve como uma das principais medidas:", ["a criação do real", "a privatização da Petrobras", "o confisco das poupanças", "o congelamento de preços", "a dolarização da economia"], "D", "Os 'fiscais do Sarney' fiscalizavam os preços.", "f"],
+      ["O primeiro presidente eleito por voto direto após o regime militar foi Fernando Collor, em 1989.", null, "C", "Collor sofreu processo de impeachment e renunciou em 1992.", "f"],
+      ["O Plano Collor (1990) ficou marcado pelo bloqueio dos depósitos bancários e das cadernetas de poupança.", null, "C", "Medida conduzida pela ministra Zélia Cardoso de Mello.", "f"],
+      ["O plebiscito de 1993 manteve:", ["a monarquia e o parlamentarismo", "a república e o parlamentarismo", "a república e o presidencialismo", "a monarquia e o presidencialismo", "o voto facultativo"], "C", "Previsto no art. 2º do ADCT.", "m"],
+      ["A emenda constitucional que permitiu a reeleição para cargos do Executivo foi aprovada em 1997, no governo Fernando Henrique Cardoso.", null, "C", "EC 16/1997.", "m"],
+      ["A Lei de Responsabilidade Fiscal foi sancionada em 2000.", null, "C", "LC 101/2000, no governo FHC.", "m"],
+      ["A presidente Dilma Rousseff sofreu processo de impeachment concluído em:", ["2014", "2015", "2016", "2018", "2019"], "C", "Michel Temer assumiu a Presidência.", "f"],
+      ["O Bolsa Família foi criado em 2003, unificando programas de transferência de renda.", null, "C", "Lei 10.836/2004, originada de medida provisória de 2003.", "m"],
+      ["O Brasil sediou a Copa do Mundo de futebol em 2014 e os Jogos Olímpicos no Rio de Janeiro em 2016.", null, "C", "Grandes eventos esportivos da década.", "f"],
+      ["As manifestações de junho de 2013 começaram motivadas pelo aumento das tarifas do transporte público.", null, "C", "O Movimento Passe Livre teve papel inicial; as pautas depois se ampliaram.", "f"]
+    ],
+    "Sociedade e cultura": [
+      ["Na sociedade colonial açucareira, o centro da vida social e econômica era o engenho, sob o domínio do senhor de engenho.", null, "C", "Gilberto Freyre analisou essa estrutura em 'Casa-Grande & Senzala'.", "f"],
+      ["A grande imigração europeia para o Brasil, especialmente de italianos, intensificou-se no fim do século XIX para suprir a mão de obra das lavouras de:", ["cana-de-açúcar no Nordeste", "cacau na Bahia", "borracha na Amazônia", "algodão no Maranhão", "café em São Paulo"], "E", "Com subsídios do governo paulista.", "f"],
+      ["A imigração japonesa para o Brasil teve início em 1908, com a chegada do navio Kasato Maru ao porto de Santos.", null, "C", "Os imigrantes destinavam-se principalmente às fazendas de café.", "m"]
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "disciplina": "Direitos Humanos",
+  "assuntos": {
+    "Teoria geral dos direitos humanos": [
+      ["São características dos direitos humanos: universalidade, indivisibilidade, interdependência, inalienabilidade, imprescritibilidade e historicidade.", null, "C", "Reafirmadas na Declaração e Programa de Ação de Viena (1993).", "f"],
+      ["Os direitos de primeira dimensão (geração) correspondem aos:", ["direitos civis e políticos, ligados à liberdade", "direitos de solidariedade e fraternidade", "direitos sociais, econômicos e culturais", "direitos à paz e ao meio ambiente", "direitos da biotecnologia"], "A", "1ª dimensão: liberdade (civis e políticos); 2ª: igualdade (sociais); 3ª: fraternidade (difusos, meio ambiente, paz).", "f"],
+      ["O princípio da vedação ao retrocesso (efeito cliquet) impede que direitos já conquistados sejam suprimidos ou reduzidos sem medidas compensatórias.", null, "C", "Princípio da proibição do retrocesso social.", "m"],
+      ["O direito ao meio ambiente ecologicamente equilibrado é exemplo de direito de segunda dimensão.", null, "E", "É direito de terceira dimensão (transindividual, de solidariedade).", "f"]
+    ],
+    "Declaração Universal dos Direitos Humanos": [
+      ["A Declaração Universal dos Direitos Humanos foi adotada pela Assembleia Geral da ONU em:", ["1945", "1948", "1966", "1969", "1993"], "B", "10 de dezembro de 1948, Resolução 217-A (III).", "f"],
+      ["Segundo a DUDH, todos os seres humanos nascem livres e iguais em dignidade e direitos.", null, "C", "Artigo 1º da DUDH.", "f"],
+      ["A DUDH foi aprovada como tratado internacional, sendo juridicamente vinculante desde sua adoção para os Estados que a ratificaram.", null, "E", "Foi adotada como resolução da Assembleia Geral (soft law). Hoje se reconhece valor de costume internacional para muitos de seus dispositivos.", "m"]
+    ],
+    "Sistema interamericano e Pacto de São José": [
+      ["A Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica) foi incorporada ao ordenamento brasileiro com status, segundo o STF, de norma:", ["constitucional", "infralegal", "supralegal", "legal ordinária", "complementar"], "C", "RE 466.343: tratados de direitos humanos não aprovados pelo rito do art. 5º, §3º, têm status supralegal.", "m"],
+      ["Os órgãos do sistema interamericano de proteção previstos na Convenção Americana são a Comissão Interamericana de Direitos Humanos e a Corte Interamericana de Direitos Humanos.", null, "C", "Art. 33 da Convenção Americana.", "f"],
+      ["Somente os Estados-partes e a Comissão Interamericana têm direito de submeter caso à decisão da Corte Interamericana.", null, "C", "Art. 61 da Convenção. O indivíduo peticiona à Comissão.", "m"],
+      ["A Comissão Interamericana de Direitos Humanos tem sede em Washington, e a Corte Interamericana, em São José da Costa Rica.", null, "C", "Sedes dos órgãos do sistema interamericano.", "m"]
+    ],
+    "Pactos e convenções da ONU": [
+      ["O Pacto Internacional sobre Direitos Civis e Políticos e o Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais foram adotados em 1966.", null, "C", "Junto com a DUDH, formam a Carta Internacional de Direitos Humanos.", "m"],
+      ["A Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo foram aprovados no Brasil com status de emenda constitucional.", null, "C", "Decreto Legislativo 186/2008 e Decreto 6.949/2009, pelo rito do art. 5º, §3º. O Tratado de Marraqueche também.", "m"],
+      ["O Brasil reconheceu a competência contenciosa da Corte Interamericana em 1998.", null, "C", "Decreto Legislativo 89/1998.", "d"]
+    ],
+    "Direitos humanos na Constituição": [
+      ["A dignidade da pessoa humana é fundamento da República Federativa do Brasil.", null, "C", "Art. 1º, III, da CF.", "f"],
+      ["Nas hipóteses de grave violação de direitos humanos, o Procurador-Geral da República poderá suscitar, perante o STJ, o incidente de deslocamento de competência para a Justiça Federal.", null, "C", "Art. 109, §5º, da CF (EC 45/2004).", "m"],
+      ["O Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão.", null, "C", "Art. 5º, §4º, da CF.", "f"]
+    ]
+  }
+}

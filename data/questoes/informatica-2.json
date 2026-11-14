@@ -1,0 +1,39 @@
+{
+  "disciplina": "Informática",
+  "assuntos": {
+    "Windows": [
+      ["No Windows 10/11, o atalho Windows + D:", ["mostra ou oculta a área de trabalho", "abre o menu Iniciar", "abre as configurações", "fecha a janela ativa", "abre a pesquisa"], "A", "Windows + D minimiza todas as janelas e exibe a área de trabalho; repetido, restaura as janelas.", "f"],
+      ["No Windows, o atalho Windows + L bloqueia a sessão, e Windows + I abre o Explorador de Arquivos.", null, "E", "Windows + I abre Configurações; o Explorador de Arquivos abre com Windows + E.", "f"],
+      ["No Explorador de Arquivos do Windows, F5 permite renomear o item selecionado.", null, "E", "F2 renomeia o item selecionado; F5 atualiza a exibição.", "f"]
+    ],
+    "Planilhas (Excel e Calc)": [
+      ["No Excel, se A1 = 3, A2 = 7 e A3 = 'texto', a fórmula =CONT.NÚM(A1:A3) retorna:", ["3", "2", "10", "1", "#VALOR!"], "B", "CONT.NÚM conta apenas as células que contêm números (A1 e A2).", "f"],
+      ["No Excel, a função CONCATENAR (ou o operador &) une textos de várias células em uma só.", null, "C", "Ex.: =A1&\" \"&B1 junta o conteúdo de A1 e B1 separado por espaço.", "f"],
+      ["No Excel, a fórmula =ARRED(2,567;1) retorna:", ["2,5", "2,57", "2,6", "3", "2,56"], "C", "ARRED arredonda para o número de casas indicado: 2,567 com 1 casa = 2,6.", "m"],
+      ["A função SOMASE do Excel soma os valores de um intervalo que atendem a um critério especificado.", null, "C", "Ex.: =SOMASE(A1:A10;\">100\") soma os valores maiores que 100.", "f"]
+    ],
+    "Editores de texto (Word e Writer)": [
+      ["No Microsoft Word, o atalho Ctrl + Z:", ["seleciona todo o texto", "refaz a última ação", "salva o documento", "desfaz a última ação", "centraliza o parágrafo"], "D", "Ctrl + Z desfaz; Ctrl + Y refaz.", "f"],
+      ["No Word, o atalho Ctrl + J centraliza o parágrafo selecionado.", null, "E", "No Word em português, Ctrl + E centraliza e Ctrl + J justifica.", "m"]
+    ],
+    "Internet e navegadores": [
+      ["Na URL https://www.gov.br/pt-br, o protocolo utilizado é:", ["FTP", "SMTP", "POP3", "WWW", "HTTPS"], "E", "HTTPS é o protocolo indicado antes de '://'; 'www' é parte do nome do host.", "f"],
+      ["O plug-in que bloqueia a exibição de anúncios em páginas web é um tipo de extensão do navegador.", null, "C", "Extensões (add-ons) adicionam funções ao navegador, como bloqueadores de anúncios.", "f"],
+      ["O cache registra a lista de endereços visitados, enquanto o histórico armazena cópias locais de partes das páginas para acelerar novos acessos.", null, "E", "Histórico = lista de sites visitados; cache = cópias locais de partes das páginas.", "f"]
+    ],
+    "Segurança da informação": [
+      ["O programa malicioso que permite ao invasor retornar ao computador comprometido por meio de uma porta aberta, sem precisar repetir a invasão, é o:", ["adware", "keylogger", "hoax", "worm", "backdoor"], "E", "Backdoor é o 'acesso pelos fundos', mantido para retorno do invasor.", "m"],
+      ["Botnet é uma rede de computadores infectados controlados remotamente por um atacante, frequentemente usada em ataques DDoS e envio de spam.", null, "C", "Cada computador infectado é chamado de bot ou zumbi.", "f"],
+      ["O antivírus é suficiente para proteger o computador contra todos os tipos de ataques, dispensando atualizações do sistema operacional.", null, "E", "Segurança exige várias camadas: atualizações, firewall, backup, boas práticas e antivírus.", "f"],
+      ["O backup diferencial copia os arquivos alterados desde o último backup:", ["diferencial", "incremental", "completo (normal)", "de qualquer tipo", "realizado no mesmo dia"], "C", "O diferencial acumula as mudanças desde o último backup completo; o incremental, desde o último backup de qualquer tipo.", "m"]
+    ],
+    "Redes de computadores": [
+      ["O protocolo utilizado para transferência de arquivos entre computadores em uma rede é o:", ["SMTP", "FTP", "DNS", "DHCP", "SNMP"], "B", "FTP (File Transfer Protocol) usa, por padrão, as portas 20 e 21.", "f"],
+      ["O endereço IPv6 é formado por 64 bits, representados em notação hexadecimal.", null, "E", "O IPv6 tem 128 bits; o IPv4, 32 bits.", "m"],
+      ["A porta padrão do protocolo HTTPS é a 80, e a do HTTP é a 443.", null, "E", "HTTP usa a porta 80; HTTPS, a 443.", "m"]
+    ],
+    "Computação em nuvem": [
+      ["O modelo de serviço em nuvem que oferece infraestrutura virtualizada (servidores, armazenamento e redes), cabendo ao cliente gerenciar o sistema operacional e as aplicações, é o:", ["IaaS", "PaaS", "SaaS", "DaaS", "BaaS"], "A", "IaaS = infraestrutura como serviço; PaaS = plataforma; SaaS = software pronto.", "m"]
+    ]
+  }
+}

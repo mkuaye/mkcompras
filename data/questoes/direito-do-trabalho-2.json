@@ -1,0 +1,112 @@
+{
+  "disciplina": "Direito do Trabalho",
+  "assuntos": {
+    "Princípios do Direito do Trabalho": [
+      ["Pelo princípio da primazia da realidade, os fatos efetivamente ocorridos prevalecem sobre os documentos e a forma dada à relação.", null, "C", "Ex.: 'contrato de prestação de serviços' que, na prática, é relação de emprego.", "f"],
+      ["O princípio da proteção desdobra-se em in dubio pro operario, aplicação da norma mais favorável e:", ["primazia da realidade", "irrenunciabilidade", "continuidade da relação de emprego", "inalterabilidade contratual lesiva", "condição mais benéfica"], "E", "Classificação de Américo Plá Rodríguez.", "m"],
+      ["Pelo princípio da continuidade da relação de emprego, presume-se que o contrato é por prazo indeterminado.", null, "C", "Súmula 212 do TST: o ônus de provar o término do contrato é do empregador.", "f"],
+      ["O princípio da irrenunciabilidade permite ao empregado renunciar livremente aos direitos trabalhistas mínimos previstos em lei.", null, "E", "Os direitos trabalhistas são, em regra, indisponíveis (art. 9º da CLT).", "f"],
+      ["Serão nulos de pleno direito os atos praticados com o objetivo de desvirtuar, impedir ou fraudar a aplicação dos preceitos da CLT.", null, "C", "Art. 9º da CLT.", "f"]
+    ],
+    "Relação de emprego e contrato de trabalho": [
+      ["O contrato de trabalho por prazo determinado não pode ser estipulado por mais de:", ["90 dias", "1 ano", "2 anos", "3 anos", "5 anos"], "C", "Art. 445 da CLT. O contrato de experiência não pode exceder 90 dias.", "f"],
+      ["O contrato de experiência pode ser prorrogado quantas vezes as partes desejarem, dentro do limite de 90 dias.", null, "E", "Art. 451 da CLT e Súmula 188 do TST: admite uma única prorrogação, respeitado o limite de 90 dias.", "m"],
+      ["Sempre que duas ou mais empresas estiverem sob a direção, o controle ou a administração de outra, integrando grupo econômico, serão responsáveis solidariamente pelas obrigações da relação de emprego.", null, "C", "Art. 2º, §2º, da CLT.", "m"],
+      ["A mudança na propriedade ou na estrutura jurídica da empresa não afeta os contratos de trabalho dos respectivos empregados.", null, "C", "Arts. 10 e 448 da CLT (sucessão trabalhista).", "f"],
+      ["Na sucessão de empregadores, as obrigações trabalhistas, inclusive as contraídas à época em que os empregados trabalhavam para a empresa sucedida, são de responsabilidade:", ["exclusiva do sucedido", "dos empregados", "do Estado", "do sucessor", "do sindicato"], "D", "Art. 448-A da CLT; o sucedido responde solidariamente se houver fraude.", "m"],
+      ["Segundo o STF, é lícita a terceirização de toda e qualquer atividade, meio ou fim, mantida a responsabilidade subsidiária da empresa contratante.", null, "C", "ADPF 324 e RE 958.252 (Tema 725); Lei 6.019/1974, com redação da Lei 13.429/2017.", "m"],
+      ["No trabalho intermitente, o empregador convocará o empregado com, pelo menos, três dias corridos de antecedência, e o silêncio do empregado presume recusa.", null, "C", "Art. 452-A, §§1º e 2º, da CLT; o empregado tem 1 dia útil para responder.", "m"],
+      ["O teletrabalho é a prestação de serviços preponderantemente ou não fora das dependências do empregador, com o uso de tecnologias de informação e comunicação, e não se confunde com trabalho externo.", null, "C", "Art. 75-B da CLT, com redação da Lei 14.442/2022.", "m"],
+      ["A alteração do contrato de trabalho é lícita, mesmo que cause prejuízo ao empregado, desde que haja concordância dele.", null, "E", "Art. 468 da CLT: exige mútuo consentimento e ausência de prejuízo direto ou indireto ao empregado.", "m"],
+      ["O empregado doméstico é aquele que presta serviços de forma contínua, subordinada, onerosa e pessoal e de finalidade não lucrativa à pessoa ou à família, no âmbito residencial, por mais de:", ["1 dia por semana", "2 dias por semana", "3 dias por semana", "4 dias por semana", "5 dias por semana"], "B", "Art. 1º da LC 150/2015.", "f"],
+      ["É vedada a contratação de menor de 18 anos para trabalho doméstico.", null, "C", "Art. 1º, parágrafo único, da LC 150/2015 e Convenção 182 da OIT.", "m"],
+      ["O contrato de aprendizagem pode ser celebrado com pessoas entre 14 e 24 anos e não pode ser estipulado por mais de 2 anos, exceto para aprendiz com deficiência.", null, "C", "Art. 428 da CLT.", "m"]
+    ],
+    "Jornada de trabalho e férias": [
+      ["A duração do trabalho normal não pode ser superior a 8 horas diárias e 44 semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva.", null, "C", "Art. 7º, XIII, da CF.", "f"],
+      ["A remuneração do serviço extraordinário deve ser superior, no mínimo, em:", ["50% à do normal", "25% à do normal", "20% à do normal", "100% à do normal", "30% à do normal"], "A", "Art. 7º, XVI, da CF.", "f"],
+      ["A jornada para o trabalho realizado em turnos ininterruptos de revezamento é de 8 horas, salvo negociação coletiva.", null, "E", "Art. 7º, XIV, da CF: 6 horas, salvo negociação coletiva.", "m"],
+      ["O banco de horas pode ser pactuado por acordo individual escrito, desde que a compensação ocorra no período máximo de:", ["1 mês", "6 meses", "3 meses", "1 ano", "2 anos"], "B", "Art. 59, §5º, da CLT. Por acordo ou convenção coletiva, até 1 ano (§2º).", "m"],
+      ["A jornada 12x36 pode ser estabelecida por acordo individual escrito, convenção coletiva ou acordo coletivo de trabalho.", null, "C", "Art. 59-A da CLT.", "m"],
+      ["Após a Reforma Trabalhista, o tempo despendido pelo empregado no trajeto até o local de trabalho, em transporte fornecido pelo empregador, é computado na jornada como horas in itinere.", null, "E", "Art. 58, §2º, da CLT: não será computado, por não ser tempo à disposição do empregador.", "m"],
+      ["A hora do trabalho noturno urbano será computada como de:", ["50 minutos", "60 minutos", "55 minutos", "52 minutos e 30 segundos", "45 minutos"], "D", "Art. 73, §1º, da CLT; o adicional noturno urbano é de, no mínimo, 20%.", "f"],
+      ["Para o empregado rural na lavoura, considera-se noturno o trabalho executado entre 21h de um dia e 5h do dia seguinte, com adicional de 25%.", null, "C", "Art. 7º da Lei 5.889/1973; na pecuária, entre 20h e 4h.", "m"],
+      ["A não concessão do intervalo intrajornada mínimo implica o pagamento, de natureza indenizatória, apenas do período suprimido, com acréscimo de 50% sobre o valor da remuneração da hora normal.", null, "C", "Art. 71, §4º, da CLT, com redação da Reforma Trabalhista.", "m"],
+      ["Em jornada contínua que ultrapasse 4 horas e não exceda 6 horas, é obrigatório intervalo de 30 minutos.", null, "E", "Art. 71, §1º, da CLT: o intervalo é de 15 minutos.", "m"],
+      ["O descanso semanal remunerado deve ser de 12 horas consecutivas, preferencialmente aos domingos.", null, "E", "Art. 67 da CLT: 24 horas consecutivas.", "f"],
+      ["O empregado que, no período aquisitivo, tiver de 6 a 14 faltas injustificadas terá direito a férias de:", ["30 dias", "18 dias", "24 dias", "12 dias", "não terá direito"], "C", "Art. 130, II, da CLT.", "m"],
+      ["Perde o direito a férias o empregado que tiver mais de 14 faltas injustificadas no período aquisitivo.", null, "E", "Art. 130 da CLT: de 15 a 23 faltas, 18 dias; de 24 a 32, 12 dias; acima de 32, perde-se o direito.", "m"],
+      ["É vedado o início das férias no período de dois dias que antecede feriado ou dia de repouso semanal remunerado.", null, "C", "Art. 134, §3º, da CLT.", "m"],
+      ["O empregado pode converter um terço do período de férias em abono pecuniário, desde que o requeira até 15 dias antes do término do período aquisitivo.", null, "C", "Art. 143 da CLT.", "m"],
+      ["As férias concedidas após o período concessivo devem ser pagas:", ["de forma simples", "em triplo", "com acréscimo de 50%", "com acréscimo de um terço apenas", "em dobro"], "E", "Art. 137 da CLT.", "f"],
+      ["O pagamento da remuneração das férias deve ser efetuado até 2 dias antes do início do respectivo período.", null, "C", "Art. 145 da CLT; o STF declarou inconstitucional a Súmula 450 do TST, que previa o pagamento em dobro pelo atraso (ADPF 501).", "d"],
+      ["As férias coletivas podem ser gozadas em até dois períodos anuais, desde que nenhum deles seja inferior a 5 dias corridos.", null, "E", "Art. 139, §1º, da CLT: nenhum período pode ser inferior a 10 dias corridos.", "d"],
+      ["O trabalho em regime de tempo parcial é aquele cuja duração não exceda 30 horas semanais, sem possibilidade de horas extras, ou 26 horas semanais, com até 6 horas extras.", null, "C", "Art. 58-A da CLT.", "m"],
+      ["Os empregados que exercem cargo de gestão, com gratificação de função de pelo menos 40% do salário efetivo, não estão sujeitos ao controle de jornada.", null, "C", "Art. 62, II e parágrafo único, da CLT.", "m"],
+      ["O empregador com mais de 10 empregados está obrigado a anotar a hora de entrada e de saída dos empregados.", null, "E", "Art. 74, §2º, da CLT, com redação da Lei 13.874/2019: a obrigação vale para estabelecimentos com mais de 20 trabalhadores.", "d"]
+    ],
+    "Remuneração e salário": [
+      ["As gorjetas integram a remuneração do empregado, mas não servem de base de cálculo para aviso prévio, adicional noturno, horas extras e repouso semanal remunerado.", null, "C", "Art. 457 da CLT e Súmula 354 do TST.", "m"],
+      ["O pagamento do salário, quando estipulado por mês, deve ser efetuado, no máximo, até o:", ["5º dia útil do mês subsequente ao vencido", "1º dia útil do mês seguinte", "10º dia do mês subsequente", "último dia do mês trabalhado", "dia 20 do mês seguinte"], "A", "Art. 459, §1º, da CLT.", "f"],
+      ["O adicional de periculosidade corresponde a 40% sobre o salário do empregado, sem os acréscimos resultantes de gratificações, prêmios ou participações nos lucros.", null, "E", "Art. 193, §1º, da CLT: 30% sobre o salário básico.", "f"],
+      ["O empregado que trabalha em condições insalubres e perigosas, ao mesmo tempo, recebe cumulativamente os dois adicionais.", null, "E", "Art. 193, §2º, da CLT: o empregado deve optar por um deles (TST, IRR 239-55.2011).", "m"],
+      ["Na transferência provisória do empregado, que acarrete mudança de domicílio, o empregador pagará adicional de, no mínimo:", ["10%", "20%", "25%", "30%", "50%"], "C", "Art. 469, §3º, da CLT.", "m"],
+      ["Não são consideradas salário as utilidades concedidas pelo empregador como vestuário e equipamentos utilizados no local de trabalho, educação, transporte e assistência médica.", null, "C", "Art. 458, §2º, da CLT.", "m"],
+      ["Para a equiparação salarial, exige-se trabalho de igual valor, para o mesmo empregador, no mesmo estabelecimento, com diferença de tempo de serviço para o empregador não superior a 4 anos e na função não superior a 2 anos.", null, "C", "Art. 461 da CLT, com redação da Reforma Trabalhista.", "d"],
+      ["O 13º salário deve ser pago em duas parcelas: a primeira entre fevereiro e novembro e a segunda até:", ["30 de novembro", "20 de dezembro", "15 de dezembro", "31 de dezembro", "10 de janeiro"], "B", "Lei 4.090/1962 e Lei 4.749/1965.", "f"],
+      ["O empregador pode descontar do empregado até 10% do salário básico a título de vale-transporte.", null, "E", "Art. 4º, parágrafo único, da Lei 7.418/1985: até 6% do salário básico.", "f"],
+      ["Ao empregado é vedado receber salário inferior ao mínimo, mesmo quando sua remuneração for variável.", null, "C", "Art. 7º, VII, da CF.", "f"],
+      ["É lícito ao empregador efetuar quaisquer descontos no salário do empregado, desde que previstos em regulamento interno.", null, "E", "Art. 462 da CLT: só são permitidos descontos de adiantamentos, de dispositivos de lei ou de contrato coletivo; em caso de dano, se houver dolo ou acordo.", "m"]
+    ],
+    "Suspensão e interrupção do contrato": [
+      ["Na suspensão do contrato de trabalho, o empregado não presta serviços, mas recebe salário e o período conta como tempo de serviço.", null, "E", "Na interrupção há salário e contagem de tempo de serviço; na suspensão, não.", "f"],
+      ["É hipótese de suspensão do contrato de trabalho:", ["afastamento por auxílio por incapacidade temporária a partir do 16º dia", "descanso semanal remunerado", "férias", "licença por casamento de 3 dias", "primeiros 15 dias de afastamento por doença"], "A", "A partir do 16º dia, o INSS paga o benefício e o contrato fica suspenso.", "m"],
+      ["O empregado pode deixar de comparecer ao serviço, sem prejuízo do salário, por até 3 dias consecutivos, em virtude de casamento.", null, "C", "Art. 473, II, da CLT.", "f"],
+      ["A suspensão disciplinar do empregado por mais de 30 dias consecutivos importa a rescisão injusta do contrato de trabalho.", null, "C", "Art. 474 da CLT.", "m"],
+      ["A licença-maternidade é de 90 dias, sem prejuízo do emprego e do salário.", null, "E", "Art. 7º, XVIII, da CF: 120 dias.", "f"]
+    ],
+    "Estabilidade e garantias de emprego": [
+      ["É vedada a dispensa do empregado sindicalizado a partir do registro da candidatura a cargo de direção ou representação sindical e, se eleito, até um ano após o final do mandato, salvo falta grave.", null, "C", "Art. 8º, VIII, da CF.", "f"],
+      ["O empregado eleito para cargo de direção da CIPA tem garantia de emprego desde o registro de sua candidatura até:", ["o fim do mandato", "1 ano após o final do mandato", "6 meses após o final do mandato", "2 anos após o final do mandato", "a aposentadoria"], "B", "Art. 10, II, 'a', do ADCT.", "m"],
+      ["O desconhecimento do estado gravídico pelo empregador afasta o direito à estabilidade da gestante.", null, "E", "Súmula 244, I, do TST: não afasta o direito à indenização decorrente da estabilidade.", "m"],
+      ["A empregada gestante tem estabilidade mesmo no contrato por prazo determinado, segundo a Súmula 244 do TST.", null, "C", "Súmula 244, III, do TST; o STF, no Tema 542, discutiu o tema para contratos temporários com a Administração.", "d"],
+      ["O empregado que sofreu acidente do trabalho tem estabilidade de 12 meses após a cessação do auxílio-doença acidentário, independentemente de percepção de auxílio-acidente.", null, "C", "Art. 118 da Lei 8.213/1991 e Súmula 378 do TST.", "f"]
+    ],
+    "Extinção do contrato": [
+      ["Constitui justa causa a perda da habilitação ou dos requisitos estabelecidos em lei para o exercício da profissão, em decorrência de conduta dolosa do empregado.", null, "C", "Art. 482, 'm', da CLT, incluído pela Reforma Trabalhista.", "m"],
+      ["Segundo a Súmula 32 do TST, presume-se o abandono de emprego se o trabalhador não retornar ao serviço no prazo de:", ["10 dias", "15 dias", "30 dias", "60 dias", "90 dias"], "C", "Após a cessação do benefício previdenciário, sem justificativa.", "m"],
+      ["A indisciplina refere-se ao descumprimento de ordens gerais de serviço, e a insubordinação, ao descumprimento de ordens pessoais e diretas.", null, "C", "Ambas estão no art. 482, 'h', da CLT.", "m"],
+      ["O empregado poderá considerar rescindido o contrato e pleitear indenização quando o empregador não cumprir as obrigações do contrato, caracterizando a rescisão indireta.", null, "C", "Art. 483, 'd', da CLT.", "f"],
+      ["O pagamento das verbas rescisórias deve ser efetuado até:", ["5 dias úteis após o término do contrato", "30 dias contados do término do contrato", "10 dias contados do término do contrato", "o 5º dia útil do mês seguinte", "o primeiro dia útil seguinte, em qualquer caso"], "C", "Art. 477, §6º, da CLT; o atraso gera multa equivalente a um salário (§8º).", "m"],
+      ["Na dispensa sem justa causa, o empregador deve depositar na conta vinculada do FGTS multa de 40% sobre o montante dos depósitos.", null, "C", "Art. 18, §1º, da Lei 8.036/1990; na culpa recíproca ou no acordo do art. 484-A, a multa é de 20%.", "f"],
+      ["Durante o aviso prévio concedido pelo empregador, o empregado pode optar entre a redução de 2 horas diárias na jornada ou faltar ao serviço por 7 dias corridos, sem prejuízo do salário.", null, "C", "Art. 488 da CLT.", "m"],
+      ["O empregado que pede demissão tem direito ao saque do FGTS e à multa de 40%.", null, "E", "No pedido de demissão, não há saque do FGTS nem multa; recebe saldo de salário, 13º e férias proporcionais com 1/3.", "f"],
+      ["O empregado dispensado por justa causa perde o direito às férias vencidas.", null, "E", "As férias vencidas, acrescidas de 1/3, são devidas mesmo na justa causa; perdem-se as proporcionais (Súmula 171 do TST).", "m"],
+      ["O aviso prévio proporcional ao tempo de serviço, segundo a Lei 12.506/2011, é limitado a:", ["30 dias", "45 dias", "60 dias", "90 dias", "120 dias"], "D", "30 dias mais 3 dias por ano completo de serviço, até 90 dias.", "f"]
+    ],
+    "Direito coletivo e Reforma Trabalhista": [
+      ["Após a Reforma Trabalhista, a contribuição sindical continuou obrigatória para todos os empregados da categoria.", null, "E", "Após a Reforma, depende de autorização prévia e expressa (arts. 578 e 579 da CLT; ADI 5.794).", "f"],
+      ["A convenção coletiva e o acordo coletivo de trabalho têm prevalência sobre a lei quando dispuserem sobre temas como pacto quanto à jornada, banco de horas anual e intervalo intrajornada respeitado o mínimo de 30 minutos para jornadas superiores a 6 horas.", null, "C", "Art. 611-A da CLT.", "m"],
+      ["A convenção ou o acordo coletivo pode suprimir o direito ao FGTS e ao 13º salário.", null, "E", "Art. 611-B da CLT: constituem objeto ilícito de negociação.", "f"],
+      ["A convenção coletiva é celebrada entre:", ["sindicato da categoria profissional e uma ou mais empresas", "Ministério do Trabalho e sindicatos", "empregado e empregador individualmente", "dois ou mais sindicatos representativos das categorias econômica e profissional", "empresa e Justiça do Trabalho"], "D", "Art. 611 da CLT; o acordo coletivo é firmado entre sindicato profissional e empresa(s).", "m"],
+      ["As condições estabelecidas em acordo coletivo de trabalho sempre prevalecerão sobre as estipuladas em convenção coletiva de trabalho.", null, "C", "Art. 620 da CLT, com redação da Reforma Trabalhista.", "m"],
+      ["O empregado portador de diploma de nível superior e que receba salário mensal igual ou superior a duas vezes o limite máximo dos benefícios do RGPS pode negociar diretamente com o empregador as matérias do art. 611-A, com a mesma eficácia da negociação coletiva.", null, "C", "Art. 444, parágrafo único, da CLT (empregado hipersuficiente).", "d"],
+      ["É vedada a dispensa coletiva sem prévia intervenção sindical, segundo o STF.", null, "C", "Tema 638 (RE 999.435): a intervenção sindical prévia é exigência procedimental imprescindível, sem necessidade de autorização.", "d"],
+      ["A greve é direito assegurado aos trabalhadores, competindo-lhes decidir sobre a oportunidade de exercê-lo e sobre os interesses que devam por meio dele defender.", null, "C", "Art. 9º da CF e Lei 7.783/1989.", "f"],
+      ["Nos serviços ou atividades essenciais, a greve deve ser comunicada aos empregadores e aos usuários com antecedência mínima de:", ["24 horas", "48 horas", "10 dias", "5 dias", "72 horas"], "E", "Art. 13 da Lei 7.783/1989; nas demais atividades, 48 horas.", "m"]
+    ],
+    "Prescrição e Justiça do Trabalho": [
+      ["A ação quanto aos créditos resultantes das relações de trabalho prescreve em 5 anos para os trabalhadores urbanos e rurais, até o limite de 2 anos após a extinção do contrato.", null, "C", "Art. 7º, XXIX, da CF.", "f"],
+      ["Após a Reforma Trabalhista, a prescrição intercorrente no processo do trabalho ocorre no prazo de:", ["6 meses", "1 ano", "não se aplica", "5 anos", "2 anos"], "E", "Art. 11-A da CLT.", "m"],
+      ["Contra o menor de 18 anos não corre nenhum prazo de prescrição trabalhista.", null, "C", "Art. 440 da CLT.", "m"],
+      ["Compete à Justiça do Trabalho processar e julgar as ações oriundas da relação de trabalho, inclusive as de indenização por dano moral ou patrimonial decorrentes dessa relação.", null, "C", "Art. 114, I e VI, da CF.", "f"],
+      ["Compete à Justiça do Trabalho julgar as causas entre o Poder Público e servidores a ele vinculados por relação jurídico-estatutária.", null, "E", "STF, ADI 3.395: a competência é da Justiça comum.", "m"]
+    ],
+    "Saúde e segurança do trabalho": [
+      ["A CIPA tem como objetivo a prevenção de acidentes e doenças decorrentes do trabalho.", null, "C", "Arts. 163 a 165 da CLT e NR-5.", "f"],
+      ["O empregador é obrigado a fornecer gratuitamente aos empregados equipamento de proteção individual (EPI) adequado ao risco e em perfeito estado de conservação.", null, "C", "Art. 166 da CLT e NR-6.", "f"],
+      ["O fornecimento de EPI pelo empregador elimina, em qualquer caso, o direito ao adicional de insalubridade.", null, "E", "Súmula 289 do TST: o simples fornecimento não exime o empregador; é preciso que o equipamento elimine ou neutralize a insalubridade e que seu uso seja fiscalizado.", "m"],
+      ["A caracterização e a classificação da insalubridade e da periculosidade far-se-ão por meio de perícia a cargo de:", ["médico do trabalho ou engenheiro do trabalho", "advogado do empregado", "qualquer técnico de segurança", "juiz do trabalho, pessoalmente", "representante sindical"], "A", "Art. 195 da CLT.", "m"]
+    ]
+  }
+}

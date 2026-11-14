@@ -1,0 +1,25 @@
+{
+  "disciplina": "Geografia do Brasil",
+  "assuntos": {
+    "Regiões e território": [
+      ["O Brasil é dividido pelo IBGE em cinco grandes regiões: Norte, Nordeste, Centro-Oeste, Sudeste e Sul.", null, "C", "Divisão regional oficial desde 1969, com ajustes em 1988 (Tocantins no Norte).", "f"],
+      ["O maior estado brasileiro em extensão territorial é:", ["Bahia", "Pará", "Mato Grosso", "Minas Gerais", "Amazonas"], "E", "O Amazonas tem cerca de 1,56 milhão de km².", "f"],
+      ["O Brasil faz fronteira com todos os países da América do Sul, exceto Chile e Equador.", null, "C", "São 10 países vizinhos.", "f"],
+      ["A região brasileira com maior população absoluta é a:", ["Sudeste", "Centro-Oeste", "Sul", "Norte", "Nordeste"], "A", "O Sudeste concentra cerca de 41% da população.", "f"],
+      ["A região Norte é a maior em extensão territorial e a de menor densidade demográfica.", null, "C", "Abrange cerca de 45% do território nacional.", "f"]
+    ],
+    "Biomas, clima e hidrografia": [
+      ["O bioma exclusivamente brasileiro, característico do semiárido nordestino, é a:", ["Mata Atlântica", "Caatinga", "Cerrado", "Pampa", "Amazônia"], "B", "A Caatinga existe apenas no Brasil.", "f"],
+      ["O Cerrado é considerado o 'berço das águas' por abrigar nascentes de importantes bacias hidrográficas brasileiras.", null, "C", "Inclui nascentes das bacias do São Francisco, Tocantins-Araguaia e Paraná.", "m"],
+      ["O rio São Francisco é conhecido como 'rio da integração nacional' e nasce na Serra da Canastra, em Minas Gerais.", null, "C", "Percorre MG, BA, PE, AL e SE.", "f"],
+      ["O bioma mais devastado do Brasil, que restou com cerca de 12% da área original, é a:", ["Amazônia", "Caatinga", "Mata Atlântica", "Pantanal", "Pampa"], "C", "Ocupação histórica do litoral, onde vive a maior parte da população.", "m"],
+      ["O clima predominante na região Sul do Brasil é o equatorial.", null, "E", "Na região Sul predomina o clima subtropical. O equatorial predomina na Amazônia.", "f"],
+      ["A maior usina hidrelétrica em operação totalmente brasileira, em capacidade instalada, é Belo Monte, no rio Xingu.", null, "C", "Itaipu, no rio Paraná, é binacional (Brasil e Paraguai).", "d"]
+    ],
+    "População e economia": [
+      ["A transição demográfica brasileira caracteriza-se pela queda das taxas de natalidade e mortalidade e pelo envelhecimento da população.", null, "C", "A taxa de fecundidade está abaixo do nível de reposição (2,1 filhos por mulher).", "m"],
+      ["O principal produto da pauta de exportações brasileira nos últimos anos tem sido:", ["café", "aviões", "automóveis", "soja", "algodão"], "D", "Soja, petróleo bruto e minério de ferro lideram as exportações.", "m"],
+      ["A matriz elétrica brasileira é predominantemente renovável, com destaque para a fonte hidráulica.", null, "C", "A participação eólica e solar cresce rapidamente.", "f"]
+    ]
+  }
+}

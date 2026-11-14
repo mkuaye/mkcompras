@@ -1,0 +1,41 @@
+{
+  "disciplina": "Administração Pública",
+  "assuntos": {
+    "Modelos de administração pública": [
+      ["O modelo de administração pública caracterizado pela confusão entre o patrimônio público e o privado do governante é o:", ["societal", "burocrático", "gerencial", "patrimonialista", "da nova governança"], "D", "No patrimonialismo, o Estado é extensão do poder do soberano; há nepotismo e corrupção.", "f"],
+      ["O modelo burocrático weberiano baseia-se na impessoalidade, no formalismo, na hierarquia funcional e na profissionalização.", null, "C", "Surgiu para combater o patrimonialismo; no Brasil, ganhou força com o DASP (1938).", "f"],
+      ["A administração pública gerencial tem como foco:", ["o controle rígido de procedimentos", "a estabilidade sem avaliação", "os resultados, a eficiência e o cidadão como cliente/usuário", "a centralização absoluta", "a confusão patrimonial"], "C", "No Brasil, consolidou-se com o Plano Diretor da Reforma do Aparelho do Estado (1995) e a EC 19/1998.", "f"],
+      ["As disfunções da burocracia, segundo Merton, incluem o excesso de formalismo e papelório, a resistência a mudanças e a despersonalização do relacionamento.", null, "C", "Também: internalização das regras, exibição de sinais de autoridade e dificuldade no atendimento a clientes.", "m"],
+      ["O Decreto-Lei 200/1967 é considerado marco da tentativa de reforma desenvolvimentista, com ênfase na descentralização para a administração indireta.", null, "C", "Previu princípios de planejamento, coordenação, descentralização, delegação de competência e controle.", "m"]
+    ],
+    "Funções administrativas: planejamento, organização, direção e controle": [
+      ["As funções administrativas clássicas (processo administrativo) são:", ["comprar, vender e produzir", "motivar, liderar e comunicar", "recrutar, selecionar e treinar", "orçar, licitar e contratar", "planejar, organizar, dirigir e controlar"], "E", "PODC, a partir de Fayol (que incluía também comandar e coordenar).", "f"],
+      ["O planejamento estratégico é de longo prazo, envolve a organização como um todo e é elaborado pela alta administração.", null, "C", "O tático (médio prazo) envolve departamentos; o operacional (curto prazo), tarefas.", "f"],
+      ["Na análise SWOT, forças e fraquezas referem-se ao ambiente:", ["externo", "interno", "global", "político", "concorrencial"], "B", "Forças e fraquezas: ambiente interno. Oportunidades e ameaças: ambiente externo.", "f"],
+      ["O ciclo PDCA é composto pelas etapas Planejar, Executar, Verificar e Agir.", null, "C", "Plan, Do, Check, Act — ferramenta de melhoria contínua.", "f"],
+      ["A amplitude de controle refere-se ao número de subordinados que um gestor pode supervisionar de forma eficaz.", null, "C", "Quanto maior a amplitude, mais achatada a estrutura organizacional.", "m"],
+      ["A estrutura organizacional que combina a departamentalização funcional com a estrutura por projetos, gerando dupla subordinação, é a:", ["matricial", "divisional", "funcional pura", "linear", "em rede"], "A", "Na matricial, o funcionário responde ao gerente funcional e ao gerente de projeto.", "m"]
+    ],
+    "Gestão de pessoas e comportamento organizacional": [
+      ["Segundo a hierarquia de necessidades de Maslow, a ordem da base para o topo é:", ["autorrealização, estima, sociais, segurança e fisiológicas", "fisiológicas, segurança, sociais, estima e autorrealização", "segurança, fisiológicas, estima, sociais e autorrealização", "sociais, fisiológicas, segurança, estima e autorrealização", "estima, sociais, segurança, autorrealização e fisiológicas"], "B", "Pirâmide de Maslow.", "f"],
+      ["Na teoria dos dois fatores de Herzberg, os fatores higiênicos (como salário e condições de trabalho), quando adequados, evitam a insatisfação, mas não geram motivação por si sós.", null, "C", "Os fatores motivacionais (reconhecimento, responsabilidade, crescimento) é que geram satisfação.", "m"],
+      ["A Teoria X de McGregor parte do pressuposto de que as pessoas gostam de trabalhar e buscam responsabilidades.", null, "E", "Essa é a Teoria Y. A Teoria X pressupõe que as pessoas evitam o trabalho e precisam ser controladas.", "f"],
+      ["A liderança situacional de Hersey e Blanchard propõe que o estilo do líder deve variar conforme:", ["o tamanho da empresa", "o setor econômico", "o salário dos funcionários", "a idade do líder", "a maturidade (prontidão) dos liderados"], "E", "Estilos: determinar, persuadir, compartilhar e delegar.", "m"],
+      ["A avaliação de desempenho 360 graus envolve a avaliação do servidor por chefia, pares, subordinados, clientes e por ele próprio.", null, "C", "Visão ampla, com múltiplas fontes de feedback.", "f"],
+      ["A gestão por competências identifica os conhecimentos, as habilidades e as atitudes (CHA) necessários ao alcance dos objetivos organizacionais.", null, "C", "Usada para mapear lacunas e orientar capacitação e seleção.", "f"]
+    ],
+    "Qualidade e gestão de processos": [
+      ["O diagrama de Ishikawa (espinha de peixe) é ferramenta utilizada para:", ["identificar as causas de um problema", "elaborar cronogramas", "controlar estatisticamente processos", "medir a satisfação do cliente", "priorizar problemas por frequência"], "A", "Também chamado diagrama de causa e efeito (6M: método, máquina, mão de obra, material, meio ambiente e medida).", "f"],
+      ["O diagrama de Pareto baseia-se no princípio de que cerca de 80% dos problemas decorrem de 20% das causas.", null, "C", "Ajuda a priorizar as causas mais relevantes.", "f"],
+      ["O ciclo de melhoria contínua focado em pequenas mudanças incrementais é conhecido como Kaizen.", null, "C", "Filosofia japonesa de melhoria contínua.", "f"],
+      ["A ferramenta 5W2H responde às perguntas: o quê, por quê, onde, quando, quem, como e quanto custa.", null, "C", "What, Why, Where, When, Who, How, How much — usada em planos de ação.", "f"]
+    ],
+    "Governança, accountability e orçamento": [
+      ["Accountability refere-se à obrigação de os gestores públicos prestarem contas e serem responsabilizados por seus atos perante a sociedade e os órgãos de controle.", null, "C", "Pode ser vertical (eleições, sociedade) ou horizontal (controle entre órgãos).", "f"],
+      ["São princípios orçamentários: unidade, universalidade, anualidade, exclusividade, entre outros. O princípio da exclusividade estabelece que:", ["o orçamento deve ser único", "o orçamento vale por um ano", "a lei orçamentária não conterá dispositivo estranho à previsão da receita e à fixação da despesa, salvo autorização para créditos suplementares e operações de crédito", "todas as receitas e despesas devem constar do orçamento", "é vedada a vinculação de impostos"], "C", "Art. 165, §8º, da CF.", "m"],
+      ["Os instrumentos de planejamento orçamentário previstos na CF são o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA).", null, "C", "Art. 165 da CF. Todos são de iniciativa do Poder Executivo.", "f"],
+      ["As etapas da execução da despesa pública, segundo a Lei 4.320/1964, são:", ["licitação, contrato e pagamento", "lançamento, arrecadação e recolhimento", "previsão, fixação e empenho", "empenho, liquidação e pagamento", "orçamento, crédito e pagamento"], "D", "Arts. 58 a 65 da Lei 4.320/1964. Lançamento, arrecadação e recolhimento são etapas da receita.", "f"],
+      ["A Lei de Responsabilidade Fiscal (LC 101/2000) limita a despesa total com pessoal da União a 50% da receita corrente líquida.", null, "C", "Art. 19 da LRF: União 50%; Estados e Municípios 60%.", "m"]
+    ]
+  }
+}

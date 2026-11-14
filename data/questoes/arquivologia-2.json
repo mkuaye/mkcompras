@@ -1,0 +1,111 @@
+{
+  "disciplina": "Arquivologia",
+  "assuntos": {
+    "Conceitos e princípios arquivísticos": [
+      ["Arquivo é o conjunto de documentos produzidos e acumulados por uma entidade, pública ou privada, no exercício de suas atividades, independentemente da natureza do suporte.", null, "C", "Conceito do Dicionário Brasileiro de Terminologia Arquivística (Arquivo Nacional).", "f"],
+      ["O princípio arquivístico segundo o qual o arquivo deve conservar a organização dada pela entidade produtora é o da:", ["proveniência", "cumulatividade", "ordem original", "pertinência", "territorialidade"], "C", "Também chamado de princípio do respeito à ordem original.", "m"],
+      ["O princípio da organicidade refere-se às relações administrativas orgânicas refletidas nos conjuntos documentais.", null, "C", "Os documentos refletem as funções e atividades da entidade.", "m"],
+      ["O princípio da indivisibilidade (integridade) determina que os fundos de arquivo devem ser preservados sem dispersão, mutilação, alienação, destruição não autorizada ou adição indevida.", null, "C", "Também chamado de integridade arquivística.", "m"],
+      ["A unicidade, como qualidade dos documentos de arquivo, significa que:", ["só existe uma via de cada documento", "o documento conserva caráter único em função do contexto em que foi produzido, ainda que existam cópias", "o documento não pode ser reproduzido", "o documento deve ser guardado em local único", "o arquivo deve ter um único responsável"], "B", "O contexto de produção é o que torna o documento único.", "d"],
+      ["Os documentos de arquivo são produzidos por interesse colecionista, e não em decorrência natural das atividades da instituição.", null, "E", "Os documentos de arquivo nascem naturalmente das atividades da entidade; a reunião por interesse colecionista é típica de bibliotecas e museus.", "f"],
+      ["A Biblioteca e o Museu se distinguem do Arquivo, entre outros aspectos, porque reúnem documentos por coleção, e o arquivo, por acumulação orgânica.", null, "C", "Arquivos guardam documentos de forma orgânica e funcional.", "f"],
+      ["O fundo é o conjunto de documentos de proveniências diversas, reunidos por assunto.", null, "E", "Fundo é o conjunto de documentos de uma mesma proveniência; a reunião artificial por assunto caracteriza coleção.", "f"],
+      ["O valor secundário do documento refere-se ao valor:", ["administrativo imediato", "financeiro do suporte", "fiscal temporário", "legal de curto prazo", "probatório e informativo, para fins diferentes daqueles para os quais o documento foi criado"], "E", "Também chamado de valor histórico ou permanente.", "f"],
+      ["A Arquivologia é a disciplina que estuda as funções do arquivo e os princípios e técnicas a serem observados na produção, organização, guarda, preservação e utilização dos arquivos.", null, "C", "Conceito do Dicionário Brasileiro de Terminologia Arquivística.", "f"]
+    ],
+    "Ciclo vital e teoria das três idades": [
+      ["Os arquivos correntes são constituídos de documentos em curso ou que, mesmo sem movimentação, são objeto de consultas esporádicas, aguardando eliminação.", null, "E", "Art. 8º, §1º, da Lei 8.159/1991: correntes são os documentos em curso ou de consulta frequente; os de uso esporádico ficam no intermediário.", "f"],
+      ["Os documentos que, por razões de interesse administrativo, aguardam eliminação ou recolhimento para guarda permanente pertencem ao arquivo:", ["corrente", "setorial", "permanente", "intermediário", "especial"], "D", "Art. 8º, §2º, da Lei 8.159/1991.", "f"],
+      ["O arquivo permanente é constituído de conjuntos de documentos de valor histórico, probatório e informativo, que devem ser definitivamente preservados.", null, "C", "Art. 8º, §3º, da Lei 8.159/1991.", "f"],
+      ["A passagem de documentos do arquivo corrente para o arquivo intermediário denomina-se:", ["transferência", "recolhimento", "eliminação", "avaliação", "descrição"], "A", "Recolhimento é a passagem para o arquivo permanente.", "f"],
+      ["Os documentos de valor permanente nunca podem ser eliminados.", null, "C", "Art. 10 da Lei 8.159/1991: são inalienáveis e imprescritíveis.", "f"],
+      ["O arquivo intermediário costuma ser chamado de 'limbo' ou 'purgatório' porque nele os documentos já foram recolhidos para guarda permanente.", null, "E", "No intermediário, os documentos aguardam a destinação final (eliminação ou recolhimento); recolhidos, passam ao permanente.", "m"],
+      ["Nos arquivos correntes, o acesso aos documentos é, em regra, franqueado ao público em geral, sem restrição.", null, "E", "Nos correntes, o acesso é sobretudo dos produtores e da administração; o acesso amplo ao público é característico do permanente.", "m"]
+    ],
+    "Gestão de documentos": [
+      ["Segundo a Lei 8.159/1991, a gestão de documentos visa à sua eliminação ou recolhimento para guarda permanente, compreendendo as fases de:", ["descrição e difusão cultural", "apenas produção e arquivamento", "digitalização e descarte", "restauração e microfilmagem", "produção, tramitação, uso, avaliação e arquivamento em fase corrente e intermediária"], "E", "Art. 3º da Lei 8.159/1991.", "m"],
+      ["São fases da gestão de documentos, segundo a doutrina: arranjo, descrição e difusão.", null, "E", "As fases da gestão são produção, utilização e destinação; arranjo, descrição e difusão são funções do arquivo permanente.", "f"],
+      ["É dever do Poder Público a gestão documental e a proteção especial a documentos de arquivos, como instrumento de apoio à administração, à cultura, ao desenvolvimento científico e como elementos de prova e informação.", null, "C", "Art. 1º da Lei 8.159/1991.", "f"],
+      ["A avaliação de documentos é o processo de análise que permite a identificação dos valores dos documentos para fins de definição de seus prazos de guarda e destinação.", null, "C", "É realizada por comissões permanentes de avaliação.", "f"],
+      ["A Comissão Permanente de Avaliação de Documentos (CPAD), nos órgãos federais, é responsável por:", ["orientar e realizar o processo de análise, avaliação e seleção da documentação produzida e acumulada", "restaurar documentos danificados", "digitalizar todo o acervo", "autorizar o acesso a documentos sigilosos", "comprar mobiliário de arquivo"], "A", "Decreto 10.148/2019.", "m"],
+      ["A eliminação de documentos produzidos por instituições públicas será realizada a critério exclusivo do chefe do setor que os produziu, dispensada qualquer autorização.", null, "E", "Art. 9º da Lei 8.159/1991: a eliminação exige autorização da instituição arquivística pública competente.", "m"],
+      ["O plano de classificação de documentos é o instrumento utilizado para classificar todo e qualquer documento de arquivo, refletindo as funções e atividades do órgão.", null, "C", "No Executivo federal, há o Código de Classificação para atividades-meio.", "f"],
+      ["A classificação de documentos, na gestão documental, é realizada:", ["somente no arquivo permanente", "a partir da fase corrente, com base no plano de classificação", "apenas no momento da eliminação", "exclusivamente por historiadores", "apenas para documentos sigilosos"], "B", "A classificação no permanente denomina-se arranjo.", "m"],
+      ["O protocolo é o setor encarregado do recebimento, registro, distribuição, controle da tramitação e expedição de documentos.", null, "C", "Atividades típicas de protocolo.", "f"],
+      ["A autuação é o procedimento de abertura de processo, com a reunião de documentos e a atribuição de número único.", null, "C", "No Executivo federal, usa-se o Número Único de Protocolo (NUP).", "m"],
+      ["A juntada por anexação é a união temporária e reversível de um ou mais processos a outro processo, referentes a um mesmo interessado e assunto.", null, "E", "Na anexação, a união é definitiva; na apensação, é temporária.", "d"],
+      ["O desmembramento consiste na separação de parte da documentação de um ou mais processos para formar outro processo.", null, "C", "Procedimento previsto nas normas de protocolo.", "m"],
+      ["A tabela de temporalidade pode ser elaborada e aplicada sem aprovação de autoridade competente.", null, "E", "Deve ser aprovada por autoridade competente e, no Executivo federal, pelo Arquivo Nacional.", "m"],
+      ["Na tabela de temporalidade, a destinação final de um documento pode ser:", ["transferência ou digitalização", "arquivamento ou desarquivamento", "restauração ou microfilmagem", "eliminação ou guarda permanente", "classificação ou descrição"], "D", "Os prazos de guarda abrangem as fases corrente e intermediária.", "f"]
+    ],
+    "Métodos de arquivamento": [
+      ["Os métodos de arquivamento classificam-se em básicos (alfabético, geográfico, numérico e ideográfico) e padronizados.", null, "C", "Classificação de Marilena Leite Paes.", "m"],
+      ["O método de arquivamento que tem como elemento principal a procedência (estado, cidade, país) é o:", ["alfabético", "numérico simples", "geográfico", "ideográfico", "duplex"], "C", "Pode ser ordenado por nome do estado, da cidade ou do correspondente.", "f"],
+      ["O método numérico simples atribui um número a cada correspondente, sem preocupação com a ordem alfabética, e dispensa índice auxiliar, sendo método direto.", null, "E", "O numérico é indireto: exige índice auxiliar para localizar o número do correspondente.", "m"],
+      ["O método alfabético é considerado indireto, pois exige consulta prévia a índice.", null, "E", "O alfabético é direto: a busca é feita diretamente no arquivo, sem índice.", "f"],
+      ["No método dígito-terminal, os documentos são numerados e arquivados:", ["pela ordem crescente simples", "pelo nome do correspondente", "a partir dos dígitos finais do número, lidos da direita para a esquerda em grupos", "pela data de produção", "pelo assunto"], "C", "Reduz erros de arquivamento em grandes volumes.", "m"],
+      ["O método cronológico ordena os documentos pela data e é muito utilizado em processos, junto à numeração.", null, "C", "Também se usa para documentos contábeis.", "f"],
+      ["O método duplex distribui a documentação em classes de assuntos, partindo do geral para o particular, com números e subdivisões.", null, "C", "É uma variação do método ideográfico numérico.", "d"],
+      ["Na ordenação alfabética, os sobrenomes compostos de um substantivo e um adjetivo, ou ligados por hífen, não se separam.", null, "C", "Ex.: Castelo Branco, Camilo; Villa-Lobos, Heitor.", "m"],
+      ["Na ordenação alfabética, os sobrenomes que exprimem grau de parentesco, como Filho, Júnior e Neto, são considerados parte integrante do último sobrenome, mas não são considerados na ordenação alfabética.", null, "C", "Ex.: Almeida Filho, Antônio — ordena-se por Almeida.", "d"],
+      ["Na ordenação alfabética, o nome 'Paulo de Oliveira Santos' deve ser registrado como:", ["Santos, Paulo de Oliveira", "Oliveira Santos, Paulo de", "Paulo de Oliveira Santos", "de Oliveira, Paulo Santos", "Oliveira, Paulo Santos"], "A", "Regra geral: o último sobrenome vem primeiro, seguido do prenome.", "f"],
+      ["Na ordenação alfabética, os artigos e preposições como 'a', 'o', 'de', 'd'', 'da', 'do' são considerados como primeira palavra na ordenação.", null, "E", "Artigos e preposições não são considerados: Pedro de Almeida → Almeida, Pedro de.", "f"],
+      ["Na ordenação alfabética de nomes estrangeiros, os nomes espanhóis são registrados pelo penúltimo sobrenome, que corresponde ao de família do pai.", null, "C", "Ex.: José de Óviedo y Baños → Óviedo y Baños, José de.", "d"],
+      ["Na ordenação alfabética, os nomes orientais (japoneses, chineses e árabes) são registrados como se apresentam.", null, "C", "Ex.: Al Ben Kassim é registrado assim mesmo.", "d"],
+      ["Os títulos (como doutor, professor, general) são considerados na alfabetação e vêm antes do sobrenome.", null, "E", "Títulos não são considerados; ficam entre parênteses após o nome: Ribeiro, Paulo (Doutor).", "m"]
+    ],
+    "Arranjo, descrição e acesso": [
+      ["O arranjo é a sequência de operações intelectuais e físicas que visam à organização dos documentos de um arquivo corrente.", null, "E", "Arranjo é a organização dos documentos no arquivo permanente; nos correntes, fala-se em classificação.", "f"],
+      ["A descrição arquivística tem como finalidade:", ["eliminar documentos sem valor", "definir prazos de guarda", "restaurar documentos danificados", "transferir documentos ao intermediário", "elaborar instrumentos de pesquisa que possibilitem a identificação, a localização e a recuperação das informações"], "E", "É atividade típica do arquivo permanente.", "f"],
+      ["São instrumentos de pesquisa: o guia, o inventário, o catálogo e o repertório.", null, "C", "O índice também é considerado instrumento de pesquisa.", "m"],
+      ["O instrumento de pesquisa mais abrangente, que fornece informações gerais sobre o acervo de um ou mais arquivos, é o:", ["catálogo", "guia", "repertório", "inventário analítico", "índice onomástico"], "B", "O catálogo descreve unidades documentais de forma pormenorizada.", "m"],
+      ["A Norma Brasileira de Descrição Arquivística (NOBRADE) é a adaptação brasileira das normas internacionais ISAD(G) e ISAAR(CPF).", null, "C", "Publicada pelo CONARQ em 2006.", "m"],
+      ["A ISAD(G) estabelece 26 elementos de descrição, dos quais alguns são considerados essenciais para o intercâmbio de informações.", null, "C", "A NOBRADE adota 28 elementos, sendo 7 obrigatórios.", "d"],
+      ["A descrição multinível parte do particular para o geral, iniciando pelo nível do item documental.", null, "E", "Pela ISAD(G), a descrição multinível vai do geral (fundo) para o particular.", "m"],
+      ["A difusão é a função arquivística que torna o acervo conhecido pela sociedade, por meio de exposições, publicações e ações educativas.", null, "C", "Atividade típica dos arquivos permanentes.", "f"]
+    ],
+    "Legislação arquivística": [
+      ["A Lei 8.159/1991 dispõe sobre a política nacional de arquivos públicos e privados.", null, "C", "Lei de Arquivos.", "f"],
+      ["São arquivos públicos os conjuntos de documentos produzidos e recebidos por instituições de caráter público e também por entidades privadas encarregadas da gestão de serviços públicos no exercício de suas atividades.", null, "C", "Art. 7º e §1º da Lei 8.159/1991.", "m"],
+      ["O órgão vinculado ao Arquivo Nacional que define a política nacional de arquivos públicos e privados, como órgão central do SINAR, é o:", ["DASP", "SIGA", "IPHAN", "CONARQ", "IBGE"], "D", "Conselho Nacional de Arquivos (art. 26 da Lei 8.159/1991).", "f"],
+      ["Os arquivos privados podem ser identificados pelo Poder Público como de interesse público e social, desde que considerados conjuntos de fontes relevantes para a história e o desenvolvimento científico nacional.", null, "C", "Art. 12 da Lei 8.159/1991.", "m"],
+      ["Os arquivos privados declarados de interesse público e social podem ser livremente exportados por seus proprietários.", null, "E", "Art. 13: não poderão ser alienados com dispersão ou perda da unidade documental, nem transferidos para o exterior.", "m"],
+      ["Fica sujeito à responsabilidade penal, civil e administrativa, na forma da legislação em vigor, aquele que desfigurar ou destruir documentos de valor permanente ou considerado como de interesse público e social.", null, "C", "Art. 25 da Lei 8.159/1991.", "f"],
+      ["O SIGA é o Sistema de Gestão de Documentos e Arquivos da administração pública federal, que tem o Arquivo Nacional como órgão central.", null, "C", "Decreto 4.915/2003 e alterações.", "m"],
+      ["Segundo a Lei 12.682/2012, com redação da Lei 13.874/2019, o documento digitalizado conforme a regulamentação terá o mesmo valor probatório do documento original para todos os fins de direito.", null, "C", "Regulamentado pelo Decreto 10.278/2020.", "d"],
+      ["O Arquivo Nacional, instituição arquivística do Poder Executivo federal, está sediado em:", ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador", "Belo Horizonte"], "B", "Possui também coordenação regional no Distrito Federal.", "m"]
+    ],
+    "Preservação e documentos digitais": [
+      ["A preservação compreende as ações gerenciais e técnicas para garantir a integridade e a perenidade dos documentos.", null, "C", "Inclui conservação preventiva e restauração.", "f"],
+      ["A conservação preventiva busca:", ["recuperar documentos já danificados", "digitalizar todo o acervo", "eliminar documentos antigos", "evitar ou retardar a deterioração por meio do controle ambiental, do acondicionamento e do manuseio adequados", "classificar documentos"], "D", "A restauração intervém no documento já danificado.", "f"],
+      ["A umidade relativa elevada favorece o aparecimento de fungos e a proliferação de insetos nos acervos.", null, "C", "Recomenda-se ambiente estável, com controle de temperatura e umidade.", "f"],
+      ["A luz, especialmente a radiação ultravioleta, é agente de deterioração dos documentos em papel.", null, "C", "Provoca amarelecimento e enfraquecimento das fibras.", "f"],
+      ["A higienização de documentos consiste na retirada de poeira, clipes, grampos e outros elementos que aceleram a deterioração.", null, "C", "É uma das primeiras ações de conservação.", "f"],
+      ["Os documentos digitais dispensam ações de preservação, porque não se deterioram.", null, "E", "Estão sujeitos à obsolescência tecnológica e à degradação dos suportes, exigindo migração, emulação e repositórios confiáveis.", "f"],
+      ["O SIGAD (Sistema Informatizado de Gestão Arquivística de Documentos) deve cumprir os requisitos do modelo:", ["ISO 9001", "PMBOK", "ITIL", "COBIT", "e-ARQ Brasil"], "E", "O e-ARQ Brasil foi aprovado pelo CONARQ.", "m"],
+      ["O RDC-Arq (Repositório Arquivístico Digital Confiável) destina-se a garantir a preservação, o acesso e a autenticidade de documentos digitais por longo prazo.", null, "C", "Diretrizes do CONARQ.", "m"],
+      ["A digitalização de documentos substitui, em qualquer caso, a necessidade de preservação dos originais de valor permanente.", null, "E", "Os documentos de guarda permanente devem ser preservados, ainda que digitalizados (Decreto 10.278/2020).", "m"],
+      ["A autenticidade de um documento digital está relacionada à identidade e à integridade, isto é, à garantia de que ele é o que diz ser e não sofreu alteração.", null, "C", "Conceito do e-ARQ Brasil.", "m"]
+    ],
+    "Tipologia documental e gêneros": [
+      ["Quanto ao gênero, os documentos podem ser textuais, cartográficos, iconográficos, filmográficos, sonoros, micrográficos e informáticos (digitais).", null, "C", "Classificação usual em Arquivologia.", "f"],
+      ["Fotografias, gravuras e desenhos são documentos de gênero:", ["textual", "cartográfico", "iconográfico", "sonoro", "filmográfico"], "C", "Iconográficos são documentos em suporte sintético ou papel com imagens estáticas.", "f"],
+      ["Mapas, plantas e perfis são documentos iconográficos.", null, "E", "Mapas, plantas e perfis são cartográficos; iconográficos são imagens estáticas, como fotografias e gravuras.", "f"],
+      ["Espécie documental é a configuração que assume um documento de acordo com a disposição e a natureza das informações nele contidas, como ofício, ata e relatório.", null, "C", "Tipologia documental é a espécie somada à atividade que a gerou (ex.: ata de reunião de condomínio).", "m"],
+      ["Quanto à natureza do assunto, os documentos podem ser classificados como ostensivos ou sigilosos.", null, "C", "Os sigilosos têm acesso restrito.", "f"],
+      ["A diplomática estuda a estrutura formal dos documentos, enquanto a tipologia documental estuda a lógica orgânica dos conjuntos documentais.", null, "C", "A tipologia é uma ampliação da diplomática.", "d"],
+      ["O documento que registra resumidamente as ocorrências de uma reunião é a:", ["ata", "portaria", "circular", "certidão", "procuração"], "A", "A ata deve ser lavrada de modo a não permitir acréscimos posteriores.", "f"],
+      ["Quanto à entidade produtora, os arquivos podem ser públicos, institucionais, comerciais, familiares ou pessoais.", null, "C", "Classificação de Marilena Leite Paes.", "m"],
+      ["Os arquivos especializados guardam documentos resultantes da experiência humana num campo específico, como arquivos médicos, de engenharia e de imprensa.", null, "C", "Também chamados de arquivos técnicos.", "m"],
+      ["Os arquivos especiais são aqueles que guardam documentos de formas físicas diversas, como fotografias, discos e fitas, que merecem tratamento especial quanto ao armazenamento e à conservação.", null, "C", "Distinguem-se dos arquivos especializados.", "m"]
+    ],
+    "Arquivos setoriais e centrais": [
+      ["Os arquivos setoriais ficam junto aos órgãos operacionais e cumprem funções de arquivo permanente.", null, "E", "Os setoriais cumprem funções de arquivo corrente, junto aos órgãos operacionais.", "f"],
+      ["A centralização dos arquivos correntes:", ["é sempre obrigatória", "impede o controle documental", "reúne em um único local os documentos correntes da instituição, o que pode trazer economia, mas dificultar o acesso dos setores", "é proibida pela Lei 8.159/1991", "aplica-se somente a arquivos permanentes"], "C", "A escolha entre centralizar ou descentralizar depende das características da instituição.", "m"],
+      ["Na descentralização dos arquivos correntes, o controle normativo pode permanecer centralizado, por meio de um órgão coordenador.", null, "C", "Coordenação centralizada com guarda descentralizada.", "m"],
+      ["Os arquivos correntes devem ser instalados preferencialmente distantes dos usuários, já que a consulta é rara.", null, "E", "Os arquivos correntes ficam próximos aos usuários, que os consultam com frequência.", "f"],
+      ["As etapas usuais do arquivamento em arquivos correntes são: inspeção, estudo, classificação, codificação, ordenação e guarda.", null, "C", "Rotina descrita por Marilena Leite Paes.", "m"],
+      ["O empréstimo de documentos do arquivo corrente deve ser controlado por guia ou registro, com prazo de devolução.", null, "C", "Evita extravios e garante rastreabilidade.", "f"]
+    ]
+  }
+}

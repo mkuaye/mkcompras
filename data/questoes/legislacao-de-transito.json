@@ -1,0 +1,17 @@
+{
+  "disciplina": "Legislação de Trânsito",
+  "assuntos": {
+    "Código de Trânsito Brasileiro (Lei 9.503/1997)": [
+      ["Segundo o CTB, as infrações de trânsito são classificadas em:", ["administrativas e penais", "simples e qualificadas", "culposas e dolosas", "leves, médias, graves e gravíssimas", "leves e graves apenas"], "D", "Art. 161 e 258 do CTB, com pontuação de 3, 4, 5 e 7 pontos, respectivamente.", "f"],
+      ["Dirigir veículo sem possuir CNH ou Permissão para Dirigir é infração gravíssima.", null, "C", "Art. 162, I, do CTB.", "f"],
+      ["Após a Lei 14.071/2020, a suspensão do direito de dirigir ocorre quando o condutor atinge, no período de 12 meses, 20 pontos se tiver duas ou mais infrações gravíssimas, 30 pontos se tiver uma gravíssima e 40 pontos se não tiver nenhuma gravíssima.", null, "C", "Art. 261, I, do CTB. Para condutores que exercem atividade remunerada, o limite é de 40 pontos, independentemente da natureza das infrações.", "m"],
+      ["A velocidade máxima permitida em rodovias de pista dupla, para automóveis, camionetas e motocicletas, quando não houver sinalização regulamentadora, é de:", ["110 km/h", "100 km/h", "80 km/h", "120 km/h", "90 km/h"], "A", "Art. 61, §1º, II, 'a', 1, do CTB. Em pista simples, 100 km/h.", "m"],
+      ["A velocidade máxima em vias locais urbanas, onde não houver sinalização regulamentadora, é de 30 km/h.", null, "C", "Art. 61, §1º, I, 'd'. Trânsito rápido: 80; arterial: 60; coletora: 40; local: 30 km/h.", "m"],
+      ["Conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool é crime de trânsito previsto no art. 306 do CTB.", null, "C", "Configurado com concentração igual ou superior a 6 decigramas de álcool por litro de sangue ou 0,3 mg por litro de ar alveolar, ou sinais de alteração.", "m"],
+      ["O condutor que se recusa a submeter-se ao teste do etilômetro não comete infração, pois ninguém é obrigado a produzir prova contra si.", null, "E", "A recusa é infração autônoma (art. 165-A do CTB), gravíssima, com multa multiplicada por 10 e suspensão do direito de dirigir por 12 meses. O STF validou a regra (Tema 1.079).", "m"],
+      ["Prevalece, na ordem de prevalência da sinalização, a seguinte sequência:", ["sinais verticais sobre ordens do agente", "semáforos sobre ordens do agente", "sinais horizontais sobre ordens do agente", "normas de circulação sobre sinais", "ordens do agente de trânsito sobre as normas de circulação e outros sinais; sinais de trânsito sobre as demais normas de circulação"], "E", "Art. 89 do CTB.", "m"],
+      ["A Permissão para Dirigir tem validade de um ano.", null, "C", "Art. 148, §2º, do CTB. Ao término, o condutor recebe a CNH se não tiver cometido infração grave ou gravíssima nem for reincidente em infração média.", "f"],
+      ["Utilizar o telefone celular segurando-o ou manuseando-o durante a condução do veículo é infração:", ["leve", "média", "gravíssima", "não é infração", "grave"], "C", "Art. 252, parágrafo único, do CTB. Usá-lo sem segurar (ex.: fone) é infração média (art. 252, VI).", "m"]
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "disciplina": "Legislação Penal Especial",
+  "assuntos": {
+    "Lei de Drogas (Lei 11.343/2006)": [
+      ["Quem adquire, guarda ou traz consigo drogas para consumo pessoal está sujeito, segundo a Lei 11.343/2006, a:", ["detenção de 6 meses a 2 anos", "reclusão de 5 a 15 anos", "advertência sobre os efeitos das drogas, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo", "multa apenas", "prisão em flagrante obrigatória"], "C", "Art. 28. Não há pena privativa de liberdade. O STF (RE 635.659) descriminalizou o porte de maconha para uso pessoal, presumindo usuário quem porta até 40 g ou seis plantas fêmeas, tratando a conduta como ilícito administrativo.", "m"],
+      ["O tráfico de drogas (art. 33 da Lei 11.343/2006) é punido com reclusão de 5 a 15 anos e pagamento de multa.", null, "C", "Art. 33, caput.", "f"],
+      ["O 'tráfico privilegiado' (art. 33, §4º) permite redução da pena de um sexto a dois terços para o agente primário, de bons antecedentes, que não se dedique às atividades criminosas nem integre organização criminosa.", null, "C", "Segundo o STF, o tráfico privilegiado não é crime equiparado a hediondo (art. 112, §5º, da LEP).", "m"],
+      ["A associação de duas ou mais pessoas para o fim de praticar, reiteradamente ou não, o tráfico configura o crime de associação para o tráfico.", null, "C", "Art. 35 da Lei 11.343/2006. Diferente da associação criminosa do CP (3 ou mais pessoas).", "m"]
+    ],
+    "Crimes hediondos (Lei 8.072/1990)": [
+      ["São insuscetíveis de anistia, graça, indulto e fiança os crimes hediondos, a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins e o terrorismo.", null, "C", "Art. 2º da Lei 8.072/1990 e art. 5º, XLIII, da CF.", "f"],
+      ["É crime hediondo:", ["furto simples", "lesão corporal leve", "estelionato", "homicídio qualificado, latrocínio, extorsão mediante sequestro e estupro", "dano qualificado"], "D", "Art. 1º da Lei 8.072/1990.", "f"],
+      ["A pena por crime hediondo será cumprida inicialmente em regime fechado, obrigatoriamente, conforme o entendimento atual do STF.", null, "E", "O STF declarou inconstitucional a obrigatoriedade do regime inicial fechado (HC 111.840). O regime deve observar o art. 33 do CP.", "d"]
+    ],
+    "Abuso de autoridade (Lei 13.869/2019)": [
+      ["Os crimes de abuso de autoridade exigem finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou ainda por mero capricho ou satisfação pessoal.", null, "C", "Art. 1º, §1º, da Lei 13.869/2019 (dolo específico).", "m"],
+      ["A divergência na interpretação de lei ou na avaliação de fatos e provas, por si só, configura abuso de autoridade.", null, "E", "Art. 1º, §2º: não configura (veda o 'crime de hermenêutica').", "f"],
+      ["Os crimes previstos na Lei de Abuso de Autoridade são de ação penal:", ["pública incondicionada", "privada", "pública condicionada à representação", "privada personalíssima", "pública condicionada à requisição do Ministro da Justiça"], "A", "Art. 3º, admitida ação privada subsidiária se o MP não agir no prazo.", "m"]
+    ],
+    "Estatuto do Desarmamento (Lei 10.826/2003)": [
+      ["Possuir ou manter sob sua guarda arma de fogo de uso permitido, em desacordo com determinação legal, no interior de sua residência ou no local de trabalho (sendo titular ou responsável), configura posse irregular.", null, "C", "Art. 12. Fora da residência ou do trabalho, configura porte ilegal (art. 14).", "f"],
+      ["O porte ilegal de arma de fogo de uso permitido é inafiançável, segundo o texto vigente do Estatuto do Desarmamento.", null, "E", "O STF declarou inconstitucional a vedação de fiança dos arts. 14 e 15 (ADI 3.112).", "d"],
+      ["A idade mínima para adquirir arma de fogo, segundo o Estatuto do Desarmamento, é de:", ["18 anos", "21 anos", "25 anos", "30 anos", "35 anos"], "C", "Art. 28 da Lei 10.826/2003, com exceções para integrantes de determinadas carreiras.", "m"]
+    ],
+    "Lei Maria da Penha (Lei 11.340/2006)": [
+      ["As formas de violência doméstica e familiar contra a mulher previstas na Lei Maria da Penha são: física, psicológica, sexual, patrimonial e moral.", null, "C", "Art. 7º da Lei 11.340/2006.", "f"],
+      ["Aos crimes praticados com violência doméstica e familiar contra a mulher, independentemente da pena prevista, não se aplica a Lei 9.099/1995.", null, "C", "Art. 41 da Lei 11.340/2006 e Súmula 536 do STJ.", "m"],
+      ["Nos crimes de lesão corporal praticados com violência doméstica contra a mulher, a ação penal é:", ["privada", "pública incondicionada", "privada subsidiária", "pública condicionada à representação", "dependente de requisição"], "B", "Súmula 542 do STJ e ADI 4.424.", "m"],
+      ["O descumprimento de medida protetiva de urgência configura crime previsto na própria Lei Maria da Penha.", null, "C", "Art. 24-A, incluído pela Lei 13.641/2018 e com pena aumentada pela Lei 14.994/2024 (reclusão de 2 a 5 anos).", "m"],
+      ["A Lei Maria da Penha só se aplica quando agressor e vítima residem juntos.", null, "E", "Art. 5º, III: aplica-se a qualquer relação íntima de afeto, independentemente de coabitação (Súmula 600 do STJ).", "f"]
+    ],
+    "Organizações criminosas (Lei 12.850/2013)": [
+      ["Considera-se organização criminosa a associação de 4 ou mais pessoas estruturalmente ordenada e caracterizada pela divisão de tarefas, com objetivo de obter vantagem mediante a prática de infrações penais cujas penas máximas sejam superiores a 4 anos, ou que sejam de caráter transnacional.", null, "C", "Art. 1º, §1º, da Lei 12.850/2013.", "m"],
+      ["São meios de obtenção de prova previstos na Lei 12.850/2013: colaboração premiada, ação controlada, infiltração de agentes, captação ambiental, entre outros.", null, "C", "Art. 3º da Lei 12.850/2013.", "f"]
+    ],
+    "Tortura e ECA": [
+      ["O crime de tortura (Lei 9.455/1997) é equiparado a hediondo, inafiançável e insuscetível de graça ou anistia.", null, "C", "Art. 1º, §6º, da Lei 9.455/1997.", "f"],
+      ["A condenação por tortura acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada.", null, "C", "Art. 1º, §5º — efeito automático.", "m"],
+      ["Segundo o ECA, considera-se criança a pessoa até 12 anos incompletos e adolescente a pessoa entre 12 e 18 anos de idade.", null, "C", "Art. 2º da Lei 8.069/1990.", "f"],
+      ["A medida socioeducativa de internação não comporta prazo determinado, mas em nenhuma hipótese o período máximo excederá:", ["1 ano", "2 anos", "3 anos", "5 anos", "21 anos de idade, sem limite de período"], "C", "Art. 121, §3º, do ECA, com reavaliação a cada 6 meses e liberação compulsória aos 21 anos.", "m"]
+    ]
+  }
+}

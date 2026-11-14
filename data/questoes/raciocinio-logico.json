@@ -1,0 +1,92 @@
+{
+  "disciplina": "Raciocínio Lógico",
+  "assuntos": {
+    "Proposições e conectivos": [
+      ["Assinale a alternativa que contém uma proposição lógica.", ["Que horas são?", "Feche a porta.", "Brasília é a capital do Brasil.", "Que dia lindo!", "x + 2 = 5"], "C", "Proposição é sentença declarativa à qual se pode atribuir V ou F. Perguntas, ordens, exclamações e sentenças abertas (com variável) não são proposições.", "f"],
+      ["A sentença 'x + 3 > 10' é uma proposição lógica.", null, "E", "É uma sentença aberta: seu valor depende de x. Só vira proposição se a variável for quantificada ou substituída.", "f"],
+      ["A conjunção 'p ∧ q' só é verdadeira quando:", ["p é verdadeira", "p e q são verdadeiras", "q é verdadeira", "pelo menos uma é verdadeira", "p e q são falsas"], "B", "No 'e', basta uma falsa para a conjunção ser falsa.", "f"],
+      ["A disjunção inclusiva 'p ∨ q' só é falsa quando p e q são ambas falsas.", null, "C", "No 'ou' inclusivo, basta uma verdadeira para o todo ser verdadeiro.", "f"],
+      ["A condicional 'Se p, então q' é falsa apenas quando:", ["p é falsa e q é verdadeira", "p é falsa", "ambas são falsas", "ambas são verdadeiras", "p é verdadeira e q é falsa"], "E", "Regra 'Vera Fischer': V → F = F. Em todos os outros casos, a condicional é verdadeira.", "f"],
+      ["A bicondicional 'p se e somente se q' é verdadeira quando p e q têm o mesmo valor lógico.", null, "C", "V↔V = V; F↔F = V; valores diferentes = F.", "f"],
+      ["A disjunção exclusiva 'ou p ou q' é verdadeira quando p e q têm valores lógicos diferentes.", null, "C", "É a negação da bicondicional.", "m"],
+      ["Sabendo que a proposição 'Se chove, então a rua fica molhada' é verdadeira e que a rua não está molhada, conclui-se que:", ["choveu", "a rua está seca e choveu", "pode ter chovido", "não choveu", "nada se pode concluir"], "D", "Modus tollens: se p → q é V e q é F, então p é F.", "m"],
+      ["Se a proposição 'p → q' é verdadeira e q é verdadeira, então p é necessariamente verdadeira.", null, "E", "Com q verdadeira, a condicional é verdadeira para qualquer valor de p (falácia da afirmação do consequente).", "m"],
+      ["Uma tabela-verdade de uma proposição composta por 4 proposições simples distintas tem:", ["16 linhas", "8 linhas", "4 linhas", "32 linhas", "12 linhas"], "A", "Número de linhas = 2ⁿ = 2⁴ = 16.", "f"]
+    ],
+    "Equivalências e negações": [
+      ["A negação de 'João é alto e Maria é baixa' é:", ["João não é alto e Maria não é baixa", "João não é alto ou Maria não é baixa", "João é alto ou Maria é baixa", "Se João é alto, Maria é baixa", "João não é alto e Maria é baixa"], "B", "Lei de De Morgan: ~(p ∧ q) ≡ ~p ∨ ~q.", "f"],
+      ["A negação de 'Se estudo, então passo' é 'Estudo e não passo'.", null, "C", "~(p → q) ≡ p ∧ ~q (mantém a primeira e nega a segunda).", "f"],
+      ["A proposição 'Se chove, então levo guarda-chuva' é equivalente a:", ["Se não chove, então não levo guarda-chuva", "Se levo guarda-chuva, então chove", "Chove e levo guarda-chuva", "Não chove e não levo guarda-chuva", "Se não levo guarda-chuva, então não chove"], "E", "Contrapositiva: p → q ≡ ~q → ~p. Também equivale a '~p ∨ q' (Não chove ou levo guarda-chuva).", "m"],
+      ["A proposição 'Se Ana trabalha, então ganha dinheiro' é equivalente a 'Ana não trabalha ou ganha dinheiro'.", null, "C", "p → q ≡ ~p ∨ q (regra do 'NeyMar': nega a primeira, ou mantém a segunda).", "m"],
+      ["A negação de 'Todos os servidores são pontuais' é:", ["Nenhum servidor é pontual", "Algum servidor é pontual", "Todos os servidores não são pontuais", "Algum servidor não é pontual", "Nenhum servidor é impontual"], "D", "A negação de 'todo A é B' é 'algum A não é B' (pelo menos um).", "f"],
+      ["A negação de 'Nenhum aluno faltou' é 'Algum aluno faltou'.", null, "C", "~(nenhum A é B) ≡ algum A é B.", "f"],
+      ["A negação de 'Pedro estuda ou trabalha' é:", ["Pedro não estuda ou não trabalha", "Pedro estuda e não trabalha", "Pedro não estuda e não trabalha", "Se Pedro estuda, não trabalha", "Pedro estuda e trabalha"], "C", "~(p ∨ q) ≡ ~p ∧ ~q.", "f"],
+      ["A proposição 'p ∨ ~p' é uma tautologia.", null, "C", "É sempre verdadeira, qualquer que seja o valor de p (princípio do terceiro excluído).", "f"],
+      ["A proposição 'p ∧ ~p' é uma contingência.", null, "E", "É sempre falsa: contradição.", "f"],
+      ["A negação de 'Ou vou à praia ou vou ao cinema' (disjunção exclusiva) é:", ["Vou à praia se e somente se vou ao cinema", "Vou à praia e vou ao cinema", "Não vou à praia e não vou ao cinema", "Se vou à praia, vou ao cinema", "Não vou à praia ou não vou ao cinema"], "A", "A negação da disjunção exclusiva é a bicondicional.", "m"],
+      ["A negação de 'Ana é médica se e somente se Bia é advogada' é 'Ou Ana é médica ou Bia é advogada' (exclusivo).", null, "C", "~(p ↔ q) ≡ p ⊻ q.", "m"]
+    ],
+    "Argumentação e silogismos": [
+      ["Considere as premissas: 'Todo médico é estudioso' e 'Algum esportista é médico'. Conclui-se que:", ["Todo esportista é estudioso", "Todo estudioso é médico", "Nenhum esportista é estudioso", "Algum esportista é estudioso", "Algum médico não é esportista"], "D", "Os esportistas que são médicos estão dentro do conjunto dos estudiosos; logo, algum esportista é estudioso.", "m"],
+      ["Se 'Todo A é B' e 'Todo B é C', então 'Todo A é C'.", null, "C", "Silogismo válido (transitividade da inclusão de conjuntos).", "f"],
+      ["De 'Todo gato é mamífero' e 'Rex é mamífero', conclui-se validamente que Rex é gato.", null, "E", "Falácia: Rex pode ser mamífero sem ser gato (conjunto dos mamíferos é maior).", "f"],
+      ["Um argumento é válido quando:", ["todas as premissas são verdadeiras", "a conclusão é verdadeira", "tem mais de duas premissas", "as premissas são falsas", "a conclusão decorre necessariamente das premissas, isto é, é impossível as premissas serem verdadeiras e a conclusão falsa"], "E", "Validade diz respeito à forma (estrutura), não à verdade do conteúdo.", "m"],
+      ["Considere as premissas: P1: 'Se Carlos é aprovado, então ele viaja.' P2: 'Se Carlos viaja, então compra presentes.' P3: 'Carlos não comprou presentes.' Conclui-se que:", ["Carlos não viajou e não foi aprovado", "Carlos viajou", "Carlos foi aprovado", "Carlos viajou mas não foi aprovado", "Carlos foi aprovado mas não viajou"], "A", "De P3 (F para 'compra') e P2 verdadeira, 'viaja' é F; de P1 verdadeira, 'aprovado' é F.", "m"],
+      ["O argumento 'Se p então q; p; logo q' é chamado modus ponens e é válido.", null, "C", "Afirmação do antecedente.", "f"],
+      ["Sabe-se que: 'Ou Ana vai ao clube ou Bruno vai ao parque' (exclusivo); 'Se Bruno vai ao parque, Carla fica em casa'; 'Carla não ficou em casa'. Logo:", ["Ana não foi ao clube", "Ana foi ao clube e Bruno não foi ao parque", "Ana e Bruno saíram", "Carla foi ao parque", "Bruno foi ao parque"], "B", "Carla não ficou em casa → Bruno não foi ao parque (modus tollens) → pela disjunção exclusiva, Ana foi ao clube.", "m"]
+    ],
+    "Conjuntos": [
+      ["Numa turma, 30 alunos gostam de matemática, 25 gostam de português e 10 gostam de ambas. Se todos gostam de pelo menos uma, quantos alunos há na turma?", ["65", "55", "45", "35", "40"], "C", "n(A∪B) = 30 + 25 − 10 = 45.", "f"],
+      ["Se A = {1, 2, 3} e B = {2, 3, 4}, então A ∩ B = {2, 3}.", null, "C", "A interseção contém os elementos comuns.", "f"],
+      ["O número de subconjuntos de um conjunto com 5 elementos é:", ["10", "25", "5", "32", "64"], "D", "2⁵ = 32 (incluindo o vazio e o próprio conjunto).", "f"],
+      ["Em uma pesquisa com 100 pessoas, 60 leem o jornal A, 50 leem o jornal B e 20 não leem nenhum dos dois. Quantas leem ambos?", ["10", "20", "30", "40", "50"], "C", "80 leem pelo menos um. 60 + 50 − x = 80 → x = 30.", "m"],
+      ["Se A ⊂ B, então A ∪ B = B.", null, "C", "Se todo elemento de A está em B, a união é o próprio B.", "f"],
+      ["A diferença A − B, com A = {1,2,3,4,5} e B = {4,5,6}, é:", ["{4,5}", "{6}", "{1,2,3}", "{1,2,3,6}", "{1,2,3,4,5,6}"], "C", "Elementos de A que não estão em B.", "f"]
+    ],
+    "Análise combinatória": [
+      ["De quantas maneiras 5 pessoas podem se sentar em fila em 5 cadeiras?", ["25", "60", "720", "24", "120"], "E", "Permutação simples: 5! = 120.", "f"],
+      ["O número de anagramas da palavra AMOR é 24.", null, "C", "4 letras distintas: 4! = 24.", "f"],
+      ["Quantos anagramas tem a palavra ARARA?", ["120", "10", "20", "60", "30"], "B", "Permutação com repetição: 5!/(3!·2!) = 120/12 = 10 (três A e dois R).", "m"],
+      ["De um grupo de 6 pessoas, quantas comissões de 3 pessoas podem ser formadas?", ["20", "120", "18", "216", "60"], "A", "Combinação (ordem não importa): C(6,3) = 6!/(3!·3!) = 20.", "f"],
+      ["De um grupo de 6 pessoas, deseja-se escolher presidente, vice e secretário. O número de possibilidades é 120.", null, "C", "Arranjo (ordem importa): 6 × 5 × 4 = 120.", "f"],
+      ["Uma senha tem 3 dígitos (0 a 9), podendo repetir. Quantas senhas são possíveis?", ["30", "1.000", "100", "720", "999"], "B", "10 × 10 × 10 = 1.000 (princípio fundamental da contagem).", "f"],
+      ["Quantos números de 3 algarismos distintos podem ser formados com os algarismos 1, 2, 3, 4 e 5?", ["120", "125", "10", "15", "60"], "E", "5 × 4 × 3 = 60.", "f"],
+      ["De quantas formas 6 pessoas podem sentar-se ao redor de uma mesa circular?", ["60", "720", "120", "36", "24"], "C", "Permutação circular: (n − 1)! = 5! = 120.", "m"],
+      ["O número de diagonais de um polígono convexo de 10 lados é 35.", null, "C", "d = n(n − 3)/2 = 10 × 7 / 2 = 35.", "m"],
+      ["Em uma reunião, cada pessoa cumprimentou todas as outras uma única vez, totalizando 45 apertos de mão. Quantas pessoas havia?", ["10", "15", "9", "45", "12"], "A", "C(n,2) = n(n−1)/2 = 45 → n = 10.", "m"]
+    ],
+    "Probabilidade": [
+      ["Ao lançar um dado comum, a probabilidade de sair um número par é:", ["1/6", "1/3", "1/2", "2/3", "5/6"], "C", "Casos favoráveis {2, 4, 6} = 3 de 6 = 1/2.", "f"],
+      ["Ao lançar duas moedas, a probabilidade de saírem duas caras é 1/4.", null, "C", "Espaço amostral {CC, CK, KC, KK}: 1 favorável em 4.", "f"],
+      ["Ao lançar dois dados, a probabilidade de a soma ser 7 é:", ["1/12", "1/9", "7/36", "1/6", "5/36"], "D", "Pares com soma 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 em 36 = 1/6.", "m"],
+      ["Uma urna tem 3 bolas brancas e 2 pretas. Retiram-se duas bolas sem reposição. A probabilidade de ambas serem brancas é:", ["9/25", "6/25", "3/5", "1/2", "3/10"], "E", "3/5 × 2/4 = 6/20 = 3/10.", "m"],
+      ["A probabilidade de um evento certo é 1 e a de um evento impossível é 0.", null, "C", "Toda probabilidade está no intervalo [0, 1].", "f"],
+      ["Se a probabilidade de chover amanhã é 0,3, a probabilidade de não chover é 0,7.", null, "C", "Evento complementar: P(não A) = 1 − P(A).", "f"],
+      ["Retira-se uma carta de um baralho comum de 52 cartas. A probabilidade de ser um rei ou uma carta de copas é:", ["4/13", "17/52", "1/4", "1/13", "1/52"], "A", "P(rei) + P(copas) − P(rei de copas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13.", "d"],
+      ["A probabilidade de obter pelo menos uma cara em três lançamentos de uma moeda honesta é:", ["1/8", "3/8", "1/2", "7/8", "3/4"], "D", "1 − P(nenhuma cara) = 1 − (1/2)³ = 7/8.", "m"]
+    ],
+    "Sequências e padrões": [
+      ["Qual o próximo termo da sequência 2, 6, 18, 54, ...?", ["108", "72", "162", "148", "216"], "C", "Progressão geométrica de razão 3: 54 × 3 = 162.", "f"],
+      ["Na sequência 1, 1, 2, 3, 5, 8, 13, o próximo termo é 21.", null, "C", "Sequência de Fibonacci: cada termo é a soma dos dois anteriores (8 + 13).", "f"],
+      ["Qual o próximo termo: 3, 7, 15, 31, ...?", ["62", "63", "47", "64", "61"], "B", "Cada termo é o anterior × 2 + 1: 31 × 2 + 1 = 63.", "m"],
+      ["Qual é o 20º termo da progressão aritmética 5, 9, 13, ...?", ["76", "84", "85", "80", "81"], "E", "aₙ = a₁ + (n − 1)r = 5 + 19 × 4 = 81.", "m"],
+      ["A soma dos 10 primeiros termos da PA 2, 4, 6, ... é 110.", null, "C", "S = (a₁ + a₁₀)·n/2 = (2 + 20)·10/2 = 110.", "m"],
+      ["Na sequência de letras A, C, F, J, O, ..., a próxima letra (alfabeto de 26 letras) é:", ["S", "T", "V", "U", "R"], "D", "Saltos crescentes: +2, +3, +4, +5, +6. O (15ª) + 6 = 21ª letra = U.", "m"],
+      ["Se hoje é segunda-feira, daqui a 100 dias será:", ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira"], "C", "100 = 14 × 7 + 2 → 2 dias após segunda = quarta-feira.", "m"]
+    ],
+    "Verdades e mentiras": [
+      ["Três suspeitos fazem afirmações: André diz 'Bruno é culpado'; Bruno diz 'Carlos é culpado'; Carlos diz 'Bruno mente'. Sabendo que só um é culpado e só ele mente, o culpado é:", ["Bruno", "Carlos", "André", "André e Carlos", "não é possível determinar"], "A", "Se Bruno é culpado (mente): 'Carlos é culpado' é falsa ✓; André diz a verdade ✓; Carlos diz 'Bruno mente' — verdade ✓. Consistente.", "d"],
+      ["Em um grupo, quem é honesto sempre diz a verdade e quem é mentiroso sempre mente. Se alguém diz 'Eu sou mentiroso', essa situação é impossível nesse grupo.", null, "C", "Um honesto não diria isso (seria falso) e um mentiroso também não (seria verdade). Paradoxo.", "m"],
+      ["Ana, Bia e Clara usam vestidos azul, branco e preto, não necessariamente nessa ordem. Ana não usa azul nem branco; Bia não usa azul. Então Clara usa:", ["branco", "azul", "preto", "azul ou branco", "não é possível saber"], "B", "Ana usa preto (única cor restante para ela). Bia não usa azul → branco. Clara fica com azul.", "f"]
+    ],
+    "Problemas aritméticos": [
+      ["Se 3 pedreiros constroem um muro em 12 dias, quantos dias 4 pedreiros, com o mesmo ritmo, levariam?", ["16", "9", "10", "8", "15"], "B", "Grandezas inversamente proporcionais: 3 × 12 = 4 × d → d = 9.", "f"],
+      ["O MMC de 12 e 18 é 36 e o MDC é 6.", null, "C", "12 = 2²·3; 18 = 2·3². MMC = 2²·3² = 36; MDC = 2·3 = 6.", "f"],
+      ["Dois ônibus partem juntos do terminal; um retorna a cada 15 min e outro a cada 20 min. Depois de quanto tempo partirão juntos novamente?", ["35 min", "45 min", "300 min", "60 min", "30 min"], "D", "MMC(15, 20) = 60 minutos.", "f"],
+      ["Um produto custava R$ 200 e teve aumento de 10% seguido de desconto de 10%. O preço final é:", ["R$ 198,00", "R$ 190,00", "R$ 202,00", "R$ 200,00", "R$ 180,00"], "A", "200 × 1,1 × 0,9 = 198. Aumentos e descontos sucessivos não se anulam.", "m"],
+      ["Uma torneira enche um tanque em 3 horas e outra em 6 horas. Juntas, enchem o tanque em 2 horas.", null, "C", "1/3 + 1/6 = 1/2 do tanque por hora → 2 horas.", "m"],
+      ["A idade de um pai é o triplo da do filho. Daqui a 10 anos, será o dobro. Qual a idade atual do filho?", ["5", "10", "15", "20", "30"], "B", "P = 3F; P + 10 = 2(F + 10) → 3F + 10 = 2F + 20 → F = 10.", "m"],
+      ["R$ 1.200 devem ser divididos entre três pessoas em partes diretamente proporcionais a 2, 3 e 5. A maior parte é:", ["R$ 400", "R$ 500", "R$ 600", "R$ 360", "R$ 240"], "C", "Total de partes: 10 → 120 cada. Maior: 5 × 120 = 600.", "f"]
+    ]
+  }
+}

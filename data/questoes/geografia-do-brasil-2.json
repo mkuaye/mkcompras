@@ -1,0 +1,107 @@
+{
+  "disciplina": "Geografia do Brasil",
+  "assuntos": {
+    "Regiões e território": [
+      ["O Brasil possui 27 estados e um Distrito Federal.", null, "E", "São 26 estados e o Distrito Federal, totalizando 27 unidades federativas.", "f"],
+      ["O ponto extremo norte do Brasil é o Monte Caburaí, em Roraima, e o ponto extremo sul é o Arroio Chuí, no Rio Grande do Sul.", null, "C", "O Oiapoque, no Amapá, foi por muito tempo citado como extremo norte.", "m"],
+      ["O Brasil é cortado pela Linha do Equador e pelo Trópico de Câncer.", null, "E", "O Brasil é cortado pelo Equador e pelo Trópico de Capricórnio; o de Câncer fica no hemisfério norte, fora do território brasileiro.", "f"],
+      ["O fuso horário oficial de Brasília está:", ["2 horas atrás de Greenwich", "3 horas atrás de Greenwich", "4 horas atrás de Greenwich", "5 horas atrás de Greenwich", "1 hora atrás de Greenwich"], "B", "O Brasil tem quatro fusos horários (−2 a −5 horas em relação a GMT).", "m"],
+      ["O país com o qual o Brasil tem a maior extensão de fronteira terrestre é a:", ["Argentina", "Venezuela", "Bolívia", "Colômbia", "Peru"], "C", "Cerca de 3.400 km de fronteira com a Bolívia.", "m"],
+      ["A divisão regional do Brasil em complexos geoeconômicos (Amazônia, Nordeste e Centro-Sul) foi proposta por Pedro Pinchas Geiger e não segue os limites estaduais.", null, "C", "Proposta de 1967, baseada em critérios socioeconômicos.", "m"],
+      ["O estado de Tocantins foi criado pela Constituição de 1988, a partir do desmembramento do sul do Pará.", null, "E", "Tocantins resultou do desmembramento do norte de Goiás (art. 13 do ADCT).", "f"],
+      ["A Amazônia Legal abrange os estados da região Norte, Mato Grosso e parte do Maranhão.", null, "C", "Conceito político-administrativo para planejamento regional.", "m"],
+      ["O mar territorial brasileiro tem largura de:", ["12 milhas marítimas", "24 milhas marítimas", "200 milhas marítimas", "50 milhas marítimas", "100 milhas marítimas"], "A", "Lei 8.617/1993; a zona econômica exclusiva vai até 200 milhas.", "m"],
+      ["A 'Amazônia Azul' é a denominação dada ao espaço marítimo sob jurisdição brasileira, que inclui a zona econômica exclusiva e a plataforma continental.", null, "C", "Termo difundido pela Marinha do Brasil.", "m"],
+      ["O menor estado brasileiro em extensão territorial é:", ["Alagoas", "Rio de Janeiro", "Espírito Santo", "Sergipe", "Paraíba"], "D", "Excluído o Distrito Federal.", "f"]
+    ],
+    "Relevo e geologia": [
+      ["O relevo brasileiro é predominantemente formado por planaltos e depressões, com grandes cadeias montanhosas de formação recente.", null, "E", "O relevo brasileiro é antigo e desgastado, com altitudes modestas e sem dobramentos modernos.", "f"],
+      ["O ponto mais alto do Brasil é o:", ["Pico da Bandeira", "Pico das Agulhas Negras", "Monte Roraima", "Pico 31 de Março", "Pico da Neblina"], "E", "Com cerca de 2.995 m, no Amazonas.", "f"],
+      ["A classificação do relevo brasileiro de Jurandyr Ross (1989) divide-o em 28 unidades, entre planaltos, planícies e depressões.", null, "C", "Baseada em imagens do Projeto RADAM.", "m"],
+      ["O Brasil não possui vulcões ativos nem grandes terremotos porque se localiza na borda da Placa Sul-Americana.", null, "E", "Por estar no centro da Placa Sul-Americana, longe das bordas, o Brasil tem baixa atividade sísmica e vulcânica.", "f"],
+      ["As planícies são áreas planas em que predominam processos de:", ["erosão", "falhamento", "vulcanismo", "dobramento", "sedimentação (deposição)"], "E", "Nos planaltos predominam processos erosivos.", "m"],
+      ["Os escudos cristalinos são estruturas geológicas antigas, ricas em minerais metálicos, como o ferro do Quadrilátero Ferrífero e de Carajás.", null, "C", "As bacias sedimentares concentram combustíveis fósseis.", "m"],
+      ["O petróleo do pré-sal encontra-se em rochas situadas abaixo de uma camada de sal, no litoral entre Santa Catarina e Espírito Santo.", null, "C", "Principalmente nas bacias de Santos e Campos.", "m"]
+    ],
+    "Biomas, clima e hidrografia": [
+      ["O Cerrado é o maior bioma brasileiro em extensão territorial.", null, "E", "A Amazônia é o maior bioma (cerca de 49% do território); o Cerrado é o segundo.", "f"],
+      ["O bioma que ocupa a maior planície alagável do mundo é o:", ["Pampa", "Cerrado", "Pantanal", "Caatinga", "Mata Atlântica"], "C", "Localiza-se em MT e MS.", "f"],
+      ["O Pampa é o bioma característico do Rio Grande do Sul, com predomínio de vegetação campestre.", null, "C", "Também chamado de Campanha Gaúcha.", "f"],
+      ["A Mata de Araucárias (Floresta Ombrófila Mista) é típica da região:", ["Norte", "Sul", "Nordeste", "Centro-Oeste", "Sudeste litorâneo"], "B", "Associada ao clima subtropical de altitude.", "f"],
+      ["O clima semiárido do Sertão nordestino caracteriza-se por chuvas escassas e irregulares.", null, "C", "A Caatinga é a vegetação típica.", "f"],
+      ["O clima tropical, típico do Brasil Central, apresenta verões secos e invernos chuvosos.", null, "E", "O clima tropical tem verões chuvosos e invernos secos.", "f"],
+      ["A massa de ar responsável pelas frentes frias que avançam pelo Sul e Sudeste no inverno é a:", ["Equatorial Continental", "Tropical Atlântica", "Equatorial Atlântica", "Polar Atlântica", "Tropical Continental"], "D", "Pode provocar geadas e até neve no Sul.", "m"],
+      ["A friagem é a queda brusca de temperatura em partes da Amazônia ocidental, causada pelo avanço da massa Equatorial Atlântica.", null, "E", "A friagem é causada pelo avanço da massa Polar Atlântica.", "m"],
+      ["A maior bacia hidrográfica do Brasil e do mundo é a Bacia Amazônica.", null, "C", "Também a de maior volume de água.", "f"],
+      ["A bacia hidrográfica com maior aproveitamento hidrelétrico instalado no Brasil é a:", ["do Paraná", "Amazônica", "do São Francisco", "do Parnaíba", "do Atlântico Sul"], "A", "Abriga Itaipu e diversas usinas no Sudeste e Sul.", "m"],
+      ["O Aquífero Guarani é um dos maiores reservatórios de água subterrânea do mundo, estendendo-se por Brasil, Argentina, Paraguai e Uruguai.", null, "C", "Está majoritariamente em território brasileiro.", "f"],
+      ["Os rios brasileiros são predominantemente de planície, o que dificulta o aproveitamento hidrelétrico.", null, "E", "Predominam rios de planalto, favoráveis à geração hidrelétrica.", "f"],
+      ["A transposição do rio São Francisco tem como objetivo levar água para o semiárido nordestino.", null, "C", "Projeto de Integração do São Francisco (PISF), com eixos norte e leste.", "f"],
+      ["O fenômeno El Niño, no Brasil, costuma provocar:", ["chuvas no Sertão nordestino e seca no Sul", "fim das monções", "neve no Sudeste", "aumento da friagem no Nordeste", "seca no Norte e Nordeste e chuvas acima da média no Sul"], "E", "Decorre do aquecimento anômalo das águas do Pacífico equatorial.", "m"],
+      ["O 'arco do desmatamento' é a faixa de avanço da fronteira agropecuária sobre a Amazônia, abrangendo áreas de Rondônia, Mato Grosso e Pará.", null, "C", "Concentra os maiores índices de desmatamento.", "m"],
+      ["Os 'rios voadores' são fluxos de umidade transportados pela atmosfera a partir da Amazônia, que contribuem para as chuvas no Centro-Sul.", null, "C", "Mostram a importância da floresta para o regime de chuvas.", "m"]
+    ],
+    "População e urbanização": [
+      ["Segundo o Censo 2022 do IBGE, a população brasileira era de aproximadamente:", ["170 milhões", "190 milhões", "203 milhões", "215 milhões", "230 milhões"], "C", "Cerca de 203,1 milhões de habitantes.", "m"],
+      ["O estado mais populoso do Brasil é Minas Gerais.", null, "E", "São Paulo é o estado mais populoso; Minas Gerais é o segundo.", "f"],
+      ["O êxodo rural intensificou-se no Brasil a partir de meados do século XX, com a industrialização e a mecanização do campo.", null, "C", "Hoje, a maior parte da população vive em áreas urbanas.", "f"],
+      ["A conurbação é:", ["o crescimento vertical de uma cidade", "a migração do campo para a cidade", "o abandono das áreas centrais", "a junção física de duas ou mais cidades em razão de seu crescimento", "a criação de cidades planejadas"], "D", "Comum nas regiões metropolitanas.", "f"],
+      ["A megalópole em formação no Brasil corresponde ao eixo entre as regiões metropolitanas de São Paulo e Rio de Janeiro.", null, "C", "Integrada pelo Vale do Paraíba e pela Baixada Santista e Campinas.", "m"],
+      ["O envelhecimento da população brasileira resulta da aumento da taxa de fecundidade e do aumento da expectativa de vida.", null, "E", "O envelhecimento resulta da queda da fecundidade e do aumento da expectativa de vida.", "f"],
+      ["A taxa de fecundidade total do Brasil está atualmente:", ["acima de 4 filhos por mulher", "em torno de 3 filhos por mulher", "abaixo do nível de reposição (cerca de 2,1 filhos por mulher)", "exatamente 2,1 filhos por mulher", "acima de 5 filhos por mulher"], "C", "Em torno de 1,6 filho por mulher.", "m"],
+      ["A gentrificação é o processo de valorização de áreas urbanas que leva à expulsão da população de menor renda.", null, "C", "Associada a revitalizações e especulação imobiliária.", "m"],
+      ["A rede urbana brasileira tem como metrópoles nacionais, segundo o IBGE (REGIC), São Paulo, Rio de Janeiro e Brasília.", null, "C", "São Paulo é a grande metrópole nacional.", "d"],
+      ["A densidade demográfica corresponde à relação entre a população e a área do território.", null, "C", "Expressa em habitantes por km².", "f"]
+    ],
+    "Economia e agropecuária": [
+      ["O Brasil é um dos maiores produtores e exportadores mundiais de soja, café, açúcar, carne bovina e suco de laranja.", null, "C", "O agronegócio tem grande peso nas exportações.", "f"],
+      ["A expansão da fronteira agrícola nas últimas décadas avançou principalmente sobre o bioma:", ["Pampa", "Cerrado", "Mata Atlântica", "Mangue", "Pantanal, exclusivamente"], "B", "Com destaque para o MATOPIBA (MA, TO, PI e BA).", "m"],
+      ["O MATOPIBA é a região de expansão agrícola formada por áreas do Mato Grosso, Pará, Piauí e Bahia.", null, "E", "MATOPIBA = Maranhão, Tocantins, Piauí e Bahia.", "f"],
+      ["A Zona Franca de Manaus foi criada para estimular o desenvolvimento da Amazônia Ocidental por meio de incentivos fiscais.", null, "C", "Polo industrial com destaque para eletroeletrônicos e motocicletas.", "f"],
+      ["A principal fonte da matriz energética brasileira (não apenas elétrica) é:", ["o petróleo e derivados", "o carvão mineral", "a energia nuclear", "a energia solar", "a energia eólica"], "A", "Na matriz elétrica, a hidreletricidade é predominante.", "m"],
+      ["A região Sul concentra a maior parte da geração de energia eólica do Brasil.", null, "E", "O Nordeste concentra a maior parte da geração eólica do país.", "m"],
+      ["A desconcentração industrial no Brasil, a partir dos anos 1970-1990, deslocou indústrias da Região Metropolitana de São Paulo para o interior paulista e outras regiões.", null, "C", "Motivada por guerra fiscal, custos e infraestrutura.", "m"],
+      ["O modal de transporte predominante no Brasil para cargas é o:", ["ferroviário", "aéreo", "hidroviário", "rodoviário", "dutoviário"], "D", "Responde pela maior parte da movimentação de cargas.", "f"],
+      ["O principal porto brasileiro em movimentação de contêineres é o Porto de Santos.", null, "C", "Localizado no litoral paulista.", "f"],
+      ["A Usina de Itaipu é binacional, compartilhada pelo Brasil e pelo:", ["Uruguai", "Paraguai", "Argentina", "Bolívia", "Peru"], "B", "Localiza-se no rio Paraná.", "f"],
+      ["A Usina Nuclear de Angra dos Reis está localizada no estado do São Paulo.", null, "E", "Angra dos Reis fica no estado do Rio de Janeiro.", "f"],
+      ["A estrutura fundiária brasileira caracteriza-se pela forte concentração de terras.", null, "C", "Herança das sesmarias e do latifúndio.", "f"],
+      ["A Serra dos Carajás, no Pará, destaca-se pela exploração de:", ["petróleo", "ouro de aluvião apenas", "carvão mineral", "sal-gema", "minério de ferro"], "E", "Uma das maiores províncias minerais do mundo.", "f"]
+    ],
+    "Questões ambientais": [
+      ["O Código Florestal (Lei 12.651/2012) prevê as Áreas de Preservação Permanente (APP) e a Reserva Legal.", null, "C", "A Reserva Legal na Amazônia Legal, em área de floresta, é de 80% do imóvel.", "m"],
+      ["Nos imóveis rurais localizados fora da Amazônia Legal, o percentual mínimo de Reserva Legal é de:", ["10%", "20%", "35%", "50%", "80%"], "B", "Art. 12, II, da Lei 12.651/2012.", "m"],
+      ["As Unidades de Conservação de Proteção Integral admitem o uso direto e a exploração econômica dos recursos naturais.", null, "E", "Proteção Integral admite apenas uso indireto; as de Uso Sustentável admitem uso direto compatível com a conservação.", "m"],
+      ["O Acordo de Paris, de 2015, tem como objetivo limitar o aumento da temperatura média global a bem menos de 2 °C acima dos níveis pré-industriais.", null, "C", "Com esforços para limitá-lo a 1,5 °C.", "f"],
+      ["A COP30, conferência do clima da ONU, foi realizada em 2025 na cidade de:", ["Belém", "Manaus", "Rio de Janeiro", "Brasília", "São Paulo"], "A", "Belém, no Pará.", "f"],
+      ["A desertificação no Brasil ocorre principalmente em áreas do semiárido nordestino, como no núcleo de Gilbués (PI).", null, "C", "Associada ao uso inadequado do solo e à seca.", "m"],
+      ["A ilha de calor urbana é o aumento da temperatura nas áreas centrais das cidades em relação às áreas periféricas e rurais.", null, "C", "Causada por impermeabilização, concreto e pouca vegetação.", "f"],
+      ["A inversão térmica, comum no inverno, dificulta a dispersão de poluentes nas grandes cidades.", null, "C", "Uma camada de ar quente impede a subida do ar frio poluído.", "m"],
+      ["O assoreamento dos rios é intensificado pela retirada da mata ciliar.", null, "C", "Sem vegetação, aumenta a erosão das margens e o depósito de sedimentos.", "f"],
+      ["As queimadas no Brasil concentram-se no período chuvoso de cada região.", null, "E", "Concentram-se na estação seca, quando a vegetação está mais vulnerável.", "f"],
+      ["O manguezal é um ecossistema costeiro de transição entre os ambientes terrestre e marinho, importante como berçário de espécies.", null, "C", "Protegido como APP pelo Código Florestal.", "f"]
+    ],
+    "Sub-regiões e regiões brasileiras": [
+      ["As sub-regiões do Nordeste são:", ["Recôncavo, Vale e Planalto", "Pantanal, Cerrado, Pampa e Caatinga", "Zona da Mata, Agreste, Sertão e Meio-Norte", "Sertão, Campanha e Serra", "Litoral, Planalto e Depressão"], "C", "O Agreste é a faixa de transição entre a Zona da Mata e o Sertão.", "f"],
+      ["O Meio-Norte é a sub-região nordestina de transição entre o Sertão semiárido e a Amazônia, abrangendo Maranhão e Piauí.", null, "C", "Destaca-se a Mata dos Cocais, com babaçu e carnaúba.", "m"],
+      ["A Zona da Mata nordestina tem clima tropical úmido e foi o centro da economia açucareira colonial.", null, "C", "Concentra as capitais litorâneas.", "f"],
+      ["O 'Polígono das Secas' é a área delimitada pelo governo para ações de combate aos efeitos da seca, abrangendo também o norte de Minas Gerais.", null, "C", "Hoje se usa o conceito de Semiárido brasileiro (SUDENE).", "m"],
+      ["A região Centro-Oeste é formada por:", ["GO, MT, TO e DF", "GO, TO, MT e MS", "MT, MS, RO e DF", "GO, MT, MS e DF", "MS, PR, GO e DF"], "D", "Tocantins pertence à região Norte.", "f"],
+      ["A região Sudeste concentra a maior parte do PIB brasileiro.", null, "C", "Com destaque para São Paulo.", "f"],
+      ["A região Sul é formada pelo Paraná, Santa Catarina e Rio Grande do Sul.", null, "C", "Menor região em extensão territorial.", "f"],
+      ["A região Norte é formada por nove estados: AC, AM, AP, PA, RO, RR e TO.", null, "E", "A região Norte tem sete estados: AC, AM, AP, PA, RO, RR e TO.", "f"],
+      ["O Vale do Jequitinhonha, conhecido por baixos indicadores sociais, situa-se no estado de:", ["Bahia", "Piauí", "Espírito Santo", "Goiás", "Minas Gerais"], "E", "Nordeste de Minas Gerais.", "m"],
+      ["Brasília foi planejada por Oscar Niemeyer (urbanismo) e Lúcio Costa (arquitetura).", null, "E", "Lúcio Costa fez o plano urbanístico; Oscar Niemeyer, a arquitetura.", "f"],
+      ["A Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE-DF) inclui municípios de Goiás e Minas Gerais.", null, "C", "Criada pela LC 94/1998.", "d"]
+    ],
+    "Solos e recursos minerais": [
+      ["O solo de terra roxa, de origem basáltica, é muito fértil e foi importante para a expansão do café no Oeste Paulista e no Paraná.", null, "C", "Resulta da decomposição de rochas vulcânicas (basalto).", "f"],
+      ["O massapê, solo fértil de origem argilosa, é típico da:", ["Campanha Gaúcha", "Zona da Mata nordestina", "Amazônia", "Chapada dos Guimarães", "Serra do Mar"], "B", "Favoreceu a lavoura canavieira.", "m"],
+      ["A laterização é o processo de empobrecimento do solo comum em áreas tropicais com estação seca, em que se forma uma crosta endurecida.", null, "C", "Associada ao acúmulo de óxidos de ferro e alumínio.", "d"],
+      ["A lixiviação é a lavagem dos nutrientes do solo pela ação do vento.", null, "E", "Lixiviação é a lavagem dos nutrientes pela água da chuva; a ação do vento é a erosão eólica.", "f"],
+      ["A técnica de calagem, usada para corrigir a acidez dos solos do Cerrado, consiste na aplicação de sal-gema.", null, "E", "A calagem aplica calcário para corrigir a acidez do solo.", "m"],
+      ["O Quadrilátero Ferrífero, importante área de extração de minério de ferro, localiza-se no estado de:", ["Pará", "Mato Grosso do Sul", "Minas Gerais", "Bahia", "Goiás"], "C", "Na região central de MG.", "f"],
+      ["O rompimento das barragens de rejeitos de mineração em Mariana (2015) e Brumadinho (2019) ocorreu em Minas Gerais.", null, "C", "Grandes desastres socioambientais da mineração.", "f"]
+    ]
+  }
+}

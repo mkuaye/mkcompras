@@ -1,0 +1,103 @@
+{
+  "disciplina": "Legislação Penal Especial",
+  "assuntos": {
+    "Lei de Drogas (Lei 11.343/2006)": [
+      ["Oferecer droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem, configura crime com pena de detenção de 6 meses a 1 ano, além de multa.", null, "C", "Art. 33, §3º, da Lei 11.343/2006 (cessão gratuita e eventual).", "m"],
+      ["Financiar ou custear a prática do tráfico de drogas é crime autônomo, punido com reclusão de:", ["5 a 15 anos", "3 a 10 anos", "10 a 30 anos", "2 a 6 anos", "8 a 20 anos"], "E", "Art. 36 da Lei 11.343/2006.", "m"],
+      ["Segundo o STJ, para a incidência da majorante da transnacionalidade no tráfico de drogas, é necessária a efetiva transposição de fronteiras.", null, "E", "Súmula 607 do STJ: basta a prova da destinação internacional das drogas.", "m"],
+      ["A majorante do tráfico interestadual dispensa a efetiva transposição da fronteira entre os Estados, bastando a prova inequívoca da intenção de realizar o tráfico interestadual.", null, "C", "Súmula 587 do STJ.", "m"],
+      ["As penas dos crimes de tráfico são aumentadas de um sexto a dois terços quando, entre outras hipóteses, a infração for cometida nas imediações de estabelecimentos de ensino.", null, "C", "Art. 40, III, da Lei 11.343/2006.", "m"],
+      ["Segundo o STF, é constitucional a vedação abstrata da liberdade provisória para o crime de tráfico de drogas.", null, "E", "O STF declarou inconstitucional a vedação abstrata do art. 44 (HC 104.339).", "m"],
+      ["No tráfico de drogas, segundo o STF, é possível a substituição da pena privativa de liberdade por restritiva de direitos, se preenchidos os requisitos do art. 44 do CP.", null, "C", "HC 97.256; a Resolução 5/2012 do Senado suspendeu a vedação.", "m"],
+      ["O prazo para conclusão do inquérito na Lei de Drogas, estando o indiciado preso, é de:", ["10 dias", "15 dias", "30 dias", "60 dias", "90 dias"], "C", "Art. 51 da Lei 11.343/2006: 30 dias preso e 90 dias solto, podendo ser duplicados.", "m"],
+      ["Para a lavratura do auto de prisão em flagrante e o estabelecimento da materialidade do delito de tráfico, é suficiente o laudo de constatação da natureza e da quantidade da droga.", null, "C", "Art. 50, §1º, da Lei 11.343/2006; o laudo definitivo é exigido para a condenação.", "m"],
+      ["Colaborar, como informante, com grupo, organização ou associação destinados ao tráfico é crime previsto no:", ["art. 28", "art. 33", "art. 37", "art. 35", "art. 39"], "C", "Art. 37 da Lei 11.343/2006: reclusão de 2 a 6 anos.", "d"],
+      ["Prescrevem em 5 anos a imposição e a execução das penas aplicadas ao usuário de drogas (art. 28).", null, "E", "Art. 30 da Lei 11.343/2006: prescrição em 2 anos.", "m"],
+      ["Induzir, instigar ou auxiliar alguém ao uso indevido de droga é conduta atípica.", null, "E", "Art. 33, §2º, da Lei 11.343/2006: detenção de 1 a 3 anos e multa.", "f"]
+    ],
+    "Crimes hediondos (Lei 8.072/1990)": [
+      ["O furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum passou a ser crime hediondo com o Pacote Anticrime.", null, "C", "Art. 1º, IX, da Lei 8.072/1990.", "m"],
+      ["O roubo circunstanciado pelo emprego de arma de fogo é crime hediondo.", null, "C", "Art. 1º, II, 'b', da Lei 8.072/1990, incluído pela Lei 13.964/2019.", "m"],
+      ["A posse ou o porte ilegal de arma de fogo de uso restrito (art. 16, caput, da Lei 10.826/2003) é crime hediondo após o Pacote Anticrime.", null, "E", "Após a Lei 13.964/2019, apenas a posse ou o porte de arma de fogo de uso proibido é hediondo (art. 1º, parágrafo único, II).", "d"],
+      ["O tráfico de drogas, a tortura e o terrorismo são considerados crimes:", ["hediondos propriamente ditos", "equiparados (assemelhados) a hediondos", "de menor potencial ofensivo", "comuns sem tratamento especial", "militares"], "B", "Art. 5º, XLIII, da CF e art. 2º da Lei 8.072/1990.", "f"],
+      ["O apenado primário condenado por crime hediondo sem resultado morte poderá progredir de regime após cumprir:", ["1/6 da pena", "2/5 (40%) da pena", "50% da pena", "60% da pena", "70% da pena"], "B", "Art. 112, V, da LEP, com redação do Pacote Anticrime.", "m"],
+      ["O condenado reincidente específico em crimes hediondos não tem direito ao livramento condicional.", null, "C", "Art. 83, V, do CP.", "m"],
+      ["O genocídio, tentado ou consumado, é crime hediondo.", null, "C", "Art. 1º, parágrafo único, I, da Lei 8.072/1990.", "f"],
+      ["O estupro de vulnerável é crime hediondo.", null, "C", "Art. 1º, VI, da Lei 8.072/1990.", "f"],
+      ["A lesão corporal dolosa de natureza gravíssima praticada contra integrante dos órgãos de segurança pública, no exercício da função ou em decorrência dela, é crime hediondo.", null, "C", "Art. 1º, I-A, da Lei 8.072/1990.", "d"]
+    ],
+    "Abuso de autoridade (Lei 13.869/2019)": [
+      ["É sujeito ativo do crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta, indireta ou fundacional de qualquer dos Poderes.", null, "C", "Art. 2º da Lei 13.869/2019, abrangendo membros do Legislativo, Judiciário, MP e tribunais de contas.", "f"],
+      ["A perda do cargo, mandato ou função pública, como efeito da condenação por abuso de autoridade:", ["é condicionada à reincidência em crime de abuso de autoridade e deve ser declarada motivadamente na sentença", "é automática em qualquer condenação", "não está prevista na lei", "depende apenas de pedido da vítima", "é aplicada pela Comissão de Ética"], "A", "Art. 4º, parágrafo único, da Lei 13.869/2019.", "m"],
+      ["Decretar medida de privação da liberdade em manifesta desconformidade com as hipóteses legais é crime de abuso de autoridade.", null, "C", "Art. 9º da Lei 13.869/2019.", "f"],
+      ["A Lei de Abuso de Autoridade admite a forma culposa para todos os seus crimes.", null, "E", "Todos os crimes exigem dolo, com a finalidade específica do art. 1º, §1º.", "f"],
+      ["Constranger o preso, mediante violência ou grave ameaça, a exibir-se à curiosidade pública é crime de abuso de autoridade.", null, "C", "Art. 13, I, da Lei 13.869/2019.", "m"]
+    ],
+    "Estatuto do Desarmamento (Lei 10.826/2003)": [
+      ["Disparar arma de fogo em lugar habitado ou em suas adjacências, em via pública ou em direção a ela, desde que essa conduta não tenha como finalidade a prática de outro crime, configura:", ["porte ilegal", "tentativa de homicídio, sempre", "omissão de cautela", "disparo de arma de fogo", "contravenção penal"], "D", "Art. 15 da Lei 10.826/2003: reclusão de 2 a 4 anos.", "f"],
+      ["Segundo o STJ e o STF, o porte de arma de fogo desmuniciada configura crime, por ser delito de perigo abstrato.", null, "C", "Jurisprudência consolidada; a arma comprovadamente inapta (laudo) torna a conduta atípica.", "m"],
+      ["Deixar de observar as cautelas necessárias para impedir que menor de 18 anos ou pessoa com deficiência mental se apodere de arma de fogo que esteja sob sua posse configura o crime de omissão de cautela.", null, "C", "Art. 13 da Lei 10.826/2003: detenção de 1 a 2 anos e multa.", "m"],
+      ["A posse irregular de arma de fogo de uso permitido (art. 12) é punida com:", ["reclusão de 2 a 4 anos", "reclusão de 3 a 6 anos", "detenção de 1 a 3 anos e multa", "detenção de 6 meses a 1 ano", "apenas multa"], "C", "Art. 12 da Lei 10.826/2003.", "m"],
+      ["O comércio ilegal de arma de fogo e o tráfico internacional de arma de fogo são crimes hediondos.", null, "C", "Art. 1º, parágrafo único, III e IV, da Lei 8.072/1990 (Pacote Anticrime).", "m"],
+      ["O registro de arma de fogo de uso permitido autoriza o seu proprietário a portá-la em via pública.", null, "E", "O registro (posse) autoriza mantê-la em residência ou local de trabalho; o porte exige autorização própria.", "f"]
+    ],
+    "Lei Maria da Penha (Lei 11.340/2006)": [
+      ["Nas ações penais públicas condicionadas à representação da ofendida de que trata a Lei Maria da Penha, só será admitida a renúncia à representação perante o juiz, em audiência especialmente designada para tal finalidade, antes do recebimento da denúncia.", null, "C", "Art. 16 da Lei 11.340/2006.", "m"],
+      ["É vedada, nos casos de violência doméstica e familiar contra a mulher, a aplicação de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa.", null, "C", "Art. 17 da Lei 11.340/2006.", "f"],
+      ["Segundo o STJ, é aplicável o princípio da insignificância aos crimes ou contravenções penais praticados contra a mulher no âmbito das relações domésticas.", null, "E", "Súmula 589 do STJ: é inaplicável.", "f"],
+      ["Verificada a existência de risco atual ou iminente à vida ou à integridade da mulher, o agressor será imediatamente afastado do lar, podendo a medida ser determinada pelo delegado de polícia quando o Município não for sede de comarca.", null, "C", "Art. 12-C, II, da Lei 11.340/2006; também pelo policial, quando não houver delegado disponível.", "m"],
+      ["As medidas protetivas de urgência serão concedidas independentemente da tipificação penal da violência, do ajuizamento de ação penal ou cível, da existência de inquérito policial ou do registro de boletim de ocorrência.", null, "C", "Art. 19, §5º, da Lei 11.340/2006, incluído pela Lei 14.550/2023.", "m"],
+      ["A prática de crime ou contravenção penal contra a mulher com violência ou grave ameaça no ambiente doméstico impossibilita a substituição da pena privativa de liberdade por restritiva de direitos.", null, "C", "Súmula 588 do STJ.", "m"],
+      ["Causar dano emocional à mulher que a prejudique e perturbe seu pleno desenvolvimento, mediante ameaça, humilhação, manipulação ou isolamento, configura o crime de:", ["ameaça", "violência psicológica contra a mulher", "perseguição", "injúria", "constrangimento ilegal"], "B", "Art. 147-B do CP, incluído pela Lei 14.188/2021.", "m"],
+      ["Segundo o STJ, a Lei Maria da Penha aplica-se às mulheres trans.", null, "C", "REsp 1.977.124 (2022): o gênero feminino, e não o sexo biológico, é o critério.", "d"]
+    ],
+    "Organizações criminosas (Lei 12.850/2013)": [
+      ["O crime de promover, constituir, financiar ou integrar organização criminosa é punido com:", ["reclusão de 3 a 8 anos e multa", "reclusão de 1 a 3 anos", "detenção de 2 a 4 anos", "reclusão de 5 a 15 anos", "reclusão de 12 a 30 anos"], "A", "Art. 2º da Lei 12.850/2013, sem prejuízo das penas das demais infrações praticadas.", "m"],
+      ["O juiz participa ativamente das negociações realizadas entre as partes para a formalização do acordo de colaboração premiada.", null, "E", "Art. 4º, §6º, da Lei 12.850/2013: o juiz não participará das negociações.", "m"],
+      ["A sentença condenatória pode ser proferida com fundamento apenas nas declarações do colaborador.", null, "E", "Art. 4º, §16, da Lei 12.850/2013: nenhuma sentença condenatória se fundará apenas nas declarações do colaborador.", "f"],
+      ["A infiltração de agentes de polícia em tarefas de investigação será autorizada pelo prazo de até:", ["30 dias", "90 dias", "2 anos", "1 ano, improrrogável", "6 meses, sem prejuízo de eventuais renovações"], "E", "Art. 10, §3º, da Lei 12.850/2013.", "m"],
+      ["A ação controlada consiste em retardar a intervenção policial ou administrativa relativa à ação praticada por organização criminosa, para que a medida se concretize no momento mais eficaz à formação de provas.", null, "C", "Art. 8º da Lei 12.850/2013; deve ser previamente comunicada ao juiz.", "m"],
+      ["Entre os benefícios possíveis da colaboração premiada estão o perdão judicial, a redução da pena em até dois terços e a substituição por pena restritiva de direitos.", null, "C", "Art. 4º, caput, da Lei 12.850/2013.", "f"]
+    ],
+    "Tortura (Lei 9.455/1997)": [
+      ["Constitui crime de tortura constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental, em razão de discriminação racial ou religiosa.", null, "C", "Art. 1º, I, 'c', da Lei 9.455/1997.", "f"],
+      ["A pena para quem se omite em face das condutas de tortura, quando tinha o dever de evitá-las ou apurá-las, é de:", ["reclusão de 2 a 8 anos", "detenção de 6 meses a 1 ano", "reclusão de 4 a 10 anos", "detenção de 1 a 4 anos", "reclusão de 8 a 16 anos"], "D", "Art. 1º, §2º, da Lei 9.455/1997.", "m"],
+      ["A Lei de Tortura aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira.", null, "C", "Art. 2º da Lei 9.455/1997.", "m"],
+      ["Se da tortura resulta morte, a pena é de reclusão de 12 a 30 anos.", null, "E", "Art. 1º, §3º, da Lei 9.455/1997: reclusão de 8 a 16 anos.", "m"],
+      ["A tortura-castigo consiste em submeter alguém sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo.", null, "C", "Art. 1º, II, da Lei 9.455/1997: nesta modalidade, é crime próprio.", "m"]
+    ],
+    "Lavagem de dinheiro (Lei 9.613/1998)": [
+      ["Após a Lei 12.683/2012, qualquer infração penal pode ser antecedente do crime de lavagem de dinheiro, inclusive contravenções penais.", null, "C", "Foi extinto o rol taxativo de crimes antecedentes.", "m"],
+      ["As fases tradicionalmente apontadas no processo de lavagem de dinheiro são:", ["captação, investimento e resgate", "produção, distribuição e consumo", "planejamento, execução e exaurimento", "cogitação, preparação e consumação", "colocação, ocultação (estratificação) e integração"], "E", "Placement, layering e integration.", "m"],
+      ["O processo e o julgamento do crime de lavagem de dinheiro dependem da condenação prévia pela infração penal antecedente.", null, "E", "Art. 2º, II, da Lei 9.613/1998: independem do processo e julgamento das infrações antecedentes.", "m"],
+      ["No processo por crime de lavagem de dinheiro, não se aplica o art. 366 do CPP (suspensão do processo do réu citado por edital).", null, "C", "Art. 2º, §2º, da Lei 9.613/1998.", "d"],
+      ["A pena do crime de lavagem de dinheiro é de reclusão de 1 a 4 anos e multa.", null, "E", "Art. 1º da Lei 9.613/1998: reclusão de 3 a 10 anos e multa.", "m"]
+    ],
+    "Crimes ambientais (Lei 9.605/1998)": [
+      ["As pessoas jurídicas serão responsabilizadas administrativa, civil e penalmente nos casos em que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da entidade.", null, "C", "Art. 3º da Lei 9.605/1998 e art. 225, §3º, da CF.", "f"],
+      ["Segundo o STF, a responsabilização penal da pessoa jurídica por crime ambiental depende da simultânea persecução penal da pessoa física responsável (dupla imputação).", null, "E", "RE 548.181: a CF não condiciona a responsabilização da PJ à da pessoa física.", "d"],
+      ["São penas aplicáveis às pessoas jurídicas por crime ambiental:", ["reclusão e detenção", "multa, restritivas de direitos e prestação de serviços à comunidade", "apenas advertência", "prisão dos sócios, obrigatoriamente", "cassação dos direitos políticos"], "B", "Art. 21 da Lei 9.605/1998.", "m"]
+    ],
+    "Juizados Especiais Criminais (Lei 9.099/1995)": [
+      ["Consideram-se infrações de menor potencial ofensivo as contravenções penais e os crimes a que a lei comine pena máxima não superior a 4 anos, cumulada ou não com multa.", null, "E", "Art. 61 da Lei 9.099/1995: pena máxima não superior a 2 anos.", "f"],
+      ["Nos crimes de ação penal privada ou pública condicionada à representação, o acordo de composição civil dos danos homologado acarreta:", ["a condenação do autor", "a transação penal automática", "a suspensão do processo por 2 anos", "a renúncia ao direito de queixa ou representação", "a conversão em ação pública incondicionada"], "D", "Art. 74, parágrafo único, da Lei 9.099/1995.", "m"],
+      ["Não se admitirá a transação penal se o autor tiver sido beneficiado anteriormente, no prazo de 5 anos, pela aplicação de pena restritiva ou multa por transação.", null, "C", "Art. 76, §2º, II, da Lei 9.099/1995.", "m"],
+      ["A suspensão condicional do processo é cabível nos crimes em que a pena máxima cominada for igual ou inferior a 1 ano, abrangidas ou não pela Lei 9.099/1995.", null, "E", "Art. 89 da Lei 9.099/1995: pena mínima igual ou inferior a 1 ano.", "m"],
+      ["Ao autor do fato que, após a lavratura do termo circunstanciado, for imediatamente encaminhado ao juizado ou assumir o compromisso de a ele comparecer, não se imporá prisão em flagrante, nem se exigirá fiança.", null, "C", "Art. 69, parágrafo único, da Lei 9.099/1995.", "m"],
+      ["A ação penal relativa aos crimes de lesão corporal leve e lesão corporal culposa depende de representação, exceto nos casos de violência doméstica contra a mulher.", null, "C", "Art. 88 da Lei 9.099/1995, art. 41 da Lei Maria da Penha e Súmula 542 do STJ.", "m"]
+    ],
+    "ECA, racismo e outras leis": [
+      ["Segundo o STJ, o crime de corrupção de menores (art. 244-B do ECA) é formal, dispensando prova da efetiva corrupção do menor.", null, "C", "Súmula 500 do STJ.", "m"],
+      ["O ato infracional análogo ao tráfico de drogas, por si só, conduz obrigatoriamente à imposição de medida socioeducativa de internação.", null, "E", "Súmula 492 do STJ: não conduz obrigatoriamente à internação.", "m"],
+      ["A internação do adolescente antes da sentença (internação provisória) pode ser determinada pelo prazo máximo de:", ["10 dias", "30 dias", "45 dias", "90 dias", "6 meses"], "C", "Art. 108 do ECA.", "m"],
+      ["Às crianças que pratiquem ato infracional aplicam-se medidas socioeducativas, como a internação.", null, "E", "Art. 105 do ECA: às crianças aplicam-se apenas medidas de proteção.", "f"],
+      ["A Lei de Terrorismo (Lei 13.260/2016) não se aplica à conduta individual ou coletiva de pessoas em manifestações políticas, movimentos sociais ou sindicais, com o propósito de defender direitos.", null, "C", "Art. 2º, §2º, da Lei 13.260/2016.", "m"],
+      ["Os atos preparatórios de terrorismo, com o propósito inequívoco de consumar o delito, são puníveis.", null, "C", "Art. 5º da Lei 13.260/2016, exceção à regra geral de impunidade dos atos preparatórios.", "d"],
+      ["A competência para processar e julgar os crimes da Lei de Terrorismo é da Justiça Estadual.", null, "E", "Art. 11 da Lei 13.260/2016: a competência é da Justiça Federal.", "m"],
+      ["Na Lei de Contravenções Penais, a tentativa de contravenção é punível com a pena da contravenção consumada, diminuída de um a dois terços.", null, "E", "Art. 4º do Decreto-Lei 3.688/1941: não é punível a tentativa de contravenção.", "m"],
+      ["Os crimes contra a ordem tributária previstos no art. 1º da Lei 8.137/1990 são materiais e só se tipificam após o lançamento definitivo do tributo.", null, "C", "Súmula Vinculante 24.", "m"],
+      ["Segundo o STF, o contribuinte que deixa de recolher, de forma contumaz e com dolo de apropriação, o ICMS cobrado do adquirente da mercadoria ou serviço incide no tipo do art. 2º, II, da Lei 8.137/1990.", null, "C", "RHC 163.334 (2019).", "d"],
+      ["Praticar, induzir ou incitar a discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional é crime previsto na Lei 7.716/1989.", null, "C", "Art. 20 da Lei 7.716/1989.", "f"]
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "disciplina": "Legislação de Trânsito",
+  "assuntos": {
+    "Disposições gerais e Sistema Nacional de Trânsito": [
+      ["Considera-se trânsito a utilização das vias por pessoas, veículos e animais, isolados ou em grupos, conduzidos ou não, para fins de circulação, parada, estacionamento e operação de carga ou descarga.", null, "C", "Art. 1º, §1º, do CTB.", "f"],
+      ["O trânsito, em condições seguras, é um direito de todos e dever dos órgãos e entidades componentes do Sistema Nacional de Trânsito.", null, "C", "Art. 1º, §2º, do CTB.", "f"],
+      ["O órgão máximo normativo e consultivo do Sistema Nacional de Trânsito é o:", ["CONTRAN", "DENATRAN/SENATRAN", "DETRAN", "CETRAN", "PRF"], "A", "Art. 7º, I, do CTB.", "f"],
+      ["Os CETRAN são os Conselhos Estaduais de Trânsito, e o CONTRANDIFE, o Conselho de Trânsito do Distrito Federal.", null, "C", "Art. 7º, II, do CTB.", "m"],
+      ["Compete à Polícia Rodoviária Federal, no âmbito das rodovias e estradas estaduais, cumprir e fazer cumprir a legislação de trânsito.", null, "E", "Art. 20 do CTB: a PRF atua no âmbito das rodovias e estradas federais.", "f"],
+      ["São vias abertas à circulação as ruas, as avenidas, os logradouros, os caminhos, as passagens, as estradas e as rodovias; as praias abertas à circulação pública também são consideradas vias terrestres.", null, "C", "Art. 2º e parágrafo único do CTB.", "m"],
+      ["As vias internas pertencentes a condomínios constituídos por unidades autônomas não estão sujeitas ao CTB em nenhuma hipótese.", null, "E", "Art. 2º, parágrafo único, do CTB: são consideradas vias terrestres para fins do Código.", "m"],
+      ["Os órgãos e entidades do Sistema Nacional de Trânsito respondem, no âmbito das respectivas competências, objetivamente, por danos causados aos cidadãos em virtude de ação, omissão ou erro na execução e manutenção de programas, projetos e serviços que garantam o direito ao trânsito seguro.", null, "C", "Art. 1º, §3º, do CTB.", "m"]
+    ],
+    "Normas gerais de circulação e conduta": [
+      ["A circulação far-se-á pelo lado esquerdo da via, admitindo-se as exceções devidamente sinalizadas.", null, "E", "Art. 29, I, do CTB: a circulação se faz pelo lado direito da via.", "f"],
+      ["Quando veículos, transitando por fluxos que se cruzem, se aproximarem de local não sinalizado, terá preferência de passagem, no caso de rotatória:", ["o que vier pela direita", "o veículo de maior porte", "aquele que estiver circulando por ela", "o que estiver em maior velocidade", "o que vier pela esquerda"], "C", "Art. 29, III, 'b', do CTB; nos demais casos, o que vier pela direita (c).", "m"],
+      ["Os veículos de socorro de incêndio e salvamento, de polícia, de fiscalização e operação de trânsito e as ambulâncias gozam de livre circulação, estacionamento e parada, quando em serviço de urgência e devidamente identificados por dispositivos regulamentares de alarme sonoro e iluminação vermelha intermitente.", null, "C", "Art. 29, VII, do CTB.", "f"],
+      ["A ultrapassagem de outro veículo em movimento deverá ser feita pela direita, obedecida a sinalização regulamentar.", null, "E", "Art. 29, IX, do CTB: a ultrapassagem é feita pela esquerda.", "f"],
+      ["Em vias com acostamento, o condutor que pretende fazer conversão à esquerda deve aguardar no acostamento, à direita, para cruzar a pista com segurança, quando não houver local apropriado.", null, "C", "Art. 37 do CTB.", "m"],
+      ["O uso do cinto de segurança é obrigatório para o condutor e passageiros em todas as vias do território nacional, salvo em situações regulamentadas pelo CONTRAN.", null, "C", "Art. 65 do CTB.", "f"],
+      ["As crianças com idade inferior a 10 anos que não tenham atingido 1,45 m de altura devem ser transportadas:", ["no banco dianteiro, com cinto", "apenas em veículos de transporte escolar", "no colo de um adulto", "em qualquer banco, sem restrição", "nos bancos traseiros, em dispositivo de retenção adequado"], "E", "Art. 64 do CTB, com redação da Lei 14.071/2020.", "m"],
+      ["O condutor deverá manter acesos os faróis do veículo, utilizando luz baixa, durante a noite e durante o dia em túneis providos de iluminação pública e nas rodovias de pista simples situadas fora dos perímetros urbanos, quando o veículo não dispuser de luzes de rodagem diurna.", null, "C", "Art. 40, I, do CTB, com redação da Lei 14.071/2020.", "d"],
+      ["O pedestre terá prioridade de passagem nas faixas a ele destinadas, onde não houver semáforo.", null, "C", "Art. 70 do CTB.", "f"],
+      ["Nas vias urbanas de trânsito rápido, a velocidade máxima, onde não houver sinalização regulamentadora, é de:", ["60 km/h", "70 km/h", "80 km/h", "90 km/h", "100 km/h"], "C", "Art. 61, §1º, I, 'a', do CTB.", "f"],
+      ["Nas vias arteriais urbanas, a velocidade máxima, onde não houver sinalização, é de 60 km/h, e nas coletoras, de 40 km/h.", null, "C", "Art. 61, §1º, I, 'b' e 'c', do CTB.", "m"],
+      ["Nas rodovias de pista simples, a velocidade máxima para automóveis, camionetas e motocicletas, sem sinalização regulamentadora, é de 110 km/h.", null, "E", "Art. 61, §1º, II, 'a', 2, do CTB: 100 km/h; 110 km/h é o limite em pista dupla.", "m"],
+      ["A velocidade mínima não poderá ser inferior a um terço da velocidade máxima estabelecida, respeitadas as condições operacionais de trânsito e da via.", null, "E", "Art. 62 do CTB: a velocidade mínima não pode ser inferior à metade da máxima.", "m"],
+      ["O ciclista desmontado empurrando a bicicleta equipara-se ao pedestre em direitos e deveres.", null, "C", "Art. 68, §1º, do CTB.", "m"],
+      ["Os veículos de menor porte serão sempre responsáveis pela segurança dos maiores, os motorizados pelos não motorizados e, juntos, pela incolumidade dos pedestres.", null, "E", "Art. 29, §2º, do CTB: os de maior porte respondem pela segurança dos menores.", "f"]
+    ],
+    "Sinalização de trânsito": [
+      ["A sinalização de trânsito classifica-se em vertical, horizontal, dispositivos de sinalização auxiliar, luminosa, sonora e gestos do agente de trânsito e do condutor.", null, "C", "Art. 87 do CTB.", "f"],
+      ["As placas de regulamentação têm, em regra, formato:", ["quadrado com fundo amarelo", "retangular com fundo verde", "triangular com fundo azul", "circular com orla vermelha e fundo branco", "losango com fundo laranja"], "D", "Exceções: a placa 'Parada obrigatória' (octogonal) e 'Dê a preferência' (triangular invertida).", "m"],
+      ["As placas de advertência, em regra, têm formato de losango (quadrado com diagonal na vertical), fundo azul e símbolos pretos.", null, "E", "As placas de advertência têm fundo amarelo e símbolos pretos.", "f"],
+      ["A placa 'Parada obrigatória' (R-1) tem formato:", ["circular", "octogonal", "triangular", "quadrado", "retangular"], "B", "Fundo vermelho com a palavra PARE em branco.", "f"],
+      ["A sinalização horizontal é composta por marcas, símbolos e legendas apostos sobre o pavimento da via.", null, "C", "Ex.: faixas de pedestres e linhas de divisão de fluxo.", "f"],
+      ["A linha amarela contínua no centro da pista indica:", ["fluxos no mesmo sentido, com ultrapassagem permitida", "faixa exclusiva de ônibus", "fluxos em sentidos opostos, com proibição de ultrapassagem", "área de estacionamento", "ciclovia"], "C", "As linhas brancas separam fluxos no mesmo sentido.", "m"],
+      ["Os gestos do agente de trânsito são subordinados às as regras de circulação e as normas definidas por outros sinais de trânsito.", null, "E", "Art. 89, I, do CTB: as ordens do agente prevalecem sobre as normas de circulação e outros sinais.", "f"],
+      ["As placas de indicação de serviços auxiliares têm fundo vermelho.", null, "E", "As placas de serviços auxiliares têm fundo azul.", "m"],
+      ["Nenhuma via pavimentada poderá ser entregue após sua construção, ou reaberta ao trânsito após a realização de obras ou de manutenção, enquanto não estiver devidamente sinalizada.", null, "C", "Art. 88 do CTB.", "m"]
+    ],
+    "Habilitação": [
+      ["São requisitos para a habilitação: ser penalmente imputável, saber ler e escrever e possuir documento de identidade.", null, "C", "Art. 140 do CTB, além do CPF.", "f"],
+      ["A categoria de habilitação exigida para conduzir veículo motorizado de duas ou três rodas é a:", ["A", "B", "C", "D", "ACC"], "A", "Art. 143, I, do CTB. A ACC autoriza ciclomotores.", "f"],
+      ["A categoria B habilita a conduzir veículos com peso bruto total de até 6.000 kg e lotação de até 8 lugares, excluído o do motorista.", null, "E", "Art. 143, II, do CTB: até 3.500 kg e lotação de até 8 lugares, excluído o do motorista.", "f"],
+      ["Para conduzir veículo de transporte de passageiros com lotação superior a 8 lugares, excluído o do motorista, exige-se a categoria:", ["B", "C", "E", "D", "A"], "D", "Art. 143, IV, do CTB.", "f"],
+      ["Para habilitar-se na categoria D, o condutor deve ter, no mínimo, 21 anos e estar habilitado há pelo menos 2 anos na categoria B ou 1 ano na categoria C.", null, "C", "Art. 145 do CTB.", "d"],
+      ["A Lei 14.071/2020 ampliou a validade do exame de aptidão física e mental para condutores com menos de 50 anos para:", ["5 anos", "8 anos", "15 anos", "3 anos", "10 anos"], "E", "Art. 147, §2º, do CTB: 10 anos para menores de 50; 5 anos entre 50 e 70; 3 anos a partir de 70.", "m"],
+      ["O condutor que tiver o direito de dirigir cassado poderá requerer sua reabilitação depois de decorridos seis meses da cassação.", null, "E", "Art. 263, §2º, do CTB: reabilitação após dois anos da cassação.", "m"],
+      ["É obrigatório o exame toxicológico para condutores das categorias A e B.", null, "E", "Art. 148-A do CTB: o exame toxicológico é exigido nas categorias C, D e E.", "m"],
+      ["A CNH digital tem o mesmo valor jurídico da CNH física.", null, "C", "Regulamentação do CONTRAN.", "f"]
+    ],
+    "Infrações e penalidades": [
+      ["São penalidades previstas no CTB, entre outras:", ["prisão administrativa e multa", "advertência por escrito, multa, suspensão do direito de dirigir e cassação da CNH", "detenção e reclusão", "apenas multa", "trabalho comunitário obrigatório"], "B", "Art. 256 do CTB.", "f"],
+      ["A penalidade de advertência por escrito pode ser imposta à infração de natureza leve ou média, passível de multa, se o infrator não tiver cometido nenhuma infração nos últimos 12 meses.", null, "C", "Art. 267 do CTB, com redação da Lei 14.071/2020.", "m"],
+      ["A infração gravíssima corresponde a quantos pontos no prontuário do infrator?", ["3", "4", "5", "7", "10"], "D", "Art. 259 do CTB: leve 3, média 4, grave 5, gravíssima 7.", "f"],
+      ["Avançar o sinal vermelho do semáforo é infração leve.", null, "E", "Art. 208 do CTB: infração gravíssima.", "f"],
+      ["Estacionar o veículo em vaga reservada a idosos ou pessoas com deficiência, sem credencial, é infração:", ["leve", "média", "grave", "não constitui infração", "gravíssima"], "E", "Art. 181, XX, do CTB, com redação da Lei 13.281/2016.", "m"],
+      ["Transitar em velocidade superior à máxima permitida em mais de 50% é infração gravíssima, com multa multiplicada por 3 e suspensão do direito de dirigir.", null, "C", "Art. 218, III, do CTB.", "m"],
+      ["Transitar em velocidade superior à máxima permitida em até 20% é infração:", ["leve", "grave", "média", "gravíssima", "não é infração"], "C", "Art. 218, I, do CTB. Entre 20% e 50%: grave.", "m"],
+      ["Dirigir sem usar o cinto de segurança é infração leve.", null, "E", "Art. 167 do CTB: infração grave.", "f"],
+      ["Conduzir motocicleta sem usar capacete de segurança é infração:", ["leve", "gravíssima", "grave", "média", "não é infração"], "B", "Art. 244, I, do CTB; também enseja suspensão do direito de dirigir.", "m"],
+      ["Disputar corrida (racha) em via pública é infração gravíssima e também crime de trânsito.", null, "C", "Art. 173 e art. 308 do CTB.", "f"],
+      ["O proprietário que não indicar o condutor infrator no prazo legal será considerado responsável pela infração.", null, "C", "Art. 257, §7º, do CTB; se pessoa jurídica, incide nova multa (§8º).", "m"],
+      ["Contra a imposição de penalidade cabe recurso diretamente ao Poder Judiciário, vedado o recurso administrativo.", null, "E", "Art. 285 do CTB: cabe recurso à JARI.", "f"],
+      ["Da notificação da autuação, o proprietário pode apresentar defesa prévia, e, se aplicada a penalidade, recorrer à JARI e, em segunda instância, ao CETRAN ou ao CONTRAN, conforme o caso.", null, "C", "Arts. 280 a 290 do CTB.", "m"],
+      ["Se o infrator pagar a multa até a data do vencimento da notificação, terá desconto de 50% do seu valor.", null, "E", "Art. 284 do CTB: desconto de 20% (40% com adesão ao SNE).", "m"],
+      ["Deixar de dar passagem a veículos de emergência em serviço de urgência, devidamente identificados, é infração leve.", null, "E", "Art. 189 do CTB: infração gravíssima.", "m"],
+      ["A cassação do documento de habilitação ocorre, entre outras hipóteses, quando o condutor, suspenso, conduzir qualquer veículo.", null, "C", "Art. 263, I, do CTB.", "m"],
+      ["O prazo de suspensão do direito de dirigir, para o condutor que atingir o limite de pontos, é de:", ["1 a 3 meses", "30 dias fixos", "1 a 5 anos", "6 meses a 1 ano, e de 8 a 24 meses em caso de reincidência no período de 12 meses", "2 anos, sempre"], "D", "Art. 261, §1º, do CTB.", "d"]
+    ],
+    "Medidas administrativas": [
+      ["São medidas administrativas previstas no CTB, entre outras, a retenção do veículo, a remoção do veículo e o recolhimento do documento de habilitação.", null, "C", "Art. 269 do CTB.", "f"],
+      ["As medidas administrativas têm caráter punitivo e substituem as penalidades.", null, "E", "Art. 269, §1º: têm caráter complementar e prioritariamente preventivo; não elidem as penalidades.", "m"],
+      ["O teste de etilômetro, o exame clínico, a perícia ou outros procedimentos podem ser utilizados para certificar a influência de álcool ou substância psicoativa no condutor.", null, "C", "Art. 277 do CTB.", "f"],
+      ["Dirigir sob a influência de álcool (art. 165) é infração gravíssima com multa multiplicada por 10, suspensão do direito de dirigir por 12 meses, recolhimento do documento de habilitação e retenção do veículo.", null, "C", "Art. 165 do CTB.", "m"]
+    ],
+    "Crimes de trânsito": [
+      ["O homicídio culposo na direção de veículo automotor é punido com reclusão de 6 a 20 anos e suspensão ou proibição de obter a permissão ou habilitação para dirigir.", null, "E", "Art. 302 do CTB: detenção de 2 a 4 anos.", "m"],
+      ["Se o agente conduz veículo sob a influência de álcool e pratica homicídio culposo, a pena é de:", ["reclusão de 5 a 8 anos", "detenção de 2 a 4 anos", "reclusão de 12 a 30 anos", "detenção de 6 meses a 1 ano", "multa apenas"], "A", "Art. 302, §3º, do CTB, incluído pela Lei 13.546/2017.", "m"],
+      ["Ao condutor de veículo, nos casos de acidentes de trânsito de que resulte vítima, não se imporá a prisão em flagrante nem se exigirá fiança, se prestar pronto e integral socorro àquela.", null, "C", "Art. 301 do CTB.", "f"],
+      ["Afastar-se o condutor do local do acidente, para fugir à responsabilidade penal ou civil que lhe possa ser atribuída, é crime de trânsito.", null, "C", "Art. 305 do CTB; o STF declarou sua constitucionalidade (Tema 907).", "m"],
+      ["Dirigir veículo automotor, em via pública, sem a devida permissão ou habilitação, gerando perigo de dano, é crime previsto no:", ["art. 309 do CTB", "art. 306 do CTB", "art. 302 do CTB", "art. 310 do CTB", "art. 311 do CTB"], "A", "Art. 309 do CTB: crime de perigo concreto (Súmula 720 do STF).", "m"],
+      ["Permitir, confiar ou entregar a direção de veículo automotor a pessoa não habilitada é crime de perigo abstrato, segundo o STJ.", null, "C", "Art. 310 do CTB e Súmula 575 do STJ.", "d"],
+      ["Aos crimes de trânsito de lesão corporal culposa aplica-se sempre a composição civil e a transação penal, sem exceção.", null, "E", "Art. 291, §1º, do CTB: não se aplicam se o agente estiver sob influência de álcool, participando de racha ou em velocidade superior em 50 km/h à máxima.", "d"],
+      ["A penalidade de suspensão ou de proibição de se obter a permissão ou a habilitação, como pena de crime de trânsito, tem duração de:", ["1 mês a 1 ano", "1 a 3 anos", "6 meses a 10 anos", "2 meses a 5 anos", "30 dias fixos"], "D", "Art. 293 do CTB.", "d"],
+      ["O juiz poderá, como medida cautelar, decretar a suspensão da permissão ou da habilitação para dirigir em qualquer fase da investigação ou da ação penal.", null, "C", "Art. 294 do CTB.", "m"],
+      ["É circunstância que sempre agrava as penalidades dos crimes de trânsito ter o condutor cometido a infração com dano potencial para duas ou mais pessoas ou com grande risco de grave dano patrimonial a terceiros.", null, "C", "Art. 298, I, do CTB.", "d"]
+    ],
+    "Veículos, registro e licenciamento": [
+      ["Todo veículo automotor, elétrico, articulado, reboque ou semirreboque deve ser registrado perante o órgão executivo de trânsito do Estado ou do DF, no Município de domicílio ou residência de seu proprietário.", null, "C", "Art. 120 do CTB.", "f"],
+      ["No caso de transferência de propriedade, o prazo para o proprietário adotar as providências necessárias à efetivação da expedição do novo CRV é de:", ["15 dias", "30 dias", "45 dias", "60 dias", "90 dias"], "B", "Art. 123, §1º, do CTB.", "m"],
+      ["O licenciamento do veículo é bienal.", null, "E", "Art. 130 do CTB: o licenciamento é anual.", "f"],
+      ["São equipamentos obrigatórios dos veículos, entre outros, o cinto de segurança, o encosto de cabeça e o dispositivo destinado ao controle de emissão de gases poluentes.", null, "C", "Art. 105 do CTB e resoluções do CONTRAN.", "m"],
+      ["O Registro Nacional de Veículos Automotores é conhecido pela sigla:", ["RENACH", "RENAINF", "RENAVAM", "SNE", "CRLV"], "C", "RENACH refere-se aos condutores habilitados.", "f"],
+      ["O porte do Certificado de Licenciamento Anual (CRLV) é dispensado quando, no momento da fiscalização, for possível ter acesso ao sistema informatizado para verificar se o veículo está licenciado.", null, "C", "Art. 133, parágrafo único, do CTB.", "m"],
+      ["Conduzir veículo que não esteja registrado e devidamente licenciado é infração gravíssima, com remoção do veículo.", null, "C", "Art. 230, V, do CTB.", "m"]
+    ],
+    "Conceitos e definições (Anexo I do CTB)": [
+      ["Segundo o Anexo I do CTB, acostamento é a parte da via diferenciada da pista de rolamento destinada à parada ou ao estacionamento de veículos, em caso de emergência, e à circulação de pedestres e bicicletas, quando não houver local apropriado.", null, "C", "Anexo I do CTB.", "m"],
+      ["A imobilização do veículo com a finalidade e pelo tempo estritamente necessário para efetuar embarque ou desembarque de passageiros denomina-se:", ["estacionamento", "operação de carga", "retenção", "remoção", "parada"], "E", "Estacionamento é a imobilização por tempo superior ao necessário para embarque ou desembarque.", "f"],
+      ["Via de trânsito rápido é aquela caracterizada por acessos especiais com trânsito livre, sem interseções em nível, sem acessibilidade direta aos lotes lindeiros e sem travessia de pedestres em nível.", null, "C", "Anexo I do CTB.", "m"],
+      ["A via local é caracterizada por interseções em nível não semaforizadas, destinada apenas ao acesso local ou a áreas restritas.", null, "C", "Anexo I do CTB.", "m"],
+      ["Ciclomotor é o veículo de duas ou três rodas, provido de motor de combustão interna com cilindrada não superior a 50 cm³ ou motor elétrico de potência máxima de 4 kW, cuja velocidade máxima de fabricação não exceda 50 km/h.", null, "C", "Anexo I do CTB.", "d"],
+      ["Ultrapassagem é o movimento de passar à frente de outro veículo que se desloca no mesmo sentido, em menor velocidade e na mesma faixa de tráfego, necessitando sair e retornar à faixa de origem.", null, "C", "Anexo I do CTB. Passagem é a manobra sem necessidade de mudar de faixa.", "m"],
+      ["O espaço entre os veículos que transitam na mesma faixa, à frente e atrás, e que o condutor deve guardar por segurança, é chamado:", ["distância lateral", "distância de seguimento", "faixa de domínio", "refúgio", "acostamento"], "B", "Art. 29, II, do CTB.", "m"],
+      ["Refúgio é a parte da via, devidamente sinalizada e protegida, destinada ao uso de pedestres durante a travessia.", null, "C", "Anexo I do CTB.", "m"]
+    ],
+    "Condução de motocicletas, pedestres e ciclistas": [
+      ["Os condutores de motocicletas só poderão circular nas vias utilizando capacete de segurança, com viseira ou óculos protetores, e vestuário de proteção, conforme especificações do CONTRAN.", null, "C", "Art. 54 do CTB.", "f"],
+      ["É permitido transportar criança menor de 10 anos na garupa de motocicleta, desde que use capacete.", null, "E", "Art. 244, V, do CTB: transportar criança menor de 10 anos ou que não tenha condições de cuidar da própria segurança é infração gravíssima.", "m"],
+      ["Nas vias urbanas e nas rurais de pista dupla, a circulação de bicicletas deverá ocorrer, quando não houver ciclovia, ciclofaixa ou acostamento, nos bordos da pista de rolamento, no mesmo sentido de circulação regulamentado para a via.", null, "C", "Art. 58 do CTB.", "m"],
+      ["Ao ultrapassar uma bicicleta, o condutor deve guardar distância lateral mínima de:", ["0,5 m", "1 m", "1,5 m", "2 m", "3 m"], "C", "Art. 201 do CTB: deixar de guardar essa distância é infração média.", "m"],
+      ["O pedestre que atravessa a via fora da faixa, quando houver uma a menos de 50 metros, comete infração prevista no CTB.", null, "C", "Arts. 69 e 254, I, do CTB: o pedestre deve usar a faixa sempre que houver uma a até 50 metros dele.", "d"]
+    ]
+  }
+}

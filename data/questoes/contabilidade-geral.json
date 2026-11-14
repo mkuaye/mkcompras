@@ -1,0 +1,45 @@
+{
+  "disciplina": "Contabilidade Geral",
+  "assuntos": {
+    "Conceitos, patrimônio e equação patrimonial": [
+      ["O objeto da Contabilidade é:", ["o lucro", "o patrimônio das entidades", "a escrituração", "os tributos", "o balanço"], "B", "A Contabilidade estuda o patrimônio (bens, direitos e obrigações) e suas variações.", "f"],
+      ["A equação fundamental do patrimônio é Ativo = Passivo + Patrimônio Líquido.", null, "C", "As origens de recursos (passivo e PL) financiam as aplicações (ativo).", "f"],
+      ["Uma empresa possui bens de R$ 80.000, direitos de R$ 20.000 e obrigações de R$ 30.000. Seu patrimônio líquido é:", ["R$ 50.000", "R$ 100.000", "R$ 130.000", "R$ 70.000", "R$ 30.000"], "D", "PL = Ativo − Passivo = (80.000 + 20.000) − 30.000 = 70.000.", "f"],
+      ["Quando o passivo exigível é maior que o ativo, a situação patrimonial é de passivo a descoberto (PL negativo).", null, "C", "Também chamada de situação líquida negativa ou deficitária.", "f"],
+      ["São exemplos de contas do ativo:", ["caixa, estoques, clientes e veículos", "fornecedores e salários a pagar", "capital social e reservas", "empréstimos a pagar", "impostos a recolher"], "A", "Fornecedores, salários, empréstimos e impostos a pagar são passivo; capital e reservas, PL.", "f"],
+      ["O capital social integra o passivo exigível da empresa.", null, "E", "Capital social é conta do patrimônio líquido.", "f"]
+    ],
+    "Débito, crédito e escrituração": [
+      ["Pelo método das partidas dobradas, a todo débito corresponde um crédito de igual valor.", null, "C", "Método de Luca Pacioli: a soma dos débitos é igual à soma dos créditos.", "f"],
+      ["As contas do ativo e de despesa têm natureza:", ["credora", "variável", "devedora", "neutra", "mista"], "C", "Aumentam por débito. Passivo, PL e receitas têm natureza credora.", "f"],
+      ["A compra de mercadorias à vista é registrada debitando-se Mercadorias (ou Estoques) e creditando-se Caixa.", null, "C", "Aumenta o estoque (débito no ativo) e diminui o caixa (crédito no ativo) — fato permutativo.", "f"],
+      ["O pagamento de uma duplicata a fornecedor, sem juros, é fato contábil:", ["modificativo aumentativo", "misto diminutivo", "modificativo diminutivo", "misto aumentativo", "permutativo"], "E", "Diminui o ativo (caixa) e o passivo (fornecedores) no mesmo valor, sem alterar o PL.", "m"],
+      ["O pagamento de salários do mês, apropriados no próprio mês, é fato modificativo diminutivo.", null, "C", "Gera despesa que reduz o PL.", "m"],
+      ["O livro Diário é obrigatório e registra as operações em ordem cronológica.", null, "C", "Art. 1.180 do Código Civil. O Razão registra por conta.", "f"]
+    ],
+    "Balanço Patrimonial e demonstrações": [
+      ["Segundo a Lei 6.404/1976, o ativo é dividido em:", ["circulante e não circulante (realizável a longo prazo, investimentos, imobilizado e intangível)", "permanente e diferido", "fixo e variável", "financeiro e operacional apenas", "circulante, diferido e permanente"], "A", "Art. 178, §1º, com redação da Lei 11.941/2009. O grupo 'diferido' foi extinto.", "m"],
+      ["São classificados no ativo circulante as disponibilidades e os direitos realizáveis no curso do exercício social subsequente.", null, "C", "Art. 179, I, da Lei 6.404/1976.", "f"],
+      ["O patrimônio líquido é dividido em capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria e prejuízos acumulados.", null, "C", "Art. 178, §2º, III, da Lei 6.404/1976.", "m"],
+      ["A Demonstração do Resultado do Exercício (DRE) evidencia:", ["a posição patrimonial em uma data", "as mutações do PL", "os fluxos de caixa", "o valor adicionado", "as receitas, os custos e as despesas do período, apurando o lucro ou prejuízo"], "E", "Art. 187 da Lei 6.404/1976.", "f"],
+      ["A Demonstração dos Fluxos de Caixa classifica os fluxos em atividades operacionais, de investimento e de financiamento.", null, "C", "CPC 03.", "f"],
+      ["A Demonstração do Valor Adicionado (DVA) é obrigatória para companhias abertas.", null, "C", "Art. 176, V, da Lei 6.404/1976.", "m"]
+    ],
+    "Operações com mercadorias e CMV": [
+      ["O Custo das Mercadorias Vendidas é calculado por:", ["EI − Compras + EF", "EF + Compras − EI", "Vendas − Compras", "EI + Compras − EF", "Compras − Vendas"], "D", "CMV = Estoque Inicial + Compras líquidas − Estoque Final.", "f"],
+      ["Uma empresa tinha estoque inicial de R$ 10.000, comprou R$ 50.000 e terminou com estoque de R$ 15.000. As vendas foram de R$ 70.000. O lucro bruto é:", ["R$ 15.000", "R$ 20.000", "R$ 25.000", "R$ 30.000", "R$ 45.000"], "C", "CMV = 10.000 + 50.000 − 15.000 = 45.000. LB = 70.000 − 45.000 = 25.000.", "m"],
+      ["Em período de preços crescentes, o método PEPS (primeiro a entrar, primeiro a sair) gera CMV menor e estoque final maior que o método da média ponderada.", null, "C", "No PEPS, as unidades vendidas saem pelos custos mais antigos (menores). O UEPS não é aceito pela legislação fiscal brasileira nem pelo CPC 16.", "m"],
+      ["O frete pago na compra de mercadorias, quando de responsabilidade do comprador, integra o custo de aquisição.", null, "C", "CPC 16: custos de transporte para trazer o estoque à condição e localização atuais.", "m"]
+    ],
+    "Depreciação e ativo imobilizado": [
+      ["Um veículo adquirido por R$ 60.000, com vida útil de 5 anos e valor residual de R$ 10.000, pelo método linear, terá depreciação anual de:", ["R$ 12.000", "R$ 14.000", "R$ 10.000", "R$ 6.000", "R$ 5.000"], "C", "(60.000 − 10.000) / 5 = 10.000 por ano.", "f"],
+      ["Terrenos, em regra, não sofrem depreciação.", null, "C", "Têm vida útil indefinida (CPC 27), salvo exceções como pedreiras e aterros.", "f"],
+      ["A amortização aplica-se a ativos intangíveis com vida útil definida, e a exaustão a recursos naturais.", null, "C", "Depreciação: bens tangíveis; amortização: intangíveis; exaustão: recursos minerais e florestais.", "m"]
+    ],
+    "Análise das demonstrações": [
+      ["O índice de liquidez corrente é obtido pela divisão:", ["Disponível / Passivo Circulante", "Ativo Circulante / Passivo Circulante", "(AC − Estoques) / PC", "PL / Ativo Total", "Ativo Total / Passivo Total"], "B", "Liquidez seca exclui estoques; liquidez imediata considera só o disponível.", "f"],
+      ["Uma empresa com liquidez corrente de 1,5 tem R$ 1,50 de ativo circulante para cada R$ 1,00 de passivo circulante.", null, "C", "Interpretação direta do índice.", "f"],
+      ["A empresa tem AC de R$ 300.000, estoques de R$ 100.000 e PC de R$ 200.000. A liquidez seca é:", ["0,5", "1,0", "1,5", "2,0", "3,0"], "B", "(300.000 − 100.000) / 200.000 = 1,0.", "m"]
+    ]
+  }
+}

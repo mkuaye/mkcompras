@@ -1,0 +1,92 @@
+{
+  "disciplina": "Direito Processual Civil",
+  "assuntos": {
+    "Normas fundamentais do CPC": [
+      ["Não se proferirá decisão contra uma das partes sem que ela seja previamente ouvida, salvo, entre outras hipóteses, na tutela provisória de urgência.", null, "C", "Art. 9º do CPC (contraditório prévio), com exceções no parágrafo único.", "f"],
+      ["Aquele que de qualquer forma participa do processo deve comportar-se de acordo com a boa-fé.", null, "C", "Art. 5º do CPC (boa-fé objetiva processual).", "f"],
+      ["Todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade.", null, "C", "Art. 11 do CPC e art. 93, IX, da CF.", "f"],
+      ["Segundo o CPC, as partes têm o direito de obter em prazo razoável a solução integral do mérito, incluída a atividade satisfativa.", null, "C", "Art. 4º do CPC.", "f"],
+      ["Na ausência de normas que regulem processos eleitorais, trabalhistas ou administrativos, as disposições do CPC lhes serão aplicadas:", ["apenas por analogia expressa", "supletiva e subsidiariamente", "somente se houver autorização do tribunal", "nunca", "obrigatoriamente em substituição às normas próprias"], "B", "Art. 15 do CPC.", "m"],
+      ["É lícito às partes plenamente capazes, em processo que verse sobre direitos que admitam autocomposição, estipular mudanças no procedimento (negócio jurídico processual), sem qualquer controle de validade pelo juiz.", null, "E", "Art. 190, parágrafo único, do CPC: o juiz controla a validade das convenções e pode recusar-lhes aplicação em casos de nulidade ou abusividade.", "m"]
+    ],
+    "Jurisdição e ação": [
+      ["Para postular em juízo é necessário ter interesse e legitimidade.", null, "C", "Art. 17 do CPC.", "f"],
+      ["Ninguém poderá pleitear direito alheio em nome próprio, salvo quando autorizado pelo ordenamento jurídico.", null, "C", "Art. 18 do CPC (legitimação extraordinária).", "f"],
+      ["A jurisdição civil é exercida pelos juízes e pelos tribunais em todo o território nacional; a arbitragem é:", ["vedada no Brasil", "permitida somente com homologação prévia do STF", "admitida apenas para entes públicos", "restrita a causas trabalhistas", "permitida, na forma da lei"], "E", "Art. 3º, §1º, do CPC e Lei 9.307/1996.", "f"],
+      ["São elementos da ação: partes, causa de pedir e pedido.", null, "C", "Art. 337, §2º, do CPC (tríplice identidade para litispendência e coisa julgada).", "f"]
+    ],
+    "Competência": [
+      ["Para a ação possessória imobiliária, é competente o foro de situação da coisa, cujo juízo tem competência relativa, podendo as partes eleger outro foro.", null, "E", "Art. 47, §2º, do CPC: competência absoluta do foro de situação da coisa.", "m"],
+      ["A ação em que o incapaz for réu será proposta no foro de domicílio:", ["de seu representante ou assistente", "do autor", "da situação dos bens", "escolhido pelo juiz", "do Ministério Público"], "A", "Art. 50 do CPC.", "m"],
+      ["Reputam-se conexas duas ou mais ações quando lhes for comum apenas as partes.", null, "E", "Art. 55 do CPC: há conexão quando for comum o pedido ou a causa de pedir.", "f"],
+      ["A eleição de foro em contrato produz efeitos e obriga os herdeiros e sucessores das partes.", null, "C", "Art. 63, §2º, do CPC. Se abusiva, pode ser reputada ineficaz de ofício antes da citação.", "m"],
+      ["A citação válida torna prevento o juízo.", null, "E", "Art. 59 do CPC: o registro ou a distribuição da petição inicial torna prevento o juízo.", "m"]
+    ],
+    "Partes, procuradores e intervenção de terceiros": [
+      ["A assistência é cabível quando terceiro apenas economicamente interessado em que a sentença seja favorável a uma das partes intervém no processo para assisti-la.", null, "E", "Art. 119 do CPC: exige interesse jurídico; o interesse meramente econômico não basta.", "f"],
+      ["A denunciação da lide é admissível, entre outras hipóteses, ao alienante imediato, no processo relativo à coisa cujo domínio foi transferido ao denunciante, a fim de que possa exercer os direitos que da evicção lhe resultam.", null, "C", "Art. 125, I, do CPC.", "m"],
+      ["O chamamento ao processo é admissível, entre outras hipóteses, em relação:", ["ao alienante, nos casos de evicção", "ao terceiro que pretende a coisa disputada", "ao amicus curiae", "aos demais devedores solidários, quando o credor exigir de um ou de alguns o pagamento da dívida comum", "ao Ministério Público"], "D", "Art. 130, III, do CPC.", "m"],
+      ["O amicus curiae pode ser somente pessoa jurídica de direito público, órgão ou entidade especializada, com representatividade adequada.", null, "E", "Art. 138 do CPC: pode ser pessoa natural ou jurídica, órgão ou entidade especializada.", "m"],
+      ["O incidente de desconsideração da personalidade jurídica suspende o processo, salvo quando requerida na petição inicial.", null, "C", "Art. 134, §§2º e 3º, do CPC.", "m"],
+      ["O Ministério Público intervém como fiscal da ordem jurídica, entre outros casos, nos processos que envolvam interesse de incapaz.", null, "C", "Art. 178, II, do CPC.", "f"],
+      ["A gratuidade da justiça pode ser concedida a pessoa jurídica.", null, "C", "Art. 98 do CPC; para a PJ, exige-se prova da insuficiência (Súmula 481 do STJ).", "m"]
+    ],
+    "Atos processuais e comunicação": [
+      ["A citação é o ato pelo qual são convocados o réu, o executado ou o interessado para integrar a relação processual.", null, "C", "Art. 238 do CPC.", "f"],
+      ["Após a Lei 14.195/2021, a citação será feita preferencialmente:", ["por edital", "por oficial de justiça", "por meio eletrônico, no prazo de até 2 dias úteis da decisão que a determinar", "pelo escrivão, pessoalmente", "por hora certa"], "C", "Art. 246 do CPC.", "m"],
+      ["O comparecimento espontâneo do réu ou do executado não supre a falta ou a nulidade da citação.", null, "E", "Art. 239, §1º, do CPC: o comparecimento espontâneo supre a falta ou a nulidade da citação.", "f"],
+      ["A citação válida, desde que ordenada por juízo competente, induz litispendência, torna litigiosa a coisa e constitui em mora o devedor.", null, "E", "Art. 240 do CPC: produz esses efeitos ainda quando ordenada por juízo incompetente.", "m"],
+      ["Intimação é o ato pelo qual se dá ciência a alguém dos atos e dos termos do processo.", null, "C", "Art. 269 do CPC.", "f"],
+      ["A citação por edital será feita, entre outras hipóteses, quando:", ["o réu residir em outra comarca", "o réu for pessoa jurídica", "o autor preferir", "desconhecido ou incerto o citando, ou quando ignorado, incerto ou inacessível o lugar em que se encontrar", "a causa for de pequeno valor"], "D", "Art. 256 do CPC.", "f"]
+    ],
+    "Tutela provisória": [
+      ["A tutela da evidência será concedida somente mediante a demonstração de perigo de dano ou de risco ao resultado útil do processo.", null, "E", "Art. 311 do CPC: a tutela da evidência independe de perigo de dano ou de risco ao resultado útil do processo.", "m"],
+      ["A tutela provisória conserva sua eficácia na pendência do processo, mas pode, a qualquer tempo, ser revogada ou modificada.", null, "C", "Art. 296 do CPC.", "f"],
+      ["A tutela de urgência de natureza antecipada não será concedida quando houver:", ["prova documental do direito", "pedido do autor", "perigo de irreversibilidade dos efeitos da decisão", "contestação do réu", "caução"], "C", "Art. 300, §3º, do CPC.", "m"],
+      ["A decisão que concede a tutela antecipada estabilizada faz coisa julgada.", null, "E", "Art. 304, §6º, do CPC: não faz coisa julgada; pode ser revista por ação própria em até 2 anos.", "d"]
+    ],
+    "Procedimento comum": [
+      ["A petição inicial indicará, entre outros requisitos, o juízo a que é dirigida, os fatos e fundamentos jurídicos do pedido, o pedido com suas especificações e o valor da causa.", null, "C", "Art. 319 do CPC.", "f"],
+      ["Verificando que a petição inicial não preenche os requisitos legais, o juiz determinará que o autor a emende ou complete no prazo de:", ["5 dias", "10 dias", "15 dias", "30 dias", "48 horas"], "C", "Art. 321 do CPC.", "f"],
+      ["Nas causas que dispensem a fase instrutória, o juiz, independentemente da citação do réu, julgará liminarmente improcedente o pedido que contrariar enunciado de súmula do STF ou do STJ.", null, "C", "Art. 332 do CPC.", "m"],
+      ["Incumbe ao réu alegar, na contestação, antes de discutir o mérito, a incompetência absoluta e relativa, a inépcia da petição inicial, a perempção, a litispendência e a coisa julgada, entre outras matérias.", null, "C", "Art. 337 do CPC.", "f"],
+      ["O ônus da prova incumbe, em regra:", ["sempre ao réu", "ao autor, quanto ao fato constitutivo de seu direito, e ao réu, quanto à existência de fato impeditivo, modificativo ou extintivo do direito do autor", "ao juiz", "ao Ministério Público", "à parte economicamente mais forte"], "B", "Art. 373 do CPC; admite-se distribuição dinâmica (§1º).", "f"],
+      ["A revelia não produz o efeito de presunção de veracidade se, havendo pluralidade de réus, algum deles contestar a ação.", null, "C", "Art. 345, I, do CPC.", "m"],
+      ["O juiz não pode decidir parcialmente o mérito, devendo aguardar a sentença única, mesmo quando um ou mais dos pedidos mostrar-se incontroverso.", null, "E", "Art. 356 do CPC: o juiz decidirá parcialmente o mérito; a decisão é impugnável por agravo de instrumento.", "m"],
+      ["Denomina-se preclusão consumativa a autoridade que torna imutável e indiscutível a decisão de mérito não mais sujeita a recurso.", null, "E", "Art. 502 do CPC: essa é a definição de coisa julgada material.", "f"],
+      ["A ação rescisória deve ser proposta no prazo decadencial de:", ["2 anos", "1 ano", "5 anos", "120 dias", "3 anos"], "A", "Art. 975 do CPC, contado do trânsito em julgado da última decisão do processo.", "m"],
+      ["Os motivos e a verdade dos fatos, estabelecida como fundamento da sentença, fazem coisa julgada.", null, "E", "Art. 504 do CPC.", "m"],
+      ["Sentença é o pronunciamento por meio do qual o juiz, com fundamento nos arts. 485 e 487, põe fim à fase cognitiva do procedimento comum ou extingue a execução.", null, "C", "Art. 203, §1º, do CPC.", "m"]
+    ],
+    "Recursos": [
+      ["O prazo para interposição de embargos de declaração é de:", ["30 dias", "10 dias", "15 dias", "2 dias", "5 dias"], "E", "Art. 1.023 do CPC. Os embargos interrompem o prazo para outros recursos (art. 1.026).", "f"],
+      ["Contra decisão monocrática do relator cabe agravo de instrumento para o respectivo órgão colegiado.", null, "E", "Art. 1.021 do CPC: cabe agravo interno para o órgão colegiado.", "f"],
+      ["As questões resolvidas na fase de conhecimento, se a decisão a seu respeito não comportar agravo de instrumento, não são cobertas pela preclusão e devem ser suscitadas em preliminar de apelação.", null, "C", "Art. 1.009, §1º, do CPC.", "m"],
+      ["Segundo o STJ, o rol do art. 1.015 do CPC é de taxatividade mitigada, admitindo agravo de instrumento quando verificada urgência decorrente da inutilidade do julgamento da questão no recurso de apelação.", null, "C", "Tema 988 do STJ (REsp 1.704.520).", "d"],
+      ["O recurso adesivo fica subordinado ao recurso principal e não será conhecido se houver desistência do recurso principal ou se ele for considerado inadmissível.", null, "C", "Art. 997, §2º, III, do CPC.", "m"],
+      ["Cabe recurso especial contra decisão que:", ["contrariar dispositivo da Constituição", "declarar inconstitucionalidade de lei federal", "contrariar tratado ou lei federal, ou negar-lhes vigência", "julgar válida lei local contestada em face da CF", "for proferida por juizado especial"], "C", "Art. 105, III, da CF. Não cabe REsp contra decisão de turma recursal (Súmula 203 do STJ).", "m"],
+      ["O recurso ordinário constitucional exige a demonstração da repercussão geral das questões constitucionais discutidas.", null, "E", "A repercussão geral é exigida no recurso extraordinário (art. 102, §3º, da CF).", "f"],
+      ["A remessa necessária não se aplica quando a condenação ou o proveito econômico obtido na causa for de valor certo e líquido inferior a 1.000 salários-mínimos para a União.", null, "C", "Art. 496, §3º, I, do CPC; 500 para Estados e capitais; 100 para os demais Municípios.", "d"],
+      ["São requisitos de admissibilidade recursal, entre outros, o cabimento, a legitimidade, o interesse, a tempestividade e o preparo.", null, "C", "Classificação doutrinária com base no CPC.", "f"]
+    ],
+    "Execução e cumprimento de sentença": [
+      ["No cumprimento de sentença de obrigação de pagar quantia, o executado será intimado para pagar o débito no prazo de:", ["5 dias", "10 dias", "30 dias", "3 dias", "15 dias"], "E", "Art. 523 do CPC; não pago, acresce-se multa de 10% e honorários de 10%.", "f"],
+      ["A impugnação ao cumprimento de sentença depende de prévia penhora ou nova intimação.", null, "E", "Art. 525 do CPC: independe de penhora ou nova intimação.", "m"],
+      ["Na execução de título extrajudicial por quantia certa, o executado será citado para pagar a dívida no prazo de:", ["3 dias", "24 horas", "5 dias", "15 dias", "30 dias"], "A", "Art. 829 do CPC.", "m"],
+      ["A ordem preferencial de penhora começa pelos bens imóveis.", null, "E", "Art. 835, I, do CPC: o dinheiro é o primeiro da ordem de preferência.", "f"],
+      ["É impenhorável o bem de família, salvo nas hipóteses previstas na Lei 8.009/1990, como a cobrança de pensão alimentícia.", null, "C", "Art. 3º da Lei 8.009/1990.", "m"],
+      ["A execução de alimentos admite a prisão civil do devedor pelo prazo de 1 a 3 meses, em regime fechado.", null, "C", "Art. 528, §§3º e 4º, do CPC; o débito que autoriza a prisão compreende até as 3 prestações anteriores ao ajuizamento (Súmula 309 do STJ).", "m"],
+      ["Os embargos à execução, em regra, têm efeito suspensivo automático.", null, "E", "Art. 919 do CPC: não terão efeito suspensivo, salvo concessão pelo juiz com garantia do juízo.", "m"]
+    ],
+    "Procedimentos especiais e juizados": [
+      ["Nos Juizados Especiais Cíveis estaduais, nas causas de valor até 20 salários-mínimos, as partes comparecerão pessoalmente, podendo ser assistidas por advogado.", null, "C", "Art. 9º da Lei 9.099/1995; acima disso, a assistência é obrigatória.", "f"],
+      ["A competência dos Juizados Especiais Cíveis estaduais abrange causas cujo valor não exceda:", ["20 salários-mínimos", "100 salários-mínimos", "60 salários-mínimos", "40 salários-mínimos", "10 salários-mínimos"], "D", "Art. 3º, I, da Lei 9.099/1995. Nos Juizados Federais, até 60 salários-mínimos.", "f"],
+      ["A ação monitória pode ser proposta por quem afirmar, com base em prova escrita sem eficácia de título executivo, ter direito de exigir do devedor capaz o pagamento de quantia em dinheiro.", null, "C", "Art. 700 do CPC.", "m"],
+      ["Nas ações possessórias, a propositura de uma ação possessória em vez de outra impede o juiz de conhecer do pedido.", null, "E", "Art. 554 do CPC (fungibilidade das possessórias).", "m"],
+      ["O mandado de segurança deve ser impetrado no prazo decadencial de 90 dias, contados da ciência do ato impugnado.", null, "E", "Art. 23 da Lei 12.016/2009: 120 dias.", "f"],
+      ["Cabem honorários advocatícios de sucumbência no processo de mandado de segurança.", null, "E", "Art. 25 da Lei 12.016/2009 e Súmulas 512 do STF e 105 do STJ: não cabem honorários sucumbenciais no MS.", "m"],
+      ["No inventário, a partilha amigável pode ser feita por escritura pública quando todos os herdeiros forem capazes e concordes.", null, "C", "Art. 610, §1º, do CPC; a Resolução 571/2024 do CNJ passou a admitir o inventário extrajudicial mesmo havendo herdeiro incapaz, com requisitos.", "d"],
+      ["Nos Juizados Especiais Cíveis, da sentença cabe:", ["apelação ao Tribunal de Justiça", "recurso inominado para a turma recursal, no prazo de 10 dias", "agravo de instrumento", "recurso especial diretamente", "embargos infringentes"], "B", "Art. 41 e 42 da Lei 9.099/1995.", "m"]
+    ]
+  }
+}
